@@ -11,3 +11,5 @@ It is recommended that you save your images to the `./docs/_images` subfolder of
 
     ![github pages](../_images/deploy-github-pages.png)
 ```
+
+This is an edit done by online Github editor, this should be deployed automatically.
