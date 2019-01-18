@@ -1,4 +1,4 @@
-- Getting started
+- Primo accesso
 
   - [Quick start](docs-en/quickstart.md)
   - [Writing more pages](docs-en/more-pages.md)
