@@ -1,6 +1,6 @@
 # Requisiti
 
-Per accedere a CARIcare avrai bisogno che le seguenti condizioni siano verificate, per qualsiasi dubbio o per ricevere ulteriori informazioni scrivi a ict@carimali.com.
+Per accedere a CARIcare hai bisogno di **credenziali di accesso** e un **dispositivo** in grado di **connettersi ad internet**, per qualsiasi dubbio o per ulteriori informazioni scrivi a ict@carimali.com.
 
 ## Credenziali di accesso
 
