@@ -4,7 +4,7 @@ Per accedere a CARIcare avrai bisogno che le seguenti condizioni siano verificat
 
 ## Credenziali di accesso
 
-Le ricevi tramite una mail da caricare@carimali.com, l'attivazione va richiesta al tuo contatto di riferimento, i clienti diretti carimmali devono scrivere al commerciale di riferimento o a business@carimali.com.
+Le ricevi tramite una mail da caricare@carimali.com, l'attivazione va richiesta al tuo contatto di riferimento, i clienti diretti **<span style="color:#2A8BDD">Carimali</span>** devono scrivere al commerciale di riferimento o a business@carimali.com.
 Nella mail sarà specificato il *ruolo*, il *nome della società* e la *password*.
 
 
