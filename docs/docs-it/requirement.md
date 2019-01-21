@@ -10,13 +10,13 @@ Nella mail sarà specificato il *ruolo*, il *nome della società* e la *password
 
 ```esempio
 Hello,
-an account with role [ADMIN] for [customer name] was created.
+an account with role <span style="color:#2A8BDD">[ADMIN]</span> for [customer name] was created.
 Your password is: [1Hzv516gJZ]
 ```
 
 ## Connessione e dispositivo
 
-Essendo <span style="color:blue">CARIcare</span> una piattaforma online non esiste modo di utilizzarla se non connessi ad internet, non è necessaria una banda larga, tuttavia migliore sarà la qualità della connessione tanto migliore sarà l'esperinza di utilizzo.
+Essendo CARIcare una piattaforma online non esiste modo di utilizzarla se non connessi ad internet, non è necessaria una banda larga, tuttavia migliore sarà la qualità della connessione tanto migliore sarà l'esperinza di utilizzo.
 
 Per visualizzare CARIcare usa un dispositivo (*personal computer, palmare, smartphone*) con uno schermo grande almeno 4" e un browser installato, l’applicazione è responsiva e ottimizzata per smartphone tuttavia più grande sarà lo schermo migliore sarà l’esperienza di utilizzo.
 
