@@ -1,5 +1,5 @@
 - Primo accesso
-  - [Requisiti](docs-it/more-pages.md)
+  - [Requisiti](docs-it/requirement.md)
   - [Avvio rapido](docs-it/quickstart.md)
   - [Policy di utilizzo e Privacy dei dati](docs-it/custom-navbar.md)
   - [Recupero password](docs-it/cover.md)
