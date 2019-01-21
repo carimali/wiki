@@ -1,21 +1,21 @@
 - Primo accesso
 
-  - [Quick start](docs-en/quickstart.md)
-  - [Writing more pages](docs-en/more-pages.md)
-  - [Custom navbar](docs-en/custom-navbar.md)
-  - [Cover page](docs-en/cover.md)
-  - [Post with images](docs-en/post-with-images.md)
+  - [Quick start](docs-it/quickstart.md)
+  - [Writing more pages](docs-it/more-pages.md)
+  - [Custom navbar](docs-it/custom-navbar.md)
+  - [Cover page](docs-it/cover.md)
+  - [Post with images](docs-it/post-with-images.md)
 
-- Customization
+- Personalizzazione
 
-  - [Configuration](docs-en/configuration.md)
-  - [Themes](docs-en/themes.md)
-  - [List of Plugins](docs-en/plugins.md)
-  - [Write a Plugin](docs-en/write-a-plugin.md)
-  - [Markdown configuration](docs-en/markdown.md)
-  - [Language highlighting](docs-en/language-highlight.md)
+  - [Configuration](docs-it/configuration.md)
+  - [Themes](docs-it/themes.md)
+  - [List of Plugins](docs-it/plugins.md)
+  - [Write a Plugin](docs-it/write-a-plugin.md)
+  - [Markdown configuration](docs-it/markdown.md)
+  - [Language highlighting](docs-it/language-highlight.md)
 
-- Guide
+- Guida
 
   - [Deploy](docs-en/deploy.md)
   - [Helpers](docs-en/helpers.md)
