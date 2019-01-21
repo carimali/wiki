@@ -10,7 +10,7 @@ Nella mail sarà specificato il *ruolo*, il *nome della società* e la *password
 
 ```ESEMPIO
 Hello,
-an account with role <span style="color:#2A8BDD">[ADMIN]</span> for [customer name] was created.
+an account with role [ADMIN] for [customer name] was created.
 Your password is: [1Hzv516gJZ]
 ```
 
