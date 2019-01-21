@@ -1,7 +1,7 @@
 - Primo accesso
 
   - [Quick start](docs-it/quickstart.md)
-  - [Writing more pages](docs-it/more-pages.md)
+  - [Requisiti](docs-it/more-pages.md)
   - [Custom navbar](docs-it/custom-navbar.md)
   - [Cover page](docs-it/cover.md)
   - [Post with images](docs-it/post-with-images.md)
