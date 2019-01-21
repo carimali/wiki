@@ -8,7 +8,7 @@ Le ricevi tramite una mail da caricare@carimali.com, l'attivazione va richiesta 
 Nella mail sarà specificato il *ruolo*, il *nome della società* e la *password*.
 
 
-```esempio
+```ESEMPIO
 Hello,
 an account with role <span style="color:#2A8BDD">[ADMIN]</span> for [customer name] was created.
 Your password is: [1Hzv516gJZ]
