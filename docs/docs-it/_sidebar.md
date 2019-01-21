@@ -1,9 +1,8 @@
 - Primo accesso
-
-  - [Quick start](docs-it/quickstart.md)
   - [Requisiti](docs-it/more-pages.md)
-  - [Custom navbar](docs-it/custom-navbar.md)
-  - [Cover page](docs-it/cover.md)
+  - [Avvio rapido](docs-it/quickstart.md)
+  - [Policy di utilizzo e Privacy dei dati](docs-it/custom-navbar.md)
+  - [Recupero password](docs-it/cover.md)
   - [Post with images](docs-it/post-with-images.md)
 
 - Personalizzazione
