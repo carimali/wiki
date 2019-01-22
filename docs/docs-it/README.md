@@ -1,6 +1,6 @@
 ## Che cos'è CARIcare
 
-CARIcare è la piattaforma online che Carimali mette a disposizione di chi utilizza i suoi prodotti, le funzionalità offerte variano a seconda del ruolo garantito alle credenziali di accesso ricevute. Per utilizzarla oltre alle credenziali è necessario un qualsiasi dispositivo (smartphone/tablet/pc) con schermo grande almeno 4” e una connessione internet.
+CARIcare è la piattaforma di gestione online che Carimali mette a disposizione di chi utilizza i suoi prodotti, le funzionalità offerte variano a seconda del ruolo garantito alle credenziali di accesso ricevute. Per utilizzarla oltre alle credenziali è necessario un qualsiasi dispositivo (smartphone/tablet/pc) con schermo grande almeno 4” e una connessione internet.
 
 ## Cosa rende unico CARIcare 
 
