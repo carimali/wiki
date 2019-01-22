@@ -2,7 +2,7 @@
 
   - [Requisiti](docs-it/requirement.md)
   - [Come accedere](docs-it/quickstart.md)
-  - [Recupero password](docs-it/cover.md)
+  - [Recupero password](docs-it/recover-password.md)
   
 - Linee guida
 
