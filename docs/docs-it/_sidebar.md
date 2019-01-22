@@ -10,13 +10,21 @@
   - [Considerazioni](docs-it/configuration.md)
   - [Suggerimenti](docs-it/themes.md)
 
-- Gestione / Personalizzazione
+- Gestione
 
-  - [Profilo ](docs-it/configuration.md)
   - [Macchine](docs-it/configuration.md)
   - [Clienti](docs-it/themes.md)
   - [Utenti](docs-it/plugins.md)
-  - [Tags](docs-it/write-a-plugin.md)
+ 
+- Assistenza
 
+  - [Tickets](docs-it/configuration.md)
+  - [Notifiche](docs-it/write-a-plugin.md)
+  - [Manutenzione preventiva](docs-it/write-a-plugin.md)
+  
+- Personalizzazione
+
+  - [Profilo ](docs-it/configuration.md)
+  - [Tags](docs-it/write-a-plugin.md)
 
 - Versione documentazione
