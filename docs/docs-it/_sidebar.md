@@ -18,4 +18,5 @@
   - [Utenti](docs-it/plugins.md)
   - [Tags](docs-it/write-a-plugin.md)
 
-- [Versione documentazione](changelog.md)
+
+- Versione documentazione
