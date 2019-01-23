@@ -6,25 +6,25 @@
   
 - Linee guida
 
-  - [Pratiche di utilizzo](docs-it/configuration.md)
-  - [Considerazioni](docs-it/configuration.md)
-  - [Suggerimenti](docs-it/themes.md)
+  - [Pratiche di utilizzo](docs-it/best-practice.md)
+  - [Considerazioni](docs-it/points.md)
+  - [Suggerimenti](docs-it/tips-tricks.md)
 
 - Gestione
 
-  - [Macchine](docs-it/configuration.md)
-  - [Clienti](docs-it/themes.md)
-  - [Utenti](docs-it/plugins.md)
+  - [Macchine](docs-it/machines.md)
+  - [Clienti](docs-it/customers.md)
+  - [Utenti](docs-it/users.md)
  
 - Assistenza
 
-  - [Tickets](docs-it/configuration.md)
-  - [Notifiche](docs-it/write-a-plugin.md)
-  - [Manutenzione preventiva](docs-it/write-a-plugin.md)
+  - [Tickets](docs-it/tickets.md)
+  - [Notifiche](docs-it/notifications.md)
+  - [Manutenzione preventiva](docs-it/preventive-maintenance.md)
   
 - Personalizzazione
 
-  - [Profilo ](docs-it/configuration.md)
-  - [Tags](docs-it/write-a-plugin.md)
+  - [Profilo ](docs-it/profile.md)
+  - [Tags](docs-it/tags.md)
 
 - Versione documentazione
