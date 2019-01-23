@@ -11,6 +11,8 @@ Nelle apposite caselle inserisci nome utente (1) e password (2), successivamente
 
 Al primo accesso devi necessariamente accettare Privacy Policy e Cookie Policy di CARICare, questo passaggio obbligatorio serve a garantire la riservatezza delle informazioni e a tutelare l’utilizzatore secondo le norme vigenti, non farlo renderà impossibile utilizzare qualsiasi funzionalità dell’applicazione, opzionalmente potete iscrivervi alla newsletter Carimali per rimanere sempre aggiornati sulle novità Carimali e CARIcare.
 
+N.B. in qualsiasi momento puoi modificare le tue preferenze su policy & privacy tuttavia
+
 
 
 
