@@ -7,19 +7,15 @@ Per raggiungere CARIcare apri il browser del tuo dispositivo nella barra degli i
 
 ## Le tue macchine
 
-### Cambia ricetta
-
-### Riavvia
-
-### Assegna
+  - Cambia ricetta
+  - Riavvia
+  - Assegna
 
 ## Macchina
 
-### Manutenzione
-
-### Ricette
-
-### Impostazioni
+  - Manutenzione
+  - Ricette
+  - Impostazioni
 
 
 
