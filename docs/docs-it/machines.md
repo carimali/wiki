@@ -1,11 +1,14 @@
 # Macchine
 
-Per raggiungere CARIcare apri il browser del tuo dispositivo nella barra degli indirizzi digita caricare.carimali.com o caricare.tech e conferma.
+In quest’area si trova l’elenco delle tue macchine e tutti i comandi e funzioni necessari alla gestione delle stesse, in CARIcare l’unico identificativo univoco per ogni singola macchina è il seriale, lo stesso riportato sulla targhetta della macchina da caffè, lo trovi subito sotto il modello e entrambe sono situati a destra dell’immagine, ad esempio nel punto (1) dell’immagine il modello è BlueDot Plus e il seriale è 254168.
+
+![Policy](_images/serail.png)
 
 ## Attivazione
 **_TBD_**
 
 ## Le tue macchine
+![Policy](_images/machines.png)
 
   - Cambia ricetta
   - Riavvia
