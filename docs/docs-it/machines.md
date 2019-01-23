@@ -9,7 +9,7 @@ In quest’area si trova l’elenco delle tue macchine, tutti i comandi e le fun
 
 ## Le tue macchine
 
-Nella sezione “LE TUE MACCHINE” trovi tutte le macchine da caffè compatibili con CARIcare chi ti sono state assegnate, non esiste nessun altro modo di aggiungere una macchina a questo elenco, i box alla sinistra di ciascuna macchina ti permettono di **__<span style="color:#b72a5c">selezioniare</span>__** una o più macchine contemporanemente, tutte le funzioni di questa area quando eseguite vengono applicate alla **__<span style="color:#b72a5c">selezione</span>__**
+Nella sezione “LE TUE MACCHINE” trovi tutte le macchine da caffè compatibili con CARIcare chi ti sono state assegnate, non esiste nessun altro modo di aggiungere una macchina a questo elenco, i box alla sinistra di ciascuna macchina ti permettono di **__<span style="color:#b72a5c">selezioniare</span>__** una o più macchine contemporanemente, tutte le funzioni di questa area quando eseguite vengono applicate alla **__<span style="color:#b72a5c">selezione</span>__**, ciascuna macchina oltre al seriale riporta informazioni al modello, una miniatura e lo stato della connessione con il server CARIcare.
 
 
 
