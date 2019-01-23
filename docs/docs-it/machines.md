@@ -1,6 +1,6 @@
 # Macchine
 
-In quest’area si trova l’elenco delle tue macchine e tutti i comandi e funzioni necessari alla gestione delle stesse, in CARIcare l’unico identificativo univoco per ogni singola macchina è il seriale, lo stesso riportato sulla targhetta della macchina da caffè, lo trovi subito sotto il modello e entrambe sono situati a destra dell’immagine, ad esempio nel punto (1) dell’immagine il modello è BlueDot Plus e il seriale è 254168.
+In quest’area si trova l’elenco delle tue macchine, tutti i comandi e le funzioni necessarie alla gestione delle stesse, quando ti trovi in ques'area tieni presente in CARIcare l’unico identificativo univoco per ogni singola macchina è il seriale e ha corrispondenza con la matricola riportata sulla targhetta della macchina da caffè fatta eccezione per il _CA_, è visibile in ogni singolo elemento di tipo macchina, ad esempio nel punto indicato nell'immagine con (1) il seriale è 254168.
 
 ![serial](_images/serail.png)
 
