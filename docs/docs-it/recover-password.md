@@ -8,7 +8,7 @@ Se hai dimenticato o vuoi modificare la password segui questi passaggi:
 
 ![Forgot Passwrod](_images/recover-password-step-1.png)
 
-- nella nuova schermata **Recover Password** inserisci l'email(1) del tuo account CARIcare e successivamente premi Submit(2) come indicato nella figura seguente:
+- nella nuova schermata **Recover password** inserisci l'**email**(1) del tuo account CARIcare e successivamente premi **Submit**(2) come indicato nella figura seguente:
 
 ![Recover Passwrod](_images/recover-password-step-2.png)
 
