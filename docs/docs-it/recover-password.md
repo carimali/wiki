@@ -11,6 +11,6 @@ Se hai dimenticato o vuoi modificare la password segui questi passaggi
 
 ![Recover Passwrod](_images/recover-password-step-2.png)
 
-In qualsiasi momento premere ```Cancel``` per annullare l'operazione.
+In qualsiasi momento premi ```Cancel``` per annullare l'operazione.
 
 
