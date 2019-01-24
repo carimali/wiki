@@ -12,7 +12,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed sapien a er
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed sapien a erat lacinia tempor. Phasellus nec vulputate metus. Morbi rhoncus odio suscipit est tristique volutpat. Pellentesque in mauris ut erat ornare tempus vel quis neque. Vestibulum massa nisl, molestie gravida imperdiet vitae, eleifend non nunc.
 
-![Armonia-img-connect](_images/policy_privacy_1.png)
+![Armonia-img-connect](_images/policy_pricy_1.png)
 
 
 
