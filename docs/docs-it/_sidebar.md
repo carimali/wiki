@@ -29,6 +29,6 @@
   - [Profilo ](docs-it/profile.md)
   - [Tags](docs-it/tags.md)
 
-- API(access to your data)
+- API(accedi ai tuoi dati)
 
-- Versione documentazione
+- Changelog
