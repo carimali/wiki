@@ -4,7 +4,7 @@ CARIcare è la piattaforma di gestione online che Carimali mette a disposizione 
 
 ## Cosa rende unico CARIcare 
 
-CARIcare è stato sviluppato in modo da poter essere modellato intorno ai più svariati modelli di busienss, l'idea di base è dare a ciascun utilizzatore la possibilità di creare nel proprio ambiente fugure con ruoli e permessi specifici, garantendo ad alcuni funzionalità e ad altri, secondo la propria discrezione, la possibilità di creare a loro volta nuovi gruppi, questo concetto può essere ripetuto in modo iterativo per tutte le volte necessarie affinche la catena del business sia completa e ciascun livello risulti in grado di utilizzare le funzionalità più adeguate.
+CARIcare è stato progettato per essere un portale di servizi flessibile, gli utilizzatori possono infatti modellarne la struttura, il flusso delle informazioni e delle funzionalità creando altri attori, ruoli e permessi specifici garantendo ad alcuni un accesso base e ad altri la possibilità di creare a loro volta nuove strutture. Questo rende CARIcare e le sue funzionalità potenzialmente riutilizzabili da chiunque all'interno di un determinato modello di busines
 
 ## Cosa fà CARIcare
 
