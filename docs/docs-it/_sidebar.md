@@ -3,7 +3,7 @@
   - [Requisiti](docs-it/requirement.md)
   - [Come accedere](docs-it/quickstart.md)
   - [Connettere le macchine a CARIcare](docs-it/connect-machines.md)
-   -[Recupero password](docs-it/recover-password.md)
+  - [Recupero password](docs-it/recover-password.md)
   
 - Linee guida
 
