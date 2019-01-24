@@ -2,10 +2,6 @@
 
 CARIcare è la piattaforma di gestione online che Carimali mette a disposizione di chi utilizza i suoi prodotti, le funzionalità offerte variano a seconda del ruolo garantito dalle credenziali di accesso ricevute, CARIcare funziona su qualsiasi dispositivo (smartphone/tablet/pc) con schermo grande almeno 4” e una connessione internet.
 
-## Cosa rende unico CARIcare 
-
-CARIcare è stato progettato per essere un portale di servizi flessibile, gli utilizzatori possono infatti modellarne la struttura, il flusso delle informazioni e delle funzionalità creando altri attori, ruoli e permessi specifici garantendo ad alcuni un accesso base e ad altri la possibilità di creare a loro volta nuove strutture. Questo rende CARIcare e le sue funzionalità potenzialmente utilizzabili con la stessa qualità percepita da chiunque all'interno di un determinato modello di busines.
-
 ## Cosa fà CARIcare
 
 CARIcare può essere diviso in tre macro-categorie di servizi:
@@ -32,6 +28,10 @@ Per rendere intuitivo, efficace e veloce l’utilizzo della piattaforma l’inte
 - **Impostazioni** / Profilo: consente di specificare le preferenze di utilizzo della piattaforma quali: lingua, notifiche mail ricevere e non, policy, privacy, in questa sezione è conservata anche la vostra chiave personale API.
 
 CARIcare è dotato di un sistema di API, che, previo inserimento chiave personale API, consente di inviare/esportare tutte i vostri dati verso altri sistemi o più semplicemente salvarli sui vostri dispositivi.
+
+## Cosa rende unico CARIcare 
+
+CARIcare è stato progettato per essere un portale di servizi flessibile, gli utilizzatori possono infatti modellarne la struttura, il flusso delle informazioni e delle funzionalità creando altri attori, ruoli e permessi specifici garantendo ad alcuni un accesso base e ad altri la possibilità di creare a loro volta nuove strutture. Questo rende CARIcare e le sue funzionalità potenzialmente utilizzabili con la stessa qualità percepita da chiunque all'interno di un determinato modello di busines.
 
 
 
