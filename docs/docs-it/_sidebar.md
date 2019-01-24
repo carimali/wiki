@@ -2,13 +2,15 @@
 
   - [Requisiti](docs-it/requirement.md)
   - [Come accedere](docs-it/quickstart.md)
-  - [Recupero password](docs-it/recover-password.md)
+  - [Connettere le macchine a CARIcare](docs-it/connect-machines.md)
+   -[Recupero password](docs-it/recover-password.md)
   
 - Linee guida
 
   - [Pratiche di utilizzo](docs-it/best-practice.md)
   - [Considerazioni](docs-it/points.md)
   - [Suggerimenti](docs-it/tips-tricks.md)
+  
 
 - Gestione
 
@@ -16,7 +18,7 @@
   - [Clienti](docs-it/customers.md)
   - [Utenti](docs-it/users.md)
  
-- Assistenza
+- Fornire assistenza Assistenza
 
   - [Tickets](docs-it/tickets.md)
   - [Notifiche](docs-it/notifications.md)
