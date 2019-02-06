@@ -7,12 +7,12 @@ Per connettere una BlueDot / Plus al CARIcare per prima cosa impostare la macchi
 
 1. **Impostare la modalità MiniAP**
 
-  Accendi la macchina, nella pagina iniziale premi il tasto settaggi macchina
-  Seleziona **System Manager**
-  Dal menù seleziona **Wifi**, se non dovesse essere presente tra le scelte segui le istruzioni che trovi nella sezione troubleshooting
-  Inserisci la password (la stessa di amministrazione macchina)
-  Seleziona **Wifi: Parametri** 
-  Scorri fino all'ultima voce **Ripristina config originale**
+ * Accendi la macchina, nella pagina iniziale premi il tasto settaggi macchina
+ * Seleziona **System Manager**
+ * Dal menù seleziona **Wifi**, se non dovesse essere presente tra le scelte segui le istruzioni che trovi nella sezione troubleshooting
+ * Inserisci la password (la stessa di amministrazione macchina)
+ * Seleziona **Wifi: Parametri** 
+ * Scorri fino all'ultima voce **Ripristina config originale**
 
 
 
