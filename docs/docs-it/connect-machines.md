@@ -6,6 +6,7 @@ Per ultilizzare il CARIcare sulla vostre macchina le stesse dovranno essere conn
 Per connettere una BlueDot / Plus al CARIcare per prima cosa impostare la macchina in modalità MiniAP, se hai appena installato la scheda questo passaggio non sarà necessario quindi passa direttamente al punto successivo
 
 1. **Impostare la modalità MiniAP**
+
 Accendi la macchina, nella pagina iniziale premi il tasto settaggi macchina
 Seleziona **System Manager**
 Dal menù seleziona **Wifi**, se non dovesse essere presente tra le scelte segui le istruzioni che trovi nella sezione troubleshooting
