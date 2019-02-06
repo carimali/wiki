@@ -12,7 +12,8 @@ Per connettere una BlueDot / Plus al CARIcare per prima cosa impostare la macchi
       - Dal menù seleziona **Wifi**, se non dovesse essere presente tra le scelte segui le istruzioni che trovi nella sezione    troubleshooting
       - Inserisci la password (la stessa di amministrazione macchina)
       - Seleziona **Wifi: Parametri** 
-      - Scorri fino all'ultima voce **Ripristina config originale**
+      - Scorri fino all'ultima voce **Ripristina config originale** e conferma.
+      - Riavvia la macchina, attendi la schermata di stato Wi-Fi, **Connection status** risulterà <font color="Orange">Mini-AP</>
 
 
 
