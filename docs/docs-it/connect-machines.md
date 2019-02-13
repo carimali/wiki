@@ -23,7 +23,8 @@ Per connettere una BlueDot / Plus al CARIcare per prima cosa impostare la macchi
       - Apri il tab Wi-Fi Services e completa in questo modo i seguenti campi
             **MQTT Broker Url** : mqtt.carimali.com
             **MQTT Port** : 1883
-        Premi **Submit**    
+        Premi **Submit**   
+      -   
 
 
 ### 1.1 
