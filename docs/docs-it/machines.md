@@ -26,7 +26,21 @@ Puoi capire facilmente se è una macchina è disconnessa (2) o connessa (3) graz
 
 ## Macchina
 
-  - Manutenzione
+  - Accedi a questa sezione cliccando su una macchina, da questo momento in poi tutte le informazioni visualizzare saranno strettamente legate alla macchina selezionata
+
+  - MANUTENZIONE
+  
+     In questa sezione poui vedere:
+     
+     - Quanto tempo manca alle manutenzioni programmate, i tempi di manutenzione cambiano da modello a modello si basano sulle stesse informazione che potete trovare all'interno del manuale.
+       Una barra di progresso con colori differenti (verde, giallo, rosso) si riempirà dal primo giorno del ciclo fino alla scadenza al raggiungimento della quale verrà invita un e-mail al supporto indicato per la macchina.
+       Subito sotto ogni barra premi mostra per vedere quali componenti necessario sostituire al momento della manutenzione.
+       
+     - Il numero di cicli totali compiuti dal gruppo caffè, una barra di progresso con colori differenti (verde, giallo, rosso) indicherà lo stato di usura del componente che una volta raggiunto il suo numero di cicli massimo dovrà essere sostituito, una volta raggiunto il massimo dei cicli verrà invita un e-mail al supporto indicato per la macchina.
+     
+     
+     
+     
      
      
   - Ricette
