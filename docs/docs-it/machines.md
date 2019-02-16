@@ -26,7 +26,7 @@ Puoi capire facilmente se è una macchina è disconnessa (2) o connessa (3) graz
 
 ## Macchina
 
-  - Accedi a questa sezione cliccando su una macchina, da questo momento in poi tutte le informazioni visualizzare saranno strettamente legate alla macchina selezionata.
+Accedi a questa sezione cliccando su una macchina, da questo momento in poi tutte le informazioni visualizzare saranno strettamente legate alla macchina selezionata.
 
   - MANUTENZIONE
   
