@@ -4,7 +4,7 @@ In quest’area si trova l’elenco delle tue macchine, tutti i comandi e le fun
 
 ![serial](_images/serail.png)
 
-## Filtrare
+## Filtrare le macchine
 
 Nella sezione “LE TUE MACCHINE” trovi tutte le macchine da caffè compatibili con CARIcare chi ti sono state assegnate, i box alla sinistra di ciascuna macchina ti permettono di **__<span style="color:#b72a5c">selezioniare</span>__** una o più macchine contemporanemente, tutte le funzioni di questa area quando eseguite vengono applicate alla **__<span style="color:#b72a5c">selezione</span>__**.
 
@@ -22,9 +22,9 @@ Puoi capire facilmente se è una macchina è disconnessa (2) o connessa (3) graz
   
 ## Assegnare le macchine
 
-## Cambio ricette
+## Gestire le ricette
 
-## Riavvio
+## Riavviare le macchine
 
 
 
