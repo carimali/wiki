@@ -15,6 +15,7 @@
 - Gestione
 
   - [Macchine](docs-it/machines.md)
+  - [Macchina](docs-it/machine.md)
   - [Clienti](docs-it/customers.md)
   - [Utenti](docs-it/users.md)
  
