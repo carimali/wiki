@@ -1,8 +1,9 @@
 # Macchina
 
 Accedi a questa sezione cliccando su una macchina, da questo momento in poi tutte le informazioni visualizzare saranno strettamente legate alla macchina selezionata.
+Trovi tre TAB:
 
-## Manutenzione
+## 1) Manutenzione
   
 In questa sezione poui vedere:
      
@@ -16,16 +17,16 @@ Premi il pulsante **mostra** situato subito sotto ciascuna barra di progresso pe
      
 - Un grafico che rappresenta la **quantità di bevande erogate negli ultimi sette giorni** divise per nome bevanda.
      
- ## Ricette
+ ## 2) Ricette
  
  In questa sezione poui :
  
- - **Importare/Esportare un set di ricette**, premi **Salva le ricette** per creare aggiungere il set di ricette attualmente in macchina nell'elenco a tendina **Carica ricette**, scegli un set di ricette dall'elenco a tendina per caricarlo su una macchina.
+ - **Importare/Esportare un set di ricette**, premi **Salva le ricette**, per aggiungere il set di ricette attualmente in macchina nell'elenco a tendina **Carica ricette**, scegli un set di ricette dall'elenco a tendina per caricarlo su una macchina.
 I set di ricette creati sono visibili da tutti gli utenti del vostro gruppo se in possesso di un livello di autorizzazione adeguato.
 
-- 
+- **Visualizzare/Modificare lo stato delle singole ricette**, premi su una ricetta per accedere alla configurazione della stessa, puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè, per tutte le informazioni relative a parametri e configurazione fai riferimento al manuale d'uso, premi **Salva modifiche** prima di lasciare quest'area altrimenti le modifiche andranno perse.   
  
- ## Impostazioni
+ ## 3) Impostazioni
 
 
 
