@@ -3,7 +3,7 @@
 Accedi a questa sezione cliccando su una macchina, da questo momento in poi tutte le informazioni visualizzare saranno strettamente legate alla macchina selezionata.
 Trovi tre TAB:
 
-## 1) Manutenzione
+## 1. Manutenzione
   
 In questa sezione poui vedere:
      
@@ -17,7 +17,7 @@ Premi il pulsante **mostra** situato subito sotto ciascuna barra di progresso pe
      
 - Un grafico che rappresenta la **quantità di bevande erogate negli ultimi sette giorni** divise per nome bevanda.
      
- ## 2) Ricette
+ ## 2. Ricette
  
  In questa sezione poui :
  
@@ -26,7 +26,7 @@ I set di ricette creati sono visibili da tutti gli utenti del vostro gruppo se i
 
 - **Visualizzare/Modificare lo stato delle singole ricette**, premi su una ricetta per accedere alla configurazione della stessa, puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè, per tutte le informazioni relative a parametri e configurazione fai riferimento al manuale d'uso, premi **Salva modifiche** prima di lasciare quest'area altrimenti le modifiche andranno perse.   
  
- ## 3) Impostazioni
+ ## 3. Impostazioni
 
 
 
