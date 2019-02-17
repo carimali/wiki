@@ -5,7 +5,7 @@ Trovi tre TAB:
 
 ## 1. Manutenzione
   
-In questa sezione poui vedere:
+In questa sezione, puramente informativa, poui vedere:
      
 - Quanto tempo manca alle **manutenzioni programmate**, i tempi di manutenzione cambiano da modello a modello e fanno riferimento a quelli suggeriti all'interno del manuale prodotto.
 Una barra di progresso con colori differenti (verde, giallo, rosso) si riempirà giorno dopo giorno partendo dal "giorno uno" fino a quando sarà trascorso il periodo consigliato a quel punto verrà invita un e-mail di notifica "manutenzione necessaria" al supporto indicato per quella macchina.
@@ -27,6 +27,12 @@ I set di ricette creati sono visibili da tutti gli utenti del vostro gruppo se i
 - **Visualizzare/Modificare lo stato delle singole ricette**, incluso abilitare/disabilitare, cambio icona e, se previsto dalla configurazione prezzo e tipo di bicchiere, premi su una ricetta per accedere alla configurazione della stessa, puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè, per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso, premi **Salva modifiche** prima di lasciare quest'area altrimenti le modifiche andranno perse.   
  
  ## 3. Impostazioni
+ 
+  In questa sezione poui :
+  
+  - **Cambiare la lingua della macchina**, seleziona la lingua desiderata dal menù a tendina **Lingua principale**, se previsto dal modello puoi anche modificare la lingua secondaria, selezionala dal menù a tendina **Seconda lingua**
+  
+  - Impostare una **Soglia allarme caffè**, quasta funzione consente di assegnare una certa **QUANTITÀ CAFFÈ (KG)** a ciascuna macchina e ricevere due avvisi **EMAIL**, uno quando il consumo di caffè sta per raggiungere la quantità impostata **SOGLIA CAFFÈ (%)**, uno quando la **QUANTITÀ CAFFÈ (KG)** viene interamente consumata. Una volta impostati i parametri premi **Salva soglia allarme caffè** per attivare la funzionalità. N.B. una vola attiva la funzionalità i parametri non potrànno più essere modificati fino a quando la quantità di caffè non sarà interamente consumata. 
 
 
 
