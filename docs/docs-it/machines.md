@@ -24,11 +24,13 @@ per approfondimenti su come si creano e si assegnano i tag consulta l’apposita
 
 ## Gestire le ricette
  
- - Una volta selezionato una o più macchine 
-oppure premi **una ricetta** per modificarla, abilita/disabilita, cambio icona e, se previsto dalla configurazione prezzo e tipo di bicchiere, premi su una ricetta per accedere alla configurazione della stessa, puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè, per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso, premi **Salva modifiche** prima di lasciare quest'area altrimenti le modifiche andranno perse.
-N.B. le modifiche verranno effettuate sull'intera selezione. 
+ - Una volta selezionato una o più macchine scegli un set di ricette dall'elenco a tendina per caricarlo sulle macchine selezionate,
+oppure premi **una ricetta** per modificarla, puoi abilitarla/disabilitarla, cambiare icona e, se previsto dalla configurazione prezzo e tipo di bicchiere, puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè, per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso, premi **Salva modifiche** prima di lasciare quest'area altrimenti le modifiche andranno perse.
+N.B. le modifiche verranno effettuate su tutte le macchine selezionate. 
 
 ## Riavviare le macchine
+
+ - Una volta selezionato una o più macchine premi **Riavvia** per riavviare le macchine selezionate.
 
 
 
