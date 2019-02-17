@@ -23,6 +23,10 @@ per approfondimenti su come si creano e si assegnano i tag consulta l’apposita
  - Una volta selezionato una o più macchine premi **Assegna a** seleziona un Cliente dal menù a tendina e premi **Salva**, ora le macchine selezionate sono assegnate e visibili anche nella sezione macchine del Cliente *mettere link alla pagina cliente sezione macchine*.
 
 ## Gestire le ricette
+ 
+ - Una volta selezionato una o più macchine 
+oppure premi **una ricetta** per modificarla, abilita/disabilita, cambio icona e, se previsto dalla configurazione prezzo e tipo di bicchiere, premi su una ricetta per accedere alla configurazione della stessa, puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè, per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso, premi **Salva modifiche** prima di lasciare quest'area altrimenti le modifiche andranno perse.
+N.B. le modifiche verranno effettuate sull'intera selezione. 
 
 ## Riavviare le macchine
 
