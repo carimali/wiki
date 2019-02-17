@@ -24,7 +24,7 @@ Premi il pulsante **mostra** situato subito sotto ciascuna barra di progresso pe
  - **Importare/Esportare un set di ricette**, premi **Salva le ricette**, per aggiungere il set di ricette attualmente in macchina nell'elenco a tendina **Carica ricette**, scegli un set di ricette dall'elenco a tendina per caricarlo su una macchina.
 I set di ricette creati sono visibili da tutti gli utenti del vostro gruppo se in possesso di un livello di autorizzazione adeguato.
 
-- **Visualizzare/Modificare lo stato delle singole ricette**, premi su una ricetta per accedere alla configurazione della stessa, puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè, per tutte le informazioni relative a parametri e configurazione fai riferimento al manuale d'uso, premi **Salva modifiche** prima di lasciare quest'area altrimenti le modifiche andranno perse.   
+- **Visualizzare/Modificare lo stato delle singole ricette**, incluso abilitare/disabilitare cambio icona e prezzo tipo di bicchiere, se previsto dalla configurazione, premi su una ricetta per accedere alla configurazione della stessa, puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè, per tutte le informazioni relative a parametri e configurazione fai riferimento al manuale d'uso, premi **Salva modifiche** prima di lasciare quest'area altrimenti le modifiche andranno perse.   
  
  ## 3. Impostazioni
 
