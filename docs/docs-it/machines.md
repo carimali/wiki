@@ -1,9 +1,15 @@
 # Macchine
 
-Nella sezione “LE TUE MACCHINE” trovi tutte le macchine da caffè compatibili con CARIcare chi ti sono state assegnate, le funzioni necessarie alla gestione delle stesse, come in tutto il sistema CARIcare, l’identificativo univoco per ogni singola macchina è il seriale e ha corrispondenza con quello riportato sulla targhetta della macchina da caffè fatta eccezione per il _CA_ che lo precede, ad esempio nel punto indicato
+Nella sezione “LE TUE MACCHINE” trovi tutte le macchine da caffè compatibili con CARIcare chi ti sono state assegnate e alcune funzioni necessarie alla gestione delle stesse.
+
+
+Come in tutto il sistema CARIcare, l’identificativo univoco per ogni singola macchina è il seriale e ha corrispondenza con quello riportato sulla targhetta della macchina da caffè fatta eccezione per il _CA_ che lo precede, ad esempio nel punto indicato
 +++ immagine del seriale caricare+++
 il seriale è 254168 nella targhetta macchina troverete +++ immagine del seriale maccina +++.
-su ciascuna macchina oltre al seriale è riportato il modello, una miniatura, lo stato della connessione con il server CARIcare e, se assegnata, il cliente che la possiede al momento.
+
+
+Su ciascuna macchina oltre al seriale è riportato il modello, una miniatura, lo stato della connessione con il server CARIcare e, se assegnata, il cliente che la possiede al momento.
+
 
 Il checkbox alla sinistra di ciascuna macchina ti permette di **__<span style="color:#b72a5c">selezioniare</span>__** una o più macchine contemporanemente, tutte le funzioni di questa area quando eseguite vengono applicate alla **__<span style="color:#b72a5c">selezione</span>__**.
 
@@ -15,6 +21,8 @@ Hai a disposizione una sezione filtro, puoi restringere l'insieme di macchine vi
 
 tag: ti permette di filtrare per uno o più tag precedentemente aggiunti alle tue macchine,
 per approfondimenti su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags)
+
+Funzioni
   
 ## Assegnare le macchine
 
@@ -29,6 +37,10 @@ N.B. le modifiche verranno effettuate su tutte le macchine selezionate.
 ## Riavviare le macchine
 
  - Una volta selezionato una o più macchine premi **Riavvia** per riavviare le macchine selezionate.
+ 
+## Assegnare un TAG alle macchine
+
+ - j0pji0ihjh9h9
 
 
 
