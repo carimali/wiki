@@ -5,7 +5,7 @@ Nella sezione “LE TUE MACCHINE” trovi tutte le macchine da caffè compatibil
 
 Come in tutto il sistema CARIcare, l’identificativo univoco per ogni singola macchina è il seriale e ha corrispondenza con quello riportato sulla targhetta della macchina da caffè fatta eccezione per il _CA_ che lo precede, ad esempio nel punto indicato
 +++ immagine del seriale caricare+++
-il seriale è 254168 nella targhetta macchina troverete +++ immagine del seriale maccina +++.
+il seriale è 254168 nella targhetta macchina troverete +++ immagine del seriale macchina +++.
 
 
 Su ciascuna macchina oltre al seriale è riportato il modello, una miniatura, lo stato della connessione con il server CARIcare e, se assegnata, il cliente che la possiede al momento.
@@ -20,10 +20,12 @@ Usa l'area filtro per raffinare l'insieme di macchine visualizzate
 Hai a disposizione una sezione filtro usala per individuare più velocemente un insieme di macchine,
 filtro per: 
 
-**- Tags**: filtra per uno o più tag/s scrivendo il/i nome/i del/i tag/s nella area di testo *Cerca..*, se non ricordi quali tags hai a disposizione visualizzali premendo il bottone *Lista dei tags*
+**- Tags**: filtra per uno o più tag/s scrivendo il/i nome/i del/i tag/s nella area di testo *Cerca..*, se non ricordi quali tags hai a disposizione visualizzali premendo il bottone *Lista dei tags*,
 per approfondimenti su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags)
 
-**- Connessione**: 
+**- Connessione**: visualizza solo le macchine per stato scegliendo mediante l'apposti controllo tra *connesse* e *diconnesse*
+
+**- Installazione**: visualizza solo le macchine per stato scegliendo mediante l'apposti controllo tra *connesse* e *diconnesse*
 
 Funzioni
   
