@@ -17,10 +17,13 @@ Usa l'area filtro per raffinare l'insieme di macchine visualizzate
 
 ## Filtrare le macchine
 
-Hai a disposizione una sezione filtro, puoi restringere l'insieme di macchine visualizzate, il filtro può essere 
+Hai a disposizione una sezione filtro usala per individuare più velocemente un insieme di macchine,
+filtro per: 
 
-tag: ti permette di filtrare per uno o più tag precedentemente aggiunti alle tue macchine,
+**- Tags**: filtra per uno o più tag/s scrivendo il/i nome/i del/i tag/s nella area di testo *Cerca..*, se non ricordi quali tags hai a disposizione visualizzali premendo il bottone *Lista dei tags*
 per approfondimenti su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags)
+
+**- Connessione**: 
 
 Funzioni
   
