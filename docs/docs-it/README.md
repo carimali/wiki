@@ -18,7 +18,7 @@ Per rendere intuitivo, efficace e veloce l’utilizzo della piattaforma l’inte
 
 - **Dashboard**: tre cruscotti riepilogativi, pensati in modo che tu possa visualizzare velocemente l’andamento globale del business e delle macchine, erogazione prodotti, installazioni/disinstallazioni macchine e riepilogo funzionale delle stesse: guasti, mancanze prodotto, notifiche varie.
 - **Macchine**: ti consente di gestire/organizzare/assegnare le macchine attraverso tutte le funzionalità previste, facilitate dalla possibilità di creare selezioni multiple e utilizzare strumenti di ricerca.
-- **Tickets**: crea/gestisci i tickets, li potrai distinguere dal loro colore che cambia a seconda della tipologia, è compresa una sezione di storico dove vedrai i tickets archiviati.
+- **Tickets**: crea/gestisci i tickets proprio come in un sistema di assistenza tradizionale, potrai coinvolgere qualsiasi utente CARIcare nella visione o anche nel processo di risoluzione del problema, aiutati consultando i tuoi ticket già risoilti nella sezione storico Tickets.
 - **Notifiche**: area di riepilogo che consente di gestire le anomalie ancora da risolvere o di generare un ticket partendo dalle stesse.
 - **Clienti**: consente di creare un’entità Cliente in modo da potergli assegnare successivamente le macchine da caffè e configurare eventualmente un supporto tecnico e/o rifornimento prodotto per lo stesso.
 - **Utenti**: consente di creare un accesso CARIcare a membri del proprio staff e non, specificandone il ruolo.
