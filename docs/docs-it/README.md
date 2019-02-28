@@ -1,16 +1,14 @@
 ## Che cos'è CARIcare
 
-CARIcare è la piattaforma di gestione online che Carimali mette a tua disposizione in quanto utilizzatore dei suoi prodotti, le funzionalità offerte variano a seconda del ruolo garantito dalle credenziali di accesso in tuo possesso, CARIcare funziona su qualsiasi dispositivo (smartphone/tablet/pc) con schermo grande almeno 4” e una connessione internet.
+CARIcare è la piattaforma di gestione online che Carimali mette a tua disposizione in quanto utilizzatore dei suoi prodotti, le funzionalità offerte variano a seconda del ruolo garantito alle credenziali di accesso in tuo possesso, puoi usare CARIcare su qualsiasi dispositivo (smartphone/tablet/pc) con schermo grande almeno 4” e una connessione internet.
 
 ## Cosa fà CARIcare
 
-CARIcare può essere diviso in tre macro-categorie di servizi:
-
 - **Monitoraggio**, CARIcare ti consente di visualizzare in tempo reale le informazioni relative alle tue macchine, erogazioni prodotto, stato (connesso/disconnesso), notifiche errori, ti fornisce inoltre un controllo specifico sul caffè in grani con la possibilità impostare una soglia di consumo e ricevere notifica/e-mail quando quest’ultima viene raggiunta.
 
-- **Controllo remoto**, CARIcare consente di modificare tutti i parametri delle ricette presenti in macchina compreso, se previsto dalla configurazione, prezzo e tipo di bicchiere. Creare/importare/esportare gruppi di ricette con la possibilità di replicarle su altre macchine simili, cambiare la lingua della macchina, spegnere/riavviare la stessa.
+- **Controllo remoto**, CARIcare ti consente di modificare tutti i parametri delle ricette presenti in macchina e, se previsto dalla configurazione, prezzo e tipo di bicchiere, creare/importare/esportare gruppi di ricette con la possibilità di replicarle su altre macchine simili, cambiare la lingua della macchina, spegnere/riavviare la stessa.
 
-- **Assistenza**, CARIcare è in grado di inviare, attraverso notifiche ed e-mail automatiche, gli avvisi o gli errori delle macchine ad un membro specifico del tuo personale con l’ulteriore possibilità di ripartire per tipo: guasto, anomalia lieve, mancanza di prodotto. GLi utenti possono aprire ticket facendo riferimento ad una macchina o generandoli da una notifica di errore.
+- **Assistenza**, CARIcare è in grado di inviare, attraverso notifiche ed e-mail automatiche, gli avvisi o gli errori delle macchine ad un membro specifico del tuo personale, avrai la possibilità di ripartire per tipo: guasto, anomalia lieve, mancanza di prodotto, poui creare autonomamente credenziali di accesso CARIcare per i tuoi utenti dando loro la ppssibilità di aprire ticket di assistenza facendo riferimento ad una macchina.
 
 ## Funzionalità
 
