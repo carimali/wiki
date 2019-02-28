@@ -12,13 +12,13 @@ CARIcare è la piattaforma di gestione online che Carimali mette a tua disposizi
 
 ## Funzionalità
 
-Le funzionalità disponibili sono utilizzabili con la stessa semplicità dai possessori di una singola macchina Carimali o un gruppo di esse, infatti CARIcare è provvisto di un’interfaccia di controllo ottimizzata per la selezione multipla.
+Le funzionalità a disposizione sono utilizzabili con la stessa semplicità dai possessori di una singola macchina Carimali o un gruppo di esse, infatti CARIcare è provvisto di un’interfaccia di controllo ottimizzata per la selezione multipla.
 
-Per rendere intuitivo, efficace e veloce l’utilizzo della piattaforma l’interfaccia CARIcare mette a disposizione dei suoi utilizzatori aree specifiche così sinteticamente organizzate:
+Per rendere intuitivo, efficace e veloce l’utilizzo della piattaforma l’interfaccia CARIcare ti mette a disposizione aree specifiche così sinteticamente organizzate:
 
-- **Dashboard**: tre cruscotti riepilogativi, pensati per visualizzare velocemente l’andamento globale del business e delle macchine, offrono informazioni su erogazione prodotti, installazioni/disinstallazioni macchine e riepilogo funzionale delle stesse: guasti, mancanze prodotto, notifiche varie.
-- **Macchine**: consente di gestire/organizzare/assegnare le macchine attraverso tutte le funzionalità previste incluso il supporto di selezione multipla e strumento di ricerca.
-- **Tickets**: consente di creare/gestire i tickets distinguibili per colore a seconda del tipo, è compresa una sezione di storico dove vedere i tickets archiviati.
+- **Dashboard**: tre cruscotti riepilogativi, pensati in modo che tu possa visualizzare velocemente l’andamento globale del business e delle macchine, erogazione prodotti, installazioni/disinstallazioni macchine e riepilogo funzionale delle stesse: guasti, mancanze prodotto, notifiche varie.
+- **Macchine**: ti consente di gestire/organizzare/assegnare le macchine attraverso tutte le funzionalità previste, facilitate dalla possibilità di creare selezioni multiple e utilizzare strumenti di ricerca.
+- **Tickets**: crea/gestisci i tickets, li potrai distinguere dal loro colore che cambia a seconda della tipologia, è compresa una sezione di storico dove vedrai i tickets archiviati.
 - **Notifiche**: area di riepilogo che consente di gestire le anomalie ancora da risolvere o di generare un ticket partendo dalle stesse.
 - **Clienti**: consente di creare un’entità Cliente in modo da potergli assegnare successivamente le macchine da caffè e configurare eventualmente un supporto tecnico e/o rifornimento prodotto per lo stesso.
 - **Utenti**: consente di creare un accesso CARIcare a membri del proprio staff e non, specificandone il ruolo.
