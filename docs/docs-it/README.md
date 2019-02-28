@@ -6,11 +6,11 @@ CARIcare è la piattaforma di gestione online che Carimali mette a disposizione 
 
 CARIcare può essere diviso in tre macro-categorie di servizi:
 
-- **Monitoraggio**, CARIcare consente di ricevere in tempo reale tutte le erogazioni prodotto, lo stato (connesso/disconnesso), le notifiche di avviso/errore delle macchine, è presente inoltre un controllo specifico sul caffè in grani con la possibilità impostare una soglia di consumo e ricevere notifica/e-mail quando quest’ultima viene raggiunta.
+- **Monitoraggio**, CARIcare ti consente di visualizzare in tempo reale le informazioni relative alle tue macchine, erogazioni prodotto, stato (connesso/disconnesso), notifiche errori, ti fornisce inoltre un controllo specifico sul caffè in grani con la possibilità impostare una soglia di consumo e ricevere notifica/e-mail quando quest’ultima viene raggiunta.
 
 - **Controllo remoto**, CARIcare consente di modificare tutti i parametri delle ricette presenti in macchina compreso, se previsto dalla configurazione, prezzo e tipo di bicchiere. Creare/importare/esportare gruppi di ricette con la possibilità di replicarle su altre macchine simili, cambiare la lingua della macchina, spegnere/riavviare la stessa.
 
-- **Assistenza**, CARIcare permette di indirizzare, attraverso notifiche ed e-mail automatiche, gli avvisi o gli errori delle macchine ad un membro specifico del vostro personale con l’ulteriore possibilità di ripartire per tipo: guasto, anomalia lieve, mancanza di prodotto. È possibile inoltre aprire ticket partendo da una macchina o da una notifica, per coinvolgere altri membri del vostro staff o chiedere direttamente supporto a Carimali o più semplicemente per aggiungere dettagli alla segnalazione il tutto restando sempre all’interno della piattaforma e senza bisogno di ulteriori mail o telefonate.
+- **Assistenza**, CARIcare è in grado di inviare, attraverso notifiche ed e-mail automatiche, gli avvisi o gli errori delle macchine ad un membro specifico del tuo personale con l’ulteriore possibilità di ripartire per tipo: guasto, anomalia lieve, mancanza di prodotto. GLi utenti possono aprire ticket facendo riferimento ad una macchina o generandoli da una notifica di errore.
 
 ## Funzionalità
 
