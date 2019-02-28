@@ -45,7 +45,7 @@ N.B. le modifiche verranno effettuate su tutte le macchine selezionate.
  
 ## Assegnare un TAG alle macchine
 
- - j0pji0ihjh9h9
+ - Assegna tag alle tue macchine: premi **Tag** scrivi il/i nome/i del/i tag/s nella area di testo *Cerca..* e premi *Salva*
 
 
 
