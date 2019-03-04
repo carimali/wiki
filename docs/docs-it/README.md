@@ -4,11 +4,11 @@ CARIcare una piattaforma di gestione macchine da caffè online che Carimali mett
 
 ## Cosa fà CARIcare
 
-- **Monitoraggio**, CARIcare ti consente di visualizzare in tempo reale le informazioni relative alle tue macchine, erogazioni prodotto, stato (connesso/disconnesso), notifiche errori, ti fornisce inoltre un controllo specifico sul caffè in grani con la possibilità impostare una soglia di consumo e ricevere notifica/e-mail quando quest’ultima viene raggiunta.
+- **Monitoraggio**: CARIcare ti consente di visualizzare in tempo reale le informazioni relative alle tue macchine, erogazioni prodotto, stato (connesso/disconnesso), notifiche errori, ti fornisce inoltre un controllo specifico sul caffè in grani con la possibilità impostare una soglia di consumo e ricevere notifica/e-mail quando quest’ultima viene raggiunta.
 
-- **Controllo remoto**, CARIcare ti consente di modificare tutti i parametri delle ricette presenti in macchina e, se previsto dalla configurazione, prezzo e tipo di bicchiere, creare/importare/esportare gruppi di ricette con la possibilità di replicarle su altre macchine simili, cambiare la lingua della macchina, spegnere/riavviare la stessa.
+- **Controllo remoto**: CARIcare ti consente di modificare tutti i parametri delle ricette presenti in macchina e, se previsto dalla configurazione, prezzo e tipo di bicchiere, creare/importare/esportare gruppi di ricette con la possibilità di replicarle su altre macchine simili, cambiare la lingua della macchina, spegnere/riavviare la stessa.
 
-- **Assistenza**, CARIcare è in grado di inviare, attraverso notifiche ed e-mail automatiche, gli avvisi o gli errori delle macchine ad un membro specifico del tuo personale, avrai la possibilità di ripartire per tipo: guasto, anomalia lieve, mancanza di prodotto, poui creare autonomamente credenziali di accesso CARIcare per i tuoi utenti dando loro la ppssibilità di aprire ticket di assistenza facendo riferimento ad una macchina.
+- **Assistenza**: CARIcare è in grado di inviare, attraverso notifiche ed e-mail automatiche, gli avvisi o gli errori delle macchine ad un membro specifico del tuo personale, avrai la possibilità di ripartire per tipo: guasto, anomalia lieve, mancanza di prodotto, poui creare autonomamente credenziali di accesso CARIcare per i tuoi utenti dando loro la ppssibilità di aprire ticket di assistenza facendo riferimento ad una macchina.
 
 ## Funzionalità
 
