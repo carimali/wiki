@@ -41,10 +41,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed sapien a er
 
 ##  Troubleshoot connection problems
 
-  - L'indirizzo del Broker MQTT deve essere: mqtt.carimali.com perta 1883
+ n.b. CARIcare è in grado di mostrare se la macchina è connessa o disconnessa, tuttavia questo controllo viene fatto con un intervallo   di circa un minuto, quindi se la macchina è appena stata accessa o riavviata lasciare al sistema il tempo di aggiornarsi prima di verificare lo stato della connessione.
+ 
+  - Il firmware installato in macchina deve essere una versione recente (elencare versioni firmware)
+  - L'indirizzo del Broker MQTT deve essere: mqtt.carimali.com porta 1883
   - La passowrd remota deve essere 12345
   - Il seriale dev'essere inserito correttamente nel software della macchina
   - Service Dose Info, Service Status, Service Vending devono essere abilitati nell'area WiFi (solo per famiglia BlueDot)
+  
   
 
 
