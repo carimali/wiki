@@ -7,24 +7,24 @@ Per connettere una BlueDot / Plus al CARIcare per prima cosa impostare la macchi
 
 1 **Impostare la modalità MiniAP**
 
-    - Accendi la macchina, nella pagina iniziale premi il tasto settaggi macchina
-    - Seleziona **System Manager**
-    - Dal menù seleziona **Wifi**, se non dovesse essere presente tra le scelte segui le istruzioni che trovi nella sezione    troubleshooting
-    - Inserisci la password (la stessa di amministrazione macchina)
-    - Seleziona **Wifi: Parametri** 
-    - Scorri fino all'ultima voce **Ripristina config originale** e conferma.
-    - Riavvia la macchina, attendi la schermata di stato Wi-Fi, **Connection status** risulterà <p style="color:orange">Mini-AP</p>
+   - Accendi la macchina, nella pagina iniziale premi il tasto settaggi macchina
+   - Seleziona **System Manager**
+   - Dal menù seleziona **Wifi**, se non dovesse essere presente tra le scelte segui le istruzioni che trovi nella sezione    troubleshooting
+   - Inserisci la password (la stessa di amministrazione macchina)
+   - Seleziona **Wifi: Parametri** 
+   - Scorri fino all'ultima voce **Ripristina config originale** e conferma.
+   - Riavvia la macchina, attendi la schermata di stato Wi-Fi, **Connection status** risulterà <p style="color:orange">Mini-AP</p>
 
 2 **Configurare il Wi-Fi**
       Per questo passaggio sarà necessario un (verificare che device supporta) con la possibilità di connetterti tramite Wi-Fi
 
-      - Connetti il device alla rete "Carimali_HotSpot"
-      - Se entro pochi secondi il browser non si apre automaticamente sulla pagina 192.168.1.1, aprilo, digita manualmente 192.168.1.1 e conferma
-      - Apri il tab Wi-Fi Services e completa in questo modo i seguenti campi
+   - Connetti il device alla rete "Carimali_HotSpot"
+   - Se entro pochi secondi il browser non si apre automaticamente sulla pagina 192.168.1.1, aprilo, digita manualmente 192.168.1.1 e conferma
+   - Apri il tab Wi-Fi Services e completa in questo modo i seguenti campi
             **MQTT Broker Url** : mqtt.carimali.com
             **MQTT Port** : 1883
         Premi **Submit**   
-      -   
+   -   
 
 
 ### 1.1 
@@ -36,6 +36,18 @@ Per connettere una BlueDot / Plus al CARIcare per prima cosa impostare la macchi
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed sapien a erat lacinia tempor. Phasellus nec vulputate metus. Morbi rhoncus odio suscipit est tristique volutpat. Pellentesque in mauris ut erat ornare tempus vel quis neque. Vestibulum massa nisl, molestie gravida imperdiet vitae, eleifend non nunc.
 
 ![Armonia-img-connect](_images/policy_pricy_1.png)
+
+
+
+##  Troubleshoot connection problems
+
+  - L'indirizzo del Broker MQTT deve essere: mqtt.carimali.com perta 1883
+  - La passowrd remota deve essere 12345
+  - Il seriale dev'essere inserito correttamente nel software della macchina
+  - Service Dose Info, Service Status, Service Vending devono essere abilitati nell'area WiFi (solo per famiglia BlueDot)
+  
+
+
 
 
 
