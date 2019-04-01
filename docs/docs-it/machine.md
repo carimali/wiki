@@ -1,7 +1,7 @@
 # Stato della Macchina
 
 Accedi a questa sezione cliccando su una macchina, da questo momento in poi tutte le informazioni visualizzare saranno strettamente legate alla macchina selezionata.
-Trovi tre TAB:
+Trovi tre schede:
 
 ## 1. Manutenzione
   
@@ -28,7 +28,7 @@ I set di ricette creati sono visibili da tutti gli utenti del vostro gruppo se i
  
  ## 3. Impostazioni
  
-  In questa sezione poui :
+  In questa sezione puoi:
   
   - **Cambiare la lingua della macchina**, seleziona la lingua desiderata dal menù a tendina **Lingua principale**, se previsto dal modello puoi anche modificare la lingua secondaria, selezionala dal menù a tendina **Seconda lingua**
   
