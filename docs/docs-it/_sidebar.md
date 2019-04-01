@@ -12,11 +12,17 @@
   - [Suggerimenti](docs-it/tips-tricks.md)
   
 
-- Gestione
+- Macchine
 
-  - [Macchine](docs-it/machines.md)
-  - [Macchina](docs-it/machine.md)
+  - [Le tue macchine](docs-it/machines.md)
+  - [Stato della macchina](docs-it/machine.md)
+
+- Clienti
+
   - [Clienti](docs-it/customers.md)
+  
+- Utenti
+
   - [Utenti](docs-it/users.md)
  
 - Fornire assistenza Assistenza
