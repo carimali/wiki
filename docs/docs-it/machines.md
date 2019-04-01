@@ -1,5 +1,23 @@
 # Macchine
 
+## Esporta Contatori in CSV
+
+## Filtra macchine per Proprietà
+
+Hai a disposizione una sezione filtro usala per individuare più velocemente un insieme di macchine,
+filtro per: 
+
+**- Tags**: filtra per uno o più tag/s scrivendo il/i nome/i del/i tag/s nella area di testo *Cerca..*, se non ricordi quali tags hai a disposizione visualizzali premendo il bottone *Lista dei tags*,
+per approfondimenti su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).
+
+**- Connessione**: visualizza solo le macchine *connesse* o *diconnesse* mediante l'apposito controllo.
+
+**- Installazione**:  visualizza solo le macchine *assegnate* o *non assegnate* mediante l'apposito controllo.
+
+***Funzioni*** (verranno sempre applicate alla selezione)
+
+## Azioni sulle macchine
+
 Nella sezione “LE TUE MACCHINE” trovi tutte le macchine da caffè compatibili con CARIcare chi ti sono state assegnate e alcune funzioni necessarie alla gestione delle stesse.
 
 
@@ -14,20 +32,6 @@ Su ciascuna macchina oltre al seriale è riportato il modello, una miniatura, lo
 Il checkbox alla sinistra di ciascuna macchina ti permette di **__<span style="color:#b72a5c">selezioniare</span>__** una o più macchine contemporanemente, tutte le funzioni di questa area quando eseguite vengono applicate alla **__<span style="color:#b72a5c">selezione</span>__**.
 
 Usa l'area filtro per raffinare l'insieme di macchine visualizzate.
-
-## Filtrare le macchine
-
-Hai a disposizione una sezione filtro usala per individuare più velocemente un insieme di macchine,
-filtro per: 
-
-**- Tags**: filtra per uno o più tag/s scrivendo il/i nome/i del/i tag/s nella area di testo *Cerca..*, se non ricordi quali tags hai a disposizione visualizzali premendo il bottone *Lista dei tags*,
-per approfondimenti su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).
-
-**- Connessione**: visualizza solo le macchine *connesse* o *diconnesse* mediante l'apposito controllo.
-
-**- Installazione**:  visualizza solo le macchine *assegnate* o *non assegnate* mediante l'apposito controllo.
-
-***Funzioni*** (verranno sempre applicate alla selezione)
   
 ## Assegnare le macchine
 
