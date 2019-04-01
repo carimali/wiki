@@ -11,11 +11,6 @@
   - [Considerazioni](docs-it/points.md)
   - [Suggerimenti](docs-it/tips-tricks.md)
   
-- Dashboard
-
-  - [Stato delle tue macchine]()
-  - [Macchine installate e richiamate]()
-  - [Contatore dei prodotti venduti]()
   
 - Macchine
 
