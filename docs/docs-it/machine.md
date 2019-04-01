@@ -1,4 +1,4 @@
-# Macchina
+# Stato della Macchina
 
 Accedi a questa sezione cliccando su una macchina, da questo momento in poi tutte le informazioni visualizzare saranno strettamente legate alla macchina selezionata.
 Trovi tre TAB:
