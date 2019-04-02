@@ -15,7 +15,6 @@ per approfondimenti su come si creano e si assegnano i tag consulta l’apposita
 
 - **Installazione**:  visualizza solo le macchine *assegnate* o *non assegnate* mediante l'apposito controllo.
 
-***Funzioni*** (verranno sempre applicate alla selezione)
 
 
 ## Azioni sulle macchine
@@ -34,6 +33,7 @@ Su ciascuna macchina oltre al seriale è riportato il modello, una miniatura, lo
 Il checkbox alla sinistra di ciascuna macchina ti permette di **__<span style="color:#b72a5c">selezioniare</span>__** una o più macchine contemporanemente, tutte le funzioni di questa area quando eseguite vengono applicate alla **__<span style="color:#b72a5c">selezione</span>__**.
 
 Usa l'area filtro per raffinare l'insieme di macchine visualizzate.
+
   
 ## Assegnare le macchine
 
