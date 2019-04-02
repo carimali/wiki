@@ -6,7 +6,7 @@ Clicca sul bottone **"Esporta contatori in CSV"** per creare un documento in for
 
 ## Filtra macchine per Proprietà
 
-Hai a disposizione una sezione filtro: usala per individuare più velocemente un insieme di macchine, effettuando una ricerca per: 
+Hai a disposizione una **sezione filtro**: usala per individuare rapidamente una o più macchine, effettuando una ricerca per: 
 
 - **Tags**: filtra per uno o più tag/s scrivendo il/i nome/i del/i tag/s nella area di testo *Cerca..*, se non ricordi quali tags hai a disposizione visualizzali premendo il bottone *Lista dei tags*,
 per approfondimenti su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).
