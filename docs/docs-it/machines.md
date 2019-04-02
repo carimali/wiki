@@ -20,15 +20,15 @@ Hai a disposizione una **sezione filtro**: usala per individuare rapidamente una
 
 - **Tags**. Cliccando il segno di spunta corrispondente, puoi filtrare le tue macchine secondo uno o più tags che hai assegnato loro.
 
-<kbd>![Installation filter](_images/machines-tags-filter.png)</kbd>
+<kbd>![Tags filter](_images/machines-tags-filter.png)</kbd>
 
 Puoi visualizzare i tags creati attivando lo switch ***Lista dei tags***
 
-<kbd>![Installation filter](_images/machines-tags2-filter.png)</kbd>
+<kbd>![Tags filter](_images/machines-tags2-filter.png)</kbd>
 
 Inoltre, puoi filtrare per uno o più tags scrivendone il nome nel campo ***Cerca*** ; 
 
-<kbd>![Installation filter](_images/machines-tags3-filter.png)</kbd>
+<kbd>![Tags filter](_images/machines-tags3-filter.png)</kbd>
 
 ***Nota**: per maggiori informazioni su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).*
 
