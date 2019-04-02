@@ -29,7 +29,7 @@ Puoi visualizzare i tags creati attivando lo switch ***Lista dei tags***
 Inoltre, puoi filtrare per uno o più tags scrivendone il nome nel campo ***Cerca*** ; 
 
 <kbd>![Installation filter](_images/machines-tags3-filter.png)</kbd>
-
+ 
 ***Nota:** per maggiori informazioni su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).*
 
 
