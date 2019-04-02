@@ -20,7 +20,7 @@ per approfondimenti su come si creano e si assegnano i tag consulta l’apposita
 
 ## Azioni sulle macchine
 
-Nella sezione “LE TUE MACCHINE” trovi tutte le macchine da caffè compatibili con CARIcare chi ti sono state assegnate e alcune funzioni necessarie alla gestione delle stesse.
+Nella sezione **“LE TUE MACCHINE”** trovi tutte le macchine da caffè compatibili con CARIcare chi ti sono state assegnate e alcune funzioni necessarie alla gestione delle stesse.
 
 
 Come in tutto il sistema CARIcare, l’identificativo univoco per ogni singola macchina è il seriale e ha corrispondenza con quello riportato sulla targhetta della macchina da caffè fatta eccezione per il _CA_ che lo precede, ad esempio nel punto indicato
