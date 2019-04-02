@@ -75,7 +75,7 @@ oppure premi **una ricetta** per modificarla, puoi abilitarla/disabilitarla, cam
 ***Nota:** le modifiche verranno effettuate su tutte le macchine selezionate.* 
 
 
-## Riavviare le macchine
+## Riavviare le macchine 
 
 Dopo aver selezionato una o più macchine, premi **Riavvia** per riavviare le macchine selezionate.
 
