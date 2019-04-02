@@ -17,6 +17,7 @@ Premi **accetto** per aderire alle *Privacy Policy di CARICare* (1)
 
 ![Policy](_images/policy_privacy_1.png)
 
+
 Premi **accetto** per aderire alle *Cookie Policy di CARICare* (2) e successivamente premi **Salva** (3) per momerizzare le tue scelte
 
 ![Cookie](_images/policy_privacy_2.png)
