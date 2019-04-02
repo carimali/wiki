@@ -48,7 +48,7 @@ il seriale è 254168 nella targhetta macchina troverete +++ immagine del seriale
 
 Su ciascuna macchina oltre al seriale è riportato il **modello**, una **miniatura**, lo **stato della connessione** con il server CARIcare e, se **assegnata**, il **cliente** che la possiede al momento.
 
-<kbd>![Installation filter](_images/machines-icon.png)</kbd>
+<kbd>![Installation filter](_images/machines-icon2.png)</kbd>
 
 Il checkbox alla sinistra di ciascuna macchina ti permette di **__<span style="color:#b72a5c">selezioniare</span>__** una o più macchine contemporanemente, tutte le funzioni di questa area quando eseguite vengono applicate alla **__<span style="color:#b72a5c">selezione</span>__**.
 
