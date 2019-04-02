@@ -8,12 +8,12 @@ Clicca sul bottone **"Esporta contatori in CSV"** per creare un documento in for
 
 Hai a disposizione una sezione filtro: usala per individuare più velocemente un insieme di macchine, effettuando una ricerca per: 
 
-**- Tags**: filtra per uno o più tag/s scrivendo il/i nome/i del/i tag/s nella area di testo *Cerca..*, se non ricordi quali tags hai a disposizione visualizzali premendo il bottone *Lista dei tags*,
+- **Tags**: filtra per uno o più tag/s scrivendo il/i nome/i del/i tag/s nella area di testo *Cerca..*, se non ricordi quali tags hai a disposizione visualizzali premendo il bottone *Lista dei tags*,
 per approfondimenti su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).
 
-**- Connessione**: visualizza solo le macchine *connesse* o *diconnesse* mediante l'apposito controllo.
+- **Connessione**: visualizza solo le macchine *connesse* o *diconnesse* mediante l'apposito controllo.
 
-**- Installazione**:  visualizza solo le macchine *assegnate* o *non assegnate* mediante l'apposito controllo.
+- **Installazione**:  visualizza solo le macchine *assegnate* o *non assegnate* mediante l'apposito controllo.
 
 ***Funzioni*** (verranno sempre applicate alla selezione)
 
@@ -37,7 +37,7 @@ Usa l'area filtro per raffinare l'insieme di macchine visualizzate.
   
 ## Assegnare le macchine
 
- - Dop aver creato un cliente usa questa funzione per assegnargli le tue macchine da caffè, che si tratti di noleggio o vendita è un modo per organizzarle e gestire meglio il tuo business. Una volta selezionato una o più macchine premi **Assegna a** seleziona un Cliente dal menù a tendina e premi **Salva**, ora le macchine selezionate sono assegnate e visibili anche nell'area macchine sotto la sezione **Cliente** *mettere link alla pagina cliente sezione macchine*, se è stato creato un account CARIcare anche per il cliente le vedrà anche lui sotto la sezione **Macchine**.
+ - Dopo aver creato un cliente usa questa funzione per assegnargli le tue macchine da caffè, che si tratti di noleggio o vendita è un modo per organizzarle e gestire meglio il tuo business. Una volta selezionato una o più macchine premi **Assegna a** seleziona un Cliente dal menù a tendina e premi **Salva**, ora le macchine selezionate sono assegnate e visibili anche nell'area macchine sotto la sezione **Cliente** *mettere link alla pagina cliente sezione macchine*, se è stato creato un account CARIcare anche per il cliente le vedrà anche lui sotto la sezione **Macchine**.
 
 ## Gestire le ricette
  
