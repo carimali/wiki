@@ -2,6 +2,8 @@
 
 ## Esporta Contatori in CSV
 
+Clicca sul bottone **"Esporta contatori in CSV"** per creare un documento in formato CSV (Comma-Separated Values) contenente i contatori delle tue macchine.
+
 ## Filtra macchine per Proprietà
 
 Hai a disposizione una sezione filtro usala per individuare più velocemente un insieme di macchine,
