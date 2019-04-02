@@ -10,14 +10,27 @@ Clicca sul bottone **"Esporta contatori in CSV"** per creare un documento in for
 
 Hai a disposizione una **sezione filtro**: usala per individuare rapidamente una o più macchine, effettuando una ricerca per: 
 
-- **Installazione**:  visualizza solo le macchine *assegnate* o *non assegnate* mediante l'apposito controllo.
+- **Installazione**.  Cliccando il segno di spunta corrispondente, sono visualizzate solo le macchine *assegnate (installate)* o *non assegnate (non installate)*.
 
 <kbd>![Installation filter](_images/machines-installation-filter.png)</kbd>
 
-- **Connessione**: visualizza solo le macchine *connesse* o *diconnesse* mediante l'apposito controllo.
+- **Connessione**. Cliccando il segno di spunta corrispondente, sono visualizzate solo le macchine *connesse* o *diconnesse*.
 
-- **Tags**: filtra per uno o più tag/s scrivendo il/i nome/i del/i tag/s nella area di testo *Cerca..*, se non ricordi quali tags hai a disposizione visualizzali premendo il bottone *Lista dei tags*,
-per approfondimenti su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).
+<kbd>![Installation filter](_images/machines-connecting-filter.png)</kbd>
+
+- **Tags**. Cliccando il segno di spunta corrispondente, puoi filtrare le tue macchine secondo uno o più tags che hai assegnato loro.
+
+<kbd>![Installation filter](_images/machines-tags-filter.png)</kbd>
+
+Puoi visualizzare i tags creati attivando lo switch *Lista dei tags*
+
+<kbd>![Installation filter](_images/machines-tags2-filter.png)</kbd>
+
+
+Inoltre, puoi filtrare per uno o più tags scrivendo il/i nome/i del/i tag/s nel campo *Cerca..*; 
+
+
+***Nota**: per maggiori informazioni su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).*
 
 
 
