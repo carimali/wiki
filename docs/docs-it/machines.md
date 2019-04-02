@@ -47,12 +47,13 @@ Come in tutto il sistema CARIcare, l’identificativo univoco per ogni singola m
 il seriale è 254168 nella targhetta macchina troverete +++ immagine del seriale macchina +++.
 
 Su ciascuna macchina oltre al seriale è riportato il **modello**, una **miniatura**, lo **stato della connessione** con il server CARIcare e, se **assegnata**, il **cliente** che la possiede al momento.
+Il checkbox alla sinistra di ciascuna macchina ti permette di **__<span style="color:#b72a5c">selezioniare</span>__** una o più macchine contemporanemente, tutte le funzioni di questa area quando eseguite vengono applicate alla **__<span style="color:#b72a5c">selezione</span>__**.
 
 <kbd>![Installation filter](_images/machines-icon2.png)</kbd>
 
-Il checkbox alla sinistra di ciascuna macchina ti permette di **__<span style="color:#b72a5c">selezioniare</span>__** una o più macchine contemporanemente, tutte le funzioni di questa area quando eseguite vengono applicate alla **__<span style="color:#b72a5c">selezione</span>__**.
 
-Usa l'area filtro per raffinare l'insieme di macchine visualizzate.
+
+***Nota: puoi usare l'area filtro per affinare ulteriormente la ricerca sull'insieme di macchine visualizzate.***
 
   
 ## Assegnare le macchine
