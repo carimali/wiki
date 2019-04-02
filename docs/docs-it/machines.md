@@ -2,7 +2,7 @@
 
 ## Esporta Contatori in CSV
 
-Clicca sul bottone **"Esporta contatori in CSV"** per creare un documento in formato CSV (Comma-Separated Values) contenente i contatori delle tue macchine.
+Clicca sul bottone **"Esporta contatori in CSV"** per creare un documento in formato **CSV** (Comma-Separated Values) contenente i **contatori delle tue macchine**.
 
 <kbd>![Export CSV](_images/expCSV.png)</kbd>
 
