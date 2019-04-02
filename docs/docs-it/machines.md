@@ -41,13 +41,16 @@ Inoltre, puoi filtrare per uno o più tags scrivendone il nome nel campo ***Cerc
 
 Nella sezione **“LE TUE MACCHINE”** trovi **tutte le macchine da caffè compatibili con CARIcare** chi ti sono state assegnate e alcune funzioni necessarie alla gestione delle stesse.
 
+Come in tutto il sistema CARIcare, l’identificativo univoco per ogni singola macchina è il **seriale** e ha corrispondenza con quello riportato sulla targhetta della macchina da caffè, fatta eccezione per il **_CA_** che lo precede: per esempio, nel punto indicato nell'immagine che segue, è mostrato il seriale 254168
 
-Come in tutto il sistema CARIcare, l’identificativo univoco per ogni singola macchina è il **seriale** e ha corrispondenza con quello riportato sulla targhetta della macchina da caffè, fatta eccezione per il **_CA_** che lo precede: per esempio, nel punto indicato
-+++ immagine del seriale caricare+++
-il seriale è 254168 nella targhetta macchina troverete +++ immagine del seriale macchina +++.
+<kbd>![Machines serial](_images/machines-icon-serial.png)</kbd>
+
+che trovate nella targhetta della macchina corrispondente:
+
+<kbd>![Machines serial](_images/machines-serial.png)</kbd>
 
 Su ciascuna macchina oltre al seriale è riportato il **modello**, una **miniatura**, lo **stato della connessione** con il server CARIcare e, se **assegnata**, il **cliente** che la possiede al momento.
-Il checkbox alla sinistra di ciascuna macchina ti permette di **__<span style="color:#b72a5c">selezioniare</span>__** una o più macchine contemporanemente, tutte le funzioni di questa area quando eseguite vengono applicate alla **__<span style="color:#b72a5c">selezione</span>__**.
+Il checkbox alla sinistra di ciascuna macchina ti permette di selezioniare **una o più macchine contemporanemente, tutte le funzioni di questa area quando eseguite vengono applicate alla selezione**.
 
 <kbd>![Installation filter](_images/machines-icon2.png)</kbd>
 
