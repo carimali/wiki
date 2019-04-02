@@ -18,11 +18,11 @@ Premi **accetto** per aderire alle *Privacy Policy di CARICare* (1)
 <kbd>![Policy](_images/policy_privacy_1.png)</kbd>
 
 
-Premi **accetto** per aderire alle *Cookie Policy di CARICare* (2) e successivamente premi **Salva** (3) per momerizzare le tue scelte
+Premi **accetto** per aderire alle *Cookie Policy di CARICare* (2) e successivamente premi **Salva** (3) per momerizzare le tue scelte.
 
 <kbd>![Cookie](_images/policy_privacy_2.png)</kbd>
 
-N.B. in qualsiasi momento puoi modificare le tue preferenze su policy & privacy dal tuo profilo, tuttavia rifiutarne anche solo una tra **Privacy Policy di CARICare** o **Cookie Policy di CARICare** riporterà il vostro account nella condizione di non poter utilizzare qualsiasi funzionalità di CARIcare.
+***Nota**: in qualsiasi momento puoi modificare le tue preferenze su policy & privacy dal tuo profilo, tuttavia rifiutarne anche solo una tra **Privacy Policy di CARICare** o **Cookie Policy di CARICare** riporterà il vostro account nella condizione di non poter utilizzare qualsiasi funzionalità di CARIcare.*
 
 
 
