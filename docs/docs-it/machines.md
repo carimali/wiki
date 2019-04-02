@@ -26,7 +26,6 @@ Puoi visualizzare i tags creati attivando lo switch *Lista dei tags*
 
 <kbd>![Installation filter](_images/machines-tags2-filter.png)</kbd>
 
-
 Inoltre, puoi filtrare per uno o più tags scrivendo il/i nome/i del/i tag/s nel campo *Cerca..*; 
 
 
