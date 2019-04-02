@@ -39,13 +39,13 @@ Inoltre, puoi filtrare per uno o più tags scrivendone il nome nel campo ***Cerc
 
 ## Azioni sulle macchine
 
-Nella sezione **“LE TUE MACCHINE”** trovi **tutte le macchine da caffè compatibili con CARIcare** chi ti sono state assegnate e alcune funzioni necessarie alla gestione delle stesse.
+Nella sezione **“LE TUE MACCHINE”** trovi **tutte le macchine da caffè compatibili con CARIcare** che ti sono state assegnate e alcune funzioni necessarie alla gestione delle stesse.
 
 Come in tutto il sistema CARIcare, l’identificativo univoco per ogni singola macchina è il **seriale** e ha corrispondenza con quello riportato sulla targhetta della macchina da caffè, fatta eccezione per il **_CA_** che lo precede: per esempio, nel punto indicato nell'immagine che segue, è mostrato il seriale 254168
 
 <kbd>![Machines serial](_images/machines-icon-serial.png)</kbd>
 
-che trovate nella targhetta della macchina corrispondente:
+che trovi nella targhetta della macchina corrispondente:
 
 <kbd>![Machines serial](_images/machines-serial.png)</kbd>
 
