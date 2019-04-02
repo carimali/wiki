@@ -56,7 +56,7 @@ Il checkbox alla sinistra di ciascuna macchina ti permette di selezioniare **una
 
 
 
-***Nota:** puoi usare l'area filtro per affinare ulteriormente la ricerca sull'insieme di macchine visualizzate.*
+***Nota:**puoi usare l'area filtro per affinare ulteriormente la ricerca sull'insieme di macchine visualizzate.*
 
   
 ## Assegnare le macchine
