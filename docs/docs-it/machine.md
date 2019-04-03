@@ -34,6 +34,7 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
 
 <kbd>![Installation filter](_images/machine-erog-totali2.png)</kbd>
 
+
 - I **Lavaggi**.
 
 - **Extra Milk** (se disponibile per quella macchina).
