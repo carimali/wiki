@@ -92,8 +92,10 @@ Dopo aver selezionato una o più macchine, premi **Riavvia** per riavviare le ma
 
 ## Assegnare un TAG alle macchine
 
-Assegna tag alle tue macchine: premi **Tag** scrivi il/i nome/i del/i tag/s nella area di testo *Cerca..* e premi *Salva*
+Assegna tag alle tue macchine: premi **Tag** scrivi il/i nome/i del/i tag/s nell'area di testo **Cerca** e premi **Salva**.
 
+
+<kbd>![Installation filter](_images/machines-tags01.png)</kbd>
 
 
 
