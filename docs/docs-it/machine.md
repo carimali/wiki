@@ -32,6 +32,8 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
 
 - Totale delle **erogazioni**. Premi **"Mostra"** per visualizzare le erogazioni divise per nome bevanda.
 
+<kbd>![Installation filter](_images/machine-erog-totali.png)</kbd>
+
 - I **Lavaggi**.
 
 - **Extra Milk** (se disponibile per quella macchina).
