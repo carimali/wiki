@@ -30,9 +30,11 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
      
 - Un **grafico** che mostra la **quantità di bevande erogate negli ultimi sette giorni** divise per nome bevanda.
 
+ <kbd>![Grafico Erogazioni](_images/machine-grafico.png)</kbd>
+
 - Totale delle **erogazioni**. Premi **"Mostra"** per visualizzare le erogazioni divise per nome bevanda.
 
-<kbd>![Installation filter](_images/machine-erog-totali2.png)</kbd>
+<kbd>![Erogazioni Totali](_images/machine-erog-totali2.png)</kbd>
 
 
 - I **Lavaggi**.
