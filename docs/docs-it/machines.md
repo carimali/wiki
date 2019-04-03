@@ -75,11 +75,14 @@ Ora le macchine selezionate sono assegnate e visibili anche nell'Area Macchine, 
 
 ## Gestire le ricette
  
-Una volta selezionato una o più macchine scegli un set di ricette dall'elenco a tendina per caricarlo sulle macchine selezionate,
-oppure premi **una ricetta** per modificarla, puoi abilitarla/disabilitarla, cambiare icona e, se previsto dalla configurazione prezzo e tipo di bicchiere, puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè, per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso, premi **Salva modifiche** prima di lasciare quest'area altrimenti le modifiche andranno perse.
+Selezionando una o più macchine e premendo **"cambia ricetta"**, puoi scegliere un set di ricette dall'elenco a tendina e caricarlo sulle macchine selezionate.
+
+<kbd>![Installation filter](_images/machines-ricetta01.png)</kbd>
+
+Oppure, premi **una ricetta** per modificarla: puoi abilitarla/disabilitarla, cambiare icona e, se previsto dalla configurazione prezzo e tipo di bicchiere, modificare ogni singolo parametro proprio come se ti trovassi di fronte alla macchina da caffè! Per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso. Premi **Salva modifiche** prima di lasciare quest'area altrimenti tutte le modifiche apportate andranno perse.
 
 ***Nota:** le modifiche verranno effettuate su tutte le macchine selezionate.* 
-&nbsp;
+
 
 ## Riavviare le macchine 
 
