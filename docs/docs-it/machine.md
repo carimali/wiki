@@ -30,7 +30,15 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
      
 - Un **grafico** che mostra la **quantità di bevande erogate negli ultimi sette giorni** divise per nome bevanda.
 
-<kbd>![Installation filter](_images/machine-erogazioni.png)</kbd>
+- Totale delle **erogazioni**. Premi **"Mostra"** per visualizzare le erogazioni divise per nome bevanda.
+
+- I **Lavaggi**.
+
+- **Extra Milk** (se disponibile per quella macchina).
+
+- L'**Incasso totale** delle erogazioni.
+
+
      
  ## Ricette
  
