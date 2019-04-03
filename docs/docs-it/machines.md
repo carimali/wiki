@@ -5,7 +5,7 @@
 Clicca sul bottone **"Esporta contatori in CSV"** per creare un documento in formato **CSV** (Comma-Separated Values) contenente i **contatori delle tue macchine**.
 
 <kbd>![Export CSV](_images/expCSV.png)</kbd>
-
+&nbsp;
 ## Filtra macchine per Proprietà
 
 Hai a disposizione una **sezione filtro**: usala per individuare rapidamente una o più macchine, effettuando una ricerca per: 
@@ -13,11 +13,11 @@ Hai a disposizione una **sezione filtro**: usala per individuare rapidamente una
 - **Installazione**.  Cliccando il segno di spunta corrispondente, sono visualizzate solo le macchine *assegnate (installate)* o *non assegnate (non installate)*.
 
 <kbd>![Installation filter](_images/machines-installation-filter.png)</kbd>
-
+&nbsp;
 - **Connessione**. Cliccando il segno di spunta corrispondente, sono visualizzate solo le macchine *connesse* o *diconnesse*.
 
 <kbd>![Installation filter](_images/machines-connecting-filter.png)</kbd>
-
+&nbsp;
 - **Tags**. Cliccando il segno di spunta corrispondente, puoi filtrare le tue macchine secondo uno o più tags che hai assegnato loro.
 
 <kbd>![Installation filter](_images/machines-tags-filter.png)</kbd>
@@ -31,7 +31,7 @@ Inoltre, puoi filtrare per uno o più tags scrivendone il nome nel campo ***Cerc
 <kbd>![Installation filter](_images/machines-tags3-filter.png)</kbd>
  
 ***Nota:** per maggiori informazioni su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).*
-
+&nbsp;
 
 
 
@@ -57,7 +57,7 @@ Il checkbox alla sinistra di ciascuna macchina ti permette di selezioniare **una
 
 
 ***Nota:** puoi usare l'area filtro per affinare ulteriormente la ricerca sull'insieme di macchine visualizzate.*
-
+&nbsp;
   
   
 ## Assegnare le macchine
@@ -65,7 +65,7 @@ Il checkbox alla sinistra di ciascuna macchina ti permette di selezioniare **una
 Dopo aver creato un cliente, puoi usare questa funzione per assegnargli le tue macchine da caffè. Che si tratti di noleggio o vendita, è un modo per organizzarle e gestire al meglio il tuo business. Una volta selezionato una o più macchine premi **Assegna a** seleziona un Cliente dal menù a tendina e premi **Salva**.
  
 Ora le macchine selezionate sono assegnate e visibili anche nell'Area Macchine, sotto la sezione **Cliente** *mettere link alla pagina cliente sezione macchine*, se è stato creato un account CARIcare anche per il cliente, quest'ultimo potrà visualizzarle sotto la sezione **Macchine**.
-
+&nbsp;
 
 ## Gestire le ricette
  
@@ -73,12 +73,12 @@ Una volta selezionato una o più macchine scegli un set di ricette dall'elenco a
 oppure premi **una ricetta** per modificarla, puoi abilitarla/disabilitarla, cambiare icona e, se previsto dalla configurazione prezzo e tipo di bicchiere, puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè, per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso, premi **Salva modifiche** prima di lasciare quest'area altrimenti le modifiche andranno perse.
 
 ***Nota:** le modifiche verranno effettuate su tutte le macchine selezionate.* 
-
+&nbsp;
 
 ## Riavviare le macchine 
 
 Dopo aver selezionato una o più macchine, premi **Riavvia** per riavviare le macchine selezionate.
-
+&nbsp;
 
 ## Assegnare un TAG alle macchine
 
