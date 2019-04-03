@@ -61,7 +61,7 @@ Il checkbox alla sinistra di ciascuna macchina ti permette di selezioniare **una
   
 ## Assegnare le macchine
 
-Dopo aver creato un cliente, puoi usare questa funzione per assegnargli le tue macchine da caffè. Che si tratti di noleggio o vendita, è un modo per organizzarle e gestire al meglio il tuo business. Una volta che hai selezionato una o più macchine, premi **"assegna a"**, 
+Dopo aver creato un cliente, puoi usare questa funzione per assegnargli le tue macchine da caffè. Che si tratti di noleggio o vendita, è un modo per organizzarle e gestire al meglio il tuo business. Una volta che hai selezionato una o più macchine, premi **"assegna a"**;
 
 <kbd>![Installation filter](_images/machines-assegna.png)</kbd>
 
