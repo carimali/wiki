@@ -49,8 +49,10 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
  
   In questa sezione puoi:
   
-  - **Cambiare la lingua della macchina**, seleziona la lingua desiderata dal menù a tendina **Lingua principale**. 
-  Se previsto dal modello, puoi anche modificare la lingua secondaria: selezionala dal menù a tendina **Seconda lingua**
+  - **Cambiare la lingua della macchina**. Seleziona la lingua desiderata dal menù a tendina **Lingua principale**. 
+  Se previsto dal modello, puoi anche modificare la lingua secondaria: selezionala dal menù a tendina **Seconda lingua**.
+  
+  
   
   - **Impostare una Soglia allarme caffè**. Questa funzione consente di assegnare una certa **QUANTITÀ CAFFÈ (KG)** a ciascuna macchina e ricevere due avvisi **EMAIL**: uno quando il consumo di caffè sta per raggiungere la quantità impostata **SOGLIA CAFFÈ (%)**; un altro quando la **QUANTITÀ CAFFÈ (KG)** viene interamente consumata. 
 Una volta impostati i parametri premi **Salva soglia allarme caffè** per attivare la funzionalità. 
