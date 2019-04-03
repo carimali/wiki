@@ -65,12 +65,12 @@ Dopo aver creato un cliente, puoi usare questa funzione per assegnargli le tue m
 
 <kbd>![Installation filter](_images/machines-assegna.png)</kbd>
 
-scegli un Cliente dal menù a tendina e premi **Salva**.
+scegli un Cliente dal menù a tendina e premi **"Salva"**.
  
 <kbd>![Installation filter](_images/machines-cliente.png)</kbd>
 
  
-Ora le macchine selezionate sono assegnate e visibili anche nell'Area Macchine, sotto la sezione **Cliente** *mettere link alla pagina cliente sezione macchine*, se è stato creato un account CARIcare anche per il cliente, quest'ultimo potrà visualizzarle sotto la sezione **Macchine**.
+Ora le macchine selezionate sono assegnate e visibili anche nell'Area Macchine, sotto la scheda **Cliente** *mettere link alla pagina cliente sezione macchine*, se è stato creato un account CARIcare anche per il cliente, quest'ultimo potrà visualizzarle sotto la scheda **Macchine**.
 
 
 ## Gestire le ricette
@@ -86,13 +86,13 @@ Oppure, premi **una ricetta** per modificarla: puoi abilitarla/disabilitarla, ca
 
 ## Riavviare le macchine 
 
-Dopo aver selezionato una o più macchine, premi **Riavvia** per riavviare le macchine selezionate. Conferma l'operazione premendo il tasto **"Procedi"**.
+Dopo aver selezionato una o più macchine, premi **"Riavvia"** per riavviare le macchine selezionate. Conferma l'operazione premendo il tasto **"Procedi"**.
 
 <kbd>![Installation filter](_images/machines-riavvia.png)</kbd>
 
 ## Assegnare un TAG alle macchine
 
-Per assegnare un **tag** alle tue macchine premi **Tag**; attiva lo switch **"Lista dei tags"** per visualizzare la lista dei tags disponibili; scrivi il/i nome/i del/i tag/s nell'area di testo **Cerca**, quindi premi **Salva**.
+Per assegnare un **tag** alle tue macchine premi **"Tag"**; attiva lo switch **"Lista dei tags"** per visualizzare la lista dei tags disponibili; scrivi il/i nome/i del/i tag/s nell'area di testo **"Cerca"**, quindi premi **"Salva"**.
 
 
 <kbd>![Installation filter](_images/machines-tags01.png)</kbd>
