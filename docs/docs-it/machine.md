@@ -19,8 +19,12 @@ In questa sezione, puramente informativa, puoi vedere:
 <kbd>![Installation filter](_images/machine-manutenzione-program.png)</kbd>
 
 Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso per vedere quali componenti è necessario sostituire durante la manutenzione.
-       
+
+<kbd>![Installation filter](_images/machine-componenti.png)</kbd>
+
 - Il **numero di cicli totali compiuti dal gruppo caffè**, una barra di progresso con colori differenti (verde, giallo, rosso) indicherà lo stato di usura del componente che, una volta raggiunto il suo numero di cicli massimo, dovrà essere sostituito, verrà invita un e-mail di notifica "verifica gruppo" al supporto indicato per la macchina.
+
+<kbd>![Installation filter](_images/machine-cicli.png)</kbd>
 
 - Il **numero di erogazioni** nelle ultime 24 ore sul totale massimo consigliato giornaliero (numero consumazioni / erogazioni massime consigliate), lo scopo è quello di evidenziare se una macchina da caffè viene utilizzare oltre le proprie possibilità, per evitare degrado di qualità prodotti e rapido deterioramento / rotture di componenti.
      
