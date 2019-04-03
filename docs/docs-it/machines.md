@@ -92,7 +92,7 @@ Dopo aver selezionato una o più macchine, premi **Riavvia** per riavviare le ma
 
 ## Assegnare un TAG alle macchine
 
-Per assegnare un **tag** alle tue macchine; attiva lo switch **"Lista dei tags"** per visualizzare la lista dei tags disponibili; premi **Tag** e scrivi il/i nome/i del/i tag/s nell'area di testo **Cerca**, quindi premi **Salva**.
+Per assegnare un **tag** alle tue macchine premi **Tag**; attiva lo switch **"Lista dei tags"** per visualizzare la lista dei tags disponibili; scrivi il/i nome/i del/i tag/s nell'area di testo **Cerca**, quindi premi **Salva**.
 
 
 <kbd>![Installation filter](_images/machines-tags01.png)</kbd>
