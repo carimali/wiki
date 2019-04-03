@@ -26,10 +26,11 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
 
 <kbd>![Installation filter](_images/machine-cicli.png)</kbd>
 
-- Il **numero di erogazioni** nelle ultime 24 ore sul totale massimo consigliato giornaliero (numero consumazioni / erogazioni massime consigliate), lo scopo è quello di evidenziare se una macchina da caffè viene utilizzare oltre le proprie possibilità, per evitare degrado di qualità prodotti e rapido deterioramento / rotture di componenti.
+- Il **numero di erogazioni** nelle ultime 24 ore sul **totale massimo giornaliero consigliato** (numero consumazioni / erogazioni massime consigliate). Lo scopo è quello di evidenziare se una macchina da caffè viene utilizzata al di sopra delle proprie possibilità, per evitare degrado di qualità dei prodotti e rapido deterioramento o rottura dei componenti.
      
 - Un **grafico** che mostra la **quantità di bevande erogate negli ultimi sette giorni** divise per nome bevanda.
-     
+
+<kbd>![Installation filter](_images/machine-erogazioni.png)</kbd>
      
  ## Ricette
  
