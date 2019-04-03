@@ -30,7 +30,7 @@ Inoltre, puoi filtrare per uno o più tags scrivendone il nome nel campo ***Cerc
 
 <kbd>![Installation filter](_images/machines-tags3-filter.png)</kbd>
  
-**Nota:** per maggiori informazioni su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).
+***Nota:** per maggiori informazioni su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).*
 
 
 
