@@ -53,9 +53,9 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
  
  In questa sezione puoi :
  
- - **Importare/Esportare un set di ricette**, premi **Salva le ricette**, per aggiungere il set di ricette attualmente in macchina nell'elenco a tendina **Carica ricette**, scegli un set di ricette dall'elenco a tendina per caricarlo su una macchina. I set di ricette creati sono visibili da tutti gli utenti del vostro gruppo se in possesso di un livello di autorizzazione adeguato.
+ - **Importare/Esportare un set di ricette**, premi **"Salva le ricette"**, per aggiungere il set di ricette attualmente in macchina nell'elenco a tendina **Carica ricette**, scegli un set di ricette dall'elenco a tendina per caricarlo su una macchina. I set di ricette creati sono visibili da tutti gli utenti del vostro gruppo se in possesso di un livello di autorizzazione adeguato.
 
-- **Visualizzare/Modificare lo stato delle singole ricette**, incluso abilitare/disabilitare, cambio icona e, se previsto dalla configurazione prezzo e tipo di bicchiere, premi su una ricetta per accedere alla configurazione della stessa, puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè, per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso, premi **Salva modifiche** prima di lasciare quest'area altrimenti le modifiche andranno perse.   
+- **Visualizzare/Modificare lo stato delle singole ricette**, incluso abilitare/disabilitare, cambio icona e, se previsto dalla configurazione prezzo e tipo di bicchiere, premi su una ricetta per accedere alla configurazione della stessa, puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè, per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso, premi **"Salva modifiche"** prima di lasciare quest'area altrimenti le modifiche andranno perse.   
  
  
  ## Impostazioni
@@ -64,13 +64,13 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
  
   In questa sezione puoi:
   
-  - **Cambiare la lingua della macchina**. Seleziona la lingua desiderata dal menù a tendina **Lingua principale**. 
-  Se previsto dal modello, puoi anche modificare la lingua secondaria: selezionala dal menù a tendina **Seconda lingua**.
+  - **Cambiare la lingua della macchina**. Seleziona la lingua desiderata dal menù a tendina **"Lingua principale"**. 
+  Se previsto dal modello, puoi anche modificare la lingua secondaria: selezionala dal menù a tendina **"Seconda lingua"**.
   
   <kbd>![Impostazioni-Lingua](_images/machine-lingua.png)</kbd>
   
   - **Impostare una Soglia allarme caffè**. Questa funzione consente di assegnare una certa **QUANTITÀ CAFFÈ (KG)** a ciascuna macchina e ricevere due avvisi **EMAIL**: uno quando il consumo di caffè sta per raggiungere la quantità impostata **SOGLIA CAFFÈ (%)**; un altro quando la **QUANTITÀ CAFFÈ (KG)** viene interamente consumata. 
-Una volta impostati i parametri, premi **Salva soglia allarme caffè** per attivare la funzionalità. 
+Una volta impostati i parametri, premi **"Salva soglia allarme caffè"** per attivare la funzionalità. 
 
 <kbd>![Impostazioni-Soglia-Caffe](_images/machine-soglia.png)</kbd>
 
