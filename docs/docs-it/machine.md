@@ -1,7 +1,11 @@
 # Stato della Macchina
 
-Accedi a questa sezione cliccando su una macchina, da questo momento in poi tutte le informazioni visualizzare saranno strettamente legate alla macchina selezionata.
-Trovi **tre schede**:
+Accedi a questa sezione cliccando all'interno del riquadro di una macchina: 
+
+<kbd>![Installation filter](_images/machines-installation-filter.png)</kbd>
+
+da questo momento in poi tutte le informazioni visualizzate saranno strettamente legate alla macchina selezionata.
+In quest'area trovi le **tre schede** che seguono:
 
 ## Manutenzione
   
