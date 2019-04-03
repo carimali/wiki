@@ -8,7 +8,10 @@ da questo momento in poi tutte le informazioni visualizzate saranno strettamente
 In quest'area trovi le **tre schede** che seguono:
 
 ## Manutenzione
-  
+
+<kbd>![Installation filter](_images/machine-manutenzione.png)</kbd>
+
+
 In questa sezione, puramente informativa, puoi vedere:
      
 - Quanto tempo manca alle **manutenzioni programmate**. I tempi di manutenzione cambiano da modello a modello e fanno riferimento a quelli suggeriti all'interno del manuale prodotto. Una barra di progresso con colori differenti (verde, giallo, rosso) si riempirà giorno dopo giorno partendo dal "giorno uno" fino a quando sarà trascorso il periodo consigliato; a quel punto verrà inviata un'e-mail di notifica **"manutenzione necessaria"** al supporto indicato per quella macchina. Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso per vedere quali componenti è necessario sostituire durante la manutenzione.
@@ -22,6 +25,8 @@ In questa sezione, puramente informativa, puoi vedere:
      
  ## Ricette
  
+ <kbd>![Installation filter](_images/machine-ricette.png)</kbd>
+ 
  In questa sezione puoi :
  
  - **Importare/Esportare un set di ricette**, premi **Salva le ricette**, per aggiungere il set di ricette attualmente in macchina nell'elenco a tendina **Carica ricette**, scegli un set di ricette dall'elenco a tendina per caricarlo su una macchina. I set di ricette creati sono visibili da tutti gli utenti del vostro gruppo se in possesso di un livello di autorizzazione adeguato.
@@ -30,6 +35,8 @@ In questa sezione, puramente informativa, puoi vedere:
  
  
  ## Impostazioni
+ 
+ <kbd>![Installation filter](_images/machine-impostazioni.png)</kbd>
  
   In questa sezione puoi:
   
