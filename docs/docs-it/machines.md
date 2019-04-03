@@ -56,7 +56,7 @@ Il checkbox alla sinistra di ciascuna macchina ti permette di selezioniare **una
 
 
 ***Nota:** puoi usare l'area filtro per affinare ulteriormente la ricerca sull'insieme di macchine visualizzate.*
-&nbsp;
+
   
   
 ## Assegnare le macchine
@@ -86,8 +86,9 @@ Oppure, premi **una ricetta** per modificarla: puoi abilitarla/disabilitarla, ca
 
 ## Riavviare le macchine 
 
-Dopo aver selezionato una o più macchine, premi **Riavvia** per riavviare le macchine selezionate.
-&nbsp;
+Dopo aver selezionato una o più macchine, premi **Riavvia** per riavviare le macchine selezionate. Conferma l'operazione premendo il tasto **"Procedi"**.
+
+<kbd>![Installation filter](_images/machines-riavvia.png)</kbd>
 
 ## Assegnare un TAG alle macchine
 
