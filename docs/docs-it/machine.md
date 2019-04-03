@@ -9,7 +9,7 @@ In quest'area trovi le **tre schede** che seguono:
 
 ## Manutenzione
 
-<kbd>![Installation filter](_images/machine-manutenzione.png)</kbd>
+<kbd>![Installation filter](_images/machine-manutenzione2.png)</kbd>
 
 
 In questa sezione, puramente informativa, puoi vedere:
