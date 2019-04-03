@@ -1,5 +1,5 @@
 # Macchine
-&nbsp;
+
 ## Esporta Contatori in CSV
 
 Clicca sul bottone **"Esporta contatori in CSV"** per creare un documento in formato **CSV** (Comma-Separated Values) contenente i **contatori delle tue macchine**.
@@ -31,8 +31,7 @@ Inoltre, puoi filtrare per uno o più tags scrivendone il nome nel campo ***Cerc
 <kbd>![Installation filter](_images/machines-tags3-filter.png)</kbd>
  
 ***Nota:** per maggiori informazioni su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).*
-&nbsp;
-&nbsp;
+
 
 
 
