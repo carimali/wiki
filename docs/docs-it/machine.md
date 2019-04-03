@@ -2,7 +2,7 @@
 
 Accedi a questa sezione cliccando all'interno del riquadro di una macchina: 
 
-<kbd>![Installation filter](_images/machines-installation-filter.png)</kbd>
+<kbd>![Installation filter](_images/machine-riquadro.png)</kbd>
 
 da questo momento in poi tutte le informazioni visualizzate saranno strettamente legate alla macchina selezionata.
 In quest'area trovi le **tre schede** che seguono:
