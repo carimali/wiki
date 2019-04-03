@@ -3,7 +3,7 @@
 Accedi a questa sezione cliccando su una macchina, da questo momento in poi tutte le informazioni visualizzare saranno strettamente legate alla macchina selezionata.
 Trovi **tre schede**:
 
-## 1. Manutenzione
+## Manutenzione
   
 In questa sezione, puramente informativa, puoi vedere:
      
@@ -16,7 +16,7 @@ In questa sezione, puramente informativa, puoi vedere:
 - Un **grafico** che mostra la **quantità di bevande erogate negli ultimi sette giorni** divise per nome bevanda.
      
      
- ## 2. Ricette
+ ## Ricette
  
  In questa sezione puoi :
  
@@ -25,7 +25,7 @@ In questa sezione, puramente informativa, puoi vedere:
 - **Visualizzare/Modificare lo stato delle singole ricette**, incluso abilitare/disabilitare, cambio icona e, se previsto dalla configurazione prezzo e tipo di bicchiere, premi su una ricetta per accedere alla configurazione della stessa, puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè, per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso, premi **Salva modifiche** prima di lasciare quest'area altrimenti le modifiche andranno perse.   
  
  
- ## 3. Impostazioni
+ ## Impostazioni
  
   In questa sezione puoi:
   
