@@ -39,6 +39,8 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
 
 - I **Lavaggi**.
 
+<kbd>![Lavaggi](_images/machine-lavaggi.png)</kbd>
+
 - **Extra Milk** (se disponibile per quella macchina).
 
 - L'**Incasso totale** delle erogazioni.
