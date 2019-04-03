@@ -8,7 +8,7 @@ Clicca sul bottone **"Esporta contatori in CSV"** per creare un documento in for
 &nbsp;
 ## Filtra macchine per Proprietà
 
-Hai a disposizione una **sezione filtro**: usala per individuare rapidamente una o più macchine, effettuando una ricerca per: 
+Hai a disposizione una serie di **filtri**: usala per individuare rapidamente una o più macchine, effettuando una ricerca per: 
 
 - **Installazione**.  Cliccando il segno di spunta corrispondente, sono visualizzate solo le macchine *assegnate (installate)* o *non assegnate (non installate)*.
 
@@ -70,12 +70,12 @@ scegli un Cliente dal menù a tendina e premi **"Salva"**.
 <kbd>![Installation filter](_images/machines-cliente.png)</kbd>
 
  
-Ora le macchine selezionate sono assegnate e visibili anche nell'Area Macchine, sotto la scheda **Cliente** *mettere link alla pagina cliente sezione macchine*, se è stato creato un account CARIcare anche per il cliente, quest'ultimo potrà visualizzarle sotto la scheda **Macchine**.
+Ora le macchine selezionate sono assegnate e visibili anche nell'Area Macchine, sotto la scheda **Cliente** *mettere link alla pagina cliente sezione macchine*, se è stato creato un account CARIcare anche per il cliente, quest'ultimo potrà visualizzarle nella sezione **Macchine**.
 
 
 ## Gestire le ricette
  
-Selezionando una o più macchine e premendo **"cambia ricetta"**, puoi scegliere un set di ricette dall'elenco a tendina e caricarlo sulle macchine selezionate.
+Selezionando una o più macchine e premendo **"cambia ricetta"**, puoi scegliere un **set di ricette** dall'elenco a tendina e caricarlo sulle macchine selezionate.
 
 <kbd>![Installation filter](_images/machines-ricetta01.png)</kbd>
 
