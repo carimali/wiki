@@ -74,7 +74,7 @@ Una volta impostati i parametri, premi **"Salva soglia allarme caffè"** per att
 
 <kbd>![Impostazioni-Soglia-Caffe](_images/machine-soglia.png)</kbd>
 
-***Nota**: una vola attiva la funzionalità, i parametri non potranno più essere modificati fino a quando la quantità di caffè non sarà interamente consumata.* 
+**Nota**: una vola attiva la funzionalità, i parametri non potranno più essere modificati fino a quando la quantità di caffè non sarà interamente consumata. 
 
 
 
