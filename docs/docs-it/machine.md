@@ -59,7 +59,7 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
 
 Scegli un set dall'elenco a tendina per caricarlo su una macchina. 
 
-
+ <kbd>![Importa Ricette](_images/machine-importa-ricette.png)</kbd>
 
 **Nota**: i set di ricette creati sono visibili da tutti gli utenti del vostro gruppo, se in possesso di un livello di autorizzazione adeguato.
 
