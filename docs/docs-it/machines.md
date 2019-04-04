@@ -1,11 +1,11 @@
-# Macchine
+# Le tue macchine
 
 ## Esporta Contatori in CSV
 
 Clicca sul bottone **"Esporta contatori in CSV"** per creare un documento in formato **CSV** (Comma-Separated Values) contenente i **contatori delle tue macchine**.
 
 <kbd>![Export CSV](_images/expCSV.png)</kbd>
-&nbsp;
+
 ## Filtra macchine per Proprietà
 
 Hai a disposizione una serie di **filtri**: usala per individuare rapidamente una o più macchine, effettuando una ricerca per: 
@@ -13,11 +13,11 @@ Hai a disposizione una serie di **filtri**: usala per individuare rapidamente un
 - **Installazione**.  Cliccando il segno di spunta corrispondente, sono visualizzate solo le macchine *assegnate (installate)* o *non assegnate (non installate)*.
 
 <kbd>![Installation filter](_images/machines-installation-filter.png)</kbd>
-&nbsp;
+
 - **Connessione**. Cliccando il segno di spunta corrispondente, sono visualizzate solo le macchine *connesse* o *diconnesse*.
 
 <kbd>![Installation filter](_images/machines-connecting-filter.png)</kbd>
-&nbsp;
+
 - **Tags**. Cliccando il segno di spunta corrispondente, puoi filtrare le tue macchine secondo uno o più tags che hai assegnato loro.
 
 <kbd>![Installation filter](_images/machines-tags-filter.png)</kbd>
@@ -30,7 +30,7 @@ Inoltre, puoi filtrare per uno o più tags scrivendone il nome nel campo **"Cerc
 
 <kbd>![Installation filter](_images/machines-tags3-filter.png)</kbd>
  
-***Nota:** per maggiori informazioni su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).*
+**Nota:** per maggiori informazioni su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).
 
 
 
@@ -55,7 +55,7 @@ Il checkbox alla sinistra di ciascuna macchina ti permette di selezioniare **una
 
 
 
-***Nota:** puoi usare l'area filtro per affinare ulteriormente la ricerca sull'insieme di macchine visualizzate.*
+**Nota:** puoi usare l'area filtro per affinare ulteriormente la ricerca sull'insieme di macchine visualizzate.
 
   
   
@@ -67,19 +67,19 @@ Dopo aver creato un cliente, puoi usare questa funzione per assegnargli le tue m
 
 scegli un Cliente dal menù a tendina e premi **"Salva"**.
  
-<kbd>![Installation filter](_images/machines-cliente.png)</kbd>
+<kbd>![Macchine Cliente](_images/machines-cliente.png)</kbd>
 
  
-Ora le macchine selezionate sono assegnate e visibili anche nell'Area Macchine, sotto la scheda **Cliente** *mettere link alla pagina cliente sezione macchine*, se è stato creato un account CARIcare anche per il cliente, quest'ultimo potrà visualizzarle nella sezione **Macchine**.
+Ora le macchine selezionate sono **assegnate e visibili** anche nell'Area Macchine, sotto la scheda **Cliente** *mettere link alla pagina cliente sezione macchine*. Se è stato creato un account CARIcare anche per il cliente, quest'ultimo potrà visualizzarle nella sezione **Macchine**.
 
 
 ## Gestire le ricette
  
 Selezionando una o più macchine e premendo **"cambia ricetta"**, puoi scegliere un **set di ricette** dall'elenco a tendina e caricarlo sulle macchine selezionate.
 
-<kbd>![Installation filter](_images/machines-ricetta01.png)</kbd>
+<kbd>![Cambia ricetta](_images/machines-ricetta01.png)</kbd>
 
-Oppure, premi **una ricetta** per modificarla: puoi abilitarla/disabilitarla, cambiare icona e, se previsto dalla configurazione prezzo e tipo di bicchiere, modificare ogni singolo parametro proprio come se ti trovassi di fronte alla macchina da caffè! Per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso. Premi **Salva modifiche** prima di lasciare quest'area altrimenti tutte le modifiche apportate andranno perse.
+Oppure, premi **una ricetta** per modificarla: puoi abilitarla/disabilitarla, cambiare icona e, se previsto dalla configurazione prezzo e tipo di bicchiere; modificare ogni singolo parametro proprio come se ti trovassi di fronte alla macchina da caffè! Per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso. Premi **Salva modifiche** prima di lasciare quest'area altrimenti tutte le modifiche apportate andranno perse.
 
 ***Nota:** le modifiche verranno effettuate su tutte le macchine selezionate.* 
 
@@ -88,14 +88,14 @@ Oppure, premi **una ricetta** per modificarla: puoi abilitarla/disabilitarla, ca
 
 Dopo aver selezionato una o più macchine, premi **"Riavvia"** per riavviare le macchine selezionate. Conferma l'operazione premendo il tasto **"Procedi"**.
 
-<kbd>![Installation filter](_images/machines-riavvia.png)</kbd>
+<kbd>![Riavvia Macchina](_images/machines-riavvia.png)</kbd>
 
 ## Assegnare un TAG alle macchine
 
 Per assegnare un **tag** alle tue macchine premi **"Tag"**; attiva lo switch **"Lista dei tags"** per visualizzare la lista dei tags disponibili; scrivi il/i nome/i del/i tag/s nell'area di testo **"Cerca"**, quindi premi **"Salva"**.
 
 
-<kbd>![Installation filter](_images/machines-tags01.png)</kbd>
+<kbd>![Tag Macchina](_images/machines-tags01.png)</kbd>
 
 
 
