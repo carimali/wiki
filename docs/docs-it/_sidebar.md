@@ -13,9 +13,9 @@
   
 - Dashboard
 
-  - [Stato delle tue macchine](docs-it/machines.md)
-  - [Macchine installate e richiamate](docs-it/machine.md)
-  - [Contatore dei prodotti venduti](docs-it/machine.md)
+  - [Stato delle tue macchine]()
+  - [Macchine installate e richiamate]()
+  - [Contatore dei prodotti venduti]()
 
 - Macchine
 
