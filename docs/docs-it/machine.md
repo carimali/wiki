@@ -69,7 +69,8 @@ Premi su una ricetta per accedere alla sua configurazione.
 <kbd>![Lista Ricette](_images/machine-ricette-lista.png)</kbd>
 
 Puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè; per tutte le informazioni relative a come impostare i parametri, fai riferimento al manuale d'uso. Premi **"Salva modifiche"** prima di lasciare quest'area altrimenti le modifiche andranno perse.   
- 
+
+<kbd>![Impostazioni Ricetta](_images/machine-ricette-lista.png)</kbd>
  
  ## Impostazioni
  
