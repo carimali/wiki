@@ -16,7 +16,7 @@ Al primo accesso devi necessariamente accettare **Privacy Policy** e **Cookie Po
 
 Premi **accetto** per aderire alle *Privacy Policy di CARICare* (1)
 
-![Policy](_images/policy_privacy_1.png)
+<kbd>![Policy](_images/policy_privacy_1.png)</kbd>
 
 Premi **accetto** per aderire alle *Cookie Policy di CARICare* (2) e successivamente premi **Salva** (3) per momerizzare le tue scelte
 
