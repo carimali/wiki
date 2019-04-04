@@ -26,7 +26,6 @@
  
 - Fornire assistenza
 
-  - [Errori](docs-it/tickets.md)
   - [Tickets](docs-it/tickets.md)
   - [Notifiche](docs-it/notifications.md)
   - [Manutenzione preventiva](docs-it/preventive-maintenance.md)
