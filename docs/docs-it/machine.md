@@ -74,7 +74,7 @@ Puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchin
  
  ## Impostazioni
  
- <kbd>![Impostazioni](_images/machine-impostazioni.png)</kbd>
+ <kbd>![Impostazioni](_images/machine-importa-ricette.png)</kbd>
  
   In questa sezione puoi:
   
