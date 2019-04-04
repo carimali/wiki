@@ -19,13 +19,13 @@
 
 - Clienti
 
-  - [Clienti](docs-it/customers.md)
+  - [Gestisci Clienti](docs-it/customers.md)
   
 - Utenti
 
-  - [Utenti](docs-it/users.md)
+  - [Gestisci Utenti](docs-it/users.md)
  
-- Fornire assistenza Assistenza
+- Fornire assistenza
 
   - [Tickets](docs-it/tickets.md)
   - [Notifiche](docs-it/notifications.md)
