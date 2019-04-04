@@ -55,7 +55,7 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
  
  - **Importare/Esportare un set di ricette**. Premi **"Salva le ricette"** per aggiungere il set di ricette attualmente in macchina nel menù a tendina **Importa set di ricette**. 
 
-
+ <kbd>![Importa Ricette](_images/machine-salva-ricette.png)</kbd>
 
 Scegli un set dall'elenco a tendina **Importa set di ricette** per caricarlo su una macchina. 
 
@@ -70,7 +70,6 @@ Premi su una ricetta per accedere alla sua configurazione.
 
 Puoi modificare ogni singolo parametro proprio come fossi di fronte alla macchina da caffè; per tutte le informazioni relative a come impostare i parametri, fai riferimento al manuale d'uso. Premi **"Salva modifiche"** prima di lasciare quest'area altrimenti le modifiche andranno perse.   
 
-<kbd>![Impostazioni Ricetta](_images/machine-ricette-lista.png)</kbd>
  
  ## Impostazioni
  
