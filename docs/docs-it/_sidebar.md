@@ -11,7 +11,12 @@
   - [Considerazioni](docs-it/points.md)
   - [Suggerimenti](docs-it/tips-tricks.md)
   
-  
+- Dashboard
+
+  - [Stato delle tue macchine](docs-it/machines.md)
+  - [Macchine installate e richiamate](docs-it/machine.md)
+  - [Contatore dei prodotti venduti](docs-it/machine.md)
+
 - Macchine
 
   - [Le tue macchine](docs-it/machines.md)
@@ -26,7 +31,7 @@
   - [Gestisci Utenti](docs-it/users.md)
  
 - Fornire assistenza
-
+  - [Errori](docs-it/tickets.md)
   - [Tickets](docs-it/tickets.md)
   - [Notifiche](docs-it/notifications.md)
   - [Manutenzione preventiva](docs-it/preventive-maintenance.md)
