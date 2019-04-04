@@ -53,11 +53,11 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
  
  In questa sezione puoi:
  
- - **Importare/Esportare un set di ricette**. Premi **"Salva le ricette"** per aggiungere il set di ricette attualmente in macchina nell'elenco a tendina **Carica ricette**. 
+ - **Importare/Esportare un set di ricette**. Premi **"Salva le ricette"** per aggiungere il set di ricette attualmente in macchina nel menù a tendina **Importa set di ricette**. 
 
 
 
-Scegli un set dall'elenco a tendina per caricarlo su una macchina. 
+Scegli un set dall'elenco a tendina **Importa set di ricette** per caricarlo su una macchina. 
 
  <kbd>![Importa Ricette](_images/machine-importa-ricette.png)</kbd>
 
