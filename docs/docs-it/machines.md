@@ -81,7 +81,7 @@ Selezionando una o più macchine e premendo **"cambia ricetta"**, puoi scegliere
 
 Oppure, premi **una ricetta** per modificarla: puoi abilitarla/disabilitarla, cambiare icona e, se previsto dalla configurazione prezzo e tipo di bicchiere; modificare ogni singolo parametro proprio come se ti trovassi di fronte alla macchina da caffè! Per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso. Premi **Salva modifiche** prima di lasciare quest'area altrimenti tutte le modifiche apportate andranno perse.
 
-***Nota:** le modifiche verranno effettuate su tutte le macchine selezionate.* 
+**Nota:** le modifiche verranno effettuate su tutte le macchine selezionate.
 
 
 ## Riavviare le macchine 
