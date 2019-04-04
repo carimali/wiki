@@ -1,28 +1,24 @@
-# Come accedere
+# Gestisci clienti
 
-Per raggiungere CARIcare apri il browser del tuo dispositivo nella barra degli indirizzi digita caricare.carimali.com o caricare.tech e conferma.
+In questa sezione puoi **visualizzare**, **aggiungere** o **disabilitare** i clienti.
 
-## Autenticazione
+## Aggiungi un nuovo cliente
 
-Una volta digitato caricare.carimali.com o caricare.tech nella barra degli indirizzi ti trovi sulla pagina di **Login**.
-Nelle apposite caselle inserisci **nome utente** (1) e **password** (2), successivamente premi **Log in** (3), è possibile memorizzare la password  spuntando il riquadro **Remember me** (4), se la non ricordi la password [clicca qui](https://carimali.github.io/wiki/#/docs-it/recover-password).
+Per **aggiungere un nuovo cliente** premi sul bottone **"Aggiungi nuovo"**. 
 
-<kbd>![Login](_images/login-1.png)</kbd>
+<kbd>![Nuovo cliente](_images/customers-01.png)</kbd>
+
+Nella pagina "Aggiungi cliente/Crea cliente collegato a te" completa i campi "nome" ed "email". Scegli un supporto da assegnare al cliente, selezionandolo dal menù a tendina **"supporto utente"**; *inserire parte su utente distributore*. Premi "Salva" per memorizzare i dati inseriti.
+
+<kbd>![Campi Nuovo Cliente](_images/customers-02-new.png)</kbd>
 
 
-## Policy di utilizzo e Privacy dei dati
+## Disabilita cliente
 
-Al primo accesso devi necessariamente accettare **Privacy Policy** e **Cookie Policy** di CARICare: questo passaggio obbligatorio serve a garantire la riservatezza delle informazioni e a tutelare l’utilizzatore secondo le norme vigenti; non farlo renderà impossibile utilizzare qualsiasi funzionalità dell’applicazione; opzionalmente, potete iscrivervi alla newsletter Carimali per rimanere sempre aggiornati sulle novità Carimali e CARIcare.
+Per disabilitare un cliente premi sul bottone "Disabilita".
 
-Premi **accetto** per aderire alle *Privacy Policy di CARICare* (1)
+<kbd>![Policy](_images/customers-disabilita.png)</kbd>
 
-<kbd>![Policy](_images/policy_privacy_1.png)</kbd>
-
-Premi **accetto** per aderire alle *Cookie Policy di CARICare* (2) e successivamente premi **Salva** (3) per momerizzare le tue scelte
-
-<kbd>![Cookie](_images/policy_privacy_2.png)</kbd>
-
-**Nota:** in qualsiasi momento puoi modificare le tue preferenze su policy & privacy dal tuo profilo; tuttavia, rifiutarne anche solo una tra **Privacy Policy di CARICare** o **Cookie Policy di CARICare**, riporterà il vostro account nella condizione di non poter utilizzare qualsiasi funzionalità di CARIcare.
 
 
 
