@@ -36,5 +36,4 @@ Cliccando su uno dei **"box errore"** si accede direttamente alla sezione **Erro
  
 Cliccando su un singolo prodotto della legenda è possibile escluderlo dalla visualizzazione.
 
-
-
+ <kbd>![Escludi Prodotti venduti](_images/dashboard-escludi.png)</kbd>
