@@ -3,7 +3,7 @@
 In questa sezione abbiamo un dettaglio dei singoli presenti in una data macchina.
 Ogni messaggio di errore presenta il numero della macchina, la tipologia di errore (es. il simbolo "<...>" indica che la macchina è disconnessa) e quando si è verificato.
 
-<kbd>![Macchina](_images/machine-riquadro.png)</kbd>
+<kbd>![Sezione Errori](_images/errori01.png)</kbd>
 
 
 
