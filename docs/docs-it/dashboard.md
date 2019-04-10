@@ -9,7 +9,7 @@ Il primo riquadro di visualizzazione riguarda **lo stato attuale delle tue macch
 
 <kbd>![Stato Macchine](_images/dashboard-stato-3.png)</kbd>
 
-Cliccando su uno dei **"box errore"** si accede direttamente alla sezione **Errori** (per maggiori dettagli vedi par. [**Errori"](https://carimali.github.io/wiki/#/docs-it/errori) )
+Cliccando su uno dei **"box errore"** si accede direttamente alla sezione **Errori** (per maggiori dettagli vedi par. [**"Errori"**](https://carimali.github.io/wiki/#/docs-it/errori) )
 
 <kbd>![Sezione Errori](_images/dashboard-errori01.png)</kbd>
 
