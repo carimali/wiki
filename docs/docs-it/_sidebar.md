@@ -7,8 +7,8 @@
   
 - Monitoraggio
 
-  - [Dashboard]()
-  - [Errori]()
+  - [Dashboard](docs-it/dashboard.md)
+  - [Errori](docs-it/errori.md)
   
 - Macchine
 
