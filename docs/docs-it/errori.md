@@ -19,7 +19,7 @@ Per segnalare un errore clicchiamo sul bottone **"crea ticket"** e accediamo all
 
 <kbd>![Crea ticket](_images/errori-ticket.png)</kbd>
 
-La pagina di segnalazione
+Il ticket mostra il destinatario del supporto, oltre all'argomento della segnalazione e alla data di creazione.
 
 <kbd>![Pagina Segnala](_images/errori03.png)</kbd>
 
