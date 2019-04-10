@@ -1,73 +1,23 @@
 # Dashboard
 
-La dashboard ti permette di ottenere una panoramica sullo stato delle tue macchine, sul rapporto tra macchine installate e richiamate nonché sui prodotti venduti.
+La **Dashboard** ti permette di ottenere una **panoramica sullo stato delle tue macchine, sul rapporto tra macchine installate e richiamate nonché sui prodotti venduti**.
 
 
 ## Stato delle tue macchine
 
-Il primo riquadro di visualizzazione riguarda lo stato attuale delle tue macchine. In esso è mostrato il numero complessivo delle macchine, il numero totale dei problemi riscontrati, diviso nelle tipologie "critico", "attenzione", "refill" e disconnessa", ognuno nel proprio box.
+Il primo riquadro di visualizzazione riguarda **lo stato attuale delle tue macchine**. In esso è mostrato il numero complessivo delle macchine, il numero totale dei problemi riscontrati, diviso nelle tipologie "critico", "attenzione", "refill" e disconnessa", ognuno nel proprio box.
 
-<kbd>![Manutenzione](_images/machine-manutenzione2.png)</kbd>
-
-
-In questa sezione, puramente informativa, puoi vedere:
-     
-- Quanto tempo manca alle **manutenzioni programmate**. I tempi di manutenzione cambiano da modello a modello e fanno riferimento a quelli suggeriti nel manuale del prodotto. Una barra di progresso con colori differenti (verde, giallo, rosso) si riempirà giorno dopo giorno partendo dal "giorno uno" fino a quando sarà trascorso il periodo consigliato; a quel punto verrà inviata un'e-mail di notifica **"manutenzione necessaria"** al supporto indicato per quella macchina. 
-
-<kbd>![Manutenzioni programmate](_images/machine-manutenzione-program.png)</kbd>
-
-Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso per vedere quali componenti è necessario sostituire durante la manutenzione.
-
-<kbd>![Componenti](_images/machine-componenti.png)</kbd>
-
-- Il **numero di cicli totali compiuti dal gruppo caffè**, una barra di progresso con colori differenti (verde, giallo, rosso) indicherà lo stato di usura del componente che, una volta raggiunto il suo numero di cicli massimo, dovrà essere sostituito, verrà invita un e-mail di notifica "verifica gruppo" al supporto indicato per la macchina.
-
-<kbd>![Cicli](_images/machine-cicli.png)</kbd>
-
-- Il **numero di erogazioni** nelle ultime 24 ore sul **totale massimo giornaliero consigliato** (numero consumazioni / erogazioni massime consigliate). Lo scopo è quello di evidenziare se una macchina da caffè viene utilizzata al di sopra delle proprie possibilità, per evitare degrado di qualità dei prodotti e rapido deterioramento o rottura dei componenti.
-     
-- Un **grafico** che mostra la **quantità di bevande erogate negli ultimi sette giorni** divise per nome bevanda.
-
- <kbd>![Grafico Erogazioni](_images/machine-grafico.png)</kbd>
-
-- Totale delle **erogazioni**. Premi **"Mostra"** per visualizzare le erogazioni divise per nome bevanda.
-
-<kbd>![Erogazioni Totali](_images/machine-erog-totali2.png)</kbd>
-
-
-- I **Lavaggi**.
-
-<kbd>![Lavaggi](_images/machine-lavaggi.png)</kbd>
-
-- **Extra Milk** (se disponibile per quella macchina).
-
-- L'**Incasso totale** delle erogazioni.
+<kbd>![Stato Macchine](_images/dashboard-stato-3.png)</kbd>
 
 
      
  ## Macchine installate e richiamate
  
+ Il grafico relativo alle Macchine Installate e Richiamate (o disinstallate) mostra con due diverse colorazioni il numero di unità installate e richiamate nell'ultimo anno.
+ 
  <kbd>![Ricette](_images/machine-ricette.png)</kbd>
  
- In questa sezione puoi:
  
- - **Importare/Esportare un set di ricette**. Premi **"Salva le ricette"** per aggiungere il set di ricette attualmente in macchina nel menù a tendina **Importa set di ricette**. 
-
- <kbd>![Importa Ricette](_images/machine-salva-ricette.png)</kbd>
-
-Scegli un set dall'elenco a tendina **Importa set di ricette** per caricarlo su una macchina. 
-
- <kbd>![Importa Ricette](_images/machine-importa-ricette.png)</kbd>
-
-**Nota**: i set di ricette creati sono visibili da tutti gli utenti del vostro gruppo, se in possesso di un livello di autorizzazione adeguato.
-
-- **Visualizzare/Modificare lo stato delle singole ricette**, incluso abilitare/disabilitare, cambio icona e, se previsto dalla configurazione prezzo e tipo di bicchiere. 
-Premi su una ricetta per accedere alla sua configurazione. 
-
-<kbd>![Lista Ricette](_images/machine-ricette-lista.png)</kbd>
-
-Puoi **modificare ogni singolo parametro** proprio come fossi di fronte alla macchina da caffè; per tutte le informazioni relative a come impostare i parametri, fai riferimento al manuale d'uso della macchina. Premi **"Salva modifiche"** prima di lasciare quest'area altrimenti le modifiche andranno perse.   
-
 
  
  ## Contatore dei prodotti venduti
