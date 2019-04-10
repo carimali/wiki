@@ -1,9 +1,14 @@
 # Visualizzazione Errori
 
-In questa sezione abbiamo un dettaglio dei singoli presenti in una data macchina.
-Ogni messaggio di errore presenta il numero della macchina, la tipologia di errore (es. il simbolo "<...>" indica che la macchina è disconnessa) e quando si è verificato.
+In questa sezione abbiamo un **dettaglio degli errori presenti in una data macchina**.
+Ogni messaggio di errore presenta il **numero della macchina, la tipologia di errore (es. il simbolo "<...>" indica che la macchina è disconnessa) e quando si è verificato**.
 
 <kbd>![Sezione Errori](_images/errori01.png)</kbd>
+
+Puoi scegliere se visualizzare tutti gli errori o un solo tipo di errore cliccando sul simbolo corrispondente della barra in alto.
+
+
+<kbd>![Barra Errori](_images/errori02.png)</kbd>
 
 
 
@@ -14,7 +19,9 @@ Per segnalare un errore clicchiamo sul bottone **"crea ticket"** e accediamo all
 
 <kbd>![Crea ticket](_images/errori-ticket.png)</kbd>
 
+La pagina di segnalazione
 
+<kbd>![Pagina Segnala](_images/errori02.png)</kbd>
 
 
 Cliccando sul bottone **"opzioni"** è mostrato il box della macchina oggetto della segnalazione.
