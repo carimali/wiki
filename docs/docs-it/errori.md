@@ -21,7 +21,7 @@ Per segnalare un errore clicchiamo sul bottone **"crea ticket"** e accediamo all
 
 La pagina di segnalazione
 
-<kbd>![Pagina Segnala](_images/errori02.png)</kbd>
+<kbd>![Pagina Segnala](_images/errori03.png)</kbd>
 
 
 Cliccando sul bottone **"opzioni"** è mostrato il box della macchina oggetto della segnalazione.
