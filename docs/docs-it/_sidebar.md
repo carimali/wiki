@@ -5,11 +5,10 @@
   - [Connettere le macchine a CARIcare](docs-it/connect-machines.md)
   - [Recupero password](docs-it/recover-password.md)
   
-- Linee guida
+- Monitoraggio
 
-  - [Pratiche di utilizzo](docs-it/best-practice.md)
-  - [Considerazioni](docs-it/points.md)
-  - [Suggerimenti](docs-it/tips-tricks.md)
+  - [Dashboard]()
+  - [Errori]()
   
 - Macchine
 
