@@ -11,7 +11,7 @@ Il primo riquadro di visualizzazione riguarda **lo stato attuale delle tue macch
 
 Cliccando su uno dei **"box errore"** si accede direttamente alla sezione **Errori** (per maggiori dettagli vedi par. **"Errori"**)
 
-<kbd>![Sezione Errori](_images/dashboard-stato-3.png)</kbd>
+<kbd>![Sezione Errori](_images/dashboard-errori01.png)</kbd>
 
      
  ## Macchine installate e richiamate
@@ -20,7 +20,7 @@ Cliccando su uno dei **"box errore"** si accede direttamente alla sezione **Erro
  
  <kbd>![Macchine Installate Richiamate](_images/dashboard-macchine-installate-e-richiamate.png)</kbd>
  
- Questo grafico è particolarmente utile per avere un colpo d'occhio sul rapporto tra le due tipologie di unità.
+ **Nota:** questo grafico è particolarmente utile per avere un colpo d'occhio sul rapporto tra le due tipologie di unità.
  
  
 
