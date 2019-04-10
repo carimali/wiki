@@ -1,4 +1,4 @@
-# Visualizzazione Errori
+## Visualizzazione Errori
 
 In questa sezione abbiamo un **dettaglio degli errori presenti in una data macchina**.
 Ogni messaggio di errore presenta il **numero della macchina, la tipologia di errore (es. il simbolo "<...>" indica che la macchina è disconnessa) e quando si è verificato**.
