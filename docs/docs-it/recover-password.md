@@ -6,11 +6,11 @@ Se hai dimenticato o vuoi modificare la password segui questi passaggi:
 
 - premi **Forgot Password** come indicato nella figura seguente:
 
-![Forgot Passwrod](_images/recover-password-step-1.png)
+<kbd>![Forgot Passwrod](_images/recover-password-step-1.png)</kbd>
 
 - nella nuova schermata **Recover password** inserisci l'**email**(1) del tuo account CARIcare e successivamente premi **Submit**(2) come indicato nella figura seguente:
 
-![Recover Passwrod](_images/recover-password-step-2.png)
+<kbd>![Recover Passwrod](_images/recover-password-step-2.png)</kbd>
 
 In qualsiasi momento premi **Cancel** per annullare l'operazione.
 
