@@ -14,7 +14,7 @@ Puoi scegliere se visualizzare tutti gli errori o un solo tipo di errore cliccan
 
 ## Segnalazione Errori
 
-Per segnalare un errore clicchiamo sul bottone **"crea ticket"** e accediamo alla pagina di segnalazione.
+Per **segnalare un errore** clicca sul bottone **"crea ticket"** e accedi alla **pagina di segnalazione**.
 
 
 <kbd>![Crea ticket](_images/errori-ticket.png)</kbd>
