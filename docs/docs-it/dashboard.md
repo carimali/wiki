@@ -32,7 +32,7 @@ Cliccando su uno dei **"box errore"** si accede direttamente alla sezione **Erro
  
  Cliccando su ogni singola colonna è mostrato il dettaglio dei singoli prodotti venduti in quella giornata.
  
- <kbd>![Impostazioni](_images/machine-impostazioni.png)</kbd>
+ <kbd>![Dettaglio Prodotti venduti](_images/dashboard-prodotti-venduti01.png)</kbd>
  
 Cliccando su un singolo prodotto della legenda è possibile escluderlo dalla visualizzazione.
 
