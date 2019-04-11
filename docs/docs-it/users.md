@@ -1,16 +1,25 @@
 # Gestisci Utenti
 
-Per raggiungere CARIcare apri il browser del tuo dispositivo nella barra degli indirizzi digita caricare.carimali.com o caricare.tech e conferma.
+La sezione **"Utenti"** ti consente di aggiungere o disabilitare un utente.
 
 ## Aggiungi Nuovo Utente
 
-Una volta digitato caricare.carimali.com o caricare.tech nella barra degli indirizzi ti trovi sulla pagina di **Login**.
-Nelle apposite caselle inserisci **nome utente** (1) e **password** (2), successivamente premi **Log in** (3), è possibile memorizzare la password  spuntando il riquadro **Remember me** (4), se la non ricordi la password [clicca quì](https://carimali.github.io/wiki/#/docs-it/recover-password).
+Per **aggiungere un nuovo profilo utente**, clicca sul bottone **"Aggiungi nuovo"**.
 
-<kbd>![Aggiungi Nuovo Utente](_images/expCSV.png)</kbd>
+<kbd>![Aggiungi Nuovo Utente](_images/utenti-aggiungi.png)</kbd>
+
+Nella pagina **"Aggiungi Utente"** scegli il ruolo (se "user", "admin", "support" o "dealer"), inserisci "nome", "cognome", "email" e "lingua", quindi premi **"save"** per memorizzare l'inserimento dei dati. 
+
+<kbd>![Compila Dati Nuovo Utente](_images/utenti-aggiungi02.png)</kbd>
+
+
+## Modifica Utente
+
+Per **modificare un utente**, basta cliccare sul suo riquadro e aggiornare i dati. Non dimenticare di salvare per memorizzare tutte le modifiche.
+
 
 ## Disabilita Utente
 
-Al primo accesso devi necessariamente accettare **Privacy Policy** e **Cookie Policy** di CARICare, questo passaggio obbligatorio serve a garantire la riservatezza delle informazioni e a tutelare l’utilizzatore secondo le norme vigenti, non farlo renderà impossibile utilizzare qualsiasi funzionalità dell’applicazione, opzionalmente potete iscrivervi alla newsletter Carimali per rimanere sempre aggiornati sulle novità Carimali e CARIcare.
+Per **disabilitare utente**, clicca sul bottone **"Disabilita utente"** in corrispondenza dell'utente da disabilitare. Un messaggio ti chiederà di confermare la disabilitazione.
 
-<kbd>![Disabilita Utente](_images/expCSV.png)</kbd>
+<kbd>![Compila Dati Nuovo Utente](_images/utenti-disabilita.png)</kbd>
