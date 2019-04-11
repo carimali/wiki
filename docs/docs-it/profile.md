@@ -16,7 +16,7 @@ All'interno della pagina di modifica del profilo, puoi aggiornare i tuoi dati co
 
 Oltre a questo, puoi scegliere quali notifiche ricevere in base alla tipologia di allarme, spuntando la casella corrispondente.
 
-<kbd>![Notifiche da ricevere](_images/Profilo-02a.png)</kbd>
+<kbd>![Notifiche da ricevere](_images/Profilo-03a.png)</kbd>
 
 ## Modifica impostazioni Azienda
 
