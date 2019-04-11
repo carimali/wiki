@@ -23,7 +23,7 @@ Ricordati di premere **"Salva"** per memorizzare tutte le modifiche apportate.
 
 ## Modifica impostazioni Azienda
 
-Scegli il link "**Modifica Impostazioni Azienda**"" puoi assegnare il **supporto utente** selezionandolo dal menù a discesa.
+Scegliendo il link "**Impostazioni dell'azienda**" puoi assegnare il **supporto utente** selezionandolo dal menù a discesa.
 
 <kbd>![Login](_images/Profilo-03-impostazioni-azienda.png)</kbd>
 
