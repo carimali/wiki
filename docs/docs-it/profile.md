@@ -1,31 +1,32 @@
-# Come accedere
+# Profilo
 
-Per raggiungere CARIcare apri il browser del tuo dispositivo nella barra degli indirizzi digita **caricare.carimali.com** o **caricare.tech** e conferma.
+## Impostazioni Profilo Personale
 
-## Autenticazione
+Cliccando sul bottone con tre linee orizzontali puoi accedere al tuo profilo personale.
 
-Una volta digitato caricare.carimali.com o caricare.tech nella barra degli indirizzi ti trovi sulla pagina di **Login**.
-Nelle apposite caselle inserisci **nome utente** (1) e **password** (2), successivamente premi **Log in** (3), puoi memorizzare la password  spuntando il riquadro **Remember me** (4); se la non ricordi la password, [clicca qui](https://carimali.github.io/wiki/#/docs-it/recover-password).
+<kbd>![Profilo Personale](_images/Profilo-01.png)</kbd>
 
-<kbd>![Login](_images/login-1.png)</kbd>
+Nella tua scheda personale scegli il link "**Modifica Profilo**"".
 
-## Policy di utilizzo e Privacy dei dati
+<kbd>![Modifica Profilo](_images/Profilo-02.png)</kbd>
 
-Al primo accesso devi necessariamente accettare **Privacy Policy** e **Cookie Policy** di CARICare, questo passaggio obbligatorio serve a garantire la riservatezza delle informazioni e a tutelare l’utilizzatore secondo le norme vigenti, non farlo renderà impossibile utilizzare qualsiasi funzionalità dell’applicazione, opzionalmente potete iscrivervi alla newsletter Carimali per rimanere sempre aggiornati sulle novità Carimali e CARIcare.
+All'interno della pagina di modifica del profilo, puoi aggiornare i tuoi dati compilando i campi **"nome"**, **"cognome"**, **"email"** o **scegliere la lingua** con la quale sarà visualizzata l'intera piattaforma.
 
-Premi **accetto** per aderire alle *Privacy Policy di CARICare* (1)
+<kbd>![Dati personali](_images/Profilo-02a.png)</kbd>
 
-<kbd>![Policy](_images/policy_privacy_1.png)</kbd>
+Oltre a questo, puoi scegliere quali notifiche ricevere in base alla tipologia di allarme, spuntando la casella corrispondente.
 
+<kbd>![Notifiche da ricevere](_images/Profilo-02a.png)</kbd>
 
-Premi **accetto** per aderire alle *Cookie Policy di CARICare* (2) e successivamente premi **Salva** (3) per momerizzare le tue scelte.
+## Modifica impostazioni Azienda
 
-<kbd>![Cookie](_images/policy_privacy_2.png)</kbd>
+Scegli il link "**Modifica Impostazioni Azienda**"" puoi assegnare il **supporto utente** selezionandolo dal menù a discesa.
 
-***Nota**: in qualsiasi momento puoi modificare le tue preferenze su policy & privacy dal tuo profilo, tuttavia rifiutarne anche solo una tra **Privacy Policy di CARICare** o **Cookie Policy di CARICare** riporterà il vostro account nella condizione di non poter utilizzare qualsiasi funzionalità di CARIcare.*
+<kbd>![Login](_images/Profilo-03-impostazioni-azienda.png)</kbd>
 
+<kbd>![Login](_images/Profilo-03-impostazioni-azienda.png)</kbd>
 
-
+Ricordati di premere "Salva" per memorizzare tutte le modifiche apportate.
 
 
 
