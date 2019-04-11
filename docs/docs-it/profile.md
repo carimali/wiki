@@ -18,6 +18,9 @@ Oltre a questo, puoi scegliere quali notifiche ricevere in base alla tipologia d
 
 <kbd>![Notifiche da ricevere](_images/Profilo-02b.png)</kbd>
 
+Ricordati di premere **"Salva"** per memorizzare tutte le modifiche apportate.
+
+
 ## Modifica impostazioni Azienda
 
 Scegli il link "**Modifica Impostazioni Azienda**"" puoi assegnare il **supporto utente** selezionandolo dal menù a discesa.
@@ -26,7 +29,7 @@ Scegli il link "**Modifica Impostazioni Azienda**"" puoi assegnare il **supporto
 
 <kbd>![Login](_images/Profilo-03-impostazioni-azienda-b.png)</kbd>
 
-Ricordati di premere "Salva" per memorizzare tutte le modifiche apportate.
+Ricordati di premere **"Salva"** per memorizzare tutte le modifiche apportate.
 
 
 
