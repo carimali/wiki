@@ -1,6 +1,6 @@
 # Gestisci Utenti
 
-La sezione **"Utenti"** ti consente di aggiungere o disabilitare un utente.
+La sezione **"Utenti"** ti consente di **aggiungere o disabilitare** un utente.
 
 ## Aggiungi Nuovo Utente
 
