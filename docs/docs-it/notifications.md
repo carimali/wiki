@@ -12,6 +12,9 @@ Ogni notifica riporta il tipo di errore (errore critico, refill o warning) oltre
 
 Cliccando su una singola notifica si accede direttamente alla sezione "**"Errori"** o all'area dedicata alla macchina di cui deve essere aggiornato il firmware.
 
+Una notifica può essere cancellata utilizzando il bottone con l'icona del cestino alla sua destra: noterai che la notifica cancellata sarà presente nella lista delle notifiche **vecchie**.
+
+**Nota:** tutte le notifiche arrivano via email. Ogni errore genera un messaggio email ricevuto dal supporto tecnico di competenza.
 
 
 
