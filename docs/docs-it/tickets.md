@@ -18,7 +18,7 @@ A questo punto hai due modalità di richiesta supporto tecnico:
 
 - **"Modalità Richiamami"**
 
-<kbd>![Richiamami](_images/tickets-03.png)</kbd>
+<kbd>![Richiamami](_images/tickets-03-richiamami.png)</kbd>
 
 
 
