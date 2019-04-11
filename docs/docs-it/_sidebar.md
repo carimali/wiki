@@ -25,10 +25,9 @@
  
 - Fornire assistenza
 
-  - [Tickets](docs-it/tickets.md)
+  - [Supporto tecnico](docs-it/tickets.md)
   - [Notifiche](docs-it/notifications.md)
-  - [Manutenzione preventiva](docs-it/preventive-maintenance.md)
-  
+    
 - Personalizzazione
 
   - [Profilo ](docs-it/profile.md)
