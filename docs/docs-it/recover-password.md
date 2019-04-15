@@ -1,4 +1,4 @@
-##Recupero password
+**Recupero password**
 
 Se hai dimenticato o vuoi modificare la password segui questi passaggi:
 
