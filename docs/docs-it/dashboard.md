@@ -5,11 +5,11 @@ La **Dashboard** ti permette di ottenere una **panoramica sullo stato delle tue 
 
 ## Stato delle tue macchine
 
-Il primo riquadro di visualizzazione riguarda **lo stato attuale delle tue macchine**. In esso è mostrato il numero complessivo delle macchine, il numero totale dei problemi riscontrati, diviso nelle tipologie "critico", "attenzione", "refill" e disconnessa", ognuno nel proprio **"box errore"**.
+Il primo riquadro di visualizzazione riguarda **lo stato attuale delle tue macchine**. In esso è mostrato il numero complessivo delle macchine, il numero totale dei problemi riscontrati, diviso nelle tipologie "critico", "attenzione", "refill" e "disconnessa", ognuno nel proprio **"box errore"**.
 
 <kbd>![Stato Macchine](_images/dashboard-stato-3.png)</kbd>
 
-Cliccando su uno dei **"box errore"** si accede direttamente alla sezione **Errori** (per maggiori dettagli vedi par. [**"Errori"**](https://carimali.github.io/wiki/#/docs-it/errori) )
+Cliccando su uno dei **"box errore"** si accede direttamente alla sezione **Errori** (per maggiori dettagli vedi par. [**"Errori"**](https://carimali.github.io/wiki/#/docs-it/errori) ); in alto trovi i tab per ogni tipologia di errore.
 
 <kbd>![Sezione Errori](_images/dashboard-errori01.png)</kbd>
 
@@ -27,7 +27,7 @@ Cliccando su uno dei **"box errore"** si accede direttamente alla sezione **Erro
  
  ## Contatore dei prodotti venduti
  
- Il grafico relativo al **Contatore dei Prodotti venduti** offre una panoramica delle unità di prodotto vendute nell'ultima settimana. Ogni tipologia di prodotto è contraddistinta da un colore diverso. 
+ Il grafico relativo al **Contatore dei Prodotti venduti** offre una panoramica dei prodotti venduti di tutte le tue macchine negli ultimi sette giorni. Ogni tipologia di prodotto è contraddistinta da un colore diverso. 
  
  
  Cliccando su ogni singola colonna è mostrato il dettaglio dei singoli prodotti venduti in quella giornata.
