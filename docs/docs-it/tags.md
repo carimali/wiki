@@ -8,7 +8,7 @@ Per **creare un nuovo tag** definisci i campi **nome**, **descrizione** e scegli
 
 <kbd>![Crea Nuovo Tag](_images/tags-aggiungi.png)</kbd>
 
-I tag memorizzati appariranno nella lista sottostante, in ordine alfabetico. 
+I tag memorizzati appariranno nella lista dei tags, in ordine alfabetico. 
 
 
 
