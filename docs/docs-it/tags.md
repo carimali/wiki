@@ -6,7 +6,7 @@ La sezione **Tags** ti permette di **creare un'etichetta personalizzata** di ric
 
 Per **creare un nuovo tag** 
 
-![Login](_images/login-1.png)
+<kbd>![Crea Nuovo Tag](_images/tags-aggiungi.png)</kbd>
 
 
 
