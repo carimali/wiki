@@ -10,7 +10,7 @@ Per **creare un nuovo tag** definisci i campi **nome**, **descrizione** e scegli
 
 I tag memorizzati appariranno nella lista dei tags, in ordine alfabetico. 
 
-**Nota:** per approfondire l'argomento dei tags in relazione alle macchine, leggi **"Assegnare un tag alle macchine"** nela capitolo  [**"Macchine"**](https://carimali.github.io/wiki/#/docs-it/machines) 
+**Nota:** per approfondire l'argomento dei tags in relazione alle macchine, leggi **"Assegnare un tag alle macchine"** nel capitolo  [**"Macchine"**](https://carimali.github.io/wiki/#/docs-it/machines) 
 
 
 
