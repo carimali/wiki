@@ -4,11 +4,11 @@ La sezione **Tags** ti permette di **creare un'etichetta personalizzata** di ric
 
 ## Crea un nuovo Tag
 
-Per **creare un nuovo tag** 
+Per **creare un nuovo tag** definisci i campi **nome**, **descrizione** e scegli il **colore** di riferimento per il tuo tag, quindi premi su **"Aggiungi nuovo tag"** per finalizzare l'inserimento. 
 
 <kbd>![Crea Nuovo Tag](_images/tags-aggiungi.png)</kbd>
 
-
+I tag memorizzati appariranno nella lista sottostante, in ordine alfabetico. 
 
 
 
