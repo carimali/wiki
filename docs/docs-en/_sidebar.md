@@ -1,37 +1,37 @@
 - Primo accesso
 
-  - [Requisiti](docs-it/requirement.md)
-  - [Come accedere](docs-it/quickstart.md)
-  - [Connettere le macchine a CARIcare](docs-it/connect-machines.md)
-  - [Recupero password](docs-it/recover-password.md)
+  - [Requisiti](docs-en/requirement.md)
+  - [Come accedere](docs-en/quickstart.md)
+  - [Connettere le macchine a CARIcare](docs-en/connect-machines.md)
+  - [Recupero password](docs-en/recover-password.md)
   
 - Monitoraggio
 
-  - [Dashboard](docs-it/dashboard.md)
-  - [Errori](docs-it/errori.md)
+  - [Dashboard](docs-en/dashboard.md)
+  - [Errori](docs-en/errori.md)
   
 - Macchine
 
-  - [Le tue macchine](docs-it/machines.md)
-  - [Stato della macchina](docs-it/machine.md)
+  - [Le tue macchine](docs-en/machines.md)
+  - [Stato della macchina](docs-en/machine.md)
 
 - Clienti
 
-  - [Gestisci Clienti](docs-it/customers.md)
+  - [Gestisci Clienti](docs-en/customers.md)
   
 - Utenti
 
-  - [Gestisci Utenti](docs-it/users.md)
+  - [Gestisci Utenti](docs-en/users.md)
  
 - Fornire assistenza
 
-  - [Supporto tecnico](docs-it/tickets.md)
-  - [Notifiche](docs-it/notifications.md)
+  - [Supporto tecnico](docs-en/tickets.md)
+  - [Notifiche](docs-en/notifications.md)
     
 - Personalizzazione
 
-  - [Profilo ](docs-it/profile.md)
-  - [Tags](docs-it/tags.md)
+  - [Profilo ](docs-en/profile.md)
+  - [Tags](docs-en/tags.md)
 
 - API (accedi ai tuoi dati)
 

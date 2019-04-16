@@ -1,29 +1,38 @@
-- Getting started
+- Primo accesso
 
-  - [Quick start](docs-en/quickstart.md)
-  - [Writing more pages](docs-en/more-pages.md)
-  - [Custom navbar](docs-en/custom-navbar.md)
-  - [Cover page](docs-en/cover.md)
-  - [Post with images](docs-en/post-with-images.md)
+  - [Requisiti](docs-en/requirement.md)
+  - [Come accedere](docs-en/quickstart.md)
+  - [Connettere le macchine a CARIcare](docs-en/connect-machines.md)
+  - [Recupero password](docs-en/recover-password.md)
+  
+- Monitoraggio
 
-- Customization
+  - [Dashboard](docs-en/dashboard.md)
+  - [Errori](docs-en/errori.md)
+  
+- Macchine
 
-  - [Configuration](docs-en/configuration.md)
-  - [Themes](docs-en/themes.md)
-  - [List of Plugins](docs-en/plugins.md)
-  - [Write a Plugin](docs-en/write-a-plugin.md)
-  - [Markdown configuration](docs-en/markdown.md)
-  - [Language highlighting](docs-en/language-highlight.md)
+  - [Le tue macchine](docs-en/machines.md)
+  - [Stato della macchina](docs-en/machine.md)
 
-- Guide
+- Clienti
 
-  - [Deploy](docs-en/deploy.md)
-  - [Helpers](docs-en/helpers.md)
-  - [Vue compatibility](docs-en/vue.md)
-  - [CDN](docs-en/cdn.md)
-  - [Offline Mode(PWA)](docs-en/pwa.md)
-  - [Server-Side Rendering(SSR)](docs-en/ssr.md)
-  - [Embed Files](docs-en/embed-files.md)
+  - [Gestisci Clienti](docs-en/customers.md)
+  
+- Utenti
 
-- [Awesome docsify](awesome.md)
-- [Changelog](changelog.md)
+  - [Gestisci Utenti](docs-en/users.md)
+ 
+- Fornire assistenza
+
+  - [Supporto tecnico](docs-en/tickets.md)
+  - [Notifiche](docs-en/notifications.md)
+    
+- Personalizzazione
+
+  - [Profilo ](docs-en/profile.md)
+  - [Tags](docs-en/tags.md)
+
+- API (accedi ai tuoi dati)
+
+- Changelog
