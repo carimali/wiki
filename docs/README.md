@@ -1,36 +1,32 @@
-## Che cos'è CARIcare
+## What is CARIcare
 
-CARIcare è una piattaforma di gestione macchine da caffè online che Carimali mette a tua disposizione in quanto utilizzatore dei suoi prodotti; le funzionalità offerte variano a seconda del ruolo garantito dalle credenziali di accesso in tuo possesso. Puoi usare CARIcare su qualsiasi dispositivo smartphone, tablet o pc connesso ad internet.
+CARIcare is an **online coffee machine management platform** that Carimali makes available to you as a user of its products; the provided features vary according to the role guaranteed by your own login credentials. **CARIcare is available to any connected devices** (smartphone, tablet, pc…).
 
-## Cosa fa CARIcare
+## What does CARIcare do?
 
-- **Monitoraggio**: CARIcare ti consente di visualizzare in tempo reale le informazioni relative alle tue macchine, le erogazioni prodotto, lo stato (connesso/disconnesso) e le notifiche di errore; ti fornisce inoltre un controllo specifico sul caffè in grani con la possibilità di impostare una soglia di consumo e ricevere notifica/e-mail quando quest’ultima viene raggiunta.
+- **Monitoring**: CARIcare enables you to view real-time information on your coffee machines, product dispenses, status (connected / disconnected) and error notifications; it also provides you with a specific check on coffee beans with the option of setting a consumption threshold and receiving notification / e-mail when it is reached.
 
-- **Controllo remoto**: CARIcare ti consente di modificare tutti i parametri delle ricette presenti in macchina e, se previsto dalla configurazione, il prezzo e il tipo di bicchiere; ti permette inoltre di creare/importare/esportare gruppi di ricette con la possibilità di replicarle su altre macchine simili, di cambiare la lingua della macchina e spegnerla o riavviarla.
+- **Remote control**: CARIcare allows you to change all the parameters of the recipes in the coffee machine and, if required by configuration, the price and type of glass; it also allows you to create / import / export groups of recipes with the option of replicating them on other similar machines, changing the machine language and turning it off or restarting it.
 
-- **Assistenza**: CARIcare è in grado di inviare, attraverso notifiche ed e-mail automatiche, gli avvisi o gli errori delle macchine ad un membro specifico del tuo personale: avrai così la possibilità di ripartire le notifiche per tipo: guasto, anomalia lieve, mancanza di prodotto. Puoi creare autonomamente credenziali di accesso a CARIcare per i tuoi utenti dando loro la possibilità di aprire un ticket di assistenza facendo riferimento a una macchina.
+- **Technical Support**: CARIcare can send automated error notifications via e-mail, to a specific member of your staff: you have the option to sort notifications by kind: “serious errors”, “warning”, “refill”. You can create on your own login credentials to CARIcare for your users enabling them to open a support ticket referring to a machine.
 
-## Funzionalità
+## Features
 
-Le funzionalità a disposizione sono utilizzabili con la stessa semplicità sia dai possessori di una singola macchina Carimali che da coloro che ne possiedono un gruppo; infatti, CARIcare è provvisto di un’interfaccia di controllo ottimizzata per la selezione multipla.
+The available features can be used easily by both single machine and group machine owners: in fact, CARIcare is provided with a control interface optimized for the multiple selection.
 
-Per rendere intuitivo, efficace e veloce l’utilizzo della piattaforma, l’interfaccia CARIcare ti mette a disposizione aree specifiche così sinteticamente organizzate:
+To make platform usability intuitive, effective and fast, CARIcare provides you with the following specific areas:
 
-- **Dashboard**: tre cruscotti riepilogativi, pensati in modo che tu possa visualizzare velocemente l’andamento globale del business e delle macchine, erogazione prodotti, installazioni/disinstallazioni macchine e riepilogo funzionale delle stesse: guasti, mancanze prodotto, notifiche varie.
-- **Macchine**: ti consente di gestire/organizzare/assegnare le macchine attraverso tutte le funzionalità previste, facilitate dalla possibilità di creare selezioni multiple e utilizzare strumenti di ricerca.
-- **Tickets**: crea/gestisci i tickets proprio come in un sistema di assistenza tradizionale, potrai coinvolgere qualsiasi utente CARIcare nella visione o anche nel processo di risoluzione del problema, aiutati consultando i tuoi ticket già risoilti nella sezione storico Tickets.
-- **Notifiche**: area di riepilogo che permette di gestire le anomalie ancora da risolvere o di generare un ticket partendo dalle stesse.
-- **Clienti**: consente di creare un’entità Cliente in modo da assegnare loro successivamente le macchine da caffè e configurare eventualmente un supporto tecnico e/o rifornimento prodotto per lo stesso.
-- **Utenti**: consente di creare un accesso CARIcare a membri del proprio staff e non, specificandone il ruolo.
-- **Tags**: consente di creare tags personalizzate con cui “taggare” i propri prodotti: i tags saranno poi utili per ricerche e visualizzazioni personalizzate.
-- **Impostazioni** / Profilo: consente di specificare le preferenze di utilizzo della piattaforma quali: lingua, se rivevere o no notifiche via mail, policy e privacy; in questa sezione è conservata anche la vostra chiave personale API.
+- **Dashboard**: it provides a graphical visualization of the coffee machines business progress: state of your machines, installed/recalled machines and product vending data.
+- **Machines**: it allows you to manage, organize and assign machines by all provided features, thanks to the option of creating multiple selections and using search tools.
+- **Tickets**: you can create and manage technical support tickets just like a traditional ticketing system; this section allows you to involve any CARIcare user in the process of problem solving and consulting the tickets history list.
+- **Notifications**: you can create and manage technical support tickets just like a traditional ticketing system; this section allows you to involve any CARIcare user in the process of problem solving and consulting the tickets history list.
+- **Customers**: you can create Customer profiles in order to assign them coffee machines. In this section you can configure the technical support and product supply.
+- **Users**: it lets you create CARIcare accounts, specifying the role of each account.
+- **Tags**: it allows you to create custom tags to identify a specific product; tags are useful for searches and custom views.
+- **Settings**: this section allows You to set the platform user preferences such as language, email notifications, policy and privacy; your personal API key is also given in this section.
 
-CARIcare è dotato di un sistema di API, che, previo inserimento chiave personale, consente di inviare/esportare tutti i vostri dati verso altri sistemi o più semplicemente salvarli sui vostri dispositivi.
+CARIcare shall be provided with an API system that, by entering your personal key, allows you to send and export all your data to other systems or simply save them on your devices.
 
-## Cosa rende unico CARIcare 
+## What makes CARIcare unique 
 
-CARIcare è stato progettato per essere un portale di servizi flessibile; gli utilizzatori possono infatti modellarne la struttura, il flusso delle informazioni e delle funzionalità creando altri attori, ruoli e permessi specifici, garantendo ad alcuni un accesso base e ad altri la possibilità di creare a loro volta nuove strutture. Questo rende CARIcare e le sue funzionalità potenzialmente utilizzabili con la stessa qualità percepita da chiunque all'interno di un determinato modello di business.
-
-
-
-
+CARIcare was geared to be an agile service portal; users can customize the structure, the flow of information and features by creating other accounts, specific roles and permissions, allowing some basic access and others the option of creating new configuration in turn. This makes CARIcare and its features potentially usable by anyone within a business model, with the same perceived quality.
