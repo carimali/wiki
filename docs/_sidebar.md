@@ -1,38 +1,38 @@
-- Primo accesso
+- First Login
 
-  - [Requisiti](docs-en/requirement.md)
-  - [Come accedere](docs-en/quickstart.md)
-  - [Connettere le macchine a CARIcare](docs-en/connect-machines.md)
-  - [Recupero password](docs-en/recover-password.md)
+  - [Requirement](docs-en/requirement.md)
+  - [Quickstart](docs-en/quickstart.md)
+  - [Connecting Machines](docs-en/connect-machines.md)
+  - [Recover password](docs-en/recover-password.md)
   
-- Monitoraggio
+- Monitoring
 
   - [Dashboard](docs-en/dashboard.md)
-  - [Errori](docs-en/errori.md)
+  - [Errors](docs-en/errori.md)
   
-- Macchine
+- Machines
 
-  - [Le tue macchine](docs-en/machines.md)
-  - [Stato della macchina](docs-en/machine.md)
+  - [Your Machines](docs-en/machines.md)
+  - [State of your Machine](docs-en/machine.md)
 
-- Clienti
+- Customers
 
-  - [Gestisci Clienti](docs-en/customers.md)
+  - [Manage Customers](docs-en/customers.md)
   
-- Utenti
+- Users
 
-  - [Gestisci Utenti](docs-en/users.md)
+  - [Manage Users](docs-en/users.md)
  
-- Fornire assistenza
+- Technical Support
 
   - [Supporto tecnico](docs-en/tickets.md)
   - [Notifiche](docs-en/notifications.md)
     
-- Personalizzazione
+- Settings
 
   - [Profilo ](docs-en/profile.md)
   - [Tags](docs-en/tags.md)
 
-- API (accedi ai tuoi dati)
+- API (access your data)
 
 - Changelog
