@@ -25,12 +25,12 @@
  
 - Technical Support
 
-  - [Supporto tecnico](docs-en/tickets.md)
-  - [Notifiche](docs-en/notifications.md)
+  - [Tickets](docs-en/tickets.md)
+  - [Notifications](docs-en/notifications.md)
     
 - Settings
 
-  - [Profilo ](docs-en/profile.md)
+  - [Profile](docs-en/profile.md)
   - [Tags](docs-en/tags.md)
 
 - API (access your data)
