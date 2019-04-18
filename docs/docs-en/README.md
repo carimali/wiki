@@ -1,4 +1,4 @@
-## Che cos'è CARIcare
+## What is CARIcare
 
 CARIcare una piattaforma di gestione macchine da caffè online che Carimali mette a tua disposizione in quanto utilizzatore dei suoi prodotti, le funzionalità offerte variano a seconda del ruolo garantito alle credenziali di accesso in tuo possesso, puoi usare CARIcare su qualsiasi dispositivo smartphone, tablet, pc connesso ad internet.
 
