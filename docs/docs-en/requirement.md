@@ -1,11 +1,10 @@
-# Requisiti
+# Requirement
 
-Per accedere a CARIcare hai bisogno di **credenziali di accesso** e un **dispositivo** in grado di **connettersi ad internet**, per qualsiasi dubbio o per ulteriori informazioni scrivi a ict@carimali.com.
+To access CARIcare you need credentials and a device that can connect to the Internet. For any questions please contact ict@carimali.com.
 
-## Credenziali di accesso
+## Credentials
 
-Le ricevi tramite una mail da caricare@carimali.com, l'attivazione va richiesta al tuo contatto di riferimento, i clienti diretti **<span style="color:#2A8BDD">Carimali</span>** devono scrivere al commerciale di riferimento o a business@carimali.com.
-Nella mail sarà specificato il *ruolo*, il *nome della società* e la *password*.
+You will receive your credentials via email from caricare@carimali.com. Activation can be requested to your contact person. If you are a **<span style="color:#2A8BDD">Carimali</span>** customer, you can contact your sales agent or send an email to business@carimali.com: please specify *role*, *company* name and *password* in the mail body.
 
 ```ESEMPIO
 Hello,
@@ -13,16 +12,16 @@ an account with role [ADMIN] for [customer name] was created.
 Your password is: [1Hzv516gJZ]
 ```
 
-Se hai richiesto l'attivazione, ti è staco confermato l'invio delle credenziali e non trovi l'email nella posta in entrata, controlla le cartelle, potrebbe trovarsi nella cartella Spam, Posta indesiderata, Cestino, Elementi eliminati o Archivio.
+If You have requested activation and it has been confirmed that credentials have been sent but you can’t find the email in your inbox, please check spam folder, junk mail, trash, deleted items or archive.
 
-Ti suggeriamo di aggiungere la mail caricare@carimali.com all'elenco di mittenti attendibili per ricevere senza problemi tutti i messaggi da parte del sistema CARIcare.
+I suggest You add caricare@carimali.com to the safe sender list in order to receive CARIcare emails correctly.
 
-Se ancora non riesci a trovare l'email contatta il tuo contatto di riferimento per ottenere un nuvo invio.
+If you still can't find the email, please contact your reference person to get a new one.
 
-## Connessione e dispositivo
+## Connection and devices
 
-Essendo CARIcare una piattaforma online non esiste modo di utilizzarla se non connessi ad internet, non è necessaria una banda larga, tuttavia migliore sarà la qualità della connessione tanto migliore sarà l'esperinza di utilizzo.
+Since CARIcare is an online platform, you must have a device that can connect to the Internet; the better the connection quality is, the better the user experience.
 
-Per visualizzare CARIcare usa un dispositivo (*personal computer, palmare, smartphone*) con uno schermo grande almeno 4" e un browser installato, l’applicazione è responsiva e ottimizzata per smartphone tuttavia più grande sarà lo schermo migliore sarà l’esperienza di utilizzo.
+To properly view CARIcare, please use a device with a display on a screen width of minimum 4 inches and an installed browser; CARIcare is a responsive application and mobile optimized; however, the bigger the screen size is, the better the user experience.
 
 
