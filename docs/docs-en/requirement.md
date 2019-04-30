@@ -6,7 +6,7 @@ To access CARIcare you need credentials and a device that can connect to the Int
 
 You will receive your credentials via email from caricare@carimali.com. Activation can be requested to your contact person. If you are a **<span style="color:#2A8BDD">Carimali</span>** customer, you can contact your sales agent or send an email to business@carimali.com: please specify *role*, *company* name and *password* in the mail body.
 
-```ESEMPIO
+```EXAMPLE
 Hello,
 an account with role [ADMIN] for [customer name] was created.
 Your password is: [1Hzv516gJZ]
