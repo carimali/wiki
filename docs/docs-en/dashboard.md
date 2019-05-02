@@ -5,7 +5,7 @@
 
 ## The state of your machines
 
-The **"state of your machines"** dashboard section shows **the total number of your machines**, the number of encountered problems including **"critical"**, **"warning", **"refill"** errors and the number of **disconnected machines**.
+The **"state of your machines"** dashboard section shows **the total number of your machines**, **the number of encountered problems** including **"critical"**, **"warning"**, **"refill"** errors and **the number of disconnected machines**.
 
 
 <kbd>![State of Your Machines](_images/dashboard-stato-3.png)</kbd>
