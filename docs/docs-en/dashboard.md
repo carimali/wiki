@@ -12,7 +12,7 @@ The **"state of your machines"** dashboard section shows **the total number of y
 
 By clicking one of **"error panes"**, you access the **Errors** section (for further details see [**"Errors"**](https://carimali.github.io/wiki/#/docs-en/errori) ); at the top of the page, you can find a tab for each error type.
 
-<kbd>![Sezione Errori](_images/dashboard-errori01.png)</kbd>
+<kbd>![Sezione Errori](_images/dashboard-errors01.png)</kbd>
 
      
 ## Installed/recalled machines
