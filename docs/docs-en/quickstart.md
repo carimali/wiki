@@ -1,27 +1,29 @@
-# Come accedere
+# How to access
 
-Per raggiungere CARIcare apri il browser del tuo dispositivo nella barra degli indirizzi digita caricare.carimali.com o caricare.tech e conferma.
+To reach CARIcare open browser of your device then and type caricare.carimali.com or caricare.tech.
 
-## Autenticazione
+## Authentication
 
-Una volta digitato caricare.carimali.com o caricare.tech nella barra degli indirizzi ti trovi sulla pagina di **Login**.
-Nelle apposite caselle inserisci **nome utente** (1) e **password** (2), successivamente premi **Log in** (3), è possibile memorizzare la password  spuntando il riquadro **Remember me** (4), se la non ricordi la password [clicca qui](https://carimali.github.io/wiki/#/docs-it/recover-password).
+On the **Login** page, insert **"user name"**  (1) and **password** (2), then press **Log in** button (3). You can keep the password by checking the **Remember me** box (4). If you forgot your password, [click here](https://carimali.github.io/wiki/#/docs-it/recover-password).
 
 <kbd>![Login](_images/login-1.png)</kbd>
 
-## Policy di utilizzo e Privacy dei dati
+## Terms of use and Privacy Policies
 
-Al primo accesso devi necessariamente accettare **Privacy Policy** e **Cookie Policy** di CARICare, questo passaggio obbligatorio serve a garantire la riservatezza delle informazioni e a tutelare l’utilizzatore secondo le norme vigenti, non farlo renderà impossibile utilizzare qualsiasi funzionalità dell’applicazione, opzionalmente potete iscrivervi alla newsletter Carimali per rimanere sempre aggiornati sulle novità Carimali e CARIcare.
+At the first login, accepting Privacy and Coockie Policies is necessary to ensure the confidentiality of information according to the rules. Failure to do so is going to make it impossibile to use the application features.
+You can subscribe to the Newsletter to keep yourself updated about the Carimali and CARIcare news. 
 
-Premi **accetto** per aderire alle *Privacy Policy di CARICare* (1)
+Press **accept** to accepting the CARICare *Privacy Policy* (1)
 
 <kbd>![Policy](_images/policy_privacy_1.png)</kbd>
 
-Premi **accetto** per aderire alle *Cookie Policy di CARICare* (2) e successivamente premi **Salva** (3) per momerizzare le tue scelte
+Press **accept** to accepting the CARICare *Cookie Policy* (2) then press **Save** (3) to keep your prefencies.
 
 <kbd>![Cookie](_images/policy_privacy_2.png)</kbd>
 
-**Nota:** in qualsiasi momento puoi modificare le tue preferenze su policy & privacy dal tuo profilo, tuttavia rifiutarne anche solo una tra **Privacy Policy di CARICare** o **Cookie Policy di CARICare** riporterà il vostro account nella condizione di non poter utilizzare qualsiasi funzionalità di CARIcare.
+**Please Note:** You can change your Privacy and Cookie Policies preferences at any time from your account. However, rejecting one of them will make it impossibile to use the application features.
+
+
 
 
 
