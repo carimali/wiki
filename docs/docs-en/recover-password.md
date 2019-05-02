@@ -1,4 +1,4 @@
-# Recupero password
+# Recover password
 
 If you forgot your password or you want to change it, follow these steps:	
 
