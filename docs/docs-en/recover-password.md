@@ -2,7 +2,7 @@
 
 If you forgot your password or you want to change it, follow these steps:	
 
-- type the following address on your device browser: https://caricare.carimali.com/login or [click here](https://caricare.carimali.com/login) in order to access the CARIcare **Login** page.
+- type the following address on your device browser: https://caricare.carimali.com/login or [click here](https://caricare.carimali.com/login) in order to access the CARIcare **Login** page;
 
 - press **Forgot Password** link as shown below:
 
