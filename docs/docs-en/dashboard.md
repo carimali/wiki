@@ -10,7 +10,7 @@ The **"state of your machines"** dashboard section shows **the total number of y
 
 <kbd>![State of Your Machines](_images/dashboard-stato-3.png)</kbd>
 
-By clicking one of **"error panes"**, you access the **Errors** section (for further details see [**"Errors"**](https://carimali.github.io/wiki/#/docs-en/errori); at the top of the page, you can find a tab for each error type.
+By clicking one of **"error panes"**, you access the **Errors** section (for further details see [**"Errors"**](https://carimali.github.io/wiki/#/docs-en/errori) ); at the top of the page, you can find a tab for each error type.
 
 <kbd>![Sezione Errori](_images/dashboard-errori01.png)</kbd>
 
