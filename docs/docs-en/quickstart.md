@@ -4,7 +4,7 @@ To reach CARIcare, open the browser of your device then type caricare.carimali.c
 
 ## Authentication
 
-On the **Login** page, insert **"user name"**  (1) and **password** (2), then press **Log in** button (3). You can keep the password by checking the **Remember me** box (4). If you forgot your password, [click here](https://carimali.github.io/wiki/#/docs-it/recover-password).
+On the **Login** page, insert **"user name"**  (1) and **password** (2), then press **Log in** button (3). You can keep the password by checking the **"Remember me"** box (4). If you forgot your password, [click here](https://carimali.github.io/wiki/#/docs-it/recover-password).
 
 <kbd>![Login](_images/login-1.png)</kbd>
 
