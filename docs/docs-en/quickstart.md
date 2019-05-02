@@ -10,7 +10,7 @@ On the **Login** page, insert **"user name"**  (1) and **"password"** (2), then 
 
 ## Terms of use and Privacy Policies
 
-At the first login, accepting Privacy and Coockie Policies is necessary to ensure the confidentiality of information according to the rules. Failure to do so is going to make it impossibile to use the application features.
+At the first login, accepting Privacy and Cookie Policies is necessary to ensure the confidentiality of information according to the rules. Failure to do so is going to make it impossibile to use the application features.
 You can subscribe to the Newsletter to keep yourself updated about the Carimali and CARIcare news. 
 
 Press **"accept"** to accepting the CARICare *Privacy Policy* 
