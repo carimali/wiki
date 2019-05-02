@@ -1,6 +1,6 @@
 # How to access
 
-To reach CARIcare open browser of your device then and type caricare.carimali.com or caricare.tech.
+To reach CARIcare, open the browser of your device then and type caricare.carimali.com or caricare.tech.
 
 ## Authentication
 
