@@ -19,7 +19,7 @@ To make platform usability intuitive, effective and fast, CARIcare provides you 
 - **Dashboard**: it provides a graphical visualization of the coffee machines business progress: state of your machines, installed/recalled machines and product vending data.
 - **Machines**: it allows you to manage, organize and assign machines by all provided features, thanks to the option of creating multiple selections and using search tools.
 - **Tickets**: you can create and manage technical support tickets just like a traditional ticketing system; this section allows you to involve any CARIcare user in the process of problem solving and consulting the tickets history list.
-- **Notifications**: you can create and manage technical support tickets just like a traditional ticketing system; this section allows you to involve any CARIcare user in the process of problem solving and consulting the tickets history list.
+- **Notifications**: this area allows you to display and manage errors still to be fixed or to create a technical support ticket starting by them.
 - **Customers**: you can create Customer profiles in order to assign them coffee machines. In this section you can configure the technical support and product supply.
 - **Users**: it lets you create CARIcare accounts, specifying the role of each account.
 - **Tags**: it allows you to create custom tags to identify a specific product; tags are useful for searches and custom views.
