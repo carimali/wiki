@@ -6,7 +6,7 @@ In this section You can **display**, **add** or **disable** customers.
 
 In order **to add a new customer** click **"Add new"** button. 
 
-<kbd>![New Customer](_images/customers-01.png)</kbd>
+<kbd>![New Customer](_images/customers-01-eng.png)</kbd>
 
 On the "" fill in the fields **"name"** and **"email"**. Choose a technical support to assign to customer by selecting from "" drop-down menu.
 
