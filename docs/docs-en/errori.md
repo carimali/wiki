@@ -1,28 +1,28 @@
-# Visualizzazione Errori
+# Error Messages
 
-In questa sezione abbiamo un **dettaglio degli errori presenti in una data macchina**.
-Ogni messaggio di errore presenta il **numero della macchina, la tipologia di errore (es. il simbolo "<...>" indica che la macchina è disconnessa) e quando si è verificato**.
+**Errors section** shows you the errors on the machine. 
+An error message contains **the machine number**, **the error type** (eg. the "<...>" symbol indicates that machine is disconnected) and **when it occured**.
 
-<kbd>![Sezione Errori](_images/errori01.png)</kbd>
+<kbd>![Errors Section](_images/errori01.png)</kbd>
 
-Puoi scegliere se visualizzare tutti gli errori o un solo tipo di errore cliccando sul simbolo corrispondente della barra in alto.
-
-
-<kbd>![Barra Errori](_images/errori02.png)</kbd>
+You can choose to display all errors or just a type of error by clicking the respective symbol in the top bar.
 
 
-
-## Segnalazione Errori
-
-Per **segnalare un errore** clicca sul bottone **"crea ticket"** e accedi alla **pagina di segnalazione**.
+<kbd>![Errors bar](_images/errori02.png)</kbd>
 
 
-<kbd>![Crea ticket](_images/errori-ticket.png)</kbd>
 
-Il ticket mostra il destinatario del supporto, oltre all'argomento della segnalazione e alla data di creazione.
+## Error Reporting
 
-<kbd>![Pagina Segnala](_images/errori03.png)</kbd>
+In order **to report an error**, click **"create ticket"** button to access the **error reporting** page.
 
 
-Cliccando sul bottone **"opzioni"** è mostrato il box della macchina oggetto della segnalazione.
+<kbd>![Create ticket](_images/errori-ticket.png)</kbd>
+
+The ticket shows **the support name**, **the error topic** and **the creation date** of the ticket.
+
+<kbd>![Reporting Page](_images/errori03.png)</kbd>
+
+By clicking the **"Options"** button you can view the pane of the machine model to be reported.
+
 
