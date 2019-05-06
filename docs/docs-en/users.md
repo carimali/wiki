@@ -1,25 +1,25 @@
-# Gestisci Utenti
+# Menage users
 
-La sezione **"Utenti"** ti consente di **aggiungere o disabilitare** un utente.
+**"Users"** section allows you to **add or to disable** users.
 
-## Aggiungi Nuovo Utente
+## Add new user
 
-Per **aggiungere un nuovo profilo utente**, clicca sul bottone **"Aggiungi nuovo"**.
+In order **to add a new user profile**, click **"Add new"**.
 
-<kbd>![Aggiungi Nuovo Utente](_images/utenti-aggiungi.png)</kbd>
+<kbd>![Add New User](_images/utenti-aggiungi.png)</kbd>
 
-Nella pagina **"Aggiungi Utente"** scegli il ruolo (se "user", "admin", "support" o "dealer"), inserisci "nome", "cognome", "email" e "lingua", quindi premi **"save"** per memorizzare l'inserimento dei dati. 
+On the **"Add user"** choose the **role** (Eg. "user", "admin", "support" or "dealer"); enter "name", "surname", "email" and "language", then click **"save"** to keep your prefencies. 
 
-<kbd>![Compila Dati Nuovo Utente](_images/utenti-aggiungi02.png)</kbd>
-
-
-## Modifica Utente
-
-Per **modificare un utente**, basta cliccare sul suo riquadro e aggiornare i dati. Non dimenticare di salvare per memorizzare tutte le modifiche.
+<kbd>![New User Data](_images/utenti-aggiungi02.png)</kbd>
 
 
-## Disabilita Utente
+## Modify User
 
-Per **disabilitare utente**, clicca sul bottone **"Disabilita utente"** in corrispondenza dell'utente da disabilitare. Un messaggio ti chiederà di confermare la disabilitazione.
+If you want to **modify a user's data**, click on his pane and update data. Don't forget to click "Save" to keep your prefencies.
+
+
+## Disable User
+
+In order **to disable an user**, click the corresponding **"Disable user"** button next to the user to disable then you will be asked to confirm the deactivation. 
 
 <kbd>![Compila Dati Nuovo Utente](_images/utenti-disabilita.png)</kbd>
