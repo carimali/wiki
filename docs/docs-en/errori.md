@@ -21,7 +21,7 @@ In order **to report an error**, click **"Create ticket"** button to access the 
 
 The ticket shows **the support name**, **the error topic** and **the creation date** of the ticket.
 
-<kbd>![Reporting Page](_images/errors03.png)</kbd>
+<kbd>![Reporting Page](_images/errors03.png)</kbd> 
 
 By clicking the **"Options"** button you can view the pane of the machine model to be reported.
 
