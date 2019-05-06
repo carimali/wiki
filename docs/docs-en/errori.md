@@ -3,7 +3,7 @@
 **Errors section** shows you the errors on the machine. 
 An error message contains **the machine number**, **the error type** (eg. the "<...>" symbol indicates that machine is disconnected) and **when it occured**.
 
-<kbd>![Errors Section](_images/errori01.png)</kbd>
+<kbd>![Errors Section](_images/errors01.png)</kbd>
 
 You can choose to display all errors or just a type of error by clicking the respective symbol in the top bar.
 
