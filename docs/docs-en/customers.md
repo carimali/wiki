@@ -21,7 +21,7 @@ Premi "Salva" per memorizzare i dati inseriti.
 
 If you want to disable a customer click "Disable" button.
 
-<kbd>![Policy](_images/customers-disabilita.png)</kbd>
+<kbd>![Policy](_images/customers-disable.png)</kbd>
 
 
 
