@@ -14,7 +14,7 @@ You can choose to display all errors or just a type of error by clicking the res
 
 ## Error Reporting
 
-In order **to report an error**, click **"create ticket"** button to access the **error reporting** page.
+In order **to report an error**, click **"Create ticket"** button to access the **error reporting** page.
 
 
 <kbd>![Create ticket](_images/errors-ticket.png)</kbd>
