@@ -1,12 +1,15 @@
-# Gestisci clienti
+# Manage Customers
 
-In questa sezione puoi **visualizzare**, **aggiungere** o **disabilitare** i clienti.
+In this section You can **display**, **add** or **disable** customers.
 
-## Aggiungi un nuovo cliente
+## Add new Customer
 
-Per **aggiungere un nuovo cliente** premi sul bottone **"Aggiungi nuovo"**. 
+In order **to add a new customer** click **"Add new"** button. 
 
-<kbd>![Nuovo cliente](_images/customers-01.png)</kbd>
+<kbd>![New Customer](_images/customers-01.png)</kbd>
+
+On the "" fill in the fields **"name"** and **"email"**. Choose a technical support to assign to customer by selecting from "" drop-down menu.
+
 
 Nella pagina "Aggiungi cliente/Crea cliente collegato a te" completa i campi **"nome"** ed **"email"**. Scegli un supporto da assegnare al cliente, selezionandolo dal menù a tendina **"supporto utente"**; *inserire parte su utente distributore*. 
 Premi "Salva" per memorizzare i dati inseriti.
@@ -14,9 +17,9 @@ Premi "Salva" per memorizzare i dati inseriti.
 <kbd>![Campi Nuovo Cliente](_images/customers-03-new.png)</kbd>
 
 
-## Disabilita cliente
+## Disable Customer
 
-Per disabilitare un cliente premi sul bottone "Disabilita".
+If you want to disable a customer click "Disable" button.
 
 <kbd>![Policy](_images/customers-disabilita.png)</kbd>
 
