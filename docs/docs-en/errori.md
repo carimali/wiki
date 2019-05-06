@@ -8,7 +8,7 @@ An error message contains **the machine number**, **the error type** (eg. the "<
 You can choose to display all errors or just a type of error by clicking the respective symbol in the top bar.
 
 
-<kbd>![Errors bar](_images/errori02.png)</kbd>
+<kbd>![Errors bar](_images/errors02.png)</kbd>
 
 
 
@@ -17,7 +17,7 @@ You can choose to display all errors or just a type of error by clicking the res
 In order **to report an error**, click **"create ticket"** button to access the **error reporting** page.
 
 
-<kbd>![Create ticket](_images/errori-ticket.png)</kbd>
+<kbd>![Create ticket](_images/errors-ticket.png)</kbd>
 
 The ticket shows **the support name**, **the error topic** and **the creation date** of the ticket.
 
