@@ -10,7 +10,7 @@ In order **to add a new user profile**, click **"Add new"**.
 
 On the **"Add user"** page choose the **role** (Eg. "user", "admin", "support" or "dealer"); enter **"name"**, **"surname"**, **"email"** and "language", then click **"save"** to keep your prefencies. 
 
-<kbd>![New User Data](_images/users-add2.png)</kbd>
+<kbd>![New User Data](_images/users-add-2.png)</kbd>
 
 
 ## Modify User
