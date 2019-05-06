@@ -14,7 +14,7 @@ On the "" fill in the fields **"name"** and **"email"**. Choose a technical supp
 Nella pagina "Aggiungi cliente/Crea cliente collegato a te" completa i campi **"nome"** ed **"email"**. Scegli un supporto da assegnare al cliente, selezionandolo dal menù a tendina **"supporto utente"**; *inserire parte su utente distributore*. 
 Premi "Salva" per memorizzare i dati inseriti.
 
-<kbd>![Campi Nuovo Cliente](_images/customers-03-new.png)</kbd>
+<kbd>![Campi Nuovo Cliente](_images/customers-03-eng.png)</kbd>
 
 
 ## Disable Customer
