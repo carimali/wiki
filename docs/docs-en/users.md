@@ -20,6 +20,6 @@ If you want to **modify a user's data**, click on his pane and update data. Don'
 
 ## Disable User
 
-In order **to disable a user**, click the corresponding **"Disable user"** button next to the user to disable then you will be asked to confirm the deactivation. 
+In order **to disable a user**, click the corresponding **"Disable user"** button then you will be asked to confirm the deactivation. 
 
 <kbd>![Disable User](_images/users-disable.png)</kbd>
