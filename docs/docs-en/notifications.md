@@ -1,20 +1,21 @@
-# Notifiche
+# Notifications
 
-Quando accedi alla dashboard della piattaforma CARIcare, in alto a destra è evidenziato il numero di **notifiche** presenti. 
+When you access the CARIcare platform dashboard, you can find the number of new **notifications** in the top-right corner. 
 
-<kbd>![Alarm Notifiche](_images/notifiche-00.png)</kbd>
+<kbd>![Notifications](_images/notifiche-00-eng.png)</kbd>
 
-Clicca sull'icona a forma di campanello per **accedere alla pagina delle notifiche**. Questa pagina mostra in prima le **nuove** notifiche poi le **vecchie**. 
+Tap on the bell icon to access **the notifications page**; this page shows you the new notifications and the old ones. 
 
-<kbd>![Alarm Notifiche](_images/notifiche-01.png)</kbd>
+<kbd>![New Notifications](_images/notifiche-01-eng.png)</kbd>
 
-Ogni notifica riporta il **tipo di errore** ("critico", "refill" o "warning") oltre ad altre informazioni come la disponibilità di un nuovo firmware per la macchina. Nel caso di una disconnessione, la notifica indica anche il numero della macchina.
+Each notification provides the type of error (eg. "critical", "refill" or "warning") or the availability of a new machine firmware. In case of disconnect, the notification shows the serial machine number. 
 
-Cliccando su una singola notifica si accede direttamente alla sezione "**"Errori"** o all'area dedicata alla macchina di cui deve essere aggiornato il firmware.
+By clicking a single notification you access the [Errors] (https://carimali.github.io/wiki/#/docs-eng/errori) section or the machine area whose firmware must be updated.
 
-Una notifica può essere cancellata utilizzando il bottone con l'icona del cestino alla sua destra: noterai che la notifica cancellata sarà presente nella lista delle notifiche **vecchie**.
+Each notification can be deleted by using the bin button: you can find the deleted notification in the **old notifications** list.  
 
-**Nota:** tutte le notifiche arrivano via email. Ogni errore genera un messaggio email ricevuto dal supporto tecnico di competenza.
+
+**Please Note:** each notification coming via email; each error generates an email message that will be received by technical support. 
 
 
 
