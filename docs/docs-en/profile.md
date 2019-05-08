@@ -14,7 +14,7 @@ On the "Edit profile" page, you can update your personal data by filling in the 
 
 <kbd>![Dati personali](_images/Profilo-02a.png)</kbd>
 
-In addiction to this, you can choose the notifications you want to receive depending on the type of issue, by checking the respective box.
+In addiction to this, you can choose the notifications you want to receive depending on the type of alarm, by checking the respective box.
 
 <kbd>![Notifiche da ricevere](_images/Profilo-02b.png)</kbd>
 
