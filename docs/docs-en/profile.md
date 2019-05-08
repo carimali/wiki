@@ -8,7 +8,7 @@ In order to access Your profile click the *hamburger button* on the top-right.
 
 On Your personal tab, click **"Edit Profile"**.
 
-<kbd>![Edit Profile](_images/Profilo-02.png)</kbd>
+<kbd>![Edit Profile](_images/Profile-02.png)</kbd>
 
 On the "Edit profile" page, you can update your personal data by filling in the fields **"first name"**, **"last name"**, **"email"** and choosing the platform language.
 
