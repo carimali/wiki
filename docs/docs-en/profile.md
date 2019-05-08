@@ -12,11 +12,11 @@ On Your personal tab, click **"Edit Profile"**.
 
 On the "Edit profile" page, you can update your personal data by filling in the fields **"first name"**, **"last name"**, **"email"** and choosing the platform language.
 
-<kbd>![Dati personali](_images/Profilo-02a.png)</kbd>
+<kbd>![Dati personali](_images/Profile-02a.png)</kbd>
 
 In addiction to this, you can choose the notifications you want to receive depending on the type of alarm, by checking the respective box.
 
-<kbd>![Notifiche da ricevere](_images/Profilo-02b.png)</kbd>
+<kbd>![Notifiche da ricevere](_images/Profile-02b.png)</kbd>
 
 Please remember to click **"Save"** to keep any changes.
 
@@ -25,9 +25,9 @@ Please remember to click **"Save"** to keep any changes.
 
 On Your personal tab, you can assign a "user support" by clicking on "**Company Settings**"
 
-<kbd>![Login](_images/Profilo-03-impostazioni-azienda.png)</kbd>
+<kbd>![Company Settings](_images/Profile-03-companysettings.png)</kbd>
 
-<kbd>![Login](_images/Profilo-03-impostazioni-azienda-b.png)</kbd>
+<kbd>![Company Settings Detail](_images/Profile-03-companysettings-b.png)</kbd>
 
 Please remember to click **"Save"** to keep any changes.
 
