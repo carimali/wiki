@@ -10,7 +10,7 @@ Tap on the bell icon to access **the notifications page**; this page shows you t
 
 Each notification provides the type of error (eg. "critical", "refill" or "warning") or the availability of a new machine firmware. In case of disconnect, the notification shows the serial machine number. 
 
-By clicking a single notification you access the [Errors] (https://carimali.github.io/wiki/#/docs-eng/errori) section or the machine area whose firmware must be updated.
+By clicking a single notification you access the [Errors](https://carimali.github.io/wiki/#/docs-eng/errori) section or the machine area whose firmware must be updated.
 
 Each notification can be deleted by using the bin button: you can find the deleted notification in the **old notifications** list.  
 
