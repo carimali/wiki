@@ -1,35 +1,35 @@
-# Profilo
+# Profile
 
-## Impostazioni Profilo Personale
+## Profile Settings
 
-Cliccando sul bottone con tre linee orizzontali puoi accedere al tuo profilo personale.
+In order to access Your profile click the *hamburger button* on the top-right. 
 
-<kbd>![Profilo Personale](_images/Profilo-01.png)</kbd>
+<kbd>![Profile](_images/Profilo-01.png)</kbd>
 
-Nella tua scheda personale scegli il link "**Modifica Profilo**"".
+On Your personal tab, click **"Edit Profile"**.
 
-<kbd>![Modifica Profilo](_images/Profilo-02.png)</kbd>
+<kbd>![Edit Profile](_images/Profilo-02.png)</kbd>
 
-All'interno della pagina di modifica del profilo, puoi aggiornare i tuoi dati compilando i campi **"nome"**, **"cognome"**, **"email"** o **scegliere la lingua** con la quale sarà visualizzata l'intera piattaforma.
+On the "Edit profile" page, you can update your personal data by filling in the fields **"first name"**, **"last name"**, **"email"** and choosing the platform language.
 
 <kbd>![Dati personali](_images/Profilo-02a.png)</kbd>
 
-Oltre a questo, puoi scegliere quali notifiche ricevere in base alla tipologia di allarme, spuntando la casella corrispondente.
+In addiction to this, you can choose the notifications you want to receive depending on the type of issue, by checking the respective box.
 
 <kbd>![Notifiche da ricevere](_images/Profilo-02b.png)</kbd>
 
-Ricordati di premere **"Salva"** per memorizzare tutte le modifiche apportate.
+Please remember to click **"Save"** to keep any changes.
 
 
-## Modifica impostazioni Azienda
+## Edit Company Settings
 
-Sempre dalla tua scheda Profilo, scegliendo il link "**Impostazioni dell'azienda**", puoi assegnare il **supporto utente** selezionandolo dal menù a discesa.
+On Your personal tab, you can assign a "user support" by clicking on "**Company Settings**"
 
 <kbd>![Login](_images/Profilo-03-impostazioni-azienda.png)</kbd>
 
 <kbd>![Login](_images/Profilo-03-impostazioni-azienda-b.png)</kbd>
 
-Ricordati di premere **"Salva"** per memorizzare tutte le modifiche apportate.
+Please remember to click **"Save"** to keep any changes.
 
 
 
