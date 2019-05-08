@@ -23,7 +23,7 @@ Please remember to click **"Save"** to keep any changes.
 
 ## Edit Company Settings
 
-On Your personal tab, you can assign a "user support" by clicking on "**Company Settings**"
+On Your personal tab, you can assign a "support user" by clicking on "**Company Settings**"
 
 <kbd>![Company Settings](_images/Profile-03-companysettings.png)</kbd>
 
