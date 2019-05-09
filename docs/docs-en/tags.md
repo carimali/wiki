@@ -7,7 +7,7 @@
 
 In order **to create a new tag**, fill in the fields **name**, **description** and choose a reference **colour** for your tag, then click **"Add new tag"** to complete the data entry. 
 
-<kbd>![Create New Tag](_images/tags-aggiungi.png)</kbd>
+<kbd>![Create New Tag](_images/tags-add.png)</kbd>
 
 The **list of tags** shows the stored tags, in alphabetical order.
 
