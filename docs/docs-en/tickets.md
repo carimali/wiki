@@ -1,4 +1,4 @@
-# Technical Support
+# Tickets
 
 **"Tickets"** section allows you **to create a new ticket** for the technical support request or to keep track of previously submitted tickets.
 
