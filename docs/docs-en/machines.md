@@ -12,7 +12,7 @@ You can use several filters to reach one or more machines rapidly by making a re
 
 - **Installation**.  You can view **the installed or not installed machines** by ticking the respective box.
 
-<kbd>![Installation filter](_images/machines-installation-filter.png)</kbd>
+<kbd>![Installation filter](_images/machines-installation-filter-eng.png)</kbd>
 
 - **Connection Status**. You can view **the connected or disconnected machines** by ticking the respective box.
 
