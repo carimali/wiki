@@ -10,25 +10,25 @@ Click **"Export counters in CSV format"** button to create a **CSV** (Comma-Sepa
 
 You can use several filters to reach one or more machines rapidly by making a research based on: 
 
-- **Installation**.  Cliccando il segno di spunta corrispondente, sono visualizzate solo le macchine *assegnate (installate)* o *non assegnate (non installate)*.
+- **Installation**.  You can view **the installed or not installed machines** by ticking the respective box.
 
 <kbd>![Installation filter](_images/machines-installation-filter.png)</kbd>
 
-- **Connection Status**. You can view the connected or disconnected machines by ticking the respective box.
+- **Connection Status**. You can view **the connected or disconnected machines** by ticking the respective box.
 
-<kbd>![Installation filter](_images/machines-connecting-filter.png)</kbd>
+<kbd>![Connection Status filter](_images/machines-connecting-filter.png)</kbd>
 
 - **Tags**. You can filter machines by one or more tags you assigned them.
 
-<kbd>![Installation filter](_images/machines-tags-filter.png)</kbd>
+<kbd>![Tags filter](_images/machines-tags-filter.png)</kbd>
 
 You can view all the tags by using the **"tag list"** switch. 
 
-<kbd>![Installation filter](_images/machines-tags2-filter.png)</kbd>
+<kbd>![Tag list](_images/machines-tags2-filter.png)</kbd>
 
 You can also filter by one or more tags by typing its name in the **"Search"** field. 
 
-<kbd>![Installation filter](_images/machines-tags3-filter.png)</kbd>
+<kbd>![Tags Search](_images/machines-tags3-filter.png)</kbd>
  
 **Please Note:** for more information on how to create and to assign the taga,  go to [Tags section](https://carimali.github.io/wiki/#/docs-en/tags).
 
