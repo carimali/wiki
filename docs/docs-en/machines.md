@@ -4,7 +4,7 @@
 
 Click **"Export counters in CSV format"** button to create a **CSV** (Comma-Separated Values) document that contains **your machines counters**.
 
-<kbd>![Export CSV](_images/expCSV.png)</kbd>
+<kbd>![Export CSV](_images/expCSV-eng.png)</kbd>
 
 ## Filter machines by properties
 
