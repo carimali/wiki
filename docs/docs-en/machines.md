@@ -1,36 +1,36 @@
-# Le tue macchine
+# Your Machines
 
-## Esporta Contatori in CSV
+## Export counters in CSV format
 
-Clicca sul bottone **"Esporta contatori in CSV"** per creare un documento in formato **CSV** (Comma-Separated Values) contenente i **contatori delle tue macchine**.
+Click **"Export counters in CSV format"** button to create a **CSV** (Comma-Separated Values) document that contains **your machines counters**.
 
 <kbd>![Export CSV](_images/expCSV.png)</kbd>
 
-## Filtra macchine per Proprietà
+## Filter machines by properties
 
-Hai a disposizione una serie di **filtri**: usala per individuare rapidamente una o più macchine, effettuando una ricerca per: 
+You can use several filters to reach one or more machines rapidly by making a research based on: 
 
-- **Installazione**.  Cliccando il segno di spunta corrispondente, sono visualizzate solo le macchine *assegnate (installate)* o *non assegnate (non installate)*.
+- **Installation**.  Cliccando il segno di spunta corrispondente, sono visualizzate solo le macchine *assegnate (installate)* o *non assegnate (non installate)*.
 
 <kbd>![Installation filter](_images/machines-installation-filter.png)</kbd>
 
-- **Connessione**. Cliccando il segno di spunta corrispondente, sono visualizzate solo le macchine *connesse* o *diconnesse*.
+- **Connection Status**. You can view the connected or disconnected machines by ticking the respective box.
 
 <kbd>![Installation filter](_images/machines-connecting-filter.png)</kbd>
 
-- **Tags**. Cliccando il segno di spunta corrispondente, puoi filtrare le tue macchine secondo uno o più tags che hai assegnato loro.
+- **Tags**. You can filter machines by one or more tags you assigned them.
 
 <kbd>![Installation filter](_images/machines-tags-filter.png)</kbd>
 
-Puoi visualizzare i tags creati attivando lo switch **"Lista dei tags"**
+You can view all the tags by using the **"tag list"** switch. 
 
 <kbd>![Installation filter](_images/machines-tags2-filter.png)</kbd>
 
-Inoltre, puoi filtrare per uno o più tags scrivendone il nome nel campo **"Cerca"** ; 
+You can also filter by one or more tags by typing its name in the **"Search"** field. 
 
 <kbd>![Installation filter](_images/machines-tags3-filter.png)</kbd>
  
-**Nota:** per maggiori informazioni su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).
+**Please Note:** for more information on how to create and to assign the taga,  go to [Tags section](https://carimali.github.io/wiki/#/docs-en/tags).
 
 
 
