@@ -20,7 +20,7 @@ You can use several filters to reach one or more machines rapidly by making a re
 
 - **Tags**. You can filter machines by one or more tags you assigned them.
 
-<kbd>![Tags filter](_images/machines-tags-filter.png)</kbd>
+<kbd>![Tags filter](_images/machines-tags-filter-eng.png)</kbd>
 
 You can view all the tags by using the **"tag list"** switch. 
 
