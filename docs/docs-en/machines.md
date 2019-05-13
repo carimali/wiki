@@ -24,7 +24,7 @@ You can use several filters to reach one or more machines rapidly by making a re
 
 You can view all the tags by using the **"tag list"** switch. 
 
-<kbd>![Tag list](_images/machines-tags2-filter.png)</kbd>
+<kbd>![Tag list](_images/machines-tags2-filter-eng.png)</kbd>
 
 You can also filter by one or more tags by typing its name in the **"Search"** field. 
 
