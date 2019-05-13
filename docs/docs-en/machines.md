@@ -16,7 +16,7 @@ You can use several filters to reach one or more machines rapidly by making a re
 
 - **Connection Status**. You can view **the connected or disconnected machines** by ticking the respective box.
 
-<kbd>![Connection Status filter](_images/machines-connecting-filter.png)</kbd>
+<kbd>![Connection Status filter](_images/machines-connecting-filter-eng.png)</kbd>
 
 - **Tags**. You can filter machines by one or more tags you assigned them.
 
