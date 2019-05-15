@@ -36,41 +36,43 @@ You can also filter by one or more tags by typing its name in the **"Search"** f
 
 
 
-## Azioni sulle macchine
+## Actions on your machines
 
-Nella sezione **“LE TUE MACCHINE”** trovi **tutte le macchine da caffè compatibili con CARIcare** che ti sono state assegnate e alcune funzioni necessarie alla gestione delle stesse.
+On **"Your machines”** section, you can find **all coffee machines compliant with CARIcare** which you have been assigned and some features required for their management.
 
-Come in tutto il sistema CARIcare, l’identificativo univoco per ogni singola macchina è il **seriale** e ha corrispondenza con quello riportato sulla targhetta della macchina da caffè, fatta eccezione per il **_CA_** che lo precede: per esempio, nel punto indicato nell'immagine che segue, è mostrato il seriale 254168
+As for the whole CARIcare system, the unique ID for each machine is the **"serial number"** and it matches the number on the label
+of the machine without the **_CA_**; for example, the picture below shows the serial number **254168**:
 
-<kbd>![Machines serial](_images/machines-icon-serial.png)</kbd>
+<kbd>![Machine serial](_images/machines-icon-serial.png)</kbd>
 
-che trovi nella targhetta della macchina corrispondente:
+you can find it on the respective label machine:
 
-<kbd>![Machines serial](_images/machines-serial.png)</kbd>
+<kbd>![Machine label](_images/machines-serial.png)</kbd>
 
-Su ciascuna macchina oltre al seriale è riportato il **modello**, una **miniatura**, lo **stato della connessione** con il server CARIcare e, se **assegnata**, il **cliente** che la possiede al momento.
-Il checkbox alla sinistra di ciascuna macchina ti permette di selezioniare **una o più macchine contemporanemente, tutte le funzioni di questa area quando eseguite vengono applicate alla selezione**.
+
+Each machine pane shows the **serial number**, the **model**, a **machine thumbnail**, the **connection status** (connected/disconnected) to CARIcare server and, if assigned, the the customer who owns it.
+
+The **checkbox** allows you to select one or more machines in the same time; all functions are applied to all selected machines.
 
 <kbd>![Installation filter](_images/machines-icon2.png)</kbd>
 
 
 
-**Nota:** puoi usare l'area filtro per affinare ulteriormente la ricerca sull'insieme di macchine visualizzate.
+**Please Note:** you can further refine your search by using the filters on displayed machine.
 
   
   
-## Assegnare le macchine
+## Assigning the machines
 
-Dopo aver creato un cliente, puoi usare questa funzione per assegnargli le tue macchine da caffè. Che si tratti di noleggio o vendita, è un modo per organizzarle e gestire al meglio il tuo business. Una volta che hai selezionato una o più macchine, premi **"assegna a"**;
+If you have already created a customer account, you can use this feature to assign him your coffee machines. Whether it's rental or sale, it's a good way to organise them and better manage your business. Once You have selected one or more machines, click **"assign to"**;
 
 <kbd>![Installation filter](_images/machines-assegna.png)</kbd>
 
-scegli un Cliente dal menù a tendina e premi **"Salva"**.
+Choose a customer from drop-down menu then click **"Save"**. 
  
 <kbd>![Macchine Cliente](_images/machines-cliente.png)</kbd>
 
- 
-Ora le macchine selezionate sono **assegnate e visibili** anche nell'Area Macchine, sotto la scheda **Cliente** *mettere link alla pagina cliente sezione macchine*. Se è stato creato un account CARIcare anche per il cliente, quest'ultimo potrà visualizzarle nella sezione **Macchine**.
+Now the selected machines are assigned and displayed in the Machines section of the customer details. 
 
 
 ## Gestire le ricette
