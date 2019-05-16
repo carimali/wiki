@@ -30,7 +30,7 @@ You can also filter by one or more tags by typing its name in the **"Search"** f
 
 <kbd>![Tags Search](_images/machines-tags3-filter.png)</kbd>
  
-**Please Note:** for more information on how to create and to assign the taga,  go to [Tags section](https://carimali.github.io/wiki/#/docs-en/tags).
+**Please Note:** for more information on how to create and to assign the tag,  go to [Tags section](https://carimali.github.io/wiki/#/docs-en/tags).
 
 
 
@@ -96,7 +96,7 @@ After selecting one or more machine, click **"Reboot"** to reboot the selected m
 
 ## Assigning a TAG to the machines
 
-In order to assign a **tag** to your machines, click **"Tag"**; use **"Tags list"** switch to display the list of available tags; type the name of tag in the **"Search"** textarea then click **"Save"**.
+In order to assign a **tag** to your machines, click **"Tag"**; use **"Tags list"** switch to display the list of available tags; type the name of tag in the **"Search"** field, then click **"Save"**.
 
 <kbd>![Machine Tag](_images/machines-tags01-eng.png)</kbd>
 
