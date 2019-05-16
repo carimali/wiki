@@ -75,27 +75,28 @@ Choose a customer from drop-down menu then click **"Save"**.
 Now the selected machines are assigned and displayed in the Machines section of the customer details. 
 
 
-## Gestire le ricette
+## Manage Recipes
  
-Selezionando una o più macchine e premendo **"cambia ricetta"**, puoi scegliere un **set di ricette** dall'elenco a tendina e caricarlo sulle macchine selezionate.
+You can choose a **recipe set** by selecting one or more machines and clicking **change recipe**. The set will loaded in the selected machine.
 
 <kbd>![Change Recipe](_images/machines-ricetta01-eng.png)</kbd>
 
-Oppure, premi **una ricetta** per modificarla: puoi abilitarla/disabilitarla, cambiare icona e, se previsto dalla configurazione prezzo e tipo di bicchiere; modificare ogni singolo parametro proprio come se ti trovassi di fronte alla macchina da caffè! Per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso. Premi **Salva modifiche** prima di lasciare quest'area altrimenti tutte le modifiche apportate andranno perse.
+Click a **recipe** to modify it: you can enable/disable the recipe, change the icon and, if provided for in machine configuration, the price and the type of glass; you can update every single parameter just as if you were right in front of your coffee machine!
+For a detailed explanation of how to configure the machine, please refer to user manual. 
+Click **Save** to keep your changes: otherwise, all changes will be lost.
 
-**Nota:** le modifiche verranno effettuate su tutte le macchine selezionate.
+**Please Note:** changes will be applied to the selected machines.
 
 
-## Riavviare le macchine 
+## Reboot machines 
 
-Dopo aver selezionato una o più macchine, premi **"Riavvia"** per riavviare le macchine selezionate. Conferma l'operazione premendo il tasto **"Procedi"**.
+After selecting one or more machine, click **"Reboot"** to reboot the selected machines. Confirm the operation by pressing **"Proceed"**.
 
 <kbd>![Reboot Machine](_images/machines-riavvia-eng.png)</kbd>
 
-## Assegnare un TAG alle macchine
+## Assigning a TAG to the machines
 
-Per assegnare un **tag** alle tue macchine premi **"Tag"**; attiva lo switch **"Lista dei tags"** per visualizzare la lista dei tags disponibili; scrivi il/i nome/i del/i tag/s nell'area di testo **"Cerca"**, quindi premi **"Salva"**.
-
+In order to assign a **tag** to your machines, click **"Tag"**; use **"Tags list"** switch to display the list of available tags; enter the name of tag in the **"Search"** textarea then click **"Save"**.
 
 <kbd>![Machine Tag](_images/machines-tags01-eng.png)</kbd>
 
