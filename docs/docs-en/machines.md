@@ -54,7 +54,7 @@ Each machine pane shows the **serial number**, the **model**, a **machine thumbn
 
 The **checkbox** allows you to select one or more machines in the same time; all functions are applied to all selected machines.
 
-<kbd>![Installation filter](_images/machines-icon2.png)</kbd>
+<kbd>![MAchine CHeckbox](_images/machines-icon2-eng.png)</kbd>
 
 
 
@@ -66,7 +66,7 @@ The **checkbox** allows you to select one or more machines in the same time; all
 
 If you have already created a customer account, you can use this feature to assign him your coffee machines. Whether it's rental or sale, it's a good way to organise them and better manage your business. Once You have selected one or more machines, click **"assign to"**;
 
-<kbd>![Installation filter](_images/machines-assegna.png)</kbd>
+<kbd>![Assigning the machines](_images/machines-assegna-eng.png)</kbd>
 
 Choose a customer from drop-down menu then click **"Save"**. 
  
