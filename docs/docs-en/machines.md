@@ -70,7 +70,7 @@ If you have already created a customer account, you can use this feature to assi
 
 Choose a customer from drop-down menu then click **"Save"**. 
  
-<kbd>![Macchine Cliente](_images/machines-cliente.png)</kbd>
+<kbd>![Customer Machines](_images/machines-cliente-eng.png)</kbd>
 
 Now the selected machines are assigned and displayed in the Machines section of the customer details. 
 
@@ -90,14 +90,14 @@ Oppure, premi **una ricetta** per modificarla: puoi abilitarla/disabilitarla, ca
 
 Dopo aver selezionato una o più macchine, premi **"Riavvia"** per riavviare le macchine selezionate. Conferma l'operazione premendo il tasto **"Procedi"**.
 
-<kbd>![Riavvia Macchina](_images/machines-riavvia.png)</kbd>
+<kbd>![Reboot Machine](_images/machines-riavvia-eng.png)</kbd>
 
 ## Assegnare un TAG alle macchine
 
 Per assegnare un **tag** alle tue macchine premi **"Tag"**; attiva lo switch **"Lista dei tags"** per visualizzare la lista dei tags disponibili; scrivi il/i nome/i del/i tag/s nell'area di testo **"Cerca"**, quindi premi **"Salva"**.
 
 
-<kbd>![Tag Macchina](_images/machines-tags01.png)</kbd>
+<kbd>![Machine Tag](_images/machines-tags01-eng.png)</kbd>
 
 
 
