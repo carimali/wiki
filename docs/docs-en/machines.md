@@ -96,7 +96,7 @@ After selecting one or more machine, click **"Reboot"** to reboot the selected m
 
 ## Assigning a TAG to the machines
 
-In order to assign a **tag** to your machines, click **"Tag"**; use **"Tags list"** switch to display the list of available tags; enter the name of tag in the **"Search"** textarea then click **"Save"**.
+In order to assign a **tag** to your machines, click **"Tag"**; use **"Tags list"** switch to display the list of available tags; type the name of tag in the **"Search"** textarea then click **"Save"**.
 
 <kbd>![Machine Tag](_images/machines-tags01-eng.png)</kbd>
 
