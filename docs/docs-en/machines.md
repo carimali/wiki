@@ -79,7 +79,7 @@ Now the selected machines are assigned and displayed in the Machines section of 
  
 Selezionando una o più macchine e premendo **"cambia ricetta"**, puoi scegliere un **set di ricette** dall'elenco a tendina e caricarlo sulle macchine selezionate.
 
-<kbd>![Cambia ricetta](_images/machines-ricetta01.png)</kbd>
+<kbd>![Change Recipe](_images/machines-ricetta01-eng.png)</kbd>
 
 Oppure, premi **una ricetta** per modificarla: puoi abilitarla/disabilitarla, cambiare icona e, se previsto dalla configurazione prezzo e tipo di bicchiere; modificare ogni singolo parametro proprio come se ti trovassi di fronte alla macchina da caffè! Per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso. Premi **Salva modifiche** prima di lasciare quest'area altrimenti tutte le modifiche apportate andranno perse.
 
