@@ -1,15 +1,15 @@
-# Stato della Macchina
+# Machine status
 
-Accedi a questa sezione cliccando all'interno del riquadro di una macchina: 
+Access this section by clicking inside the machine pane:
 
-<kbd>![Macchina](_images/machine-riquadro.png)</kbd>
+<kbd>![Machine](_images/machine-riquadro.png)</kbd>
 
-da questo momento in poi tutte le informazioni visualizzate saranno strettamente legate alla macchina selezionata.
-In quest'area trovi le **tre schede** che seguono:
+From this point forward, all the information displayed will be strictly related to the selected machine.
+In this section you also find the following pages:
 
-## Manutenzione
+## Maintenance
 
-<kbd>![Manutenzione](_images/machine-manutenzione2.png)</kbd>
+<kbd>![Maintenance](_images/machine-manutenzione2.png)</kbd>
 
 
 In questa sezione, puramente informativa, puoi vedere:
@@ -47,9 +47,9 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
 
 
      
- ## Ricette
+ ## Recipes
  
- <kbd>![Ricette](_images/machine-ricette.png)</kbd>
+ <kbd>![Recipes](_images/machine-ricette.png)</kbd>
  
  In questa sezione puoi:
  
@@ -72,7 +72,7 @@ Puoi **modificare ogni singolo parametro** proprio come fossi di fronte alla mac
 
 
  
- ## Impostazioni
+ ## Settings
  
  <kbd>![Impostazioni](_images/machine-impostazioni.png)</kbd>
  
