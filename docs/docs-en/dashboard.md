@@ -27,7 +27,7 @@ The second dashboard section shows the graph relative to the number of **Install
 
 ## The product vending data
  
-The third dashboard section shows **the graph relative to the product vending data** that shows **the sold products of your machines in the last seven days**. Every type of product is marked with a different colour. 
+The third dashboard section includes **the graph relative to the product vending data** that shows **the sold products of your machines in the last seven days**. Every type of product is marked with a different colour. 
  
  
 By clicking on each column, you can view **the detail of the single product** sold on any given day.
