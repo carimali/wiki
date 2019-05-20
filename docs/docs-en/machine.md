@@ -11,20 +11,20 @@ In this section you also find the following pages:
 
 <kbd>![Maintenance](_images/machine-manutenzione2-eng.png)</kbd>
 
+In this purely informational section you can get:
 
-In questa sezione, puramente informativa, puoi vedere:
-     
-- Quanto tempo manca alle **manutenzioni programmate**. I tempi di manutenzione cambiano da modello a modello e fanno riferimento a quelli suggeriti nel manuale del prodotto. Una barra di progresso con colori differenti (verde, giallo, rosso) si riempirà giorno dopo giorno partendo dal "giorno uno" fino a quando sarà trascorso il periodo consigliato; a quel punto verrà inviata un'e-mail di notifica **"manutenzione necessaria"** al supporto indicato per quella macchina. 
+- How long it is until **scheduled maintenance**. Maintenance time chances according the model and it refers to that specified in the product manual. A progress bar with different colours (green, yellow, red) will be filled, day after day, starting from "day one" until recommended time has elapsed; at which point it will be sent a **"maintenance required"** notification email to technical support.     
 
-<kbd>![Manutenzioni programmate](_images/machine-manutenzione-program-eng.png)</kbd>
+
+<kbd>![Scheduled Maintenance](_images/machine-manutenzione-program-eng.png)</kbd>
 
 Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso per vedere quali componenti è necessario sostituire durante la manutenzione.
 
-<kbd>![Componenti](_images/machine-componenti.png)</kbd>
+<kbd>![Components](_images/machine-componenti.png)</kbd>
 
 - Il **numero di cicli totali compiuti dal gruppo caffè**, una barra di progresso con colori differenti (verde, giallo, rosso) indicherà lo stato di usura del componente che, una volta raggiunto il suo numero di cicli massimo, dovrà essere sostituito, verrà invita un e-mail di notifica "verifica gruppo" al supporto indicato per la macchina.
 
-<kbd>![Cicli](_images/machine-cicli-eng.png)</kbd>
+<kbd>![Cycles](_images/machine-cicli-eng.png)</kbd>
 
 - Il **numero di erogazioni** nelle ultime 24 ore sul **totale massimo giornaliero consigliato** (numero consumazioni / erogazioni massime consigliate). Lo scopo è quello di evidenziare se una macchina da caffè viene utilizzata al di sopra delle proprie possibilità, per evitare degrado di qualità dei prodotti e rapido deterioramento o rottura dei componenti.
      
