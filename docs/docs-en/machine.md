@@ -34,7 +34,7 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
 
 - Totale delle **erogazioni**. Premi **"Mostra"** per visualizzare le erogazioni divise per nome bevanda.
 
-<kbd>![Erogazioni Totali](_images/machine-erog-totali2.png)</kbd>
+<kbd>![Erogazioni Totali](_images/machine-erog-totali2-eng.png)</kbd>
 
 
 - I **Lavaggi**.
