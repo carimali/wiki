@@ -20,7 +20,7 @@ In this purely informational section you can get:
 
 Click "show" button below each progress bar to view which components should be replaced during maintenance.
 
-<kbd>![Components](_images/machine-componenti.png)</kbd>
+<kbd>![Components](_images/machine-componenti-eng.png)</kbd>
 
 - Il **numero di cicli totali compiuti dal gruppo caffè**, una barra di progresso con colori differenti (verde, giallo, rosso) indicherà lo stato di usura del componente che, una volta raggiunto il suo numero di cicli massimo, dovrà essere sostituito, verrà invita un e-mail di notifica "verifica gruppo" al supporto indicato per la macchina.
 
