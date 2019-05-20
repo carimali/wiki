@@ -13,7 +13,7 @@ In this section you also find the following pages:
 
 In this purely informational section you can get:
 
-- How long it is until **scheduled maintenance**. Maintenance time changes according the model and it refers to that specified in the product manual. A progress bar with different colours (green, yellow, red) will be filled, day after day, starting from "day one" until recommended time has elapsed; at which point, it will be sent a **"maintenance required"** notification email to technical support.     
+- How long it is until **scheduled maintenance** (Quarterly/Yearly). Maintenance time changes according the model and it refers to that specified in the product manual. A progress bar with different colours (green, yellow, red) will be filled, day after day, starting from "day one" until recommended time has elapsed; at which point, it will be sent a **"maintenance required"** notification email to technical support.     
 
 
 <kbd>![Scheduled Maintenance](_images/machine-manutenzione-program-eng.png)</kbd>
@@ -22,7 +22,8 @@ Click "show" button below each progress bar to view which components should be r
 
 <kbd>![Components](_images/machine-componenti-eng.png)</kbd>
 
-- Il **numero di cicli totali compiuti dal gruppo caffè**, una barra di progresso con colori differenti (verde, giallo, rosso) indicherà lo stato di usura del componente che, una volta raggiunto il suo numero di cicli massimo, dovrà essere sostituito, verrà invita un e-mail di notifica "verifica gruppo" al supporto indicato per la macchina.
+- **the number of cycles performed by head group express**. A progress bar with different colours (green, yellow, red) shows the wear status of all components. Once the component will have reached the maximum number of cycles, it will have to be replaced and a **"verify group"** notification email will be sent to technical support.  
+
 
 <kbd>![Cycles](_images/machine-cicli-eng.png)</kbd>
 
