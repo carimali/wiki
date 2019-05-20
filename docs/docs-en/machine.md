@@ -13,12 +13,12 @@ In this section you also find the following pages:
 
 In this purely informational section you can get:
 
-- How long it is until **scheduled maintenance**. Maintenance time chances according the model and it refers to that specified in the product manual. A progress bar with different colours (green, yellow, red) will be filled, day after day, starting from "day one" until recommended time has elapsed; at which point it will be sent a **"maintenance required"** notification email to technical support.     
+- How long it is until **scheduled maintenance**. Maintenance time changes according the model and it refers to that specified in the product manual. A progress bar with different colours (green, yellow, red) will be filled, day after day, starting from "day one" until recommended time has elapsed; at which point, it will be sent a **"maintenance required"** notification email to technical support.     
 
 
 <kbd>![Scheduled Maintenance](_images/machine-manutenzione-program-eng.png)</kbd>
 
-Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso per vedere quali componenti è necessario sostituire durante la manutenzione.
+Click "show" button below each progress bar to view which components should be replaced during maintenance.
 
 <kbd>![Components](_images/machine-componenti.png)</kbd>
 
