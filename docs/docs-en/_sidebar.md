@@ -13,7 +13,7 @@
 - Machines
 
   - [Your Machines](docs-en/machines.md)
-  - [State of your Machine](docs-en/machine.md)
+  - [Machine Status](docs-en/machine.md)
 
 - Customers
 
