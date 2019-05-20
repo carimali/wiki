@@ -86,7 +86,7 @@ Puoi **modificare ogni singolo parametro** proprio come fossi di fronte alla mac
   - **Impostare una Soglia allarme caffè**. Questa funzione consente di assegnare una certa **QUANTITÀ CAFFÈ (KG)** a ciascuna macchina e ricevere due avvisi **EMAIL**: uno quando il consumo di caffè sta per raggiungere la quantità impostata **SOGLIA CAFFÈ (%)**; un altro quando la **QUANTITÀ CAFFÈ (KG)** viene interamente consumata. 
 Una volta impostati i parametri, premi **"Salva soglia allarme caffè"** per attivare la funzionalità. 
 
-<kbd>![Impostazioni-Soglia-Caffe](_images/machine-soglia.png)</kbd>
+<kbd>![Impostazioni-Soglia-Caffe](_images/machine-soglia.png)</kbd> 
 
 **Nota**: una volta attiva la funzionalità, i parametri non potranno più essere modificati fino a quando la quantità di caffè non sarà interamente consumata. 
 
