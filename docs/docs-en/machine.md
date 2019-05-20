@@ -28,9 +28,9 @@ Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso 
 
 - Il **numero di erogazioni** nelle ultime 24 ore sul **totale massimo giornaliero consigliato** (numero consumazioni / erogazioni massime consigliate). Lo scopo è quello di evidenziare se una macchina da caffè viene utilizzata al di sopra delle proprie possibilità, per evitare degrado di qualità dei prodotti e rapido deterioramento o rottura dei componenti.
      
-- Un **grafico** che mostra la **quantità di bevande erogate negli ultimi sette giorni** divise per nome bevanda.
+- the graph relative to the product vending data that shows the sold products of your machines in the last seven days.
 
- <kbd>![Grafico Erogazioni](_images/machine-grafico-eng.png)</kbd>
+ <kbd>![Product Vending Data](_images/machine-grafico-eng.png)</kbd>
 
 - Totale delle **erogazioni**. Premi **"Mostra"** per visualizzare le erogazioni divise per nome bevanda.
 
