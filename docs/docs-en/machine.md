@@ -2,21 +2,21 @@
 
 Access this section by clicking inside the machine pane:
 
-<kbd>![Machine](_images/machine-riquadro.png)</kbd>
+<kbd>![Machine](_images/machine-riquadro-eng.png)</kbd>
 
 From this point forward, all the information displayed will be strictly related to the selected machine.
 In this section you also find the following pages:
 
 ## Maintenance
 
-<kbd>![Maintenance](_images/machine-manutenzione2.png)</kbd>
+<kbd>![Maintenance](_images/machine-manutenzione2-eng.png)</kbd>
 
 
 In questa sezione, puramente informativa, puoi vedere:
      
 - Quanto tempo manca alle **manutenzioni programmate**. I tempi di manutenzione cambiano da modello a modello e fanno riferimento a quelli suggeriti nel manuale del prodotto. Una barra di progresso con colori differenti (verde, giallo, rosso) si riempirà giorno dopo giorno partendo dal "giorno uno" fino a quando sarà trascorso il periodo consigliato; a quel punto verrà inviata un'e-mail di notifica **"manutenzione necessaria"** al supporto indicato per quella macchina. 
 
-<kbd>![Manutenzioni programmate](_images/machine-manutenzione-program.png)</kbd>
+<kbd>![Manutenzioni programmate](_images/machine-manutenzione-program-eng.png)</kbd>
 
 Premi il pulsante **"mostra"** situato subito sotto ciascuna barra di progresso per vedere quali componenti è necessario sostituire durante la manutenzione.
 
