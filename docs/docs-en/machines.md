@@ -54,7 +54,7 @@ Each machine pane shows the **serial number**, the **model**, a **machine thumbn
 
 The **checkbox** allows you to select one or more machines in the same time; all functions are applied to all selected machines.
 
-<kbd>![MAchine CHeckbox](_images/machines-icon2-eng.png)</kbd>
+<kbd>![Machine Checkbox](_images/machines-icon2-eng.png)</kbd>
 
 
 
