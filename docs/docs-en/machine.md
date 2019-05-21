@@ -27,24 +27,23 @@ Click "show" button below each progress bar to view which components should be r
 
 <kbd>![Cycles](_images/machine-cicli-eng.png)</kbd>
 
-- Il **numero di erogazioni** nelle ultime 24 ore sul **totale massimo giornaliero consigliato** (numero consumazioni / erogazioni massime consigliate). Lo scopo è quello di evidenziare se una macchina da caffè viene utilizzata al di sopra delle proprie possibilità, per evitare degrado di qualità dei prodotti e rapido deterioramento o rottura dei componenti.
-     
-- the graph relative to the product vending data that shows the sold products of your machines in the last seven days.
+- **The number of product disbursements** in last 24 hours of the maximum recommended daily. This is to make it clear if a coffee machine is used beyond its means, to avoid the loss of quality of products and rapid deterioration or to prevent the breaking of components.
+
+- **the graph relative to the product vending data** that shows the sold products of your machines in the last seven days.
 
  <kbd>![Product Vending Data](_images/machine-grafico-eng.png)</kbd>
 
-- Totale delle **erogazioni**. Premi **"Mostra"** per visualizzare le erogazioni divise per nome bevanda.
-
-<kbd>![Erogazioni Totali](_images/machine-erog-totali2-eng.png)</kbd>
+- **Drink Dispensing**. Click **"Show"** to display the disbursements for each drink.
 
 
-- I **Lavaggi**.
+<kbd>![Drink Dispensing](_images/machine-erog-totali2-eng.png)</kbd>
 
-<kbd>![Lavaggi](_images/machine-lavaggi-eng.png)</kbd>
 
-- **Extra Milk** (se disponibile per quella macchina).
+- **Cleaning Cycles**.
 
-- L'**Incasso totale** delle erogazioni.
+<kbd>![Cleaning Cycles](_images/machine-lavaggi-eng.png)</kbd>
+
+- **Total Cashing**.
 
 
      
@@ -52,24 +51,25 @@ Click "show" button below each progress bar to view which components should be r
  
  <kbd>![Recipes](_images/machine-ricette-eng.png)</kbd>
  
- In questa sezione puoi:
+ In this section you can:
  
- - **Importare/Esportare un set di ricette**. Premi **"Salva le ricette"** per aggiungere il set di ricette attualmente in macchina nel menù a tendina **Importa set di ricette**. 
+ - **Import/Export a recipes set**. Click **"Save a recipes set"** to add the set at the moment on the machine, in the **Import a recipe set** drop-down list. 
+ 
+ 
+ <kbd>![Import a recipe set](_images/machine-salva-ricette-eng.png)</kbd>
 
- <kbd>![Importa Ricette](_images/machine-salva-ricette-eng.png)</kbd>
+You can choose a set from the **Import a recipe set** drop-down list in order to load it in the coffe machine.
 
-Scegli un set dall'elenco a tendina **Importa set di ricette** per caricarlo su una macchina. 
+ <kbd>![Import a recipe set](_images/machine-importa-ricette-eng.png)</kbd>
 
- <kbd>![Importa Ricette](_images/machine-importa-ricette-eng.png)</kbd>
+**Please Note**: all your group with proper credentials can view all the recipes. 
 
-**Nota**: i set di ricette creati sono visibili da tutti gli utenti del vostro gruppo, se in possesso di un livello di autorizzazione adeguato.
+- **View/Edit the recipes status**. You can also enable/disable the recipe, change the icon and, if provided for in machine configuration, the price and the type of glass;
+Click a recipe to access the configuration.
 
-- **Visualizzare/Modificare lo stato delle singole ricette**, incluso abilitare/disabilitare, cambio icona e, se previsto dalla configurazione prezzo e tipo di bicchiere. 
-Premi su una ricetta per accedere alla sua configurazione. 
+<kbd>![Recipes List](_images/machine-ricette-lista-eng.png)</kbd>
 
-<kbd>![Lista Ricette](_images/machine-ricette-lista-eng.png)</kbd>
-
-Puoi **modificare ogni singolo parametro** proprio come fossi di fronte alla macchina da caffè; per tutte le informazioni relative a come impostare i parametri, fai riferimento al manuale d'uso della macchina. Premi **"Salva modifiche"** prima di lasciare quest'area altrimenti le modifiche andranno perse.   
+Click a recipe to modify it: you can update every single parameter just as if you were right in front of your coffee machine! For a detailed explanation of how to configure the machine, please refer to user manual. Click **"Save"** to keep your changes: otherwise, all changes will be lost.
 
 
  
@@ -77,19 +77,20 @@ Puoi **modificare ogni singolo parametro** proprio come fossi di fronte alla mac
  
  <kbd>![Settings](_images/machine-impostazioni-eng.png)</kbd>
  
-  In questa sezione puoi:
+  In this section you can:
   
-  - **Cambiare la lingua della macchina**. Seleziona la lingua desiderata dal menù a tendina **"Lingua principale"**. 
-  Se previsto dal modello, puoi anche modificare la lingua secondaria: selezionala dal menù a tendina **"Seconda lingua"**.
+  - **change the machine language**. Select the language from the **Primary language** drop-down list.
+ If required by model, you can also modify **the secondary language**;    
+ 
+   <kbd>![Language Settings](_images/machine-lingua-eng.png)</kbd>
+   
+  - **set the Coffee Threshold Alarm**. This feature allows to assign an amount of coffee to each machine nad to receive two email notifications: the first one is when coffe consumption is about to reach the fixed quantity **Coffee Threshold (%)**; the second one is when **the coffe quantity (KG)** is completely consumed.
+ After setting up the parameters, click **"Coffe Threshold Alarm"** to enable the feature.
   
-  <kbd>![Language Settings](_images/machine-lingua-eng.png)</kbd>
-  
-  - **Impostare una Soglia allarme caffè**. Questa funzione consente di assegnare una certa **QUANTITÀ CAFFÈ (KG)** a ciascuna macchina e ricevere due avvisi **EMAIL**: uno quando il consumo di caffè sta per raggiungere la quantità impostata **SOGLIA CAFFÈ (%)**; un altro quando la **QUANTITÀ CAFFÈ (KG)** viene interamente consumata. 
-Una volta impostati i parametri, premi **"Salva soglia allarme caffè"** per attivare la funzionalità. 
-
 <kbd>![Coffee Threshold Alarm](_images/machine-soglia-eng.png)</kbd> 
 
-**Nota**: una volta attiva la funzionalità, i parametri non potranno più essere modificati fino a quando la quantità di caffè non sarà interamente consumata. 
+
+**Please Note**: once the feature is enabled, the parameters can no longer be edited until the amount of coffee will be completely consumed.
 
 
 
