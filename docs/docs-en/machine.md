@@ -53,7 +53,7 @@ Click **"Show"** button below each progress bar to view which components should 
  
  In this section you can:
  
- - **Import/Export a recipes set**. Click **"Save a recipes set"** to add the set at the moment on the machine, in the **Import a recipe set** drop-down list. 
+ - **Import/Export a recipes set**. Click **"Save a recipes set"** to add the set at the moment on the machine, in the **"Import a recipe set"** drop-down list. 
  
  
  <kbd>![Import a recipe set](_images/machine-salva-ricette-eng.png)</kbd>
