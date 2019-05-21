@@ -84,8 +84,8 @@ Click a recipe to modify it: you can update every single parameter just as if yo
  
    <kbd>![Language Settings](_images/machine-lingua-eng.png)</kbd>
    
-  - **set the Coffee Threshold Alarm**. This feature allows to assign an amount of coffee to each machine nad to receive two email notifications: the first one is when coffe consumption is about to reach the fixed quantity **Coffee Threshold (%)**; the second one is when **the coffe quantity (KG)** is completely consumed.
- After setting up the parameters, click **"Coffe Threshold Alarm"** to enable the feature.
+  - **set the Coffee Threshold Alarm**. This feature allows to assign an amount of coffee to each machine nad to receive two email notifications: the first one is when coffe consumption is about to reach the fixed quantity **"Coffee Threshold (%)"**; the second one is when **"the coffe quantity (KG)"** is completely consumed.
+ After setting up the parameters, click **"Save Coffe Threshold Alarm"** to enable the feature.
   
 <kbd>![Coffee Threshold Alarm](_images/machine-soglia-eng.png)</kbd> 
 
