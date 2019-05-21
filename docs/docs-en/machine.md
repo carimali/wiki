@@ -18,7 +18,7 @@ In this purely informational section you can get:
 
 <kbd>![Scheduled Maintenance](_images/machine-manutenzione-program-eng.png)</kbd>
 
-Click "show" button below each progress bar to view which components should be replaced during maintenance.
+Click **"Show"** button below each progress bar to view which components should be replaced during maintenance.
 
 <kbd>![Components](_images/machine-componenti-eng.png)</kbd>
 
