@@ -3,4 +3,4 @@
 # caricare <small>4.8.6</small>
 
 
-[Getting Started](#docsify)
+[Getting Started](#main)
