@@ -41,7 +41,7 @@
     "pub": "sh build/release.sh"
   },
   "dependencies": {
-    "conventional-changelog": "^3.1.18",
+    "conventional-changelog": "^3.1.19",
     "handlebars": "^4.5.3",
     "marked": "^0.8.0",
     "medium-zoom": "^0.4.0",
