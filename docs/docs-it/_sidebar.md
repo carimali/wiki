@@ -35,4 +35,7 @@
 
 - API (accedi ai tuoi dati)
 
+- [API](docs-it/api.md)
+
+
 - Changelog
