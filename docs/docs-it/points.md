@@ -1,10 +1,10 @@
 # Come accedere
 
-Per raggiungere CARIcare apri il browser del tuo dispositivo nella barra degli indirizzi digita caricare.carimali.com o caricare.tech e conferma.
+Per raggiungere CARIcare apri il browser del tuo dispositivo nella barra degli indirizzi digita caricare.carimali.com e conferma.
 
 ## Autenticazione
 
-Una volta digitato caricare.carimali.com o caricare.tech nella barra degli indirizzi ti trovi sulla pagina di **Login**.
+Una volta digitato caricare.carimali.com nella barra degli indirizzi ti trovi sulla pagina di **Login**.
 Nelle apposite caselle inserisci **nome utente** (1) e **password** (2), successivamente premi **Log in** (3), è possibile memorizzare la password  spuntando il riquadro **Remember me** (4), se la non ricordi la password [clicca quì](https://carimali.github.io/wiki/#/docs-it/recover-password).
 
 ![Login](_images/login-1.png)
