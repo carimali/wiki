@@ -1,7 +1,7 @@
 # Api
 
 
-**Caricare** offers an API service that allows secure and direct access to your machines’ data and the main features of the system.
+**Caricare** offers an API service that allows secure and direct access to your machines data and the main features of the system.
 
 Access is granted through a personal **API key**, which uniquely identifies each user and ensures data protection.
 
