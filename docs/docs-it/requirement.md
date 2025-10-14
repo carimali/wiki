@@ -1,28 +1,61 @@
-# Requisiti
+# Requisiti di accesso
 
-Per accedere a CARIcare hai bisogno di **credenziali di accesso** e un **dispositivo** in grado di **connettersi ad internet**, per qualsiasi dubbio o per ulteriori informazioni scrivi a ict@carimali.com.
+Per accedere a **CARIcare** hai bisogno di:  
+- **credenziali di accesso**  
+- un **dispositivo connesso a Internet**  
+
+Per qualsiasi dubbio o per ulteriori informazioni scrivi a **service@veagroup.com**.
+
+---
 
 ## Credenziali di accesso
 
-Le ricevi tramite una mail da caricare@carimali.com, l'attivazione va richiesta al tuo contatto di riferimento, i clienti diretti **<span style="color:#2A8BDD">Carimali</span>** devono scrivere al commerciale di riferimento o a business@carimali.com.
-Nella mail sarà specificato il *ruolo*, il *nome della società* e la *password*.
+L’attivazione deve essere richiesta tramite il **tuo contatto di riferimento**.  
 
-```ESEMPIO
+Le credenziali verranno inviate tramite una mail dall’indirizzo **caricare@carimali.com**.  
+
+I clienti diretti **Carimali** devono invece scrivere al **commerciale di riferimento** oppure a **service@veagroup.com**.  
+
+---
+
+### Contenuto dell’email
+
+Nella mail che riceverai saranno indicati:  
+- il *ruolo*  
+- lo *username*  
+- la *password*  
+
+Come nell’esempio riportato di seguito:
+
+```Esempio
 Hello,
 an account with role [ADMIN] for [customer name] was created.
 Your password is: [1Hzv516gJZ]
-```
+````
 
-Se hai richiesto l'attivazione, ti è staco confermato l'invio delle credenziali e non trovi l'email nella posta in entrata, controlla le cartelle, potrebbe trovarsi nella cartella Spam, Posta indesiderata, Cestino, Elementi eliminati o Archivio.
+---
 
-Ti suggeriamo di aggiungere la mail caricare@carimali.com all'elenco di mittenti attendibili per ricevere senza problemi tutti i messaggi da parte del sistema CARIcare.
+### Se non ricevi l’email
 
-Se ancora non riesci a trovare l'email contatta il tuo contatto di riferimento per ottenere un nuvo invio.
+Se hai richiesto l’attivazione, ti è stato confermato l’invio delle credenziali e non trovi l’email nella posta in entrata, controlla le seguenti cartelle:
+**Spam**, **Posta indesiderata**, **Cestino**, **Elementi eliminati** o **Archivio**.
+
+Ti consigliamo inoltre di aggiungere **[caricare@carimali.com](mailto:caricare@carimali.com)** all’elenco dei **mittenti attendibili**, per assicurarti di ricevere senza problemi tutti i messaggi dal sistema **CARIcare**.
+
+Se ancora non riesci a trovare l’email, contatta il **tuo contatto di riferimento** per richiedere un **nuovo invio**.
+
+---
 
 ## Connessione e dispositivo
 
-Essendo CARIcare una piattaforma online non esiste modo di utilizzarla se non connessi ad internet, non è necessaria una banda larga, tuttavia migliore sarà la qualità della connessione tanto migliore sarà l'esperinza di utilizzo.
+Essendo **CARIcare** una piattaforma online, è necessario disporre di una connessione a Internet per poterla utilizzare.
+Non è richiesta una connessione a banda larga, ma una connessione più stabile garantisce un’esperienza d’uso migliore.
 
-Per visualizzare CARIcare usa un dispositivo (*personal computer, palmare, smartphone*) con uno schermo grande almeno 4" e un browser installato, l’applicazione è responsiva e ottimizzata per smartphone tuttavia più grande sarà lo schermo migliore sarà l’esperienza di utilizzo.
+Puoi accedere a **CARIcare** da diversi dispositivi:
 
+* personal computer
+* tablet o palmare
+* smartphone
+
+L’applicazione è responsiva e ottimizzata per dispositivi mobili, tuttavia uno schermo più grande (almeno **4"**) offre una migliore esperienza di utilizzo.
 
