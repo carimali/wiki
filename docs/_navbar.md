@@ -1,3 +1,2 @@
-- Translations
-  - [:uk: English](/)
-  - [:it: Italiano](/it/)
+- [![English flag](/_media/flags/en.svg)](/)
+- [![Italian flag](/_media/flags/it.svg)](/it/)
