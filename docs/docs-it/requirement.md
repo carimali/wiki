@@ -53,9 +53,9 @@ Non è richiesta una connessione a banda larga, ma una connessione più stabile 
 
 Puoi accedere a **CARIcare** da diversi dispositivi:
 
-* personal computer
-* tablet o palmare
+* computer personale
+* tablet
 * smartphone
 
-L’applicazione è responsiva e ottimizzata per dispositivi mobili, tuttavia uno schermo più grande (almeno **4"**) offre una migliore esperienza di utilizzo.
+L’applicazione è responsiva e ottimizzata per dispositivi mobili, tuttavia uno schermo più grande offre una migliore esperienza di utilizzo.
 

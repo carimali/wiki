@@ -1,36 +1,108 @@
-## Che cos'è CARIcare
+# Che cos’è CARIcare
 
-CARIcare è una piattaforma di gestione macchine da caffè online che Carimali mette a tua disposizione in quanto utilizzatore dei suoi prodotti; le funzionalità offerte variano a seconda del ruolo garantito dalle credenziali di accesso in tuo possesso. Puoi usare CARIcare su qualsiasi dispositivo smartphone, tablet o pc connesso ad internet.
+**CARIcare** è una piattaforma online per la gestione e il monitoraggio delle macchine da caffè **Carimali** ed **Elektra**.
+È messa a disposizione degli utilizzatori dei prodotti Carimali ed Elektra e consente l’accesso a diverse funzionalità in base al **ruolo** associato alle **credenziali di accesso**.
+
+La piattaforma è utilizzabile da qualsiasi dispositivo – **smartphone**, **tablet** o **PC** – connesso a Internet.
+
+---
 
 ## Cosa fa CARIcare
 
-- **Monitoraggio**: CARIcare ti consente di visualizzare in tempo reale le informazioni relative alle tue macchine, le erogazioni prodotto, lo stato (connesso/disconnesso) e le notifiche di errore; ti fornisce inoltre un controllo specifico sul caffè in grani con la possibilità di impostare una soglia di consumo e ricevere notifica/e-mail quando quest’ultima viene raggiunta.
+### Monitoraggio
 
-- **Controllo remoto**: CARIcare ti consente di modificare tutti i parametri delle ricette presenti in macchina e, se previsto dalla configurazione, il prezzo e il tipo di bicchiere; ti permette inoltre di creare/importare/esportare gruppi di ricette con la possibilità di replicarle su altre macchine simili, di cambiare la lingua della macchina e spegnerla o riavviarla.
+**CARIcare** consente di visualizzare in tempo reale le informazioni relative alle macchine installate, comprese:
 
-- **Assistenza**: CARIcare è in grado di inviare, attraverso notifiche ed e-mail automatiche, gli avvisi o gli errori delle macchine ad un membro specifico del tuo personale: avrai così la possibilità di ripartire le notifiche per tipo: guasto, anomalia lieve, mancanza di prodotto. Puoi creare autonomamente credenziali di accesso a CARIcare per i tuoi utenti dando loro la possibilità di aprire un ticket di assistenza facendo riferimento a una macchina.
+* lo stato di connessione (connesso/disconnesso);
+* le erogazioni dei prodotti;
+* le notifiche di errore.
 
-## Funzionalità
+Il sistema offre inoltre un controllo specifico sul **caffè in grani**, con la possibilità di impostare soglie di consumo e ricevere notifiche o e-mail automatiche al raggiungimento dei limiti impostati.
 
-Le funzionalità a disposizione sono utilizzabili con la stessa semplicità sia dai possessori di una singola macchina Carimali che da coloro che ne possiedono un gruppo; infatti, CARIcare è provvisto di un’interfaccia di controllo ottimizzata per la selezione multipla.
+### Controllo remoto
 
-Per rendere intuitivo, efficace e veloce l’utilizzo della piattaforma, l’interfaccia CARIcare ti mette a disposizione aree specifiche così sinteticamente organizzate:
+La piattaforma permette di **modificare da remoto** i parametri delle ricette, i prezzi e, se previsto, il tipo di bicchiere.
+È possibile creare, importare o esportare **gruppi di ricette**, replicandoli su altre macchine simili.
+Tra le funzioni aggiuntive rientrano la **modifica della lingua macchina**, l’invio di comandi e, ove consentito, la modifica dei parametri di configurazione.
 
-- **Dashboard**: tre cruscotti riepilogativi, pensati in modo che tu possa visualizzare velocemente l’andamento globale del business e delle macchine, erogazione prodotti, installazioni/disinstallazioni macchine e riepilogo funzionale delle stesse: guasti, mancanze prodotto, notifiche varie.
-- **Macchine**: ti consente di gestire/organizzare/assegnare le macchine attraverso tutte le funzionalità previste, facilitate dalla possibilità di creare selezioni multiple e utilizzare strumenti di ricerca.
-- **Tickets**: crea/gestisci i tickets proprio come in un sistema di assistenza tradizionale, potrai coinvolgere qualsiasi utente CARIcare nella visione o anche nel processo di risoluzione del problema, aiutati consultando i tuoi ticket già risoilti nella sezione storico Tickets.
-- **Notifiche**: area di riepilogo che permette di gestire le anomalie ancora da risolvere o di generare un ticket partendo dalle stesse.
-- **Clienti**: consente di creare un’entità Cliente in modo da assegnare loro successivamente le macchine da caffè e configurare eventualmente un supporto tecnico e/o rifornimento prodotto per lo stesso.
-- **Utenti**: consente di creare un accesso CARIcare a membri del proprio staff e non, specificandone il ruolo.
-- **Tags**: consente di creare tags personalizzate con cui “taggare” i propri prodotti: i tags saranno poi utili per ricerche e visualizzazioni personalizzate.
-- **Impostazioni** / Profilo: consente di specificare le preferenze di utilizzo della piattaforma quali: lingua, se rivevere o no notifiche via mail, policy e privacy; in questa sezione è conservata anche la vostra chiave personale API.
+### Assistenza
 
-CARIcare è dotato di un sistema di API, che, previo inserimento chiave personale, consente di inviare/esportare tutti i vostri dati verso altri sistemi o più semplicemente salvarli sui vostri dispositivi.
+**CARIcare** invia automaticamente **notifiche ed e-mail** relative ad avvisi o errori delle macchine, indirizzandole ai membri del personale designati.
+Le notifiche possono essere classificate per tipologia (guasto, anomalia lieve, mancanza di prodotto).
+È inoltre possibile creare **credenziali di accesso** per altri utenti, consentendo loro di aprire **ticket di assistenza** associati a una macchina specifica.
 
-## Cosa rende unico CARIcare 
+---
 
-CARIcare è stato progettato per essere un portale di servizi flessibile; gli utilizzatori possono infatti modellarne la struttura, il flusso delle informazioni e delle funzionalità creando altri attori, ruoli e permessi specifici, garantendo ad alcuni un accesso base e ad altri la possibilità di creare a loro volta nuove strutture. Questo rende CARIcare e le sue funzionalità potenzialmente utilizzabili con la stessa qualità percepita da chiunque all'interno di un determinato modello di business.
+## Funzionalità principali
 
+Le funzionalità sono utilizzabili con la stessa semplicità sia da chi gestisce una singola macchina sia da chi opera su un gruppo di macchine.
+L’interfaccia è ottimizzata per la **selezione multipla** e consente una gestione efficiente e intuitiva.
 
+Le principali aree operative della piattaforma sono le seguenti:
 
+### Dashboard
 
+Area di riepilogo che fornisce una panoramica generale su:
+
+* andamento del business;
+* stato e attività delle macchine;
+* erogazioni prodotto;
+* installazioni e disinstallazioni;
+* riepilogo di guasti, mancanze prodotto e altre notifiche.
+
+### Macchine
+
+Consente di **gestire, organizzare e assegnare** le macchine attraverso strumenti di ricerca e selezione multipla.
+Da questa sezione è possibile accedere a tutte le funzionalità operative previste.
+
+### Tickets
+
+Permette di **creare e gestire ticket di assistenza**, coinvolgendo altri utenti CARIcare nella risoluzione dei problemi.
+La sezione include uno **storico ticket** per la consultazione dei casi già risolti.
+
+### Notifiche
+
+Area dedicata al **riepilogo delle anomalie** non ancora risolte, dalla quale è possibile generare nuovi ticket di assistenza.
+
+### Clienti
+
+Consente di **creare e configurare entità cliente**, assegnando le relative macchine e impostando eventuali parametri di supporto tecnico o rifornimento prodotti.
+
+### Utenti
+
+Permette di **creare account CARIcare** per membri dello staff o collaboratori esterni, definendone il **ruolo** e i **permessi** di accesso.
+
+### Tags
+
+Consente di creare **etichette personalizzate (tags)** per classificare i prodotti.
+I tags facilitano la ricerca e la visualizzazione personalizzata dei dati.
+
+### Impostazioni / Profilo
+
+Area dedicata alla configurazione delle **preferenze di utilizzo** della piattaforma, come:
+
+* lingua dell’interfaccia;
+* ricezione di notifiche via e-mail;
+* gestione delle policy e privacy.
+
+In questa sezione è inoltre disponibile la **chiave API personale** dell’utente.
+
+---
+
+## Integrazione tramite API
+
+**CARIcare** dispone di un sistema di **API** che, previo inserimento della chiave personale, consente di **esportare o inviare i dati** verso altri sistemi, oppure di salvarli in locale sui propri dispositivi.
+
+---
+
+## Cosa rende unico CARIcare
+
+**CARIcare** è progettato come un **portale di servizi flessibile**.
+Gli utilizzatori possono modellare la struttura della piattaforma e il flusso delle informazioni creando **nuovi attori** con ruoli e permessi specifici.
+Ciò permette di:
+
+* definire livelli di accesso differenziati (base o avanzato);
+* costruire strutture organizzative personalizzate;
+* mantenere la stessa qualità d’esperienza per tutti gli utenti coinvolti.
+
+Questa architettura rende **CARIcare** adattabile a diversi modelli di business, garantendo uniformità, controllo e scalabilità operativa.

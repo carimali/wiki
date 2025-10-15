@@ -1,64 +1,71 @@
-# Connettere le macchine a CARIcare
+# 1. Connettere le macchine a CARIcare
 
-Per ultilizzare il CARIcare sulla vostre macchine le stesse dovranno essere connesse ad internet, Carimali 
+Per utilizzare **CARIcare** è necessario che le macchine **Carimali** ed **Elektra** siano connesse a Internet.
+La procedura di connessione varia in base al modello di macchina.
 
-## BlueDot / BlueDot Plus
-Per connettere una BlueDot / Plus al CARIcare per prima cosa impostare la macchina in modalità MiniAP, se hai appena installato la scheda questo passaggio non sarà necessario quindi passa direttamente al punto successivo
+---
 
-1 **Impostare la modalità MiniAP**
+### Linea BlueDot
 
-   - Accendi la macchina, nella pagina iniziale premi il tasto settaggi macchina
-   - Seleziona **System Manager**
-   - Dal menù seleziona **Wifi**, se non dovesse essere presente tra le scelte segui le istruzioni che trovi nella sezione    troubleshooting
-   - Inserisci la password (la stessa di amministrazione macchina)
-   - Seleziona **Wifi: Parametri** 
-   - Scorri fino all'ultima voce **Ripristina config originale** e conferma.
-   - Riavvia la macchina, attendi la schermata di stato Wi-Fi, **Connection status** risulterà <p style="color:orange">Mini-AP</p>
+Per la connessione di una macchina **BlueDot** alla piattaforma **CARIcare**, seguire le istruzioni riportate nel manuale dedicato:
 
-2 **Configurare il Wi-Fi**
-      Per questo passaggio sarà necessario un (verificare che device supporta) con la possibilità di connetterti tramite Wi-Fi
+[Wi-Fi Linea BlueDot](https://service.vea.ventures/media/docs/documentitems/IST.%20025.00.23.IT.pdf)
 
-   - Connetti il device alla rete "Carimali_HotSpot"
-   - Se entro pochi secondi il browser non si apre automaticamente sulla pagina 192.168.1.1, aprilo, digita manualmente 192.168.1.1 e conferma
-   - Apri il tab Wi-Fi Services e completa in questo modo i seguenti campi
-            **MQTT Broker Url** : mqtt.carimali.com
-            **MQTT Port** : 1883
-        Premi **Submit**   
-   -   
+---
 
+### Linea Armonia
 
-### 1.1 
+Per la connessione di una macchina **Armonia** alla piattaforma **CARIcare**, seguire le istruzioni riportate nel manuale dedicato:
 
-![BlueDot-img-connect](_images/logi-1.png)
+[Wi-Fi Linea Armonia](https://service.vea.ventures/media/docs/documentitems/ist0090319-it.pdf)
 
-## Armonia: Plus / Ultra
+---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed sapien a erat lacinia tempor. Phasellus nec vulputate metus. Morbi rhoncus odio suscipit est tristique volutpat. Pellentesque in mauris ut erat ornare tempus vel quis neque. Vestibulum massa nisl, molestie gravida imperdiet vitae, eleifend non nunc.
+### Linea SilverAce
 
-![Armonia-img-connect](_images/policy_pricy_1.png)
+Per le macchine della **linea SilverAce**, la procedura di connessione è descritta nel **manuale tecnico – Capitolo 5.8**.
+
+[Wi-Fi Linea SilverAce](https://service.vea.ventures/media/docs/documentitems/SM_SILVERACE_LB.05165.IT.04.pdf)
+
+---
+
+### Linea Evok
+
+TBD
 
 
+---
 
-##  Troubleshoot connection problems
+## 2. Configurare il Wi-Fi tramite hotspot (BlueDot ed EVOK)
 
- n.b. CARIcare è in grado di mostrare se la macchina è connessa o disconnessa, tuttavia questo controllo viene fatto con un intervallo   di circa un minuto, quindi se la macchina è appena stata accessa o riavviata lasciare al sistema il tempo di aggiornarsi prima di verificare lo stato della connessione.
- 
-  - Il firmware installato in macchina deve essere una versione recente (elencare versioni firmware)
-  - L'indirizzo del Broker MQTT deve essere: mqtt.carimali.com porta 1883
-  - La passowrd remota deve essere 12345
-  - Il seriale dev'essere inserito correttamente nel software della macchina
-  - Service Dose Info, Service Status, Service Vending devono essere abilitati nell'area WiFi (solo per famiglia BlueDot)
-  
-  
+Questo passaggio rappresenta la **seconda fase** della procedura di connessione e richiede l’utilizzo di un dispositivo (smartphone, tablet o PC) dotato di connettività Wi-Fi.
 
-
+1. Connettere il dispositivo alla rete **Carimali_HotSpot**.
+2. Se il browser non si apre automaticamente, digitare **192.168.1.1** nella barra degli indirizzi e confermare.
+3. Accedere al tab **Wi-Fi Services** e compilare i campi come indicato di seguito:
+   * **MQTT Broker URL:** mqtt.carimali.com
+   * **MQTT Port:** 1883
+4. Premere **Submit** per confermare e salvare i parametri di configurazione.
 
 
+## Risoluzione dei problemi di connessione
 
+**Nota:**
+**CARIcare** aggiorna lo stato di connessione delle macchine con un intervallo di circa un minuto.
+Dopo l’accensione o il riavvio di una macchina, è necessario attendere questo tempo prima di verificare lo stato di connessione.
 
+Per garantire il corretto funzionamento, verificare che:
 
+* Il **firmware installato** sia aggiornato all’ultima versione disponibile.
+* L’indirizzo del **Broker MQTT** sia impostato su `mqtt.carimali.com` con **porta 1883**.
+* La **password remota** sia corretta.
+* Il **numero seriale** della macchina sia inserito correttamente nel software:
 
-
-
-
-
+  * Per **Armonia**: rimuovere il suffisso alfabetico, mantenere le sei cifre numeriche e aggiungere quattro zeri finali.
+  ```Esempio
+   CA333333 -> 3333330000
+````
+  * Per **BlueDot**, **Evok** e **SilverAce**: rimuovere solo il suffisso alfabetico, mantenendo le sei cifre finali.
+  ```Esempio
+   CA333333 -> 333333
+````
