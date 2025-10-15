@@ -1,32 +1,55 @@
-# Come accedere
+# Come accedere a CARIcare
 
-Per raggiungere CARIcare apri il browser del tuo dispositivo nella barra degli indirizzi digita caricare.carimali.com e conferma.
+Per accedere alla piattaforma **CARIcare**, aprire il browser del proprio dispositivo e digitare nella barra degli indirizzi:
 
-## Autenticazione
+[https://caricare.carimali.com](https://caricare.carimali.com)
 
-Una volta digitato caricare.carimali.com nella barra degli indirizzi ti trovi sulla pagina di **Login**.
-Nelle apposite caselle inserisci **nome utente** (1) e **password** (2), successivamente premi **Log in** (3), è possibile memorizzare la password  spuntando il riquadro **Remember me** (4), se la non ricordi la password [clicca qui](https://carimali.github.io/wiki/#/docs-it/recover-password).
+Successivamente premere **Invio** per confermare e raggiungere la pagina di accesso.
 
-<kbd>![Login](_images/login-1.png)</kbd>
+---
 
-## Policy di utilizzo e Privacy dei dati
+## Accesso e autenticazione
 
-Al primo accesso devi necessariamente accettare **Privacy Policy** e **Cookie Policy** di CARICare, questo passaggio obbligatorio serve a garantire la riservatezza delle informazioni e a tutelare l’utilizzatore secondo le norme vigenti, non farlo renderà impossibile utilizzare qualsiasi funzionalità dell’applicazione, opzionalmente potete iscrivervi alla newsletter Carimali per rimanere sempre aggiornati sulle novità Carimali e CARIcare.
+Dopo aver aperto il sito, viene visualizzata la pagina di **Login**.
+Nelle apposite caselle inserire le credenziali ricevute via email:
 
-Premi **accetto** per aderire alle *Privacy Policy di CARICare* (1)
+1. **Nome utente**
+2. **Password**
 
-<kbd>![Policy](_images/policy_privacy_1.png)</kbd>
+Una volta completata l’immissione dei dati, è necessario premere **Log in** per accedere.
 
-Premi **accetto** per aderire alle *Cookie Policy di CARICare* (2) e successivamente premi **Salva** (3) per momerizzare le tue scelte
+È possibile memorizzare le credenziali selezionando l’opzione **Remember me**.
+Nel caso in cui la password sia stata smarrita, è disponibile la funzione di recupero accessibile [cliccando qui](https://carimali.github.io/wiki/#/docs-it/recover-password).
 
-<kbd>![Cookie](_images/policy_privacy_2.png)</kbd>
+<kbd>![Pagina di login](_images/login-1.png)</kbd>
 
-**Nota:** in qualsiasi momento puoi modificare le tue preferenze su policy & privacy dal tuo profilo, tuttavia rifiutarne anche solo una tra **Privacy Policy di CARICare** o **Cookie Policy di CARICare** riporterà il vostro account nella condizione di non poter utilizzare qualsiasi funzionalità di CARIcare.
+---
 
+## Policy di utilizzo e privacy dei dati
 
+Al **primo accesso** accettare la **Privacy Policy** e la **Cookie Policy** di **CARIcare**.
+Questo passaggio è obbligatorio e serve a garantire la riservatezza dei dati e la conformità alle normative vigenti.
+Senza l’accettazione delle policy, **non è possibile utilizzare alcuna funzionalità della piattaforma**.
 
+Durante questa fase l’utente può anche scegliere di iscriversi alla **newsletter Carimali** per ricevere aggiornamenti e novità sui prodotti e sui servizi **CARIcare**.
 
+---
 
+### Accettazione delle policy
 
+1. Selezionare **Accetto** per aderire alla *Privacy Policy di CARIcare*.
 
+<kbd>![Accettazione Privacy Policy](_images/policy_privacy_1.png)</kbd>
 
+2. Selezionare **Accetto** per accettare la *Cookie Policy di CARIcare*.
+
+<kbd>![Accettazione Cookie Policy](_images/policy_privacy_2.png)</kbd>
+
+3. Premere **Salva** per memorizzare le preferenze.
+
+---
+
+### Gestione delle preferenze
+
+Le impostazioni relative a **Privacy Policy** e **Cookie Policy** possono essere modificate in qualsiasi momento dal profilo utente.
+È importante ricordare che **rifiutare anche solo una delle due policy** riporta l’account nella condizione di **non poter utilizzare alcuna funzionalità della piattaforma CARIcare**.

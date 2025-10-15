@@ -1,17 +1,15 @@
 # Recupero password
 
-Se hai dimenticato o vuoi modificare la password segui questi passaggi:
+Nel caso in cui la password sia stata dimenticata, è possibile reimpostarla seguendo la procedura riportata di seguito.
 
-- scrivi il seguente indirizzo https://caricare.carimali.com/login nel browser del tuo dispositivo e premi invio oppure premi direttamente [su questo link](https://caricare.carimali.com/login) per aprire la pagina di autenticazione di CARIcare **Login**
+1. Aprire il browser del dispositivo e digitare l’indirizzo [https://caricare.carimali.com/login](https://caricare.carimali.com/login), quindi premere **Invio**.
 
-- premi **Forgot Password** come indicato nella figura seguente:
+2. Nella schermata di **Login**, selezionare l’opzione **Forgot Password**, come mostrato nell’immagine seguente:
 
-<kbd>![Forgot Passwrod](_images/recover-password-step-1.png)</kbd>
+   <kbd>![Forgot Password](_images/recover-password-step-1.png)</kbd>
 
-- nella nuova schermata **Recover password** inserisci l'**email**(1) del tuo account CARIcare e successivamente premi **Submit**(2) come indicato nella figura seguente:
+3. Nella pagina **Password dimenticata**, inserire l’**indirizzo e-mail** (1) associato all’account **CARIcare**, quindi premere **Submit** (2) per procedere con la richiesta di recupero.
 
-<kbd>![Recover Passwrod](_images/recover-password-step-2.png)</kbd>
+   <kbd>![Recover Password](_images/recover-password-step-2.png)</kbd>
 
-In qualsiasi momento premi **Cancel** per annullare l'operazione.
-
-
+4. In qualsiasi momento è possibile premere **Cancel** per annullare l’operazione.
