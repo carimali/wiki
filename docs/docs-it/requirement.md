@@ -25,13 +25,7 @@ Nella mail che riceverai saranno indicati:
 - lo *username*  
 - la *password*  
 
-Come nell’esempio riportato di seguito:
-
-```Esempio
-Hello,
-an account with role [ADMIN] for [customer name] was created.
-Your password is: [1Hzv516gJZ]
-````
+<kbd>![Email new profile](_images/email-new-profile.png)</kbd>
 
 ---
 
