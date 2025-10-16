@@ -1,39 +1,60 @@
 # Dashboard
 
-La **Dashboard** ti permette di ottenere una **panoramica sullo stato delle tue macchine, sul rapporto tra macchine installate e richiamate nonché sui prodotti venduti**.
+La **Dashboard** fornisce una **panoramica completa e aggiornata** sullo stato delle macchine, sul rapporto tra **unità installate e richiamate**, e sui **prodotti venduti**.
+Le informazioni sono presentate attraverso sezioni grafiche che consentono di monitorare in modo immediato l’andamento operativo e le eventuali anomalie.
 
+---
 
-## Stato delle tue macchine
+## Stato delle macchine
 
-Il primo cruscotto riguarda **lo stato attuale delle tue macchine**. In esso è mostrato il numero complessivo delle macchine, il numero totale dei problemi riscontrati, diviso nelle tipologie "critico", "attenzione", "refill" e "disconnessa", ognuno nel proprio **"box errore"**.
+La prima sezione mostra **lo stato complessivo delle macchine connesse alla piattaforma**.
+Sono indicati il **numero totale di macchine**, il **conteggio delle anomalie rilevate** e la loro suddivisione per tipologia:
+
+* **Critico**
+* **Attenzione**
+* **Refill**
+* **Disconnessa**
+
+Ogni categoria è rappresentata da un apposito **box di stato**.
 
 <kbd>![Stato Macchine](_images/dashboard-stato-3.png)</kbd>
 
-Cliccando su uno dei **"box errore"** si accede direttamente alla sezione **Errori** (per maggiori dettagli vedi par. [**"Errori"**](https://carimali.github.io/wiki/#/docs-it/errori) ); in alto trovi i tab per ogni tipologia di errore.
+Selezionando un box di stato, l’utente accede direttamente alla sezione **Errori** per la consultazione dettagliata delle anomalie (vedere la pagina [**Errori**](https://carimali.github.io/wiki/#/docs-it/errori) per ulteriori informazioni).
+In questa sezione i diversi tipi di errore sono organizzati in tab dedicati.
 
-<kbd>![Sezione Errori](_images/dashboard-errori01.png)</kbd>
+---
 
-     
- ## Macchine installate e richiamate
- 
- Il secondo cruscotto concerne il **grafico relativo alle Macchine Installate e Richiamate** (o disinstallate) che mostra con due diverse colorazioni il **numero di unità installate e richiamate nell'ultimo anno**.
- 
- <kbd>![Macchine Installate Richiamate](_images/dashboard-macchine-installate-e-richiamate.png)</kbd>
- 
- **Nota:** questo grafico è particolarmente utile per avere un colpo d'occhio sul rapporto tra le due tipologie di unità.
- 
- 
+## Macchine installate e richiamate
 
- 
- ## Contatore dei prodotti venduti
- 
- Il terzo cruscotto mostra il **grafico relativo al Contatore dei Prodotti venduti** che offre una panoramica dei prodotti venduti di tutte le tue macchine negli ultimi sette giorni. Ogni tipologia di prodotto è contraddistinta da un colore diverso. 
- 
- 
- Cliccando su ogni singola colonna è mostrato il dettaglio dei singoli prodotti venduti in quella giornata.
- 
- <kbd>![Dettaglio Prodotti venduti](_images/dashboard-prodotti-venduti01.png)</kbd>
- 
-Cliccando su un singolo prodotto della legenda è possibile escluderlo dalla visualizzazione.
+La seconda sezione presenta il **grafico relativo alle macchine installate e richiamate (disinstallate)**.
+Il grafico mostra, con due colorazioni distinte, il **numero di unità installate e richiamate negli ultimi dodici mesi**.
 
- <kbd>![Escludi Prodotti venduti](_images/dashboard-escludi.png)</kbd> 
+<kbd>![Macchine Installate Richiamate](_images/dashboard-macchine-installate-e-richiamate.png)</kbd>
+
+**Nota:** questo grafico consente di analizzare rapidamente il **rapporto tra installazioni e richiami**, fornendo un’indicazione immediata sull’evoluzione del parco macchine.
+
+---
+
+## Prodotti venduti
+
+La terza sezione visualizza il **grafico dei prodotti venduti**, che riassume le **vendite complessive registrate dalle macchine negli ultimi sette giorni**.
+Ogni tipologia di prodotto è identificata da un colore differente per una lettura rapida e intuitiva.
+
+Selezionando una singola colonna del grafico, vengono mostrati i **dettagli dei prodotti venduti** nella giornata corrispondente.
+
+<kbd>![Dettaglio Prodotti Venduti](_images/dashboard-prodotti-venduti01.png)</kbd>
+
+È inoltre possibile **escludere un prodotto** dalla visualizzazione selezionandolo o deselezionandolo nella legenda.
+
+## Contatore degli incassi
+
+L’ultima sezione della **Dashboard** mostra il **grafico del contatore degli incassi**, che rappresenta i ricavi complessivi generati dalle macchine in un determinato periodo di tempo.
+I dati sono visualizzati tramite **colonne verticali**, ognuna delle quali corrisponde a una giornata.
+
+L’asse orizzontale riporta i **giorni di riferimento**, mentre l’asse verticale mostra gli **importi incassati**.
+Il colore uniforme delle colonne consente di identificare rapidamente l’andamento giornaliero degli incassi e individuare eventuali variazioni significative.
+
+<kbd>![Contatore degli incassi](_images/dashboard-escludi.png)</kbd>
+
+Cliccando su una singola colonna è possibile visualizzare il **dettaglio degli incassi relativi alla giornata selezionata**.
+Il grafico offre così una visione chiara e immediata dell’andamento economico delle macchine collegate alla piattaforma **CARIcare**.
