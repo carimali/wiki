@@ -38,13 +38,13 @@ Nella parte superiore della schermata sono presenti diversi strumenti di filtro 
 
 Gli allarmi possono essere visualizzati in **due modalità distinte**:
 
-* **Campanella:** mostra **tutti gli allarmi attivi** in tempo reale, senza limiti temporali.
-  Questa modalità consente di monitorare lo stato corrente delle macchine e intervenire rapidamente sulle anomalie in corso.
+![Schermata completa errori](_images/errori07.png) <sup style='font-size:15px'>mostra **tutti gli allarmi attivi** in tempo reale, senza limiti temporali.
+  Questa modalità consente di monitorare lo stato corrente delle macchine e intervenire rapidamente sulle anomalie in corso.<sup>
 
   <kbd>![Schermata completa errori](_images/errori04.png)</kbd>
 
-* **Orologio:** apre lo **storico degli allarmi**, che include anche gli **errori risolti o terminati**.
-  All’interno dello storico sono disponibili ulteriori **filtri avanzati**:
+![Schermata completa errori](_images/errori08.png) <sup style='font-size:15px'>apre lo **storico degli allarmi**, che include anche gli **errori risolti o terminati**.
+  All’interno dello storico sono disponibili ulteriori **filtri avanzati**:<sup>
 
   * **Status:** consente di distinguere tra allarmi **aperti** (ancora da risolvere) e **chiusi** (già risolti).
   * **Data:** permette di filtrare gli eventi in base al periodo, selezionando tra:
@@ -80,3 +80,5 @@ Questa tabella consente di **monitorare lo stato operativo delle macchine** e di
 
 Selezionando il **numero seriale della macchina** nella tabella, viene aperta automaticamente la pagina **Storici** relativa a quella macchina.
 Da questa sezione è possibile consultare nel dettaglio tutti gli **eventi, allarmi e dati operativi** associati, per analisi tecniche o verifiche approfondite.
+
+<kbd>![Schermata completa errori](_images/errori09.png)</kbd>
