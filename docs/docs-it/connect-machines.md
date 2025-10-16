@@ -36,18 +36,6 @@ TBD
 
 ---
 
-## 2. Configurare il Wi-Fi tramite hotspot (BlueDot ed EVOK)
-
-Questo passaggio rappresenta la **seconda fase** della procedura di connessione e richiede l’utilizzo di un dispositivo (smartphone, tablet o PC) dotato di connettività Wi-Fi.
-
-1. Connettere il dispositivo alla rete **Carimali_HotSpot**.
-2. Se il browser non si apre automaticamente, digitare **192.168.1.1** nella barra degli indirizzi e confermare.
-3. Accedere al tab **Wi-Fi Services** e compilare i campi come indicato di seguito:
-   * **MQTT Broker URL:** mqtt.carimali.com
-   * **MQTT Port:** 1883
-4. Premere **Submit** per confermare e salvare i parametri di configurazione.
-
-
 ## Risoluzione dei problemi di connessione
 
 **Nota:**
@@ -57,7 +45,8 @@ Dopo l’accensione o il riavvio di una macchina, è necessario attendere questo
 Per garantire il corretto funzionamento, verificare che:
 
 * Il **firmware installato** sia aggiornato all’ultima versione disponibile.
-* L’indirizzo del **Broker MQTT** sia impostato su `mqtt.carimali.com` con **porta 1883**.
+* **Server MQTT URL**: `mqtt.carimali.com`
+* **MQTT Port**: `1883`
 * La **password remota** sia corretta.
 * Il **numero seriale** della macchina sia inserito correttamente nel software:
 
