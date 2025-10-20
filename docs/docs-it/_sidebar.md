@@ -4,6 +4,7 @@
   - [Come accedere](docs-it/quickstart.md)
   - [Connettere le macchine a CARIcare](docs-it/connect-machines.md)
   - [Recupero password](docs-it/recover-password.md)
+  - [Struttura menu di navigazione](docs-it/Navigation-menu.md)
   
 - Monitoraggio
 
