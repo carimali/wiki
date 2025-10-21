@@ -46,6 +46,8 @@ Selezionando una singola colonna del grafico, vengono mostrati i **dettagli dei 
 
 È inoltre possibile **escludere un prodotto** dalla visualizzazione selezionandolo o deselezionandolo nella legenda.
 
+<kbd>![dashboard-escludi-bevande](_images/dashboard-escludi-bevande.png)</kbd>
+
 ## Contatore degli incassi
 
 L’ultima sezione della **Dashboard** mostra il **grafico del contatore degli incassi**, che rappresenta i ricavi complessivi generati dalle macchine in un determinato periodo di tempo.

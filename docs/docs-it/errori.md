@@ -24,7 +24,7 @@ Nella parte superiore della schermata sono presenti diversi strumenti di filtro 
 
 * **Seriale:** consente di filtrare gli errori in base al **numero seriale** della macchina.
 
-* **Modello:** consente di filtrare i risultati per **modello di macchina** (ad esempio *BlueDot*, *SilverTwin*, *Armonia*).
+* **Modello:** consente di filtrare i risultati per **i modelli presenti nel proprio parco macchine** (ad esempio *BlueDot*, *SilverTwin*, *Armonia*).
 
 * **#34:** indica il **numero degli errori**.
 
@@ -57,6 +57,9 @@ Gli allarmi possono essere visualizzati in **due modalità distinte**:
 <kbd>![Schermata completa errori](_images/errori05.png)</kbd>
 
 Queste due modalità offrono una visione completa e dinamica dello stato operativo delle macchine, consentendo di passare rapidamente dal monitoraggio in tempo reale all’analisi storica delle anomalie.
+
+![Schermata completa errori](_images/csv.png) <sup style='font-size:15px'>esporta lo storico degli errori in formato CSV.<sup>
+
 
 ---
 
