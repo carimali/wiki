@@ -10,7 +10,7 @@ La struttura è suddivisa in tre aree funzionali: **intestazione**, **navigazion
 
 Nella parte superiore del menu sono presenti il **logo CARIcare** e l’icona della **campanella delle notifiche**.
 
-<kbd>![Menu principale](_images/Intestazione.png)</kbd>
+<kbd>![Menu principale](_images/intestazione.png)</kbd>
 
 ### Logo CARIcare
 
@@ -21,7 +21,7 @@ Facendo clic sull’icona, l’utente viene reindirizzato automaticamente alla p
 
 L’icona della campanella segnala la presenza di nuove notifiche relative ad attività o eventi di sistema.
 Quando è visibile un indicatore rosso, significa che sono presenti notifiche non ancora lette.
-Selezionando l’icona si apre l’elenco delle comunicazioni recenti (es. ticket aggiornati, errori macchina o operazioni completate).
+Selezionando l’icona si apre l’elenco delle comunicazioni recenti (es. errori macchina o operazioni completate).
 
 ---
 
@@ -83,7 +83,7 @@ Visualizza le informazioni relative al trattamento dei dati personali.
 
 ### Impostazioni dell’azienda
 
-Consente di configurare i dati generali dell’azienda, come ragione sociale e contatti.
+Visualizza il contatto di riferimento Service Vea Group
 
 ### Chiudi la sessione
 
