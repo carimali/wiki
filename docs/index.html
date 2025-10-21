@@ -82,11 +82,9 @@
     gap:0.5rem  ;
     list-style: none;
     margin: 0;
-    position: fixed;
-  top: 20px;
-  right: 20px;
-  display: flex;
+ 
   z-index: 1000;
+  
 }
 .app-nav li {
    display: flex;
@@ -96,13 +94,46 @@
 .app-nav li img {
       height: 40px;
       width: 40px;
-  
+      max-width: 40px !important;  
+      max-height: 40px !important;
       vertical-align: text-bottom;
+   
     }
   .app-nav li img:hover {
     opacity:0.25 
   }
+.sidebar img {
+      height: 40px;
+      width: 40px;
+      max-width: 40px !important;  
+      max-height: 40px !important;
+      vertical-align: text-bottom;
 
+}
+nav ul {
+    display: flex;
+    gap:0.5rem  ;
+    z-index: 1000;
+}
+nav ul li {
+   display: flex;
+    align-items: center;
+    margin: 0 ;
+}
+
+
+@media screen and (min-width:1240px) {
+  .app-nav ul {
+      display: flex;
+      gap:0.5rem  ;
+      list-style: none;
+      margin: 0;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+  }
+  }
   </style>
 </head>
 
