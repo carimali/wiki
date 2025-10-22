@@ -79,7 +79,7 @@ Il pulsante **CSV**, posto in alto a destra, permette di **esportare l’elenco 
 
 Ogni macchina può presentare **icone o indicatori visivi** che forniscono informazioni sullo stato operativo:
 
-![Icona occhio](_images/icona-occhio.png) <sup style='font-size:15px'>Attivo di defoult, consente di [accedere alla scheda panoramica](docs-it/machine.md) della macchina selezionata.<sup>
+![Icona occhio](_images/icona-occhio.png) <sup style='font-size:15px'>Attivo di default, consente di [accedere alla scheda panoramica](docs-it/machine.md) della macchina selezionata.<sup>
   
   Da questa scheda è possibile visualizzare in tempo reale:
 
@@ -142,8 +142,17 @@ Ogni macchina può presentare **icone o indicatori visivi** che forniscono infor
 
 ![Icona errore](_images/icona-errore.png) <sup style='font-size:15px'>Indica la presenza di uno o più **errori associati alla macchina**, come:
 
-  * contatori non validi,
-  * errori di connessione al server / anomalie di comunicazione o dati incompleti.
+  * **contatori non validi**: numero di erogazioni eseguite a macchina disconessa.
+
+    <kbd>![machines-page-14](_images/machines-page-14.png)</kbd>
+
+    Premere *Resetta* per azzerare il conteggio delle erogazioni oppure premere *Correggi* per includere nel totale anche le erogazioni effettuate in modalità offline.
+  
+  * **Errori di comunicazione col server**: la macchina non riesce a cionnettersi al server.
+
+    <kbd>![machines-page-143](_images/machines-page-13.png)</kbd>
+
+    Premere *Resetta* per eseguire un ripristino delle comunicazioni.
 
 
 ---
