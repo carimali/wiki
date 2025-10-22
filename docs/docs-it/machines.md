@@ -1,107 +1,183 @@
-# Le tue macchine
+# Macchine
 
-## Esporta Contatori in CSV
+La sezione **Macchine** consente la visualizzazione, la ricerca e la gestione delle macchine da caffè connesse alla piattaforma **CARIcare**.
+Da quest’area è possibile filtrare le macchine in base a diversi parametri, esportare i contatori, aggiornare il firmware, gestire le ricette o avviare operazioni di manutenzione remota.
 
-Clicca sul bottone **"Esporta contatori in CSV"** per creare un documento in formato **CSV** (Comma-Separated Values) contenente i **contatori delle tue macchine**.
+<kbd>![machines-page-1](_images/machines-page-1.png)</kbd>
 
-<kbd>![Export CSV](_images/expCSV.png)</kbd>
+---
 
-## Filtra macchine per Proprietà
+## Esporta contatori in CSV
 
-Hai a disposizione una serie di **filtri**: usala per individuare rapidamente una o più macchine, effettuando una ricerca per: 
+Il pulsante Esporta contatori in CSV genera un file in formato CSV (Comma-Separated Values) contenente i dati dei contatori aggiornati delle macchine elencate.
+Il file prodotto può essere utilizzato per attività di analisi, statistiche o archiviazione dei dati di erogazione.
+L’esportazione consente di ottenere in modo rapido una visione complessiva delle prestazioni e dell’utilizzo delle macchine installate, utile per monitoraggi tecnici o amministrativi.
 
-- **Installazione**.  Cliccando il segno di spunta corrispondente, sono visualizzate solo le macchine *assegnate (installate)* o *non assegnate (non installate)*.
+<kbd>![machines-page-2](_images/machines-page-2.png)</kbd>
 
-<kbd>![Installation filter](_images/machines-installation-filter.png)</kbd>
+## Filtri di ricerca
 
-- **Connessione**. Cliccando il segno di spunta corrispondente, sono visualizzate solo le macchine *connesse* o *diconnesse*.
+La parte superiore della schermata contiene un insieme di **filtri** che permettono di individuare rapidamente una o più macchine in base a criteri specifici.
 
-<kbd>![Installation filter](_images/machines-connecting-filter.png)</kbd>
+I campi disponibili sono:
 
-- **Tags**. Cliccando il segno di spunta corrispondente, puoi filtrare le tue macchine secondo uno o più tags che hai assegnato loro.
+* **Modello** – Filtra le macchine in base al modello di appartenenza.
+* **Connessione** – Permette di selezionare solo le macchine *connesse* o *disconnesse*.
+* **Seriale** – Ricerca diretta per numero seriale univoco.
 
-<kbd>![Installation filter](_images/machines-tags-filter.png)</kbd>
-
-Puoi visualizzare i tags creati attivando lo switch **"Lista dei tags"**
-
-<kbd>![Installation filter](_images/machines-tags2-filter.png)</kbd>
-
-Inoltre, puoi filtrare per uno o più tags scrivendone il nome nel campo **"Cerca"** ; 
-
-<kbd>![Installation filter](_images/machines-tags3-filter.png)</kbd>
- 
-**Nota:** per maggiori informazioni su come si creano e si assegnano i tag consulta l’apposita [sezione Tags](https://carimali.github.io/wiki/#/docs-it/tags).
+Il pulsante **Filtri avanzati** consente di espandere o ridurre la visualizzazione dei criteri di ricerca.
 
 
+* **Cliente** – Mostra le macchine assegnate a un determinato cliente.
+* **Indirizzo** – Consente la ricerca per località o ubicazione della macchina.
+* **Firmware** – Filtra in base alla versione firmware installata.
+* **Tags** – Permette la selezione delle macchine in base ai tag assegnati.
+* **Firmware update** – Evidenzia le macchine per le quali è disponibile un aggiornamento firmware.
 
 
+<kbd>![machines-page-3](_images/machines-page-3.png)</kbd>
+
+---
+
+## Elenco macchine
+
+La parte inferiore della pagina mostra la **lista delle macchine** con i principali dati operativi, visualizzabile in due modalità differenti:
+
+* **Vista a elenco**
+  Mostra le macchine in formato tabellare, disposte una per riga.
+  Ogni voce contiene:
+
+  * **Immagine identificativa**
+  * **Modello di appartenenza**
+  * **Seriale univoco**
+  * **Cliente assegnato**
+  * **Indirizzo di installazione**
+  * **Versione firmware** installata
+  * **Connessione**
+  * **Tags**
+  * **Azioni**
+
+  <kbd>![machines-page-4](_images/machines-page-4.png)</kbd>
+
+* **Vista a griglia**
+  Mostra le macchine in formato scheda, con le stesse informazioni principali in un layout più compatto.
+  Questa modalità consente un riconoscimento visivo più rapido grazie all’immagine del modello.
+
+  <kbd>![machines-page-5](_images/machines-page-5.png)</kbd>
+
+Le due modalità possono essere alternate tramite i pulsanti **Elenco** o **Griglia** presenti in alto a destra.
+Sui dispositivi **smartphone**, la visualizzazione predefinita è **a elenco**, ottimizzata per la dimensione dello schermo.
+
+
+Ogni riga o scheda rappresenta una singola macchina.
+La colonna **Sel.** o la casella di selezione accanto a ciascuna macchina consente la **selezione multipla** per applicare azioni collettive.
+Il pulsante **CSV**, posto in alto a destra, permette di **esportare l’elenco visualizzato** in formato **.csv**, mantenendo la struttura della vista attiva (colonna o griglia).
+
+---
+
+### Indicatori di stato
+
+Ogni macchina può presentare **icone o indicatori visivi** che forniscono informazioni sullo stato operativo:
+
+![Icona occhio](_images/icona-occhio.png) <sup style='font-size:15px'>Attivo di defoult, consente di [accedere alla scheda panoramica](docs-it/machine.md) della macchina selezionata.<sup>
+  
+  Da questa scheda è possibile visualizzare in tempo reale:
+
+  * **MANUTENZIONE**
+
+  <kbd>![machines-page-6](_images/machines-page-6.png)</kbd>
+
+    * **Stato generale della macchina**
+    * **Erogazioni recenti**
+    * **Temperature di esercizio (caffè e vapore)**
+    * **Contatori globali e parziali**
+    * **Cicli di lavaggio**
+    * **Parametri di calibrazione**
+    * **Posizione geografica**
+    * **Manutenzione trimestrale / annuale**
+    * **Numero cicli gruppo caffè**
+    * **Erogazioni nelle ultime 24 ore**
+    * **Consumo prodotti**
+    * **Stato connessione**
+* **RICETTE**
+
+  <kbd>![machines-page-7](_images/machines-page-7.png)</kbd>
+
+    * **Importare un set di ricette**
+    * **Ricette** vista a elenco / vista a griglia
+
+* **IMPOSTAZIONI**
+
+  <kbd>![machines-page-8](_images/machines-page-8.png)</kbd>
+
+    * **Configurazione della macchina**
+    * **Firmware**
+    * **Lingua**
+    * **Sistema di pagamento**
+    * **Timezone**
+    * **Brewer**
+    * **Consumo prodotti**
+    * **Data prevista per la manutenzione straordinaria**
+    * **Azzeramento e aggiornamento dei contatori**
+* **STORICI**
+
+  <kbd>![machines-page-9](_images/machines-page-9.png)</kbd>
+
+    * Storico **errori**
+    * Storico **lavaggi**
+    * Storico **firmware**
+    * Storico **logs**
+
+
+* **PARAMETRI** (solo per modelli SilverAce e firmware di ultima versione)
+
+  <kbd>![machines-page-10](_images/machines-page-10.png)</kbd>
+
+    * **Gestione orologio**
+    * **Pulizie e manutenzioni**
+    * **Opzioni display**
+    * **Parametri macchina**
+
+
+
+![Icona errore](_images/icona-errore.png) <sup style='font-size:15px'>Indica la presenza di uno o più **errori associati alla macchina**, come:
+
+  * contatori non validi,
+  * errori di connessione al server / anomalie di comunicazione o dati incompleti.
+
+
+---
 
 ## Azioni sulle macchine
 
-Nella sezione **“LE TUE MACCHINE”** trovi **tutte le macchine da caffè compatibili con CARIcare** che ti sono state assegnate e alcune funzioni necessarie alla gestione delle stesse.
+Dopo la selezione di una macchina, nella parte inferiore della schermata compare la sezione **Fai un’azione sulle tue macchine**, che raccoglie tutte le funzioni operative applicabili. Quando vengono selezionate più di una macchina, alcune funzioni risultano disabilitate: *Ravvia*, *Avvia*, *Spegni*.
 
-Come in tutto il sistema CARIcare, l’identificativo univoco per ogni singola macchina è il **seriale** e ha corrispondenza con quello riportato sulla targhetta della macchina da caffè, fatta eccezione per il **_CA_** che lo precede: per esempio, nel punto indicato nell'immagine che segue, è mostrato il seriale 254168
+**VISTA PER AMMINISTRATORI / MANAGER / SUPPORT**
 
-<kbd>![Machines serial](_images/machines-icon-serial.png)</kbd>
+<kbd>![machines-page-11](_images/machines-page-11.png)</kbd>
 
-che trovi nella targhetta della macchina corrispondente:
+* **Cambia ricetta** – Consente di **caricare o modificare un set di ricette** sulle macchine selezionate.
+  L’operazione può essere eseguita su **più macchine contemporaneamente**, a condizione che appartengano **allo stesso modello** e abbiano **la medesima configurazione**.
+  In questo modo è possibile uniformare rapidamente i parametri di erogazione all’interno di un gruppo di macchine omogenee.
 
-<kbd>![Machines serial](_images/machines-serial.png)</kbd>
+* **Aggiorna firmware** – Avvia la procedura di aggiornamento firmware per le macchine selezionate.
 
-Su ciascuna macchina oltre al seriale è riportato il **modello**, una **miniatura**, lo **stato della connessione** con il server CARIcare e, se **assegnata**, il **cliente** che la possiede al momento.
-Il checkbox alla sinistra di ciascuna macchina ti permette di selezioniare **una o più macchine contemporanemente, tutte le funzioni di questa area quando eseguite vengono applicate alla selezione**.
+* **Riavvia** – Esegue un riavvio remoto della macchina.
 
-<kbd>![Installation filter](_images/machines-icon2.png)</kbd>
+* **Avvia** – Riattiva una macchina in stato di arresto.
 
+* **Spegni** – Esegue lo spegnimento remoto.
 
+* **Assegna a** – Associa la macchina a un cliente esistente.
 
-**Nota:** puoi usare l'area filtro per affinare ulteriormente la ricerca sull'insieme di macchine visualizzate.
+* **Tag** – Assegna o modifica i tag associati.
 
-  
-  
-## Assegnare le macchine
+* **Esporta contatori** – Genera un file **CSV** contenente i dati aggiornati dei contatori delle macchine selezionate.
 
-Dopo aver creato un cliente, puoi usare questa funzione per assegnargli le tue macchine da caffè. Che si tratti di noleggio o vendita, è un modo per organizzarle e gestire al meglio il tuo business. Una volta che hai selezionato una o più macchine, premi **"assegna a"**;
+**VISTA PER USER**
 
-<kbd>![Installation filter](_images/machines-assegna.png)</kbd>
+<kbd>![machines-page-12](_images/machines-page-12.png)</kbd>
 
-scegli un Cliente dal menù a tendina e premi **"Salva"**.
- 
-<kbd>![Macchine Cliente](_images/machines-cliente.png)</kbd>
+* **Esporta contatori** – Genera un file **CSV** contenente i dati aggiornati dei contatori delle macchine selezionate.
 
- 
-Ora le macchine selezionate sono **assegnate e visibili** anche nell'Area Macchine, sotto la scheda **Cliente** *mettere link alla pagina cliente sezione macchine*. Se è stato creato un account CARIcare anche per il cliente, quest'ultimo potrà visualizzarle nella sezione **Macchine**.
-
-
-## Gestire le ricette
- 
-Selezionando una o più macchine e premendo **"cambia ricetta"**, puoi scegliere un **set di ricette** dall'elenco a tendina e caricarlo sulle macchine selezionate.
-
-<kbd>![Cambia ricetta](_images/machines-ricetta01.png)</kbd>
-
-Oppure, premi **una ricetta** per modificarla: puoi abilitarla/disabilitarla, cambiare icona e, se previsto dalla configurazione prezzo e tipo di bicchiere; modificare ogni singolo parametro proprio come se ti trovassi di fronte alla macchina da caffè! Per tutte le informazioni relative a come impostare i parametri fai riferimento al manuale d'uso. Premi **Salva modifiche** prima di lasciare quest'area altrimenti tutte le modifiche apportate andranno perse.
-
-**Nota:** le modifiche verranno effettuate su tutte le macchine selezionate.
-
-
-## Riavviare le macchine 
-
-Dopo aver selezionato una o più macchine, premi **"Riavvia"** per riavviare le macchine selezionate. Conferma l'operazione premendo il tasto **"Procedi"**.
-
-<kbd>![Riavvia Macchina](_images/machines-riavvia.png)</kbd>
-
-## Assegnare un TAG alle macchine
-
-Per assegnare un **tag** alle tue macchine premi **"Tag"**; attiva lo switch **"Lista dei tags"** per visualizzare la lista dei tags disponibili; scrivi il/i nome/i del/i tag/s nell'area di testo **"Cerca"**, quindi premi **"Salva"**.
-
-
-<kbd>![Tag Macchina](_images/machines-tags01.png)</kbd>
-
-
-
-
-
-
-
-
-
+Tutte le operazioni vengono applicate esclusivamente alle macchine selezionate nella lista o nella griglia di visualizzazione.
