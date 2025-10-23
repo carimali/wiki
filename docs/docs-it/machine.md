@@ -240,7 +240,7 @@ I dati vengono mostrati tramite **grafici ad anello**, che evidenziano la **perc
 
 <kbd>![Consumo Prodotti](_images/manutenzione-13.png)</kbd>
 
-Ogni anello rappresenta un singolo componente della macchina:
+Ogni anello rappresenta un singolo componente della macchina (varia in base al numero di macinici e mixer presenti).
 
 * **Macinino 1 / Macinino 2** – Indicano la quantità di caffè in grani utilizzata dai rispettivi macinini.
 * **Solubile 1** – Indica la quantità di prodotto solubile (es. cioccolata o latte in polvere) consumata.
@@ -258,12 +258,6 @@ In questo caso, è necessario procedere con il **reset del contatore**.
 Cliccando sull’icona di **avviso (triangolo arancione)** accanto a un componente, si apre una finestra di conferma che consente di **azzerare i contatori di consumo** per i prodotti selezionati.
 
 <kbd>![Azzeramento Contatori](_images/manutenzione-14.png)</kbd>
-
-Viene mostrato l’elenco dei componenti per i quali è possibile eseguire l’operazione:
-
-* Macinino 1
-* Macinino 2
-* Solubile 1
 
 Premendo **Conferma**, il sistema azzera i valori di consumo e ripristina il conteggio per i cicli successivi.
 Il pulsante **Cancella** consente invece di annullare l’operazione senza apportare modifiche.
@@ -284,25 +278,27 @@ La scheda **Ricette** consente di gestire le ricette installate sulla macchina, 
 
 La parte superiore mostra la macchina selezionata e il menu a tendina **Importare un set di ricette**, da cui è possibile caricare un set precedentemente salvato.
 
-<kbd>![Importa Ricette](_images/machine-importa-ricette.png)</kbd>
+<kbd>![Importa Ricette](_images/ricette.png)</kbd>
 
 Sotto è visibile una finestra che mostra le **ricette disponibili** (*abilitate* e *disabilitate*), visualizzabili in due modalità:
 
 * **Vista griglia**: anteprime grafiche delle bevande, corrisponde alla visualizzazione lato utente in macchina.
+
+<kbd>![Lista Ricette](_images/ricette-1.png)</kbd>
+
 * **Vista elenco**: con visualizzazione testuale ordinata.
 
+<kbd>![Lista Ricette](_images/ricette-2.png)</kbd>
+
 È possibile definire il **numero di ricette per pagina** e selezionare una specifica bevanda per modificarne i parametri.
+
 Attivando l’opzione **Mostra disabilitate**, vengono visualizzate anche le ricette momentaneamente non abilitate.
-
-
-<kbd>![Lista Ricette](_images/machine-ricette-lista.png)</kbd>
 
 
 ### Parametri generali della ricetta
 
 La parte superiore della scheda di configurazione contiene i **parametri comuni a tutte le ricette**, indipendentemente dal tipo di bevanda o modello di macchina.
 
-<kbd>![Parametri Generali Ricetta](_images/machine-ricette-parametri-generali.png)</kbd>
 
 * **Etichetta**
   Indica il **nome visualizzato** della bevanda nel menu della macchina.
@@ -325,7 +321,7 @@ La parte superiore della scheda di configurazione contiene i **parametri comuni 
 
 La parte inferiore della scheda di configurazione contiene i **parametri specifici**, che variano in base al **tipo di prodotto** selezionato nei campi generali.
 
-<kbd>![Parametri Specifici Ricetta](_images/machine-ricette-parametri-specifici.png)</kbd>
+<kbd>![Parametri Specifici Ricetta](_images/ricette-4.png)</kbd>
 
 Questi parametri definiscono il **comportamento tecnico dell’erogazione** e le **caratteristiche operative** del singolo ingrediente (ad esempio latte, caffè o prodotti solubili).
 Ogni prodotto dispone di un insieme dedicato di voci.
@@ -342,7 +338,7 @@ Al termine della configurazione, è necessario **salvare o inviare le modifiche*
 
 ### Operazioni disponibili
 
-<kbd>![Pulsanti Ricette](_images/machine-ricette-azioni.png)</kbd>
+<kbd>![Pulsanti Ricette](_images/ricette-5.png)</kbd>
 
 * **Salva le ricette**
   Registra il set di ricette attualmente configurato e lo aggiunge all’elenco disponibile nel menu **Importa set di ricette**.
@@ -361,26 +357,99 @@ Le funzioni di esportazione e invio alla macchina sono riservate ai **ruoli tecn
 
 ## Impostazioni
 
-<kbd>![Impostazioni](_images/machine-impostazioni.png)</kbd>
+<kbd>![machines-page-8](_images/machines-page-8.png)</kbd>
 
-La scheda **Impostazioni** permette di configurare alcuni parametri generali della macchina.
+La scheda **Impostazioni** consente di visualizzare i parametri generali della macchina, la versione attuale del firmware, configurazioni e soglie di consumo, nonché accedere a dati tecnici e operativi.
+Tutte le impostazioni riguardano la singola macchina selezionata e vengono sincronizzate automaticamente con il sistema **CARIcare**.
 
-Le funzioni disponibili includono:
 
-* **Impostazione lingua**
-  Consente di selezionare la **lingua principale** dal menù a tendina dedicato.
-  Nei modelli che lo prevedono, è possibile impostare anche una **lingua secondaria**.
+### Configurazione della macchina
 
-  <kbd>![Impostazioni-Lingua](_images/machine-lingua.png)</kbd>
+<kbd>![Impostazioni](_images/impostazioni-1.png)</kbd>
 
-* **Soglia allarme caffè**
-  Permette di definire una **quantità di caffè (kg)** per ciascuna macchina e ricevere due notifiche e-mail:
+Visualizza le **informazioni tecniche principali** relative al modello, tra cui:
 
-  * una al raggiungimento della **soglia percentuale impostata**;
-  * una quando la quantità impostata è completamente esaurita.
+* Numero di serie
+* Tipo di macchina
+* Versione software e firmware
+* Tipologia di display
+* Stato operativo
 
-  Dopo aver configurato i parametri, premere **Salva soglia allarme caffè** per attivare la funzione.
+> **Nota:** questa sezione è **visualizzabile solo selezionando una macchina superautomatica** (attualmente linea *SilverAce*).
 
-  <kbd>![Impostazioni-Soglia-Caffe](_images/machine-soglia.png)</kbd>
 
-  **Nota:** una volta attivata la funzione, i parametri restano bloccati fino al completo esaurimento della quantità di caffè impostata.
+### Firmware
+
+<kbd>![Impostazioni](_images/impostazioni-2.png)</kbd>
+
+Mostra la **versione firmware attualmente installata** e la **data dell’ultimo aggiornamento**.
+
+
+### Sistema di pagamento
+
+<kbd>![Impostazioni](_images/impostazioni-3.png)</kbd>
+
+Indica il **sistema di pagamento configurato** sulla macchina (es. libero, a gettoni o con tessera).
+Le informazioni sono di sola lettura e variano a seconda della configurazione locale.
+
+> **Disponibile solo per macchine superautomatiche.**
+
+
+### Lingua
+
+<kbd>![Impostazioni](_images/impostazioni-4.png)</kbd>
+
+Permette di impostare la **lingua principale** visualizzata sull’interfaccia della macchina, selezionandola dal menù a tendina.
+Nei modelli compatibili è possibile configurare anche una **seconda lingua**.
+
+
+### Fuso orario
+
+<kbd>![Impostazioni](_images/impostazioni-5.png)</kbd>
+
+Consente di sincronizzare il **fuso orario** tra la macchina e il browser.
+In questo modo gli orari delle erogazioni, delle manutenzioni e degli aggiornamenti vengono registrati in modo coerente con la zona impostata.
+
+
+### Brewer
+
+<kbd>![Impostazioni](_images/impostazioni-6.png)</kbd>
+
+
+Mostra i **parametri tecnici del gruppo caffè**, inclusi tipo, configurazione e stato del modulo.
+Queste informazioni sono utili per la diagnostica e la manutenzione.
+
+> **Disponibile solo per macchine superautomatiche.**
+
+
+### Consumo prodotti
+
+<kbd>![Impostazioni](_images/impostazioni-7.png)</kbd>
+
+Permette di impostare la **quantità di prodotto (kg)** iniziale per ogni contenitore, al fine di monitorarne il consumo residuo.
+Dopo aver inserito o aggiornato i valori, premere **Salva** per applicare le modifiche.
+
+> **Disponibile solo per macchine superautomatiche.**
+
+
+### Data prevista per la manutenzione straordinaria
+
+<kbd>![Impostazioni](_images/impostazioni-8.png)</kbd>
+
+Consente di **pianificare la data della prossima manutenzione** e di aggiungere eventuali note operative.
+I dati vengono salvati e visualizzati anche nella sezione **Manutenzione** della macchina.
+
+
+### Azzeramento e aggiornamento dei contatori
+
+<kbd>![Impostazioni](_images/impostazioni-9.png)</kbd>
+
+Questa sezione permette di eseguire azioni di manutenzione o sincronizzazione sui contatori macchina:
+
+* **Azzera contatori** – Riporta tutti i contatori a zero.
+* **Aggiorna contatori ricetta** – Aggiorna solo i contatori relativi alle erogazioni.
+* **Aggiornamento completo** – Sincronizza tutte le informazioni macchina con il server.
+* **Aggiorna configurazione macchina** – Ricarica la configurazione salvata.
+* **Aggiorna parametri** – Aggiorna solo i parametri tecnici, senza modificare i contatori.
+
+---
