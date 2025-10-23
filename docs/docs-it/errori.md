@@ -79,9 +79,9 @@ Questa tabella consente di **monitorare lo stato operativo delle macchine** e di
 
 ---
 
-## Collegamento alla pagina “Storici”
+## Collegamento alla pagina “Scheda macchina”
 
-Selezionando il **numero seriale della macchina** nella tabella, viene aperta automaticamente la pagina **Storici** relativa a quella macchina.
+Selezionando il **numero seriale della macchina** nella tabella, viene aperta automaticamente la pagina **Scheda macchina** relativa a quella macchina.
 Da questa sezione è possibile consultare nel dettaglio tutti gli **eventi, allarmi e dati operativi** associati, per analisi tecniche o verifiche approfondite.
 
 <kbd>![Schermata completa errori](_images/errori09.png)</kbd>

@@ -1,7 +1,7 @@
 # Macchine
 
 La sezione **Macchine** consente la visualizzazione, la ricerca e la gestione delle macchine da caffè connesse alla piattaforma **CARIcare**.
-Da quest’area è possibile filtrare le macchine in base a diversi parametri, esportare i contatori, aggiornare il firmware, gestire le ricette o avviare operazioni di manutenzione remota.
+Da quest’area è possibile filtrare le macchine in base a diversi parametri, esportare i contatori, aggiornare il firmware, gestire le ricette o inviare comandi remoti.
 
 <kbd>![machines-page-1](_images/machines-page-1.png)</kbd>
 
@@ -11,7 +11,6 @@ Da quest’area è possibile filtrare le macchine in base a diversi parametri, e
 
 Il pulsante Esporta contatori in CSV genera un file in formato CSV (Comma-Separated Values) contenente i dati dei contatori aggiornati delle macchine elencate.
 Il file prodotto può essere utilizzato per attività di analisi, statistiche o archiviazione dei dati di erogazione.
-L’esportazione consente di ottenere in modo rapido una visione complessiva delle prestazioni e dell’utilizzo delle macchine installate, utile per monitoraggi tecnici o amministrativi.
 
 <kbd>![machines-page-2](_images/machines-page-2.png)</kbd>
 
@@ -31,9 +30,8 @@ Il pulsante **Filtri avanzati** consente di espandere o ridurre la visualizzazio
 * **Cliente** – Mostra le macchine assegnate a un determinato cliente.
 * **Indirizzo** – Consente la ricerca per località o ubicazione della macchina.
 * **Firmware** – Filtra in base alla versione firmware installata.
-* **Tags** – Permette la selezione delle macchine in base ai tag assegnati.
-* **Firmware update** – Evidenzia le macchine per le quali è disponibile un aggiornamento firmware.
-
+* **Tags** – Permette la selezione delle macchine in base ai tag assegnati
+ (es. selezionando **Firmware update** – vengono filtrate le macchine per le quali è disponibile un aggiornamento software).
 
 <kbd>![machines-page-3](_images/machines-page-3.png)</kbd>
 
@@ -47,13 +45,13 @@ La parte inferiore della pagina mostra la **lista delle macchine** con i princip
   Mostra le macchine in formato tabellare, disposte una per riga.
   Ogni voce contiene:
 
-  * **Immagine identificativa**
-  * **Modello di appartenenza**
-  * **Seriale univoco**
-  * **Cliente assegnato**
+  * **Immagine**
+  * **Modello**
+  * **Seriale**
+  * **Cliente**
   * **Indirizzo di installazione**
   * **Versione firmware** installata
-  * **Connessione**
+  * **Stato della connessione**
   * **Tags**
   * **Azioni**
 
@@ -71,7 +69,7 @@ Sui dispositivi **smartphone**, la visualizzazione predefinita è **a elenco**, 
 
 Ogni riga o scheda rappresenta una singola macchina.
 La colonna **Sel.** o la casella di selezione accanto a ciascuna macchina consente la **selezione multipla** per applicare azioni collettive.
-Il pulsante **CSV**, posto in alto a destra, permette di **esportare l’elenco visualizzato** in formato **.csv**, mantenendo la struttura della vista attiva (colonna o griglia).
+Il pulsante **CSV**, posto in alto a destra, permette di **esportare l’elenco visualizzato** in formato **.csv**.
 
 ---
 
@@ -79,7 +77,7 @@ Il pulsante **CSV**, posto in alto a destra, permette di **esportare l’elenco 
 
 Ogni macchina può presentare **icone o indicatori visivi** che forniscono informazioni sullo stato operativo:
 
-![Icona occhio](_images/icona-occhio.png) <sup style='font-size:15px'>Attivo di default, consente di [accedere alla scheda panoramica](docs-it/machine.md) della macchina selezionata.<sup>
+![Icona occhio](_images/icona-occhio.png) <sup style='font-size:15px'>Consente di [accedere alla scheda panoramica](docs-it/machine.md) della macchina selezionata.<sup>
   
   Da questa scheda è possibile visualizzare in tempo reale:
 
@@ -97,8 +95,9 @@ Ogni macchina può presentare **icone o indicatori visivi** che forniscono infor
     * **Manutenzione trimestrale / annuale**
     * **Numero cicli gruppo caffè**
     * **Erogazioni nelle ultime 24 ore**
-    * **Consumo prodotti**
+    * **Consumo prodotti** ove disponibile
     * **Stato connessione**
+
 * **RICETTE**
 
   <kbd>![machines-page-7](_images/machines-page-7.png)</kbd>
@@ -125,8 +124,7 @@ Ogni macchina può presentare **icone o indicatori visivi** che forniscono infor
 
     * Storico **errori**
     * Storico **lavaggi**
-    * Storico **firmware**
-    * Storico **logs**
+    * Storico **aggiornamenti firmware**
 
 
 * **PARAMETRI** (solo per modelli SilverAce e firmware di ultima versione)
@@ -140,20 +138,19 @@ Ogni macchina può presentare **icone o indicatori visivi** che forniscono infor
 
 
 
-![Icona errore](_images/icona-errore.png) <sup style='font-size:15px'>Indica la presenza di uno o più **errori associati alla macchina**, come:
+![Icona errore](_images/icona-errore.png) <sup style='font-size:15px'>Indica la presenza di una o più **anomalie associate alla macchina**, come:
 
-  * **contatori non validi**: numero di erogazioni eseguite a macchina disconessa.
+  * **contatori non validi**: numero di erogazioni eseguite a macchina disconessa da più di tre giorni.
 
     <kbd>![machines-page-14](_images/machines-page-14.png)</kbd>
 
-    Premere *Resetta* per azzerare il conteggio delle erogazioni oppure premere *Correggi* per includere nel totale anche le erogazioni effettuate in modalità offline.
+    Premere *Resetta* per azzerare il conteggio delle erogazioni oppure premere *Correggi* per aggiungere le erogazioni effettuate in modalità offline nello storico delle vendite.
   
-  * **Errori di comunicazione col server**: la macchina non riesce a cionnettersi al server.
+  * **Anomalia di comunicazione col server**: la connessione con il server non è stabile.
 
     <kbd>![machines-page-143](_images/machines-page-13.png)</kbd>
 
-    Premere *Resetta* per eseguire un ripristino delle comunicazioni.
-
+    Premere *Resetta* per eseguire un resettare l'anomalia.
 
 ---
 
@@ -161,15 +158,13 @@ Ogni macchina può presentare **icone o indicatori visivi** che forniscono infor
 
 Dopo la selezione di una macchina, nella parte inferiore della schermata compare la sezione **Fai un’azione sulle tue macchine**, che raccoglie tutte le funzioni operative applicabili. Quando vengono selezionate più di una macchina, alcune funzioni risultano disabilitate: *Ravvia*, *Avvia*, *Spegni*.
 
-**VISTA PER AMMINISTRATORI / MANAGER / SUPPORT**
-
 <kbd>![machines-page-11](_images/machines-page-11.png)</kbd>
 
 * **Cambia ricetta** – Consente di **caricare o modificare un set di ricette** sulle macchine selezionate.
-  L’operazione può essere eseguita su **più macchine contemporaneamente**, a condizione che appartengano **allo stesso modello** e abbiano **la medesima configurazione**.
-  In questo modo è possibile uniformare rapidamente i parametri di erogazione all’interno di un gruppo di macchine omogenee.
+  L’operazione può essere eseguita su **più macchine contemporaneamente**(max. 10), a condizione che appartengano **allo stesso modello** e abbiano **la medesima configurazione**.
+  In questo modo è possibile aggiornare il set di ricette di un gruppo di macchine omogenee.
 
-* **Aggiorna firmware** – Avvia la procedura di aggiornamento firmware per le macchine selezionate.
+* **Aggiorna firmware** – Avvia la procedura di aggiornamento firmware per le macchine selezionate ove presente il tag *Firmware update*.
 
 * **Riavvia** – Esegue un riavvio remoto della macchina.
 
@@ -180,12 +175,6 @@ Dopo la selezione di una macchina, nella parte inferiore della schermata compare
 * **Assegna a** – Associa la macchina a un cliente esistente.
 
 * **Tag** – Assegna o modifica i tag associati.
-
-* **Esporta contatori** – Genera un file **CSV** contenente i dati aggiornati dei contatori delle macchine selezionate.
-
-**VISTA PER USER**
-
-<kbd>![machines-page-12](_images/machines-page-12.png)</kbd>
 
 * **Esporta contatori** – Genera un file **CSV** contenente i dati aggiornati dei contatori delle macchine selezionate.
 

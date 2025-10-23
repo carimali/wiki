@@ -299,6 +299,7 @@ Attivando l’opzione **Mostra disabilitate**, vengono visualizzate anche le ric
 
 La parte superiore della scheda di configurazione contiene i **parametri comuni a tutte le ricette**, indipendentemente dal tipo di bevanda o modello di macchina.
 
+<kbd>![Parametri Specifici Ricetta](_images/ricette-3.png)</kbd>
 
 * **Etichetta**
   Indica il **nome visualizzato** della bevanda nel menu della macchina.
@@ -367,13 +368,7 @@ Tutte le impostazioni riguardano la singola macchina selezionata e vengono sincr
 
 <kbd>![Impostazioni](_images/impostazioni-1.png)</kbd>
 
-Visualizza le **informazioni tecniche principali** relative al modello, tra cui:
-
-* Numero di serie
-* Tipo di macchina
-* Versione software e firmware
-* Tipologia di display
-* Stato operativo
+Visualizza le **informazioni tecniche principali** relative al modello.
 
 > **Nota:** questa sezione è **visualizzabile solo selezionando una macchina superautomatica** (attualmente linea *SilverAce*).
 
@@ -382,14 +377,14 @@ Visualizza le **informazioni tecniche principali** relative al modello, tra cui:
 
 <kbd>![Impostazioni](_images/impostazioni-2.png)</kbd>
 
-Mostra la **versione firmware attualmente installata** e la **data dell’ultimo aggiornamento**.
+Mostra la **versione firmware attualmente installata**
 
 
 ### Sistema di pagamento
 
 <kbd>![Impostazioni](_images/impostazioni-3.png)</kbd>
 
-Indica il **sistema di pagamento configurato** sulla macchina (es. libero, a gettoni o con tessera).
+Indica se il **sistema di pagamento** è abilitato o disabilitato.
 Le informazioni sono di sola lettura e variano a seconda della configurazione locale.
 
 > **Disponibile solo per macchine superautomatiche.**
@@ -407,17 +402,13 @@ Nei modelli compatibili è possibile configurare anche una **seconda lingua**.
 
 <kbd>![Impostazioni](_images/impostazioni-5.png)</kbd>
 
-Consente di sincronizzare il **fuso orario** tra la macchina e il browser.
-In questo modo gli orari delle erogazioni, delle manutenzioni e degli aggiornamenti vengono registrati in modo coerente con la zona impostata.
+Consente di visulizzare il fuso oario impostato sulla macchina e il corrispondente del browser.
 
 
 ### Brewer
 
 <kbd>![Impostazioni](_images/impostazioni-6.png)</kbd>
 
-
-Mostra i **parametri tecnici del gruppo caffè**, inclusi tipo, configurazione e stato del modulo.
-Queste informazioni sono utili per la diagnostica e la manutenzione.
 
 > **Disponibile solo per macchine superautomatiche.**
 
@@ -429,7 +420,7 @@ Queste informazioni sono utili per la diagnostica e la manutenzione.
 Permette di impostare la **quantità di prodotto (kg)** iniziale per ogni contenitore, al fine di monitorarne il consumo residuo.
 Dopo aver inserito o aggiornato i valori, premere **Salva** per applicare le modifiche.
 
-> **Disponibile solo per macchine superautomatiche.**
+> **Disponibile solo per linea SilverAce e Silvertwin.**
 
 
 ### Data prevista per la manutenzione straordinaria
@@ -446,10 +437,100 @@ I dati vengono salvati e visualizzati anche nella sezione **Manutenzione** della
 
 Questa sezione permette di eseguire azioni di manutenzione o sincronizzazione sui contatori macchina:
 
-* **Azzera contatori** – Riporta tutti i contatori a zero.
-* **Aggiorna contatori ricetta** – Aggiorna solo i contatori relativi alle erogazioni.
-* **Aggiornamento completo** – Sincronizza tutte le informazioni macchina con il server.
-* **Aggiorna configurazione macchina** – Ricarica la configurazione salvata.
-* **Aggiorna parametri** – Aggiorna solo i parametri tecnici, senza modificare i contatori.
+* **Azzera contatori**: mostra l'azzeramento e l'aggiornamento dei contatori.
+* **Aggiorna contatori ricetta**: aggiornamento dei contatori ricetta.
+* **Aggiornamento completo**: mostra l’avanzamento passo per passo del processo di sincronizzazione tra macchina e server.
+Durante l’operazione vengono eseguite automaticamente le seguenti azioni:
+    * Aggiornamento e ricezione delle **configurazioni macchina**.
+    * Allineamento dei **contatori** e delle **calibrazioni dei macinini**.
+    * Verifica e aggiornamento dei **limiti dei consumabili**.
+    * Sincronizzazione delle **lingue macchina**.
+    * Aggiornamento delle **etichette e parametri configurati**.
+
+* **Aggiorna etichette**: mostra lo stato di avanzamento del processo di aggiornamento delle etichette della macchina.
+Durante l’operazione vengono eseguiti in sequenza i seguenti passaggi:
+    * Richiesta e sincronizzazione della **lingua macchina**.
+    * Download del **pacchetto lingue**.
+    * Invio e aggiornamento delle **etichette configurate** (nomi, descrizioni e testi di interfaccia).
+
+* **Aggiorna configurazione macchina**: mostra le fasi del processo di sincronizzazione delle impostazioni tecniche tra la macchina e il server.
+Durante l’operazione vengono eseguite le seguenti azioni:
+    * Richiesta e ricezione delle **configurazioni macchina**.
+    * Invio e conferma del **sistema di pagamento configurato**.
+    * Aggiornamento e validazione della **calibrazione dei macinini**.
+
+* **Aggiorna parametri**: indica lo stato del processo di sincronizzazione dei parametri di configurazione della macchina.
+Durante la procedura vengono eseguite le seguenti operazioni:
+    * Invio della **richiesta di aggiornamento parametri**.
+    * Aggiornamento e verifica dei **parametri modificati**.
+    * Conferma della **ricezione di tutti i parametri** dal server.
 
 ---
+
+## Storici
+
+  <kbd>![machines-page-9](_images/machines-page-9.png)</kbd>
+
+La sezione **Storici** raccoglie tutti gli eventi registrati dalla macchina, consentendo di monitorare in modo dettagliato le attività svolte, gli aggiornamenti e gli eventuali errori. È suddivisa in quattro schede principali: **Errori**, **Lavaggi**, **Firmware**.
+
+
+### **Errori**
+
+  <kbd>![machines-page-9](_images/storici-1.png)</kbd>
+
+La scheda **Errori** presenta l’elenco completo di tutti gli allarmi e le anomalie registrate dalla macchina.
+Ogni riga riporta informazioni essenziali: il **messaggio di errore**, il **numero di serie della macchina**, il **modello**, la **data e ora** in cui l’errore si è verificato e, se risolto, il momento in cui è stato **terminato**.
+
+Nella parte superiore della pagina sono presenti vari **filtri di ricerca** che permettono di personalizzare la visualizzazione dei dati:
+
+* **Tipologia di errore**: filtra per *Errori*, *Warning*, *Refill* o *Disconnesse*;
+* **Status**: consente di mostrare solo gli errori *Aperti* o *Chiusi*;
+* **Data**: permette di selezionare un intervallo temporale predefinito (es. ultima settimana, ultimi tre mesi) o personalizzato.
+
+È inoltre disponibile il pulsante **CSV**, che consente di **esportare l’elenco in formato .csv** per l’analisi o l’archiviazione.
+
+
+### **Lavaggi**
+
+  <kbd>![machines-page-9](_images/storici-2.png)</kbd>
+
+La scheda **Lavaggi** mostra lo storico completo dei cicli di lavaggio effettuati dalla macchina.
+Ogni voce della tabella riporta lo **stato del lavaggio** (*Iniziato*, *Completato*, *Non completato*, *Fallito*), il **tipo di lavaggio** eseguito (ad esempio *All in one* o *circuito latte*), il **numero di serie** e il **modello** della macchina, insieme alle date di **inizio** e **termine** dell’operazione.
+
+L’elenco può essere **esportato in formato CSV**, utile per analisi periodiche o report di manutenzione.
+
+
+### **Firmware**
+
+  <kbd>![machines-page-9](_images/storici-3.png)</kbd>
+
+La scheda **Firmware** mostra la cronologia completa degli aggiornamenti software installati sulla macchina.
+Ogni elemento della linea temporale rappresenta una versione di firmware caricata, accompagnata dal relativo **codice identificativo** e dalla **data e ora di installazione**.
+
+Questa visualizzazione consente di:
+
+* verificare rapidamente l’**evoluzione delle versioni firmware** nel tempo;
+* controllare **quando è stato effettuato l’ultimo aggiornamento**;
+* individuare eventuali rollback o reinstallazioni.
+
+La struttura a timeline rende immediata la consultazione e facilita il monitoraggio dello stato software della macchina.
+
+
+---
+
+## Parametri
+
+  <kbd>![machines-page-10](_images/machines-page-10.png)</kbd>
+
+La sezione **Parametri** consente di visualizzare e configurare le impostazioni operative della macchina.
+È suddivisa in più **sottomenu tematici** (ad esempio *Gestione orologio*, *Pulizie e manutenzioni*, *Opzioni display*, *Parametri macchina*), che raccolgono in modo ordinato le diverse categorie di parametri gestibili.
+
+  <kbd>![machines-page-9](_images/parametri-1.png)</kbd>
+
+Il **contenuto del menù varia in base al modello di macchina selezionato**: alcune macchine visualizzano più sezioni o parametri specifici rispetto ad altre, in funzione delle caratteristiche hardware e software.
+
+All’interno di ogni sezione, le voci possono essere:
+
+* **Modificabili**, come nel caso dei parametri *Mostra data* e *Formato ora* del menù **Gestione orologio**, che permettono all’utente di intervenire direttamente e salvare le modifiche apportate;
+* **In sola visualizzazione**, come nella sezione **Pulizie e manutenzioni → Filtro acqua**, dove i dati (capacità del filtro, litri conteggiati, ecc.) sono aggiornati automaticamente dalla macchina e non possono essere modificati manualmente.
+
