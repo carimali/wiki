@@ -21,8 +21,7 @@ L’interfaccia è composta da tre schede principali:
 
 <kbd>![machines-page-6](_images/machines-page-6.png)</kbd>
 
-La scheda **Manutenzione** è un’area informativa che riporta lo stato dei componenti e le scadenze delle manutenzioni programmate.
-Le informazioni disponibili includono:
+La scheda **Manutenzione** riporta le informazioni statistiche e non relative alle vendite della macchina di seguito riportate.
 
 
 ### Modulo Erogazioni
@@ -47,7 +46,8 @@ Il modulo è composto da tre sezioni principali:
 Nella parte superiore sono presenti i campi per impostare il periodo e i criteri di analisi:
 
 * **Intervallo di tempo**
-  Permette di selezionare il periodo da analizzare (ultima settimana, ultime due settimane, ultimo mese, periodo personalizzato).
+Permette di selezionare il periodo da analizzare (ultima settimana, ultime due settimane, ultimo mese, ecc.).
+Il **filtro di selezione** consente di visualizzare i dati fino a un massimo di **un anno precedente** alla data corrente.
   Il filtro viene applicato automaticamente al grafico una volta premuto **Seleziona date**.
 
 * **Seleziona ricette**
@@ -65,19 +65,17 @@ Il modulo **Erogazioni** presenta due grafici complementari che mostrano le stes
 **Grafico 1**
 
 Rappresenta la quantità totale di bevande erogate per giorno nel periodo selezionato.
-Ogni colonna indica una giornata, mentre i colori identificano le diverse ricette o tipologie di bevanda.
+Ogni colonna indica un dato temporale, mentre i colori identificano le diverse ricette.
 
 * L’asse **orizzontale** mostra i giorni compresi nell’intervallo selezionato.
 * L’asse **verticale** riporta il numero totale di erogazioni.
-
-Questo grafico consente di valutare l’andamento generale dell’attività, evidenziando variazioni nel consumo e nei volumi di erogazione nel corso della settimana o del mese.
 
 <kbd>![manutenzione-2](_images/manutenzione-2.png)</kbd>
 
 **Grafico 2**
 
 Mostra la distribuzione delle bevande erogate durante le diverse ore della giornata.
-Ogni colonna rappresenta un’ora (da 00:00 a 23:00), e la suddivisione cromatica consente di distinguere le diverse tipologie di bevande.
+Ogni colonna rappresenta un’ora (da 00:00 a 23:00) e la suddivisione cromatica consente di distinguere le ricette erogate.
 
 <kbd>![manutenzione-3](_images/manutenzione-3.png)</kbd>
 
@@ -97,12 +95,11 @@ Sotto il grafico **1** sono presenti tre pulsanti di funzione:
   Riorganizza il grafico e i dati visualizzati mostrando le erogazioni aggregate per singola ricetta, anziché per data.
 
 * **Esporta dati di erogazione in CSV**
-  Genera un file **CSV** contenente i dati dettagliati delle erogazioni (ricetta, quantità, data e ora).
+  Genera un file **CSV** contenente i dati dettagliati delle erogazioni.
   Il file può essere utilizzato per analisi statistiche o integrazione con sistemi gestionali esterni.
 
 * **Esporta contatori in CSV**
-  Crea un file **CSV** con i contatori globali e parziali della macchina nel periodo selezionato.
-  Utile per verificare il consumo complessivo e l’attività operativa in un intervallo definito.
+  Crea un file **CSV** con i contatori parziali della macchina nel periodo selezionato.
 
 ---
 
@@ -110,7 +107,7 @@ Sotto il grafico **1** sono presenti tre pulsanti di funzione:
 
 <kbd>![manutenzione-4](_images/manutenzione-4.png)</kbd>
 
-Il modulo **Temperature** mostra in tempo reale le temperature rilevate dai sensori principali della macchina:
+Il modulo **Temperature** mostra in tempo reale le temperature rilevate dai sensori della macchina:
 
 * **Caffè** – Temperatura della caldaia caffè.
 * **Vapore** – Temperatura della caldaia vapore.
@@ -126,10 +123,10 @@ Un valore anomalo può indicare un malfunzionamento del gruppo caffè o del circ
 
 Il modulo **Erogazioni** visualizza i dati relativi al numero di bevande distribuite:
 
-* **Contatore Globale** – Numero totale di erogazioni effettuate dalla macchina.
+* **Contatore Globale** – Numero totale di erogazioni effettuate dalla macchina (dato non resettabile).
 * **Contatore Parziale** – Numero di erogazioni registrate dall’ultimo azzeramento.
 
-Premendo **Mostra**, è possibile visualizzare il dettaglio completo delle erogazioni suddivise per tipologia di bevanda.
+Premendo **Mostra**, è possibile visualizzare il dettaglio completo delle erogazioni suddivise per singola bevanda.
 I dati sono aggiornati automaticamente a intervalli regolari.
 
 ---
@@ -145,7 +142,7 @@ Il modulo **Lavaggi** riporta il numero di cicli di lavaggio effettuati dai vari
 * **Milker** – Cicli di lavaggio del sistema latte.
 * **Mixer** – Cicli di lavaggio dei miscelatori interni.
 
-Queste informazioni permettono di monitorare la corretta esecuzione delle operazioni di manutenzione ordinaria.
+Queste informazioni permettono di monitorare la corretta esecuzione dei lavaggi ordinari.
 
 ---
 
@@ -157,8 +154,6 @@ Il modulo **Calibrazioni** mostra i valori correnti di taratura relativi ai dosa
 
 * **Macinino 1 / 2** – Quantità di caffè macinato per secondo (*gr/s*).
 * **Solubile 1 / 2** – Quantità di prodotto solubile dosata per secondo (*gr/s*).
-
-I valori di calibrazione consentono di controllare la coerenza tra le impostazioni del software e la resa effettiva dei prodotti, garantendo costanza qualitativa e corretto dosaggio.
 
 ---
 
@@ -240,7 +235,7 @@ I dati vengono mostrati tramite **grafici ad anello**, che evidenziano la **perc
 
 <kbd>![Consumo Prodotti](_images/manutenzione-13.png)</kbd>
 
-Ogni anello rappresenta un singolo componente della macchina (varia in base al numero di macinici e mixer presenti).
+Il numero di grafici visualizzati varia in base alla quantità di macinini e mixer presenti nella macchina.
 
 * **Macinino 1 / Macinino 2** – Indicano la quantità di caffè in grani utilizzata dai rispettivi macinini.
 * **Solubile 1** – Indica la quantità di prodotto solubile (es. cioccolata o latte in polvere) consumata.
@@ -255,7 +250,7 @@ In questo caso, è necessario procedere con il **reset del contatore**.
 
 #### Azzeramento contatori
 
-Cliccando sull’icona di **avviso (triangolo arancione)** accanto a un componente, si apre una finestra di conferma che consente di **azzerare i contatori di consumo** per i prodotti selezionati.
+Cliccando sull’icona di **avviso (triangolo arancione)** accanto a un componente, si apre una finestra di conferma che **azzerare tutti i contatori di consumo** dei prodotti.
 
 <kbd>![Azzeramento Contatori](_images/manutenzione-14.png)</kbd>
 
@@ -276,7 +271,7 @@ La scheda **Ricette** consente di gestire le ricette installate sulla macchina, 
 
 ### Struttura del menu
 
-La parte superiore mostra la macchina selezionata e il menu a tendina **Importare un set di ricette**, da cui è possibile caricare un set precedentemente salvato.
+La parte superiore mostra la macchina selezionata e il menu a tendina **Importare un set di ricette**, da cui è possibile caricare un set precedentemente salvato dello stesso modello di macchina.
 
 <kbd>![Importa Ricette](_images/ricette.png)</kbd>
 
@@ -284,15 +279,21 @@ Sotto è visibile una finestra che mostra le **ricette disponibili** (*abilitate
 
 * **Vista griglia**: anteprime grafiche delle bevande, corrisponde alla visualizzazione lato utente in macchina.
 
+Linea SilverAce & SilverTwin:
+
 <kbd>![Lista Ricette](_images/ricette-1.png)</kbd>
+
+Evok:
+
+<kbd>![Lista Ricette](_images/ricette-6.png)</kbd>
 
 * **Vista elenco**: con visualizzazione testuale ordinata.
 
 <kbd>![Lista Ricette](_images/ricette-2.png)</kbd>
 
-È possibile definire il **numero di ricette per pagina** e selezionare una specifica bevanda per modificarne i parametri.
+È possibile definire il **numero di ricette per pagina** (nella vista a *griglia*) e selezionare una specifica bevanda per modificarne i parametri.
 
-Attivando l’opzione **Mostra disabilitate**, vengono visualizzate anche le ricette momentaneamente non abilitate.
+L’opzione **Mostra disabilitate**, permette di visualizzare anche le ricette momentaneamente non abilitate.
 
 
 ### Parametri generali della ricetta
@@ -320,7 +321,7 @@ La parte superiore della scheda di configurazione contiene i **parametri comuni 
 
 ### Parametri specifici della ricetta
 
-La parte inferiore della scheda di configurazione contiene i **parametri specifici**, che variano in base al **tipo di prodotto** selezionato nei campi generali.
+La parte inferiore della scheda di configurazione contiene i **parametri specifici**, che variano in base al **tipo di prodotto** selezionato.
 
 <kbd>![Parametri Specifici Ricetta](_images/ricette-4.png)</kbd>
 
@@ -437,33 +438,32 @@ I dati vengono salvati e visualizzati anche nella sezione **Manutenzione** della
 
 Questa sezione permette di eseguire azioni di manutenzione o sincronizzazione sui contatori macchina:
 
-* **Azzera contatori**: mostra l'azzeramento e l'aggiornamento dei contatori.
-* **Aggiorna contatori ricetta**: aggiornamento dei contatori ricetta.
+* **Azzera contatori**: azzera il contatore parziale.
+* **Aggiorna contatori ricetta**: aggiorna il contatore parziale delle ricette.
 * **Aggiornamento completo**: mostra l’avanzamento passo per passo del processo di sincronizzazione tra macchina e server.
-Durante l’operazione vengono eseguite automaticamente le seguenti azioni:
-    * Aggiornamento e ricezione delle **configurazioni macchina**.
-    * Allineamento dei **contatori** e delle **calibrazioni dei macinini**.
-    * Verifica e aggiornamento dei **limiti dei consumabili**.
-    * Sincronizzazione delle **lingue macchina**.
-    * Aggiornamento delle **etichette e parametri configurati**.
+Durante l’operazione vengono eseguite automaticamente i seguenti aggiornamenti:
+    * **configurazione macchina**.
+    * **contatori** e **calibrazioni dei macinini**.
+    * **limiti dei consumabili** solo per linea SilverAce e SilverTwin.
+    * **lingue macchina**.
+    * **etichette e ricette**.
+    * **parametri** solo per linea SilverAce.
 
 * **Aggiorna etichette**: mostra lo stato di avanzamento del processo di aggiornamento delle etichette della macchina.
 Durante l’operazione vengono eseguiti in sequenza i seguenti passaggi:
     * Richiesta e sincronizzazione della **lingua macchina**.
-    * Download del **pacchetto lingue**.
-    * Invio e aggiornamento delle **etichette configurate** (nomi, descrizioni e testi di interfaccia).
+    * Aggiornamento delle **etichette ricette**.
 
 * **Aggiorna configurazione macchina**: mostra le fasi del processo di sincronizzazione delle impostazioni tecniche tra la macchina e il server.
 Durante l’operazione vengono eseguite le seguenti azioni:
     * Richiesta e ricezione delle **configurazioni macchina**.
     * Invio e conferma del **sistema di pagamento configurato**.
-    * Aggiornamento e validazione della **calibrazione dei macinini**.
+    * Aggiornamento e validazione della **calibrazione dei macinini** solo per macchine superautomatiche.
 
-* **Aggiorna parametri**: indica lo stato del processo di sincronizzazione dei parametri di configurazione della macchina.
+* **Aggiorna parametri** (ove presente): indica lo stato del processo di sincronizzazione dei parametri di configurazione della macchina.
 Durante la procedura vengono eseguite le seguenti operazioni:
     * Invio della **richiesta di aggiornamento parametri**.
-    * Aggiornamento e verifica dei **parametri modificati**.
-    * Conferma della **ricezione di tutti i parametri** dal server.
+    * Aggiornamento dei **parametri**.
 
 ---
 
@@ -520,17 +520,100 @@ La struttura a timeline rende immediata la consultazione e facilita il monitorag
 
 ## Parametri
 
-  <kbd>![machines-page-10](_images/machines-page-10.png)</kbd>
+*(funzionalità disponibile solo per la linea SilverAce con l’ultima versione firmware)*
+
+<kbd>![machines-page-10](_images/machines-page-10.png)</kbd>
 
 La sezione **Parametri** consente di visualizzare e configurare le impostazioni operative della macchina.
-È suddivisa in più **sottomenu tematici** (ad esempio *Gestione orologio*, *Pulizie e manutenzioni*, *Opzioni display*, *Parametri macchina*), che raccolgono in modo ordinato le diverse categorie di parametri gestibili.
+È suddivisa in diversi **sottomenu tematici** — come *Gestione orologio*, *Pulizie e manutenzioni*, *Opzioni display* e *Parametri macchina* — che organizzano in modo chiaro le varie categorie di configurazione.
 
-  <kbd>![machines-page-9](_images/parametri-1.png)</kbd>
+<kbd>![parametri-1](_images/parametri-1.png)</kbd>
 
-Il **contenuto del menù varia in base al modello di macchina selezionato**: alcune macchine visualizzano più sezioni o parametri specifici rispetto ad altre, in funzione delle caratteristiche hardware e software.
+All’interno di ciascun sottomenu, le voci possono essere di due tipi:
 
-All’interno di ogni sezione, le voci possono essere:
+* **Modificabili**: consentono di intervenire direttamente sui valori e salvare le modifiche.
+* **In sola visualizzazione**: mostrano informazioni dalla macchina e non modificabili manualmente.
 
-* **Modificabili**, come nel caso dei parametri *Mostra data* e *Formato ora* del menù **Gestione orologio**, che permettono all’utente di intervenire direttamente e salvare le modifiche apportate;
-* **In sola visualizzazione**, come nella sezione **Pulizie e manutenzioni → Filtro acqua**, dove i dati (capacità del filtro, litri conteggiati, ecc.) sono aggiornati automaticamente dalla macchina e non possono essere modificati manualmente.
+La **numerazione** associata a ogni menu corrisponde a quella visualizzata nella pagina **Impostazioni generali** della macchina.
 
+Dopo aver apportato modifiche, è necessario **inviare le impostazioni** alla macchina.
+
+<kbd>![parametri-7](_images/parametri-7.png)</kbd>
+
+### 3.2 Gestione orologio
+
+<kbd>![parametri-2](_images/parametri-2.png)</kbd>
+
+La sezione **Gestione orologio** permette di visualizzare e impostare data e ora della macchina.
+
+I campi **Usa ora Internet (NTP)** e **Fuso orario** sono **informativi** e non modificabili: indicano rispettivamente se la sincronizzazione oraria avviene via rete e quale fuso orario è attualmente applicato.
+
+Sono invece **modificabili** i seguenti parametri:
+
+* **Mostra data** – abilita o disabilita la visualizzazione della data sul display.
+* **Formato ora** – consente di scegliere tra formato **12 ore** o **24 ore**.
+
+
+### 3.3 Pulizie e manutenzioni
+
+<kbd>![parametri-3](_images/parametri-3.png)</kbd>
+
+La sezione **Filtro acqua** mostra i dati relativi al monitoraggio del consumo d’acqua filtrata.
+
+Le informazioni visualizzate includono:
+
+* **Abilita conteggio litri** – stato del conteggio litri attivo o disattivo.
+* **Capacità filtro** – capacità massima del filtro espressa in litri.
+* **Litri conteggiati** – volume d’acqua già filtrato.
+
+Tutti i valori sono **in sola lettura** e aggiornati automaticamente dalla macchina in base all’utilizzo reale.
+
+
+### 3.5 Opzioni display
+
+La sezione **Opzioni Display** consente di personalizzare l’aspetto grafico e il comportamento del display, modificando luminosità, colori, illuminazione LED e impostazioni visive.
+
+#### 3.5.1 Sfondi, LED e suono
+
+<kbd>![parametri-4](_images/parametri-4.png)</kbd>
+
+In questa sezione è possibile **modificare** diversi parametri, come:
+
+* **Brillantezza display**, **Screensaver** e **Tempo Screensaver**.
+* **LED laterali** e **Colore testo bevande**, per regolare colori e illuminazione.
+* **Rimbalzo lingua colore**, **Sensore presenza utente** e **Pagina di conferma**, per definire il comportamento interattivo.
+
+Sono invece **non modificabili**:
+
+* **Sfondo display**, che mostra l’immagine di sfondo attuale.
+* **Rimbalzo lingua**, che indica lo stato della funzione.
+
+#### 3.5.2 Navigazione e preselezioni
+
+<kbd>![parametri-5](_images/parametri-5.png)</kbd>
+
+Tutti i campi di questa sezione, come *Tipo visualizzazione pagina bevande*, *Numero bevande per pagina* e *Pre-selezione bevande*, sono **in sola visualizzazione**.
+I valori rappresentano la configurazione attuale della macchina e non possono essere modificati manualmente.
+
+
+### 3.7 Parametri macchina
+
+<kbd>![parametri-6](_images/parametri-6.png)</kbd>
+
+#### 3.7.1 Temperature
+
+In questa sezione è possibile **modificare** la temperatura delle caldaie:
+
+* **Caldaia caffè temperatura**
+* **Caldaia vapore temperatura**
+
+Entrambi i parametri sono regolabili tramite cursore (slider) e consentono di ottimizzare la temperatura in base alle esigenze operative o al tipo di bevanda.
+
+#### 3.7.2 Parametri generali
+
+Mostra informazioni tecniche **non modificabili**, tra cui:
+
+* **Numero macinini** e **Numero solubili** installati.
+* **Sistema latte** in uso.
+* **Tipo gruppo infusore** e **Tipo pompa acqua**.
+* **Mantieni camera gruppo chiusa**, che indica se la funzione è abilitata.
