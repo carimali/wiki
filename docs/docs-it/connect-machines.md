@@ -50,7 +50,7 @@ Per garantire il corretto funzionamento, verificare che:
 * La **password remota** sia corretta.
 * Il **numero seriale** della macchina sia inserito correttamente nel software:
 
-  * Per **Armonia**: rimuovere il suffisso alfabetico, mantenere le sei cifre numeriche e aggiungere quattro zeri finali.
+  * Per **Armonia**: rimuovere il suffisso alfabetico, mantenere le sei cifre numeriche e aggiungere quattro zero finali.
   ```Esempio
    CA333333 -> 3333330000
 ````
