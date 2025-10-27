@@ -16,7 +16,16 @@ Si aprirà la finestra **Aggiungi utente**, in cui inserire:
 
 * **Nome** e **Cognome** dell’utente
 * **Email** di accesso
-* **Ruolo**, scegliendo tra *Admin*, *Manager*, *Support* o *User*
+* **Ruolo**, scegliendo tra *Admin*, *Manager*, *Support* o *User*.
+
+
+> **Nota:** Ogni ruolo dispone di permessi specifici.
+> Ad esempio, **Admin** e **Manager** possono creare nuovi utenti, mentre **solo gli Admin** possono aggiungere clienti.
+
+
+> **Nota:** Gli utenti con ruolo **Support** possono visualizzare esclusivamente le **macchine a loro assegnate** come tecnici di assistenza.
+> Non hanno quindi accesso alle matricole o ai dati delle macchine non collegate al proprio profilo.
+
 
 <kbd>![Aggiungi Nuovo Utente](_images/utenti-2.png)</kbd>
 
@@ -42,3 +51,9 @@ Per **disabilitare o abilitare un utente**, premere il pulsante **Disabilita ute
 Verrà mostrata una finestra di conferma prima di procedere.
 
 <kbd>![Compila Dati Nuovo Utente](_images/utenti-6.png)</kbd>
+
+> Note: l'utente disabilitato non potrà più accedere ma può eventalmente essere riabilitato.
+
+
+> Note: nel sistema, **gli utenti registrati non possono essere eliminati in modo permanente**.
+
