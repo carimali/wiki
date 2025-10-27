@@ -77,7 +77,7 @@ Il pulsante **CSV**, posto in alto a destra, permette di **esportare l’elenco 
 
 Ogni macchina può presentare **icone o indicatori visivi** che forniscono informazioni sullo stato operativo:
 
-![Icona occhio](_images/icona-occhio.png) <sup style='font-size:15px'>Consente di [accedere alla scheda panoramica](docs-it/machine.md) della macchina selezionata.<sup>
+![Icona occhio](_images/icona-occhio.png) <sup style='font-size:15px'>Consente di [accedere alla scheda panoramica](docs-it/machine.md) della macchina selezionata.</sup>
   
   Da questa scheda è possibile visualizzare in tempo reale:
 
@@ -85,18 +85,19 @@ Ogni macchina può presentare **icone o indicatori visivi** che forniscono infor
 
   <kbd>![machines-page-6](_images/machines-page-6.png)</kbd>
 
-    * **Stato generale della macchina**
-    * **Erogazioni recenti**
-    * **Temperature di esercizio (caffè e vapore)**
-    * **Contatori globali e parziali**
-    * **Cicli di lavaggio**
-    * **Parametri di calibrazione**
-    * **Posizione geografica**
-    * **Manutenzione trimestrale / annuale**
-    * **Numero cicli gruppo caffè**
-    * **Erogazioni nelle ultime 24 ore**
-    * **Consumo prodotti** ove disponibile
-    * **Stato connessione**
+      * **Stato generale della macchina**
+      * **Erogazioni recenti**
+      * **Temperature di esercizio (caffè e vapore)**
+      * **Contatori globali e parziali**
+      * **Cicli di lavaggio**
+      * **Parametri di calibrazione**
+      * **Posizione geografica**
+      * **Manutenzione trimestrale / annuale**
+      * **Numero cicli gruppo caffè**
+      * **Erogazioni nelle ultime 24 ore**
+      * **Consumo prodotti** ove disponibile
+      * **Stato connessione**
+
 
 * **RICETTE**
 
@@ -138,7 +139,7 @@ Ogni macchina può presentare **icone o indicatori visivi** che forniscono infor
 
 
 
-![Icona errore](_images/icona-errore.png) <sup style='font-size:15px'>Indica la presenza di una o più **anomalie associate alla macchina**, come:
+![Icona errore](_images/icona-errore.png) <sup style='font-size:15px'>Indica la presenza di una o più **anomalie associate alla macchina**.
 
   * **contatori non validi**: numero di erogazioni eseguite a macchina disconessa da più di tre giorni.
 
@@ -156,15 +157,17 @@ Ogni macchina può presentare **icone o indicatori visivi** che forniscono infor
 
 ## Azioni sulle macchine
 
-Dopo la selezione di una macchina, nella parte inferiore della schermata compare la sezione **Fai un’azione sulle tue macchine**, che raccoglie tutte le funzioni operative applicabili. Quando vengono selezionate più di una macchina, alcune funzioni risultano disabilitate: *Ravvia*, *Avvia*, *Spegni*.
+Selezionando una o più matricole, nella parte inferiore della schermata compare la sezione **Fai un’azione sulle tue macchine**, che raccoglie tutte le funzioni operative applicabili. 
+
+Quando vengono selezionate più macchine contemporaneamente, alcune funzioni non sono disponibili e risultano disabilitate:: *Ravvia*, *Avvia*, *Spegni*.
 
 <kbd>![machines-page-11](_images/machines-page-11.png)</kbd>
 
-* **Cambia ricetta** – Consente di **caricare o modificare un set di ricette** sulle macchine selezionate.
+* **Cambia ricetta** – Consente di **aggiornare il set di ricette** per le macchine selezionate.
   L’operazione può essere eseguita su **più macchine contemporaneamente**(max. 10), a condizione che appartengano **allo stesso modello** e abbiano **la medesima configurazione**.
-  In questo modo è possibile aggiornare il set di ricette di un gruppo di macchine omogenee.
+ 
 
-* **Aggiorna firmware** – Avvia la procedura di aggiornamento firmware per le macchine selezionate ove presente il tag *Firmware update*.
+* **Aggiorna firmware** – Avvia la procedura di aggiornamento firmware per le macchine selezionate solo in presenza del tag *Firmware update*.
 
 * **Riavvia** – Esegue un riavvio remoto della macchina.
 
@@ -172,10 +175,10 @@ Dopo la selezione di una macchina, nella parte inferiore della schermata compare
 
 * **Spegni** – Esegue lo spegnimento remoto.
 
-* **Assegna a** – Associa la macchina a un cliente esistente.
+* **Assegna a** – Associa una o più macchine a un cliente esistente.
 
 * **Tag** – Assegna o modifica i tag associati.
 
 * **Esporta contatori** – Genera un file **CSV** contenente i dati aggiornati dei contatori delle macchine selezionate.
 
-Tutte le operazioni vengono applicate esclusivamente alle macchine selezionate nella lista o nella griglia di visualizzazione.
+Tutte le operazioni vengono applicate esclusivamente alle macchine selezionate nella lista.
