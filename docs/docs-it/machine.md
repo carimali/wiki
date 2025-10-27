@@ -147,10 +147,10 @@ Queste informazioni permettono di monitorare la corretta esecuzione dei lavaggi 
 
 <kbd>![manutenzione-7](_images/manutenzione-7.png)</kbd>
 
-Il modulo **Calibrazioni** mostra i valori di taratura relativi ai dosatori della macchina:
+Il modulo **Calibrazioni** mostra i valori di taratura relativi ai dosatori presenti macchina:
 
-* **Macinino 1 / 2** – Quantità di caffè macinato per secondo (*gr/s*).
-* **Solubile 1 ** – Quantità di prodotto solubile dosata per secondo (*gr/s*).
+* **Macinino 1 / 2** – Quantità di caffè (*gr/s*).
+* **Solubile 1** – Quantità di prodotto (*gr/s*).
 
 ---
 
@@ -239,7 +239,7 @@ Il numero di grafici visualizzati varia in base alla quantità di macinini e mix
 
 La legenda sotto ciascun grafico distingue chiaramente:
 
-* **Utilizzato (in rosso)** – Percentuale di prodotto già erogata.
+* **Utilizzato (in rosso)** – Percentuale di prodotto già consumata.
 * **Rimanente (in verde)** – Percentuale di prodotto ancora disponibile.
 
 Un **triangolo arancione di avviso** accanto al nome del componente segnala che il relativo contatore ha raggiunto o superato il limite impostato.
@@ -263,7 +263,7 @@ Il pulsante **Cancella** consente invece di annullare l’operazione senza appor
 
   <kbd>![machines-page-7](_images/machines-page-7.png)</kbd>
 
-La scheda **Ricette** consente di gestire le ricette installate sulla macchina, modificare i parametri di erogazione, esportare o importare configurazioni e inviare le modifiche direttamente al dispositivo connesso.
+La scheda **Ricette** consente di gestire le ricette installate sulla macchina, modificare i parametri di erogazione, memorizzare o richiamare configurazioni e inviare le modifiche direttamente al dispositivo connesso.
 
 
 ### Struttura del menu
@@ -400,7 +400,7 @@ Nei modelli compatibili è possibile configurare anche una **seconda lingua**.
 
 <kbd>![Impostazioni](_images/impostazioni-5.png)</kbd>
 
-Consente di visulizzare il fuso oario impostato sulla macchina e il corrispondente del browser.
+Consente di visulizzare il fuso orario impostato sulla macchina e il corrispondente del browser.
 
 
 ### Brewer
