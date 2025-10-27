@@ -67,15 +67,13 @@ Il modulo **Erogazioni** presenta due grafici complementari che mostrano le stes
 Rappresenta la quantità totale di bevande erogate per giorno nel periodo selezionato.
 Ogni colonna indica un dato temporale, mentre i colori identificano le diverse ricette.
 
-* L’asse **orizzontale** mostra i giorni compresi nell’intervallo selezionato.
-* L’asse **verticale** riporta il numero totale di erogazioni.
 
 <kbd>![manutenzione-2](_images/manutenzione-2.png)</kbd>
 
 **Grafico 2**
 
 Mostra la distribuzione delle bevande erogate durante le diverse ore della giornata.
-Ogni colonna rappresenta un’ora (da 00:00 a 23:00) e la suddivisione cromatica consente di distinguere le ricette erogate.
+Ogni colonna rappresenta un’ora (da 00:00 a 23:00) mentre la suddivisione cromatica consente di distinguere le ricette erogate.
 
 <kbd>![manutenzione-3](_images/manutenzione-3.png)</kbd>
 
@@ -107,7 +105,7 @@ Sotto il grafico **1** sono presenti tre pulsanti di funzione:
 
 <kbd>![manutenzione-4](_images/manutenzione-4.png)</kbd>
 
-Il modulo **Temperature** mostra in tempo reale le temperature rilevate dai sensori della macchina:
+Il modulo **Temperature** mostra le temperature rilevate dai sensori della macchina:
 
 * **Caffè** – Temperatura della caldaia caffè.
 * **Vapore** – Temperatura della caldaia vapore.
@@ -124,10 +122,9 @@ Un valore anomalo può indicare un malfunzionamento del gruppo caffè o del circ
 Il modulo **Erogazioni** visualizza i dati relativi al numero di bevande distribuite:
 
 * **Contatore Globale** – Numero totale di erogazioni effettuate dalla macchina (dato non resettabile).
-* **Contatore Parziale** – Numero di erogazioni registrate dall’ultimo azzeramento.
+* **Contatore Parziale** – Numero di erogazioni registrate dall’ultimo azzeramento. I dati vengono aggiornati a intervalli regolari di un’ora.
 
 Premendo **Mostra**, è possibile visualizzare il dettaglio completo delle erogazioni suddivise per singola bevanda.
-I dati sono aggiornati automaticamente a intervalli regolari.
 
 ---
 
@@ -150,10 +147,10 @@ Queste informazioni permettono di monitorare la corretta esecuzione dei lavaggi 
 
 <kbd>![manutenzione-7](_images/manutenzione-7.png)</kbd>
 
-Il modulo **Calibrazioni** mostra i valori correnti di taratura relativi ai dosatori della macchina:
+Il modulo **Calibrazioni** mostra i valori di taratura relativi ai dosatori della macchina:
 
 * **Macinino 1 / 2** – Quantità di caffè macinato per secondo (*gr/s*).
-* **Solubile 1 / 2** – Quantità di prodotto solubile dosata per secondo (*gr/s*).
+* **Solubile 1 ** – Quantità di prodotto solubile dosata per secondo (*gr/s*).
 
 ---
 
