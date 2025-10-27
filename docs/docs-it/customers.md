@@ -46,11 +46,6 @@ Nella pagina **Aggiungi cliente** compilare:
 4. **Supporto utente** (referente del servizio di assistenza)
 5. **Email Attivazione** (opzionale, se selezionato vengono inviate via email le credenziali di accesso)
 
-> **Nota:** Ogni ruolo dispone di permessi specifici.
-> Ad esempio, **Amministratori** e **Manager** possono creare nuovi utenti, mentre **solo gli Amministratori** hanno la possibilità di aggiungere nuovi clienti.
-
-> **Nota:** Gli utenti con ruolo **Support** possono visualizzare esclusivamente le **macchine a loro assegnate** come tecnici di assistenza.
-> Non hanno quindi accesso alle matricole o ai dati delle macchine non collegate al proprio profilo.
 
 
 Confermare con **Salva**.

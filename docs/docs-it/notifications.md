@@ -1,24 +1,37 @@
 # Notifiche
 
-Quando accedi alla dashboard della piattaforma CARIcare, in alto a destra è evidenziato il numero di **notifiche** presenti. 
+In alto a destra della **Dashboard** è visibile l’icona a campanella con il **contatore** delle notifiche non lette.
 
-<kbd>![Alarm Notifiche](_images/notifiche-00.png)</kbd>
+<kbd>![Alarm Notifiche](_images/notifiche.png)</kbd>
 
-Clicca sull'icona a forma di campanello per **accedere alla pagina delle notifiche**. Questa pagina mostra in prima le **nuove** notifiche poi le **vecchie**. 
+Cliccando la campanella si apre il pannello **Notifiche**, suddiviso in **Nuovo** (non lette) e **Vecchie** (lette/archiviate).
 
-<kbd>![Alarm Notifiche](_images/notifiche-01.png)</kbd>
+<kbd>![Pannello Notifiche](_images/notifiche-01.png)</kbd>
 
-Ogni notifica riporta il **tipo di errore** ("critico", "refill" o "warning") oltre ad altre informazioni come la disponibilità di un nuovo firmware per la macchina. Nel caso di una disconnessione, la notifica indica anche il numero della macchina.
+## Cosa mostra
 
-Cliccando su una singola notifica si accede direttamente alla sezione "**"Errori"** o all'area dedicata alla macchina di cui deve essere aggiornato il firmware.
+* **Tipo di segnalazione**: identificato da un’icona che rappresenta la natura dell’evento — *Errore*, *Warning*, *Refill*, *Macchina disconnessa* — oppure da un tag specifico come *Aggiornamento firmware*.
+  Accanto all’icona è riportata anche la **descrizione della causa** dell’errore (ad esempio *Porta aperta* o *Livello basso latte*).
 
-Una notifica può essere cancellata utilizzando il bottone con l'icona del cestino alla sua destra: noterai che la notifica cancellata sarà presente nella lista delle notifiche **vecchie**.
-
-**Nota:** tutte le notifiche arrivano via email. Ogni errore genera un messaggio email ricevuto dal supporto tecnico di competenza.
-
+* **Dettaglio temporale**: sotto ogni segnalazione è indicato **quando** si è verificato l’evento, espresso in minuti, ore o giorni trascorsi.
 
 
+## Azioni rapide
+
+* **Aprire la notifica**: clic sul testo per andare direttamente alla sezione pertinente:
+
+<kbd>![Errori da notifica](_images/notifiche-02.png)</kbd>
+
+  * **PAGINA ERRORI** → l’elenco filtrato per tipo di errore.
+
+  <kbd>![Errori da notifica](_images/notifiche-03.png)</kbd>
+
+  * **PAGINA MACCHINA** → lista macchine con attivo tag di **aggiornamento firmware**.
+
+    <kbd>![Errori da notifica](_images/notifiche-04.png)</kbd>
 
 
+* **Icona cestino**: consente di eliminare la notifica dall’elenco delle **Nuove**. La notifica rimarrà visibile nella sezione **Vecchie** per 10 giorni, dopodiché verrà rimossa automaticamente.
+* **Icona campanella barrata**: permette di disattivare temporaneamente gli avvisi sonori e visivi. Tutte le notifiche presenti nella sezione **Nuove** vengono spostate automaticamente in **Vecchie**.
 
-
+> Nota: le notifiche vengono recapitate anche via **e-mail** al supporto di competenza; ogni errore genera un messaggio di posta con i dettagli dell’evento.
