@@ -31,7 +31,5 @@ Cliccando la campanella si apre il pannello **Notifiche**, suddiviso in **Nuovo*
     <kbd>![Errori da notifica](_images/notifiche-04.png)</kbd>
 
 
-* **Icona cestino**: consente di eliminare la notifica dall’elenco delle **Nuove**. La notifica rimarrà visibile nella sezione **Vecchie** per 10 giorni, dopodiché verrà rimossa automaticamente.
-* **Icona campanella barrata**: permette di disattivare temporaneamente gli avvisi sonori e visivi. Tutte le notifiche presenti nella sezione **Nuove** vengono spostate automaticamente in **Vecchie**.
-
-> Nota: le notifiche vengono recapitate anche via **e-mail** al supporto di competenza; ogni errore genera un messaggio di posta con i dettagli dell’evento.
+* **Icona cestino**: consente di spostare le notifiche dall’elenco **Nuove** all'elenco **Vecchie**. La notifica rimarrà visibile per 7 giorni, dopodiché verrà rimossa automaticamente.
+* **Icona campanella barrata**: permette di spostare automaticamente tutte le notifiche presenti nella sezione **Nuove** in **Vecchie**.

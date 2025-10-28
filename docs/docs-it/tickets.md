@@ -20,12 +20,11 @@ Per aprire una nuova segnalazione, selezionare **Nuovo ticket** in alto a destra
 Si apre la pagina di creazione, nella quale è possibile scegliere una delle due modalità di contatto:
 
 
-### **Richiesta di supporto** (Chat)
+### **Richiesta di supporto**
 
 <kbd>![Richiesta Supporto](_images/tickets-3.png)</kbd>
 
-Questa modalità utilizza la **chat integrata** come canale di comunicazione preferenziale.
-Compilare i campi seguenti:
+Questa modalità utilizza il **CARIcare** come canale di comunicazione.
 
 * **Tipologia** – selezionare la categoria del problema dal menù a discesa;
 * **Macchina** – scegliere la macchina oggetto della richiesta (si aprirà un menu a tendina con tutte le macchine registrate);
