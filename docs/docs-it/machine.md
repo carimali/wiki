@@ -152,6 +152,7 @@ Il modulo **Calibrazioni** mostra i valori di taratura relativi ai dosatori pres
 * **Macinino 1 / 2** – Quantità di caffè (*gr/s*).
 * **Solubile 1** – Quantità di prodotto (*gr/s*).
 
+> **Nota:** questa sezione è **visualizzabile solo selezionando una macchina superautomatica**
 ---
 
 ### Mappa e indirizzo
@@ -253,6 +254,8 @@ Cliccando sull’icona di **avviso (triangolo arancione)** accanto a un componen
 
 Premendo **Conferma**, il sistema azzera i valori di consumo e ripristina il conteggio per i cicli successivi.
 Il pulsante **Cancella** consente invece di annullare l’operazione senza apportare modifiche.
+
+> **Nota:** questa sezione è **visualizzabile solo selezionando una macchina superautomatica** (attualmente linea SilverAce e SilverTwin  con ultima versione del firmware).
 
 > ⚠️ **Attenzione:** l’azzeramento dei contatori è un’azione permanente e non può essere annullata.
 > È consigliato eseguirla solo dopo il reale rifornimento dei prodotti.
