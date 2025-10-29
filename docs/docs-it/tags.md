@@ -28,9 +28,9 @@ La tabella riporta le principali informazioni per ciascun tag.
 | Test Tag 2 | Supervisione configurazione test | ![#ff0000](https://placehold.co/15x15/ff0000/ff0000.png) | Cancella |
 | Test Tag 3 | Monitoraggio tecnico laboratorio | ![#a94c47](https://placehold.co/15x15/a94c47/a94c47.png) | Cancella |
 
-> I tag generati automaticamente dal sistema non possono essere modificati o eliminati manualmente.
+> I tag generati automaticamente dal sistema (*firmware update*) non possono essere modificati o eliminati manualmente.
 
 L’elenco dei tag è ordinato alfabeticamente e aggiornabile in qualsiasi momento.
 
 
-> **Nota:** per maggiori informazioni sull’utilizzo dei tag in relazione alle macchine, consultare il capitolo [**Assegnare un tag alle macchine**](https://carimali.github.io/wiki/#/docs-it/machines?id=azioni-sulle-macchine).
+> **Nota:** per maggiori informazioni sull’utilizzo dei tag in relazione alle macchine, consultare il capitolo [**Assegnare un tag alle macchine**](/docs-it/machines?id=azioni-sulle-macchine).

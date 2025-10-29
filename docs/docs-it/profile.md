@@ -1,7 +1,5 @@
 # Profilo
 
-Selezionando l’icona con tre linee orizzontali è possibile accedere alla sezione **Profilo personale**.
-
 <kbd>![Profilo Personale](_images/Profilo-01.png)</kbd>
 
 All’interno della scheda personale sono disponibili le seguenti funzioni:
@@ -22,7 +20,7 @@ La sezione permette di:
 
 * Cambiare la password corrente 
 
-<kbd>![Cambio Password](_images/Profilo-03-cambio-password.png)</kbd>
+<kbd>![Cambio Password](_images/Profilo-03.png)</kbd>
 
 La nuova password deve rispettare i seguenti requisiti:
 
@@ -51,9 +49,13 @@ Per ciascun tipo di notifica sono indicati i canali disponibili: **Email**, **No
 
 > **N/A** indica che la tipologia di notifica non è disponibile per quel canale.
 
+Esempio notifica Popup:
 
-Nella parte inferiore della pagina è visibile la **API Key** associata all’account, utilizzabile per integrazioni con sistemi esterni.
-Per motivi di sicurezza, non deve essere condivisa con utenti non autorizzati.
+<kbd>![Cambio Password](_images/Profilo-04.png)</kbd>
+
+
+Nella parte inferiore della pagina è visibile la [**API Key**](/docs-it/api) associata all’account, utilizzabile per integrazioni con sistemi esterni.
+Per motivi di sicurezza, non deve essere condivisa con altri utenti.
 
 
 ## **Informativa sulla privacy** 
