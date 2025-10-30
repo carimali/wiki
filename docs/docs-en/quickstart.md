@@ -1,34 +1,55 @@
-# How to access
+# How to Access CARIcare
 
-To reach CARIcare, open the browser of your device then type caricare.carimali.com or caricare.tech.
+To access the **CARIcare** platform, open the web browser on your device and type the following address in the URL bar:
 
-## Authentication
+[https://caricare.carimali.com](https://caricare.carimali.com)
 
-On the **Login** page, insert **"user name"**  (1) and **"password"** (2), then press **"Log in"** button (3). You can keep the password by checking the **"Remember me"** box (4). If you forgot your password, [click here](https://carimali.github.io/wiki/#/docs-it/recover-password).
+Then press **Enter** to confirm and reach the login page.
 
-<kbd>![Login](_images/login-1.png)</kbd>
+---
 
-## Terms of use and Privacy Policies
+## Access and Authentication
 
-At the first login, accepting Privacy and Cookie Policies is necessary to ensure the confidentiality of information according to the rules. Failure to do so is going to make it impossibile to use the application features.
-You can subscribe to the Newsletter to keep yourself updated about the Carimali and CARIcare news. 
+After opening the website, the **Login** page will appear.
+Enter the credentials received via email in the appropriate fields:
 
-Press **"accept"** to accepting the CARICare *Privacy Policy* 
+1. **Username**
+2. **Password**
 
-<kbd>![Policy](_images/quickstart-privacy.png)</kbd>
+Once the data has been entered, press **Log in** to access the platform.
 
-Press **"accept"** to accepting the CARICare *Cookie Policy*  then press **Save**  to keep your prefencies.
+Credentials can be saved by selecting the **Remember me** option.
+If the password has been lost, the recovery function is available [by clicking here](https://carimali.github.io/wiki/#/docs-it/recover-password).
 
-<kbd>![Cookie](_images/quickstart-cookie.png)</kbd>
+<kbd>![Login Page](_images/login-1.png)</kbd>
 
-**Please Note:** You can change your Privacy and Cookie Policies preferences at any time from your account. However, rejecting one of them will make it impossibile to use the application features.
+---
 
+## Usage Policy and Data Privacy
 
+Upon **first login**, it is necessary to accept the **CARIcare Privacy Policy** and **Cookie Policy**.
+This step is mandatory to ensure data confidentiality and compliance with current regulations.
+Without acceptance of the policies, **no features of the platform can be used**.
 
+During this step, the user may also choose to subscribe to the **Carimali newsletter** to receive updates and news about **CARIcare** products and services.
 
+---
 
+### Policy Acceptance
 
+1. Select **Accept** to agree to the *CARIcare Privacy Policy*.
 
+<kbd>![Privacy Policy Acceptance](_images/policy_privacy_1.png)</kbd>
 
+2. Select **Accept** to agree to the *CARIcare Cookie Policy*.
 
+<kbd>![Cookie Policy Acceptance](_images/policy_privacy_2.png)</kbd>
 
+3. Press **Save** to store your preferences.
+
+---
+
+### Preference Management
+
+Settings related to the **Privacy Policy** and **Cookie Policy** can be modified at any time from the user profile.
+It is important to note that **rejecting even one of the two policies** will result in the account being **unable to use any feature of the CARIcare platform**.

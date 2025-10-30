@@ -14,7 +14,7 @@ L’attivazione deve essere richiesta tramite il **tuo contatto di riferimento**
 
 Le credenziali verranno inviate tramite una mail dall’indirizzo **caricare@carimali.com**.  
 
-I clienti diretti **Carimali** devono invece scrivere al **commerciale di riferimento** oppure a **service@veagroup.com**.  
+I clienti diretti **Carimali** deSvono invece scrivere al **commerciale di riferimento** oppure a **service@veagroup.com**.  
 
 ---
 
