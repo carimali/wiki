@@ -1,4 +1,4 @@
-# Password Recovery
+# Recover Password
 
 If the access password has been forgotten, it can be reset by following the procedure described below.
 

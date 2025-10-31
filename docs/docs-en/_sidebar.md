@@ -5,6 +5,7 @@
   - [Connecting Machines](docs-en/connect-machines.md)
   - [Recover password](docs-en/recover-password.md)
   - [Navigation menu structure](docs-en/Navigation-menu.md)
+
 - Monitoring
 
   - [Dashboard](docs-en/dashboard.md)
@@ -36,5 +37,3 @@
 - API (access your data)
 
   - [API](docs-en/api.md)
-  
-- Changelog
