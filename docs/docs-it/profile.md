@@ -18,6 +18,8 @@ La sezione permette di:
     * **Email**
     * **Lingua** – selezionabile dal menu a discesa per impostare la lingua dell’interfaccia.
 
+<kbd>![Cambio Password](_images/Profilo-05.png)</kbd>
+
 * Cambiare la password corrente 
 
 <kbd>![Cambio Password](_images/Profilo-03.png)</kbd>
