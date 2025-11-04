@@ -22,14 +22,14 @@ The system also provides specific control over **coffee beans**, enabling the se
 ### Remote control
 
 The platform allows **remote modification** of recipe parameters, prices, and, if available, cup type.
-It is possible to create, import, or export **recipe groups**, replicating them across other similar machines.
-Additional functions include **machine language modification**, command sending, and, where permitted, configuration parameter changes.
+It is possible to manage **recipe groups**, replicating them across other similar machines.
+Additional functions include **machine language modification**, command sending and, where permitted, configuration parameter changes.
 
 ### Support
 
 **CARIcare** automatically sends **notifications and emails** related to machine alerts or errors to designated staff members.
 Notifications can be classified by type (failure, minor anomaly, product shortage).
-It is also possible to create **access credentials** for other users, enabling them to open **support tickets** linked to a specific machine.
+
 
 ---
 
@@ -60,9 +60,9 @@ All operational functions can be accessed from this section.
 Allows users to **create and manage support tickets**, involving other CARIcare users in issue resolution.
 The section includes a **ticket history** for consulting previously resolved cases.
 
-### Notifications
+### Errors
 
-An area dedicated to the **summary of unresolved anomalies**, from which new support tickets can be generated.
+An area showing a summary of machine anomalies.
 
 ### Customers
 
@@ -82,7 +82,7 @@ Tags facilitate the search and personalized visualization of data.
 An area dedicated to configuring **platform usage preferences**, such as:
 
 * interface language;
-* email notification settings;
+* notification settings;
 * management of policy and privacy options.
 
 This section also provides access to the user’s **personal API key**.
@@ -91,7 +91,7 @@ This section also provides access to the user’s **personal API key**.
 
 ## API integration
 
-**CARIcare** includes an **API system** that, upon entering the personal key, allows the **export or transmission of data** to other systems or local storage on personal devices.
+CARIcare features an **API interface** that, after personal key authentication, allows direct **data** access for integration with external systems
 
 ---
 
