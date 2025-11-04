@@ -9,7 +9,7 @@ The connection procedure varies depending on the machine model.
 
 To connect a **BlueDot** machine to the **CARIcare** platform, follow the instructions provided in the dedicated manual:
 
-[Wi-Fi BlueDot Line](https://service.vea.ventures/media/docs/documentitems/IST.%20025.00.23.IT.pdf)
+[Wi-Fi BlueDot Line](https://service.vea.ventures/media/docs/documentitems/IST.%20025.00.23.EN.pdf)
 
 ---
 
@@ -17,7 +17,7 @@ To connect a **BlueDot** machine to the **CARIcare** platform, follow the instru
 
 To connect an **Armonia** machine to the **CARIcare** platform, follow the instructions provided in the dedicated manual:
 
-[Wi-Fi Armonia Line](https://service.vea.ventures/media/docs/documentitems/ist0090319-it.pdf)
+[Wi-Fi Armonia Line](https://service.vea.ventures/media/docs/documentitems/ist0090319-en.pdf)
 
 ---
 
@@ -25,7 +25,7 @@ To connect an **Armonia** machine to the **CARIcare** platform, follow the instr
 
 For **SilverAce** line machines, the connection procedure is described in the **technical manual – Chapter 5.8**.
 
-[Wi-Fi SilverAce Line](https://service.vea.ventures/media/docs/documentitems/SM_SILVERACE_LB.05165.IT.04.pdf)
+[Wi-Fi SilverAce Line](https://service.vea.ventures/media/docs/documentitems/SM_SILVERACE_LB.05165.EN.04.pdf)
 
 ---
 
