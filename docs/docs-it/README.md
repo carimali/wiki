@@ -22,7 +22,7 @@ Il sistema offre inoltre un controllo specifico sul **caffè in grani**, con la 
 ### Controllo remoto
 
 La piattaforma permette di **modificare da remoto** i parametri delle ricette, i prezzi e, se previsto, il tipo di bicchiere.
-È possibile creare, importare o esportare **gruppi di ricette**, replicandoli su altre macchine simili.
+È possibile gesstire **gruppi di ricette**, replicandoli su altre macchine simili.
 Tra le funzioni aggiuntive rientrano la **modifica della lingua macchina**, l’invio di comandi e, ove consentito, la modifica dei parametri di configurazione.
 
 ### Assistenza
@@ -60,9 +60,9 @@ Da questa sezione è possibile accedere a tutte le funzionalità operative previ
 Permette di **creare e gestire ticket di assistenza**, coinvolgendo altri utenti CARIcare nella risoluzione dei problemi.
 La sezione include uno **storico ticket** per la consultazione dei casi già risolti.
 
-### Notifiche
+### Erroris
 
-Area dedicata al **riepilogo delle anomalie** non ancora risolte, dalla quale è possibile generare nuovi ticket di assistenza.
+Sezione dedicata alla **raccolta e sintesi delle anomalie** rilevate su ciascuna macchina
 
 ### Clienti
 

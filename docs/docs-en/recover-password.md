@@ -1,17 +1,25 @@
-# Recover password
+# Recover Password
 
-If you forgot your password or you want to change it, follow these steps:	
+If the access password has been forgotten, it can be reset by following the procedure described below.
 
-- type the following address on your device browser: https://caricare.carimali.com/login or [click here](https://caricare.carimali.com/login) in order to access the CARIcare **Login** page;
+1. Open the web browser on the device and type the address [https://caricare.carimali.com/login](https://caricare.carimali.com/login), then press **Enter** to access the authentication page.
 
-- press **Forgot Password** link as shown below:
+2. On the **Login** screen, select the **Forgot Password** option, as shown in the image below:
 
-<kbd>![Forgot Passwrod](_images/recover-password-step-1.png)</kbd>
+   <kbd>![Forgot Password](_images/recover-password-step-1.png)</kbd>
 
-- on the new screen **"Recover password"**, insert your account **email**(1) and then press **"Submit"**(2) as shown below:
+3. On the **Forgot Password** page, enter the **email address** associated with the **CARIcare** account, then press **Submit** to send the recovery request.
+   The operation can be cancelled by pressing **Cancel**.
 
-<kbd>![Recover Passwrod](_images/recover-password-step-2.png)</kbd>
+   <kbd>![Recover Password](_images/recover-password-step-2.png)</kbd>
 
-Press **"Cancel"** at any time to abort the operation.
+4. Access the mailbox corresponding to the entered email address.
+   An email from **`caricare@carimali.com`** will be received, containing the link for password reset.
+   Select **Resetting password** to continue.
 
+   <kbd>![Email Reset Password](_images/recover-password-step-3.png)</kbd>
 
+5. On the next screen, enter the **new password**, repeat it for confirmation, and press **Change Password** to complete the operation.
+   Once finished, log in again using the new credentials.
+
+   <kbd>![Change Password](_images/recover-password-step-4.png)</kbd>

@@ -1,110 +1,179 @@
-# Your Machines
+# Machines
 
-## Export counters in CSV format
+The **Machines** section enables viewing, searching, and managing the coffee machines connected to the **CARIcare** platform.
+From this area it is possible to filter machines by various parameters, export counters, update firmware, manage recipes, or send remote commands.
 
-Click **"Export counters in CSV format"** button to create a **CSV** (Comma-Separated Values) document that contains **your machines counters**.
+<kbd>![machines-page-1](_images/machines-page-1.png)</kbd>
 
-<kbd>![Export CSV](_images/expCSV-eng.png)</kbd>
- 
-## Filter machines by properties
+---
 
-You can use several filters to reach one or more machines rapidly by making a research based on: 
+## Export counters to CSV
 
-- **Installation**.  You can view **the installed or not installed machines** by ticking the respective box.
+The **Export counters to CSV** button generates a CSV (Comma-Separated Values) file containing up-to-date counter data for the listed machines.
+The resulting file can be used for analysis, statistics, or archiving of dispensing data.
 
-<kbd>![Installation filter](_images/machines-installation-filter-eng.png)</kbd>
+<kbd>![machines-page-2](_images/machines-page-2.png)</kbd>
 
-- **Connection Status**. You can view **the connected or disconnected machines** by ticking the respective box.
+## Search filters
 
-<kbd>![Connection Status filter](_images/machines-connecting-filter-eng.png)</kbd>
+The upper part of the screen contains a set of **filters** that allow quick identification of one or more machines based on specific criteria.
 
-- **Tags**. You can filter machines by one or more tags you assigned them.
+Available fields:
 
-<kbd>![Tags filter](_images/machines-tags-filter-eng.png)</kbd>
+* **Model** – Filters machines by model.
+* **Connection** – Allows selection of *connected* or *disconnected* machines only.
+* **Serial** – Direct search by unique serial number.
 
-You can view all the tags by using the **"tag list"** switch. 
+The **Advanced filters** button expands or collapses the search criteria display.
 
-<kbd>![Tag list](_images/machines-tags2-filter-eng.png)</kbd>
+* **Customer** – Shows machines assigned to a specific customer.
+* **Address** – Enables search by the machine’s location or site.
+* **Firmware** – Filters by the installed firmware version.
+* **Tags** – Allows selection of machines by assigned tags
+  (e.g., selecting **Firmware update** filters machines for which a software update is available).
 
-You can also filter by one or more tags by typing its name in the **"Search"** field. 
+<kbd>![machines-page-3](_images/machines-page-3.png)</kbd>
 
-<kbd>![Tags Search](_images/machines-tags3-filter.png)</kbd>
- 
-**Please Note:** for more information on how to create and to assign the tag,  go to [Tags section](https://carimali.github.io/wiki/#/docs-en/tags).
+---
 
+## Machine list
 
+The lower part of the page shows the **machine list** with key operational data, available in two display modes:
 
+* **List view**
+  Displays machines in a tabular format, one per row.
+  Each entry includes:
 
+  * **Image**
+  * **Model**
+  * **Serial**
+  * **Customer**
+  * **Installation address**
+  * **Installed firmware** version
+  * **Connection status**
+  * **Tags**
+  * **Actions**
 
-## Actions on your machines
+  <kbd>![machines-page-4](_images/machines-page-4.png)</kbd>
 
-On **"Your machines”** section, you can find **all coffee machines compliant with CARIcare** which you have been assigned and some features required for their management.
+* **Grid view**
+  Displays machines as cards, with the same key information in a more compact layout.
+  This mode enables faster visual recognition thanks to the model image.
 
-As for the whole CARIcare system, the unique ID for each machine is the **"serial number"** and it matches the number on the label
-of the machine without the **_CA_**; for example, the picture below shows the serial number **254168**:
+  <kbd>![machines-page-5](_images/machines-page-5.png)</kbd>
 
-<kbd>![Machine serial](_images/machines-icon-serial.png)</kbd>
+The two modes can be toggled using the **List** or **Grid** buttons at the top right.
+On **smartphone** devices, the default display is **list view**, optimized for screen size.
 
-you can find it on the respective label machine:
+Each row or card represents a single machine.
+The **Sel.** column or the checkbox next to each machine allows **multi-selection** to apply bulk actions.
+The **CSV** button at the top right allows **exporting the displayed list** in **.csv** format.
 
-<kbd>![Machine label](_images/machines-serial.png)</kbd>
+---
 
+### Status indicators
 
-Each machine pane shows the **serial number**, the **model**, a **machine thumbnail**, the **connection status** (connected/disconnected) to CARIcare server and, if assigned, the the customer who owns it.
+Each machine may display **icons or visual indicators** that provide information on operational status:
 
-The **checkbox** allows you to select one or more machines in the same time; all functions are applied to all selected machines.
+![Eye icon](_images/icona-occhio.png) <sup style='font-size:15px'>Allows [access to the overview page](docs-it/machine.md) of the selected machine.</sup>
 
-<kbd>![Machine Checkbox](_images/machines-icon2-eng.png)</kbd>
+From this page, it is possible to view in real time:
 
+* **MAINTENANCE**
 
+  <kbd>![machines-page-6](_images/machines-page-6.png)</kbd>
 
-**Please Note:** you can further refine your search by using the filters on displayed machine.
-
-  
-  
-## Assigning the machines
-
-If you have already created a customer account, you can use this feature to assign him your coffee machines. Whether it's rental or sale, it's a good way to organise them and better manage your business. Once You have selected one or more machines, click **"assign to"**;
-
-<kbd>![Assigning the machines](_images/machines-assegna-eng.png)</kbd>
-
-Choose a customer from drop-down menu then click **"Save"**. 
- 
-<kbd>![Customer Machines](_images/machines-cliente-eng.png)</kbd>
-
-Now the selected machines are assigned and displayed in the Machines section of the customer details. 
-
-
-## Manage Recipes
- 
-You can choose a **recipe set** by selecting one or more machines and clicking **change recipe**. The set will loaded in the selected machine.
-
-<kbd>![Change Recipe](_images/machines-ricetta01-eng.png)</kbd>
-
-Click a **recipe** to modify it: you can enable/disable the recipe, change the icon and, if provided for in machine configuration, the price and the type of glass; you can update every single parameter just as if you were right in front of your coffee machine!
-For a detailed explanation of how to configure the machine, please refer to user manual. 
-Click **Save** to keep your changes: otherwise, all changes will be lost.
-
-**Please Note:** changes will be applied to the selected machines.
-
-
-## Reboot machines 
-
-After selecting one or more machine, click **"Reboot"** to reboot the selected machines. Confirm the operation by pressing **"Proceed"**.
-
-<kbd>![Reboot Machine](_images/machines-riavvia-eng.png)</kbd>
-
-## Assigning a TAG to the machines
-
-In order to assign a **tag** to your machines, click **"Tag"**; use **"Tags list"** switch to display the list of available tags; type the name of tag in the **"Search"** field, then click **"Save"**.
-
-<kbd>![Machine Tag](_images/machines-tags01-eng.png)</kbd>
+  * **Overall machine status**
+  * **Recent dispensing**
+  * **Operating temperatures (coffee and steam)**
+  * **Global and partial counters**
+  * **Washing cycles**
+  * **Calibration parameters**
+  * **Geographical location**
+  * **Quarterly / annual maintenance**
+  * **Coffee group cycle count**
+  * **Dispensing in the last 24 hours**
+  * **Product consumption** where available
+  * **Connection status**
 
 
+* **RECIPES**
 
+  <kbd>![machines-page-7](_images/machines-page-7.png)</kbd>
 
+  * **Import a recipe set**
+  * **Recipes** list view / grid view
 
+* **SETTINGS**
 
+  <kbd>![machines-page-8](_images/machines-page-8.png)</kbd>
 
+  * **Machine configuration**
+  * **Firmware**
+  * **Language**
+  * **Payment system**
+  * **Timezone**
+  * **Brewer**
+  * **Product consumption**
+  * **Scheduled date for extraordinary maintenance**
+  * **Counter reset and updates**
 
+* **HISTORY**
 
+  <kbd>![machines-page-9](_images/machines-page-9.png)</kbd>
+
+  * **Errors** history
+  * **Washing** history
+  * **Firmware updates** history
+
+* **PARAMETERS** (SilverAce models only with latest firmware)
+
+  <kbd>![machines-page-10](_images/machines-page-10.png)</kbd>
+
+  * **Clock management**
+  * **Cleaning and maintenance**
+  * **Display options**
+  * **Machine parameters**
+
+![Error icon](_images/icona-errore.png) <sup style='font-size:15px'>Indicates the presence of one or more **anomalies associated with the machine**.
+
+* **invalid counters**: number of dispenses executed while the machine has been disconnected for more than three days.
+
+  <kbd>![machines-page-14](_images/machines-page-14.png)</kbd>
+
+  Select *Reset* to clear the dispensing count, or select *Fix* to add dispenses performed in offline mode to the sales history.
+
+* **Communication anomaly with server**: the connection to the server is unstable.
+
+  <kbd>![machines-page-143](_images/machines-page-13.png)</kbd>
+
+  Select *Reset* to clear the anomaly.</sup>
+
+---
+
+## Actions on machines
+
+By selecting one or more serial numbers, the **Perform an action on your machines** section appears at the bottom of the screen, grouping all applicable operational functions.
+
+When multiple machines are selected simultaneously, some functions are unavailable and appear disabled: *Restart*, *Start*, *Shutdown*.
+
+<kbd>![machines-page-11](_images/machines-page-11.png)</kbd>
+
+* **Change recipe** – Allows **updating the recipe set** for the selected machines.
+  The operation can be performed on **multiple machines simultaneously** (max. 10), provided they belong to **the same model** and have **the same configuration**.
+
+* **Update firmware** – Starts the firmware update process for the selected machines only when the *Firmware update* tag is present.
+
+* **Restart** – Performs a remote restart of the machine.
+
+* **Start** – Reactivates a machine in a stopped state.
+
+* **Shutdown** – Performs a remote shutdown.
+
+* **Assign to** – Associates one or more machines with an existing customer.
+
+* **Tag** – Assigns or modifies associated tags.
+
+* **Export counters** – Generates a **CSV** file containing the updated counter data for the selected machines.
+
+All operations are applied exclusively to the machines selected in the list.

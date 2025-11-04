@@ -83,7 +83,7 @@ Ogni macchina può presentare **icone o indicatori visivi** che forniscono infor
 
   * **MANUTENZIONE**
 
-  <kbd>![machines-page-6](_images/machines-page-6.png)</kbd>
+    <kbd>![machines-page-6](_images/machines-page-6.png)</kbd>
 
       * **Stato generale della macchina**
       * **Erogazioni recenti**

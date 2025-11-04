@@ -1,27 +1,56 @@
-# Requirement
+# Access Requirements
 
-To access CARIcare you need credentials and a device that can connect to the Internet. For any questions please contact ict@carimali.com.
+To access **CARIcare**, the following are required:
 
-## Credentials
+* **login credentials**
+* a **device connected to the Internet**
 
-You will receive your credentials via email from caricare@carimali.com. Activation can be requested to your contact person. If you are a **<span style="color:#2A8BDD">Carimali</span>** customer, you can contact your sales agent or send an email to business@carimali.com: please specify *role*, *company* name and *password* in the mail body.
+For any questions or further information, contact **[service@veagroup.com](mailto:service@veagroup.com)**.
 
-```EXAMPLE
-Hello,
-an account with role [ADMIN] for [customer name] was created.
-Your password is: [1Hzv516gJZ]
-```
+---
 
-If You have requested activation and it has been confirmed that credentials have been sent but you can’t find the email in your inbox, please check spam folder, junk mail, trash, deleted items or archive.
+## Login Credentials
 
-I suggest You add caricare@carimali.com to the safe sender list in order to receive CARIcare emails correctly.
+Activation must be requested through the **assigned contact person**.
 
-If you still can't find the email, please contact your reference person to get a new one.
+The credentials will be sent via email from **[caricare@carimali.com](mailto:caricare@carimali.com)**.
 
-## Connection and devices
+Direct **Carimali** customers must contact their **sales representative** or **[service@veagroup.com](mailto:service@veagroup.com)**.
 
-Since CARIcare is an online platform, you must have a device that can connect to the Internet; the better the connection quality is, the better the user experience.
+---
 
-To properly view CARIcare, please use a device with a display on a screen width of minimum 4 inches and an installed browser; CARIcare is a responsive application and mobile optimized; however, the bigger the screen size is, the better the user experience.
+### Email Content
 
+The email you receive will contain:
 
+* the *role*
+* the *username*
+* the *password*
+
+<kbd>![Email new profile](_images/email-new-profile.png)</kbd>
+
+---
+
+### If You Do Not Receive the Email
+
+If activation has been requested, credentials have been confirmed as sent, and the email is not found in the inbox, check the following folders:
+**Spam**, **Junk Mail**, **Trash**, **Deleted Items**, or **Archive**.
+
+It is recommended to add **[caricare@carimali.com](mailto:caricare@carimali.com)** to the list of **trusted senders** to ensure proper receipt of all messages from the **CARIcare** system.
+
+If the email is still not found, contact the **assigned reference person** to request a **new delivery**.
+
+---
+
+## Connection and Device
+
+Since **CARIcare** is an online platform, an Internet connection is required for its use.
+A broadband connection is not mandatory, but a more stable connection ensures a better user experience.
+
+**CARIcare** can be accessed from multiple devices:
+
+* personal computer
+* tablet
+* smartphone
+
+The application is responsive and optimized for mobile devices; however, a larger screen provides a more comfortable and efficient user experience.
