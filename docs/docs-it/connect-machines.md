@@ -9,7 +9,7 @@ La procedura di connessione varia in base al modello di macchina.
 
 Per la connessione di una macchina **BlueDot** alla piattaforma **CARIcare**, seguire le istruzioni riportate nel manuale dedicato:
 
-[Wi-Fi Linea BlueDot](https://service.vea.ventures/media/docs/documentitems/IST.%20025.00.23.EN.pdf)
+[Wi-Fi Linea BlueDot](https://service.vea.ventures/media/docs/documentitems/IST.%20025.00.23.IT.pdf)
 
 ---
 
@@ -17,7 +17,7 @@ Per la connessione di una macchina **BlueDot** alla piattaforma **CARIcare**, se
 
 Per la connessione di una macchina **Armonia** alla piattaforma **CARIcare**, seguire le istruzioni riportate nel manuale dedicato:
 
-[Wi-Fi Linea Armonia](https://service.vea.ventures/media/docs/documentitems/ist0090319-en.pdf)
+[Wi-Fi Linea Armonia](https://service.vea.ventures/media/docs/documentitems/ist0090319-it.pdf)
 
 ---
 
@@ -25,7 +25,7 @@ Per la connessione di una macchina **Armonia** alla piattaforma **CARIcare**, se
 
 Per le macchine della **linea SilverAce**, la procedura di connessione è descritta nel **manuale tecnico – Capitolo 5.8**.
 
-[Wi-Fi Linea SilverAce](https://service.vea.ventures/media/docs/documentitems/SM_SILVERACE_LB.05165.EN.04.pdf)
+[Wi-Fi Linea SilverAce](https://service.vea.ventures/media/docs/documentitems/SM_SILVERACE_LB.05165.IT.04.pdf)
 
 ---
 

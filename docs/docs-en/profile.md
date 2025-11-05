@@ -1,37 +1,72 @@
 # Profile
 
-## Profile Settings
+<kbd>![Personal Profile](_images/Profilo-01.png)</kbd>
 
-In order to access Your profile click the *hamburger button* on the top-right. 
-
-<kbd>![Profile](_images/Profilo-01.png)</kbd>
-
-On Your personal tab, click **"Edit Profile"**.
-
-<kbd>![Edit Profile](_images/Profile-02.png)</kbd>
-
-On the "Edit profile" page, you can update your personal data by filling in the fields **"first name"**, **"last name"**, **"email"** and choosing the platform language.
-
-<kbd>![Dati personali](_images/Profile-02a.png)</kbd>
-
-In addiction to this, you can choose the notifications you want to receive depending on the type of alarm, by checking the respective box.
-
-<kbd>![Notifiche da ricevere](_images/Profile-02b.png)</kbd>
-
-Please remember to click **"Save"** to keep any changes.
+Within the personal profile panel, the following functions are available:
 
 
-## Edit Company Settings
+## **Edit Profile**
 
-On Your personal tab, you can assign a "support user" by clicking on "**Company Settings**"
+Allows you to update personal information and change your login password.
 
-<kbd>![Company Settings](_images/Profile-03-companysettings.png)</kbd>
+<kbd>![Personal Data](_images/Profilo-02.png)</kbd>
 
-<kbd>![Company Settings Detail](_images/Profile-03-companysettings-b.png)</kbd>
+This section lets you:
 
-Please remember to click **"Save"** to keep any changes.
+* Update:
+
+  * **First Name**
+  * **Last Name**
+  * **Email**
+  * **Language** – selectable from the drop-down menu to set the interface language.
+
+<kbd>![Change Password](_images/Profilo-05.png)</kbd>
+
+* Change the current password
+
+<kbd>![Change Password](_images/Profilo-03.png)</kbd>
+
+The new password must meet the following requirements:
+
+* Minimum **8 characters**
+* At least **one uppercase letter**
+* At least **one lowercase letter**
+* At least **one number**
+* At least **one special character**
+
+Enter the new password in both fields (**Password** and **Confirm Password**) and press **Save** to confirm the changes.
+The **Edit Profile** button returns you to the main configuration screen.
 
 
+### Configure Notifications
+
+This section allows you to configure notifications related to system events.
+For each notification type, the available delivery channels are indicated: **Email**, **Notifications**, and **Popup**.
+
+| Notification Type   | Description                                                           | Email | Notifications | Popup |
+| ------------------- | --------------------------------------------------------------------- | :---: | :-----------: | :---: |
+| **Error**           | Indicates the presence of an error (e.g., door open, system anomaly). |   📧  |       🔔      |  N/A  |
+| **Warning**         | Non-critical alerts or system warnings.                               |   📧  |       🔔      |  N/A  |
+| **Refill**          | Indicates the need for refills or consumables.                        |   📧  |       🔔      |  N/A  |
+| **Disconnection**   | Alerts when a machine has lost connection.                            |   📧  |       🔔      |  N/A  |
+| **Firmware Update** | Notifies about available firmware updates.                            |   📧  |       🔔      |  N/A  |
+| **Machine Actions** | Reports automatic commands or system actions.                         |  N/A  |      N/A      |   💬  |
+
+> **N/A** indicates that the notification type is not available through that channel.
+
+Example of a popup notification:
+
+<kbd>![Popup Example](_images/Profilo-04.png)</kbd>
+
+At the bottom of the page, the [**API Key**](/docs-en/api) associated with the account is displayed, which can be used for integration with external systems.
+For security reasons, it must **not** be shared with other users.
 
 
+## **Privacy Policy**
 
+Opens the section dedicated to reviewing and managing the privacy policy.
+
+
+## **Logout**
+
+Ends the current session and logs the user out of their account.

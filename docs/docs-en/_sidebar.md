@@ -34,6 +34,6 @@
   - [Profile](docs-en/profile.md)
   - [Tags](docs-en/tags.md)
 
-- API (access your data)
+- Data Access and Integration
 
   - [API](docs-en/api.md)
