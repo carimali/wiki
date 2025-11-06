@@ -9,7 +9,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="keywords" content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages">
   <meta name="description" content="A magical documentation generator.">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" title="vue">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/dark.css" title="dark" disabled>
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css" title="buble" disabled>
@@ -17,14 +18,17 @@
   <script src="//unpkg.com/docsify-plugin-codefund/index.js"></script>
 
   <link rel="apple-touch-icon" sizes="180x180" href="_media/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="_media/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="_media/favicon/favicon-16x16.png">
-    <link rel="manifest" href="_media/favicon/site.webmanifest">
-    <link rel="mask-icon" href="_media/favicon/safari-pinned-tab.svg" color="#053852">
-    <meta name="msapplication-TileColor" content="#053852">
-    <meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/png" sizes="32x32" href="_media/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="_media/favicon/favicon-16x16.png">
+  <link rel="manifest" href="_media/favicon/site.webmanifest">
+  <link rel="mask-icon" href="_media/favicon/safari-pinned-tab.svg" color="#053852">
+  <meta name="msapplication-TileColor" content="#053852">
+  <meta name="theme-color" content="#ffffff">
 
   <style>
+    /* ------------------------
+       ASPETTO GENERALE
+    ------------------------- */
     nav.app-nav li ul {
       min-width: 100px;
     }
@@ -34,9 +38,7 @@
     }
 
     section.cover {
-      background-image: none !important;
-      background-color: #053752 !important;
-      color: white !important;
+      display: none !important; /* Disattiva schermata "Getting Started" */
     }
 
     section.cover h1 {
@@ -57,87 +59,256 @@
       text-decoration-color: #053752;
     }
 
-    .sidebar-toggle span {
-      background-color: #053752;
+    /* ------------------------
+       MENU LATERALE BLU
+       (sotto barra blu, con scroll interno)
+    ------------------------- */
+    .sidebar {
+      position: fixed !important;
+      top: 70px !important;             /* sotto la barra blu */
+      bottom: 0;
+      background-color: #053752 !important;
+      color: #ffffff !important;
+      z-index: 950 !important;          /* sotto la barra blu, sopra il contenuto */
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;                 /* scroll interno al menu */
     }
 
-    .app-nav li {
+    .sidebar a {
+      color: #ffffff !important;
+    }
+
+    .sidebar a:hover,
+    .sidebar li.active > a {
+      color: #00b7ff !important;
+    }
+
+    .sidebar ul li {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Rimuove la scritta "CARIcare" dalla sidebar */
+    .sidebar .app-name {
+      display: none !important;
+    }
+
+    /* ------------------------
+       SEARCH DENTRO IL MENU LATERALE
+       (fisso in alto, menu che scorre sotto)
+    ------------------------- */
+    .sidebar .search {
+      order: -1;                 /* in cima alla sidebar */
+      position: sticky;
+      top: 0;                    /* incollato alla parte alta del menu */
+      padding: 10px 15px 5px;
+      background-color: #053752;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      z-index: 951;
+    }
+
+    .sidebar .search .input-wrap {
+      background-color: #03293c;
+      border-radius: 4px;
+      padding: 4px 8px;
+    }
+
+    .sidebar .search .input-wrap input {
+      width: 100%;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: #ffffff;
+      font-size: 14px;
+    }
+
+    .sidebar .search .input-wrap input::placeholder {
       color: #a8b9c2;
     }
 
-    
-
-    .app-nav a:hover,
-    .app-nav li ul a.active {
-      color: #053752;
+    .sidebar .search .results-panel {
+      background-color: #053752;
+      color: #ffffff;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
     }
 
-    .app-nav a.active {
-    border-bottom: 0px solid #42b983;
-    
-}
-
-.app-nav ul {
-    display: flex;
-    gap:0.5rem  ;
-    list-style: none;
-    margin: 0;
- 
-  z-index: 1000;
-  
-}
-.app-nav li {
-   display: flex;
-    align-items: center;
-    margin: 0 ;
-}   
-.app-nav li img {
-      height: 40px;
-      width: 40px;
-      max-width: 40px !important;  
-      max-height: 40px !important;
-      vertical-align: text-bottom;
-   
+    /* ------------------------
+       FASCIA BLU SUPERIORE (sfondo)
+    ------------------------- */
+    .markdown-section::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 70px;
+      background-color: #053752;
+      z-index: 900; /* sotto la barra con il titolo */
     }
-  .app-nav li img:hover {
-    opacity:0.25 
-  }
-.sidebar img {
-      height: 40px;
-      width: 40px;
-      max-width: 40px !important;  
-      max-height: 40px !important;
-      vertical-align: text-bottom;
 
-}
-nav ul {
-    display: flex;
-    gap:0.5rem  ;
-    z-index: 1000;
-}
-nav ul li {
-   display: flex;
-    align-items: center;
-    margin: 0 ;
-}
-
-
-@media screen and (min-width:1240px) {
-  .app-nav ul {
+    /* Testo "CARIcare" centrato sulla fascia blu */
+    .top-bar-title {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 70px;
+      z-index: 1100;             /* sopra tutto */
       display: flex;
-      gap:0.5rem  ;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;      /* per non bloccare clic su menu/bandiera */
+    }
+
+    .top-bar-title .logo-link {
+      pointer-events: auto;
+      color: #ffffff;
+      font-size: 24px;
+      text-decoration: none;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+
+    .top-bar-title .logo-link:hover {
+      color: #00b7ff;
+    }
+
+    /* ------------------------
+       BANDIERE (nella barra blu)
+    ------------------------- */
+    .app-nav ul {
+      display: flex;
+      gap: 0.5rem;
       list-style: none;
       margin: 0;
       position: fixed;
-      top: 20px;
+      top: 15px;
       right: 20px;
-      z-index: 1000;
-  }
-  }
+      z-index: 1200; /* sopra barra e sidebar */
+    }
+
+    .app-nav li {
+      display: flex;
+      align-items: center;
+      margin: 0;
+    }
+
+    .app-nav li img {
+      height: 40px;
+      width: 40px;
+      max-width: 40px !important;
+      max-height: 40px !important;
+      vertical-align: text-bottom;
+      transition: opacity 0.3s;
+    }
+
+    .app-nav li img:hover {
+      opacity: 0.25;
+    }
+
+    /* ------------------------
+       ICONA MENU (nella barra blu)
+    ------------------------- */
+    .sidebar-toggle {
+      position: fixed;
+      top: 15px;
+      left: 20px;
+      z-index: 1200; /* sopra barra e sidebar */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+
+    .sidebar-toggle span {
+      background-color: #ffffff !important;
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 4px 0;
+      transition: 0.3s;
+      border-radius: 2px;
+    }
+
+    /* ------------------------
+       RESPONSIVE: TABLET (iPad)
+    ------------------------- */
+    @media screen and (max-width: 1024px) {
+      .top-bar-title .logo-link {
+        font-size: 20px;
+      }
+
+      .app-nav ul {
+        top: 10px;
+        right: 15px;
+      }
+
+      .app-nav li img {
+        height: 35px;
+        width: 35px;
+      }
+
+      .sidebar-toggle {
+        top: 10px;
+        left: 15px;
+        width: 36px;
+        height: 36px;
+      }
+    }
+
+    /* ------------------------
+       RESPONSIVE: MOBILE
+    ------------------------- */
+    @media screen and (max-width: 600px) {
+      .top-bar-title .logo-link {
+        font-size: 18px;
+      }
+
+      .app-nav ul {
+        top: 8px;
+        right: 10px;
+      }
+
+      .app-nav li img {
+        height: 30px;
+        width: 30px;
+      }
+
+      .sidebar-toggle {
+        top: 8px;
+        left: 10px;
+        width: 32px;
+        height: 32px;
+      }
+
+      .sidebar .search {
+        padding: 8px 12px 4px;
+      }
+
+      .sidebar .search .input-wrap input {
+        font-size: 13px;
+      }
+    }
+
+    /* ------------------------
+       SPAZIO SOTTO LA BARRA
+    ------------------------- */
+    body {
+      margin-top: 70px;
+    }
   </style>
 </head>
 
 <body>
+  <!-- Titolo CARIcare centrato sulla fascia blu -->
+  <div class="top-bar-title">
+    <a href="#/" class="logo-link">CARIcare</a>
+  </div>
+
   <div id="app">Loading ...</div>
   <script>
     window.$docsify = {
@@ -152,7 +323,7 @@ nav ul li {
         '/es/(.*)': 'docs-es/$1'
       },
       auto2top: true,
-      coverpage: true,
+      coverpage: false,   // niente schermata principale
       executeScript: true,
       loadSidebar: true,
       loadNavbar: true,
@@ -175,26 +346,6 @@ nav ul li {
         }
       },
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
-      // plugins: [
-      //   function (hook, vm) {
-      //     hook.beforeEach(function (html) {
-      //       if (/githubusercontent\.com/.test(vm.route.file)) {
-      //         url = vm.route.file
-      //           .replace('raw.githubusercontent.com', 'github.com')
-      //           .replace(/\/master/, '/blob/master')
-      //       } else {
-      //         url = 'https://github.com/docsifyjs/docsify/blob/master/docs/' + vm.route.file
-      //       }
-      //       var editHtml = '[:memo: Edit Document](' + url + ')\n'
-      //
-      //       return editHtml
-      //         + html
-      //         + '\n\n----\n\n'
-      //         + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
-      //     })
-      //   },
-      //   DocsifyCodefund.create('fae1f9a4-870c-4c25-b8e0-c80464f7a95c')
-      // ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
