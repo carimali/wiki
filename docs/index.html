@@ -27,8 +27,16 @@
 
   <style>
     /* ------------------------
-       ASPETTO GENERALE
+       ASPETTO GENERALE NAVBAR
     ------------------------- */
+    nav.app-nav {
+      background: transparent !important;
+      box-shadow: none !important;
+      border-bottom: none !important;
+      position: relative;
+      z-index: 1000;
+    }
+
     nav.app-nav li ul {
       min-width: 100px;
     }
@@ -69,10 +77,11 @@
       bottom: 0;
       background-color: #053752 !important;
       color: #ffffff !important;
-      z-index: 950 !important;          /* sotto la barra blu, sopra il contenuto */
+      z-index: 950 !important;          /* sotto la barra blu */
       display: flex;
       flex-direction: column;
       overflow-y: auto;                 /* scroll interno al menu */
+      transition: transform 0.3s ease, opacity 0.3s ease;
     }
 
     .sidebar a {
@@ -85,22 +94,20 @@
     }
 
     .sidebar ul li {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      border-bottom: none !important;
     }
 
-    /* Rimuove la scritta "CARIcare" dalla sidebar */
     .sidebar .app-name {
       display: none !important;
     }
 
     /* ------------------------
-       SEARCH DENTRO IL MENU LATERALE
-       (fisso in alto, menu che scorre sotto)
+       SEARCH NEL MENU LATERALE
     ------------------------- */
     .sidebar .search {
-      order: -1;                 /* in cima alla sidebar */
+      order: -1;
       position: sticky;
-      top: 0;                    /* incollato alla parte alta del menu */
+      top: 0;
       padding: 10px 15px 5px;
       background-color: #053752;
       border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -132,32 +139,35 @@
       border-top: 1px solid rgba(255, 255, 255, 0.15);
     }
 
+
     /* ------------------------
-       FASCIA BLU SUPERIORE (sfondo)
+       SFONDO BARRA BLU
     ------------------------- */
-    .markdown-section::before {
-      content: '';
+    .top-bar-bg {
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
       height: 70px;
       background-color: #053752;
-      z-index: 900; /* sotto la barra con il titolo */
+      z-index: 900;
+      pointer-events: none;
     }
 
-    /* Testo "CARIcare" centrato sulla fascia blu */
+    /* ------------------------
+       BARRA SUPERIORE: TITOLO + MENU
+    ------------------------- */
     .top-bar-title {
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
       height: 70px;
-      z-index: 1100;             /* sopra tutto */
+      z-index: 1100;
       display: flex;
       align-items: center;
       justify-content: center;
-      pointer-events: none;      /* per non bloccare clic su menu/bandiera */
+      pointer-events: none;
     }
 
     .top-bar-title .logo-link {
@@ -174,143 +184,201 @@
     }
 
     /* ------------------------
-       BANDIERE (nella barra blu)
+       BOTTONE MENU
     ------------------------- */
+    #custom-menu-toggle {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40px;
+      height: 40px;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      pointer-events: auto;
+      z-index: 1200;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    #custom-menu-toggle span {
+      width: 24px;
+      height: 2px;
+      background-color: #ffffff;
+      border-radius: 2px;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    #custom-menu-toggle.active span:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+
+    #custom-menu-toggle.active span:nth-child(2) {
+      opacity: 0;
+    }
+
+    #custom-menu-toggle.active span:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+
+    #custom-menu-toggle:not(.active) span:nth-child(1),
+    #custom-menu-toggle:not(.active) span:nth-child(3) {
+      transform: none;
+    }
+
+    #custom-menu-toggle:not(.active) span:nth-child(2) {
+      opacity: 1;
+    }
+
+    /* ------------------------
+       BANDIERE
+    ------------------------- */
+    .app-nav a,
+    .app-nav a:visited,
+    .app-nav a:focus,
+    .app-nav a:hover,
+    .app-nav a:active {
+      border: none !important;
+      box-shadow: none !important;
+      text-decoration: none !important;
+      outline: none !important;
+      background: none !important;
+    }
+
     .app-nav ul {
       display: flex;
-      gap: 0.5rem;
+      gap: 0.35rem;
       list-style: none;
       margin: 0;
+      padding: 0;
       position: fixed;
       top: 15px;
       right: 20px;
-      z-index: 1200; /* sopra barra e sidebar */
+      z-index: 1200;
     }
 
     .app-nav li {
-      display: flex;
-      align-items: center;
       margin: 0;
+      padding: 0;
+    }
+
+    .app-nav a {
+      display: block;
+      line-height: 0;
     }
 
     .app-nav li img {
       height: 40px;
       width: 40px;
-      max-width: 40px !important;
-      max-height: 40px !important;
-      vertical-align: text-bottom;
-      transition: opacity 0.3s;
-    }
-
-    .app-nav li img:hover {
-      opacity: 0.25;
-    }
-
-    /* ------------------------
-       ICONA MENU (nella barra blu)
-    ------------------------- */
-    .sidebar-toggle {
-      position: fixed;
-      top: 15px;
-      left: 20px;
-      z-index: 1200; /* sopra barra e sidebar */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 40px;
-      height: 40px;
-      background-color: transparent;
-      border: none;
-      cursor: pointer;
-    }
-
-    .sidebar-toggle span {
-      background-color: #ffffff !important;
+      border-radius: 50%;
       display: block;
-      width: 25px;
-      height: 3px;
-      margin: 4px 0;
-      transition: 0.3s;
-      border-radius: 2px;
+      transition: opacity 0.25s ease, filter 0.25s ease, transform 0.25s ease;
+      transform: scale(1);
+      margin: 0;
+    }
+
+    .app-nav a.active[lang="en"] img {
+      opacity: 0.3;
+      filter: grayscale(100%) brightness(0.7);
+      transform: scale(0.95);
+    }
+
+    .app-nav a:not(.active)[lang="it"] img {
+      opacity: 1;
+      filter: none;
+      transform: scale(1.06);
     }
 
     /* ------------------------
-       RESPONSIVE: TABLET (iPad)
-    ------------------------- */
-    @media screen and (max-width: 1024px) {
-      .top-bar-title .logo-link {
-        font-size: 20px;
-      }
-
-      .app-nav ul {
-        top: 10px;
-        right: 15px;
-      }
-
-      .app-nav li img {
-        height: 35px;
-        width: 35px;
-      }
-
-      .sidebar-toggle {
-        top: 10px;
-        left: 15px;
-        width: 36px;
-        height: 36px;
-      }
-    }
-
-    /* ------------------------
-       RESPONSIVE: MOBILE
-    ------------------------- */
-    @media screen and (max-width: 600px) {
-      .top-bar-title .logo-link {
-        font-size: 18px;
-      }
-
-      .app-nav ul {
-        top: 8px;
-        right: 10px;
-      }
-
-      .app-nav li img {
-        height: 30px;
-        width: 30px;
-      }
-
-      .sidebar-toggle {
-        top: 8px;
-        left: 10px;
-        width: 32px;
-        height: 32px;
-      }
-
-      .sidebar .search {
-        padding: 8px 12px 4px;
-      }
-
-      .sidebar .search .input-wrap input {
-        font-size: 13px;
-      }
-    }
-
-    /* ------------------------
-       SPAZIO SOTTO LA BARRA
+       SFONDO + SPAZIO SOTTO BARRA
     ------------------------- */
     body {
-      margin-top: 70px;
+      margin: 0;
+      background-color: #ffffff;
     }
+
+    #app {
+      padding-top: 70px;
+    }
+
+    /* Nasconde il pulsante standard del menu Docsify in basso a sinistra */
+.sidebar-toggle {
+  display: none !important;
+}
+
   </style>
 </head>
 
 <body>
-  <!-- Titolo CARIcare centrato sulla fascia blu -->
+  <!-- Sfondo blu della barra -->
+  <div class="top-bar-bg"></div>
+
   <div class="top-bar-title">
-    <a href="#/" class="logo-link">CARIcare</a>
-  </div>
+  <button id="custom-menu-toggle" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <a href="#/" class="logo-link">Wiki CARIcare</a>
+</div>
+
 
   <div id="app">Loading ...</div>
+
   <script>
+    // ------------------------
+    // COSTANTI LINGUA
+    // ------------------------
+    const DEFAULT_LANG = 'en';
+    const SUPPORTED_LANGS = ['en', 'it', 'zh-cn', 'de-de', 'ru', 'es'];
+
+    // ------------------------
+    // AGGIORNA HREF E STATO ATTIVO DELLE BANDIERE
+    // ------------------------
+    function updateFlagLinks() {
+      let hash = window.location.hash || '#/';
+      // rimuove "#/" iniziale
+      let path = hash.replace(/^#\//, '').replace(/\/+$/, '');
+      let segments = path ? path.split('/') : [];
+
+      // lingua corrente
+      let currentLang = DEFAULT_LANG;
+      if (segments[0] && SUPPORTED_LANGS.includes(segments[0])) {
+        currentLang = segments[0];
+        segments.shift(); // path logico senza prefisso lingua
+      }
+
+      const flagLinks = document.querySelectorAll('.app-nav a[lang]');
+      if (!flagLinks.length) return;
+
+      flagLinks.forEach(a => {
+        const lang = a.getAttribute('lang') || DEFAULT_LANG;
+        let newSegments = segments.slice();
+
+        if (lang !== DEFAULT_LANG) {
+          newSegments.unshift(lang);
+        }
+
+        let newHash;
+        if (newSegments.length === 0) {
+          // home
+          newHash = (lang === DEFAULT_LANG) ? '#/' : '#/' + lang + '/';
+        } else {
+          newHash = '#/' + newSegments.join('/');
+        }
+
+        a.setAttribute('href', newHash);
+        a.classList.toggle('active', lang === currentLang);
+      });
+    }
+
+    // ------------------------
+    // CONFIGURAZIONE DOCSIFY + PLUGIN
+    // ------------------------
     window.$docsify = {
       alias: {
         '.*?/awesome': 'https://raw.githubusercontent.com/docsifyjs/awesome-docsify/master/README.md',
@@ -323,7 +391,7 @@
         '/es/(.*)': 'docs-es/$1'
       },
       auto2top: true,
-      coverpage: false,   // niente schermata principale
+      coverpage: false,
       executeScript: true,
       loadSidebar: true,
       loadNavbar: true,
@@ -346,8 +414,70 @@
         }
       },
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      plugins: [
+        function (hook, vm) {
+          // chiamato dopo ogni render di pagina (navigazione, cambio hash, ecc.)
+          hook.doneEach(function () {
+            updateFlagLinks();
+          });
+        }
+      ]
+    };
+
+// ------------------------
+// BOTTONE MENU CUSTOM
+// (comportamento coerente desktop + mobile)
+// ------------------------
+
+// Imposta l'icona iniziale in base alla larghezza
+function setInitialMenuIcon() {
+  const customBtn = document.getElementById('custom-menu-toggle');
+  if (!customBtn) return;
+
+  if (window.innerWidth >= 768) {
+    // DESKTOP: sidebar di Docsify è aperta → mostra X
+    customBtn.classList.add('active');
+  } else {
+    // MOBILE: menu chiuso → mostra hamburger
+    customBtn.classList.remove('active');
+  }
+}
+
+document.addEventListener('click', function (e) {
+  const customBtn = document.getElementById('custom-menu-toggle');
+  const original = document.querySelector('.sidebar-toggle');
+  if (!customBtn || !original) return;
+
+  // Clic sul pulsante custom
+  if (e.target.closest('#custom-menu-toggle')) {
+    original.click();                 // toggla il menu di Docsify
+    customBtn.classList.toggle('active'); // toggla solo l'icona
+    return;
+  }
+
+  // Clic fuori dal menu su MOBILE: chiude sidebar se aperta
+  if (window.innerWidth < 768 &&
+      !e.target.closest('.sidebar') &&
+      !e.target.closest('#custom-menu-toggle')) {
+
+    if (customBtn.classList.contains('active')) {
+      // menu aperto → chiudilo
+      original.click();
+      customBtn.classList.remove('active'); // torna hamburger
     }
+  }
+});
+
+// Imposta l'icona corretta all'avvio e al cambio di viewport
+window.addEventListener('load', setInitialMenuIcon);
+window.addEventListener('resize', setInitialMenuIcon);
+
+// Sincronizzazione iniziale e al cambio viewport / pagina
+window.addEventListener('load', syncCustomMenuIcon);
+window.addEventListener('resize', syncCustomMenuIcon);
+window.addEventListener('hashchange', syncCustomMenuIcon);
   </script>
+
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
