@@ -46,7 +46,8 @@
     }
 
     section.cover {
-      display: none !important; /* Disattiva schermata "Getting Started" */
+      display: none !important;
+      /* Disattiva schermata "Getting Started" */
     }
 
     section.cover h1 {
@@ -73,14 +74,17 @@
     ------------------------- */
     .sidebar {
       position: fixed !important;
-      top: 70px !important;             /* sotto la barra blu */
+      top: 70px !important;
+      /* sotto la barra blu */
       bottom: 0;
       background-color: #053752 !important;
       color: #ffffff !important;
-      z-index: 950 !important;          /* sotto la barra blu */
+      z-index: 950 !important;
+      /* sotto la barra blu */
       display: flex;
       flex-direction: column;
-      overflow-y: auto;                 /* scroll interno al menu */
+      overflow-y: auto;
+      /* scroll interno al menu */
       transition: transform 0.3s ease, opacity 0.3s ease;
     }
 
@@ -89,7 +93,7 @@
     }
 
     .sidebar a:hover,
-    .sidebar li.active > a {
+    .sidebar li.active>a {
       color: #00b7ff !important;
     }
 
@@ -177,6 +181,12 @@
       text-decoration: none;
       font-weight: 500;
       letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      text-decoration: none;
+      color: white;
     }
 
     .top-bar-title .logo-link:hover {
@@ -302,14 +312,79 @@
     }
 
     #app {
-      padding-top: 70px;
+      padding-top: 100px;
     }
 
     /* Nasconde il pulsante standard del menu Docsify in basso a sinistra */
-.sidebar-toggle {
-  display: none !important;
-}
+    .sidebar-toggle {
+      display: none !important;
+    }
 
+    .logo-caricare {
+      display: block;
+    }
+
+    /* (overlay custom non più usato, ma innocuo se lasciato) */
+    .menu-overlay {
+      position: fixed;
+      top: 70px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 940;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+
+    /* Nasconde il logo su dispositivi mobili
+       + fix bandiere / menu lingua in mobile
+    */
+    @media screen and (max-width: 768px) {
+      .logo-caricare {
+        display: none;
+      }
+
+      /* Mantiene le bandiere in alto a destra anche su mobile,
+         con dimensioni ridotte */
+      .app-nav ul {
+        position: fixed;
+        top: 22px;
+        right: 16px;
+        gap: 0.25rem;
+      }
+
+      .app-nav li img {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+      }
+
+      /* forza la visibilità della navbar originale in mobile */
+      nav.app-nav {
+        display: block !important;
+      }
+
+      /* Nasconde l’eventuale copia del menu lingua dentro la sidebar */
+      .sidebar nav.app-nav,
+      .sidebar .app-nav {
+        display: none !important;
+      }
+
+      /* nessuna gestione custom della sidebar:
+         lasciare che Docsify gestisca apertura/chiusura e overlay */
+    }
+
+    @media only screen and (max-width: 768px) {
+
+      #app,
+      main,
+      .content {
+        padding-top: 30px !important;
+        /* Spazio extra per evitare che il titolo venga coperto */
+      }
+    }
   </style>
 </head>
 
@@ -318,14 +393,20 @@
   <div class="top-bar-bg"></div>
 
   <div class="top-bar-title">
-  <button id="custom-menu-toggle" aria-label="Menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-  <a href="#/" class="logo-link">Wiki CARIcare</a>
-</div>
+    <button id="custom-menu-toggle" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <a href="#/" class="logo-link">
+      <span>Wiki</span>
+      <img class="logo-caricare" src="_media/icon.svg" width="30px" alt="CARIcare icon" />
+      <span>CARIcare</span>
+    </a>
+  </div>
 
+  <!-- Overlay custom (non necessario, ma lasciato inerte) -->
+  <div class="menu-overlay" id="menu-overlay"></div>
 
   <div id="app">Loading ...</div>
 
@@ -395,7 +476,7 @@
       executeScript: true,
       loadSidebar: true,
       loadNavbar: true,
-      mergeNavbar: true,
+      mergeNavbar: false,   // evita di spostare le bandiere nella sidebar
       maxLevel: 4,
       subMaxLevel: 2,
       ga: 'XXX',
@@ -416,7 +497,6 @@
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
       plugins: [
         function (hook, vm) {
-          // chiamato dopo ogni render di pagina (navigazione, cambio hash, ecc.)
           hook.doneEach(function () {
             updateFlagLinks();
           });
@@ -424,58 +504,60 @@
       ]
     };
 
-// ------------------------
-// BOTTONE MENU CUSTOM
-// (comportamento coerente desktop + mobile)
-// ------------------------
+    // ------------------------
+    // BOTTONE MENU CUSTOM
+    // Proxy verso il toggle nativo di Docsify
+    // ------------------------
+    function initCustomMenuToggle() {
+      const customBtn = document.getElementById('custom-menu-toggle');
+      if (!customBtn) return;
 
-// Imposta l'icona iniziale in base alla larghezza
-function setInitialMenuIcon() {
-  const customBtn = document.getElementById('custom-menu-toggle');
-  if (!customBtn) return;
+      function getSidebarToggle() {
+        return document.querySelector('.sidebar-toggle');
+      }
 
-  if (window.innerWidth >= 768) {
-    // DESKTOP: sidebar di Docsify è aperta → mostra X
-    customBtn.classList.add('active');
-  } else {
-    // MOBILE: menu chiuso → mostra hamburger
-    customBtn.classList.remove('active');
-  }
-}
+      // Sincronizza la grafica dell'icona con lo stato reale del menu
+      function syncIconWithState() {
+        const body = document.body;
+        const hasClose = body.classList.contains('close');
+        const width = window.innerWidth;
+        let isOpen;
 
-document.addEventListener('click', function (e) {
-  const customBtn = document.getElementById('custom-menu-toggle');
-  const original = document.querySelector('.sidebar-toggle');
-  if (!customBtn || !original) return;
+        if (width < 768) {
+          // MOBILE: per un bug storico di Docsify,
+          // la classe "close" indica in realtà menu APERTO
+          isOpen = hasClose;
+        } else {
+          // DESKTOP/TABLET: "close" indica menu CHIUSO
+          isOpen = !hasClose;
+        }
 
-  // Clic sul pulsante custom
-  if (e.target.closest('#custom-menu-toggle')) {
-    original.click();                 // toggla il menu di Docsify
-    customBtn.classList.toggle('active'); // toggla solo l'icona
-    return;
-  }
+        // icona X (active) quando il menu è aperto
+        customBtn.classList.toggle('active', isOpen);
+      }
 
-  // Clic fuori dal menu su MOBILE: chiude sidebar se aperta
-  if (window.innerWidth < 768 &&
-      !e.target.closest('.sidebar') &&
-      !e.target.closest('#custom-menu-toggle')) {
+      customBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        const original = getSidebarToggle();
+        if (!original) return;
 
-    if (customBtn.classList.contains('active')) {
-      // menu aperto → chiudilo
-      original.click();
-      customBtn.classList.remove('active'); // torna hamburger
+        // delega l'apertura/chiusura al comportamento standard di Docsify
+        original.click();
+
+        // aggiorna l'icona dopo che Docsify ha cambiato la classe "close"
+        setTimeout(syncIconWithState, 0);
+      });
+
+      window.addEventListener('resize', syncIconWithState);
+      window.addEventListener('hashchange', syncIconWithState);
+
+      // dopo il load Docsify ha creato .sidebar-toggle e impostato lo stato iniziale
+      window.addEventListener('load', function () {
+        setTimeout(syncIconWithState, 0);
+      });
     }
-  }
-});
 
-// Imposta l'icona corretta all'avvio e al cambio di viewport
-window.addEventListener('load', setInitialMenuIcon);
-window.addEventListener('resize', setInitialMenuIcon);
-
-// Sincronizzazione iniziale e al cambio viewport / pagina
-window.addEventListener('load', syncCustomMenuIcon);
-window.addEventListener('resize', syncCustomMenuIcon);
-window.addEventListener('hashchange', syncCustomMenuIcon);
+    document.addEventListener('DOMContentLoaded', initCustomMenuToggle);
   </script>
 
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
