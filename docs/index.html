@@ -242,7 +242,7 @@
     }
 
     /* ------------------------
-       BANDIERE
+       BANDIERE (navbar Docsify)
     ------------------------- */
     .app-nav a,
     .app-nav a:visited,
@@ -382,6 +382,56 @@
         /* Spazio extra per evitare che il titolo venga coperto */
       }
     }
+
+    /* ------------------------
+       LANGUAGE SWITCHER CUSTOM (solo background, nessuna <img>)
+    ------------------------- */
+    .language-switcher {
+      position: fixed;
+      top: 15px;
+      right: 20px;
+      z-index: 1300;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .language-switcher .flag-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: block;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    .language-switcher .flag-btn:hover {
+      transform: scale(1.08);
+      opacity: 0.9;
+    }
+
+    .language-switcher .flag-it {
+      background-image: url('_media/it.png');
+    }
+
+    .language-switcher .flag-en {
+      background-image: url('_media/en.png');
+    }
+
+    @media screen and (max-width: 768px) {
+      .language-switcher {
+        top: 22px;
+        right: 16px;
+      }
+
+      .language-switcher .flag-btn {
+        width: 26px;
+        height: 26px;
+      }
+    }
   </style>
 </head>
 
@@ -402,6 +452,53 @@
     </a>
   </div>
 
+  <!-- LANGUAGE SWITCHER INLINE -->
+<div class="language-switcher">
+  <!-- Italiano (contenuti su /docs-en/) -->
+  <a href="javascript:void(0)"
+    class="flag-btn flag-it"
+    onclick="(function(){
+      var h = window.location.hash || '#/';
+
+      // Se sei già in italiano (/docs-en/), non fare nulla
+      if (h.indexOf('/docs-en/') !== -1) {
+        return;
+      }
+
+      // Se sei in inglese (/docs-it/), passa alla stessa pagina in italiano
+      if (h.indexOf('/docs-it/') !== -1) {
+        window.location.hash = h.replace('/docs-it/', '/docs-en/');
+      } else {
+        // Se non c'è ancora prefisso lingua, vai alla home italiana
+        window.location.hash = '#/docs-en/';
+      }
+    })(); return false;">
+  </a>
+
+  <!-- Inglese (contenuti su /docs-it/) -->
+  <a href="javascript:void(0)"
+    class="flag-btn flag-en"
+    onclick="(function(){
+      var h = window.location.hash || '#/';
+
+      // Se sei già in inglese (/docs-it/), non fare nulla
+      if (h.indexOf('/docs-it/') !== -1) {
+        return;
+      }
+
+      // Se sei in italiano (/docs-en/), passa alla stessa pagina in inglese
+      if (h.indexOf('/docs-en/') !== -1) {
+        window.location.hash = h.replace('/docs-en/', '/docs-it/');
+      } else {
+        // Se non c'è ancora prefisso lingua, vai alla home inglese
+        window.location.hash = '#/docs-it/';
+      }
+    })(); return false;">
+  </a>
+</div>
+
+
+
   <!-- Overlay custom (non necessario, ma lasciato inerte) -->
   <div class="menu-overlay" id="menu-overlay"></div>
 
@@ -415,7 +512,7 @@
     const SUPPORTED_LANGS = ['en', 'it', 'zh-cn', 'de-de', 'ru', 'es'];
 
     // ------------------------
-    // AGGIORNA HREF E STATO ATTIVO DELLE BANDIERE
+    // AGGIORNA HREF E STATO ATTIVO DELLE BANDIERE (navbar Docsify)
     // ------------------------
     function updateFlagLinks() {
       let hash = window.location.hash || '#/';
