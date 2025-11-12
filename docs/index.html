@@ -125,6 +125,12 @@
       width: 30px;   /* desktop/tablet */
       height: auto;
     }
+     /* Logo dimensioni desktop/tablet */
+    .logo-caricare-mobile {
+      display: none;
+      width: 30px;   /* desktop/tablet */
+      height: auto;
+    }
 
     /* ------------------------
        BOTTONE MENU
@@ -177,24 +183,81 @@
       z-index:940;opacity:0;pointer-events:none;transition:opacity .3s ease;
     }
 
-    /* ------------------------
-       MOBILE
-    ------------------------- */
-    @media screen and (max-width: 768px) {
-      /* Solo logo su mobile */
-      .logo-text-left, .logo-text-right { display: none; }
-      .logo-caricare { display:block !important; width:35px; height:auto; }
+/* ------------------------
+   MOBILE
+------------------------- */
+@media screen and (max-width: 768px) {
+  /* Solo logo su mobile */
+  .logo-text-left,
+  .logo-text-right {
+    display: none;
+  }
 
-      .app-nav ul { position: fixed; top: 22px; right: 50px; gap: 0rem; }
-      .app-nav li img { width: 32px; height: 32px; border-radius: 50%; }
+  .logo-caricare {
+    display: none !important;
+    width: 35px;
+    height: auto;
+  }
 
-      nav.app-nav { display: block !important; }
-      .sidebar nav.app-nav, .sidebar .app-nav { display: none !important; }
-    }
+  .logo-caricare-mobile {
+    display: block !important;
+    width: 75px;
+    height: auto;
+  }
 
-    @media only screen and (max-width: 768px) {
-      #app, main, .content { padding-top: 30px !important; }
-    }
+  /* Allineamento generale header */
+  header,
+  .app-nav ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .app-nav ul {
+    position: fixed;
+    top: 18px;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.1rem;
+    line-height: 0;
+  }
+
+  .app-nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+  }
+
+  .app-nav li img {
+    display: block;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  /* Icone perfettamente centrate */
+  nav.app-nav {
+    display: block !important;
+  }
+
+  .sidebar nav.app-nav,
+  .sidebar .app-nav {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #app,
+  main,
+  .content {
+    padding-top: 30px !important;
+  }
+}
+
+
 
     /* ------------------------
        LANGUAGE SWITCHER CUSTOM
@@ -239,6 +302,7 @@
     <a href="#/" class="logo-link">
       <span class="logo-text-left">Wiki</span>
       <img class="logo-caricare" src="_media/icon.svg" alt="Wiki CARIcare">
+      <img class="logo-caricare-mobile" src="_media/caricare-mobile-logo-white.svg" alt="Wiki CARIcare">
       <span class="logo-text-right">CARIcare</span>
     </a>
   </div>
