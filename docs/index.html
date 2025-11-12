@@ -157,11 +157,12 @@
     .app-nav li{margin:0;padding:0;}
     .app-nav a{display:block;line-height:0;}
     .app-nav li img{
-      height:40px;width:40px;border-radius:50%;display:block;
+      height:40px;width:40px;border-radius:50%;display:block; 
       transition:opacity .25s ease,filter .25s ease,transform .25s ease;transform:scale(1);margin:0;
     }
     .app-nav a.active[lang="en"] img{opacity:.3;filter:grayscale(100%) brightness(.7);transform:scale(.95);}
     .app-nav a:not(.active)[lang="it"] img{opacity:1;filter:none;transform:scale(1.06);}
+  
 
     /* ------------------------
        SFONDO + SPAZIO SOTTO BARRA
@@ -245,32 +246,7 @@
   <!-- LANGUAGE SWITCHER INLINE + USCITA -->
   <div class="language-switcher">
     <!-- Italiano (contenuti su /docs-en/) -->
-    <a href="javascript:void(0)"
-      class="flag-btn flag-it"
-      onclick="(function(){
-        var h = window.location.hash || '#/';
-        if (h.indexOf('/docs-en/') !== -1) { return; }
-        if (h.indexOf('/docs-it/') !== -1) {
-          window.location.hash = h.replace('/docs-it/', '/docs-en/');
-        } else {
-          window.location.hash = '#/docs-en/';
-        }
-      })(); return false;">
-    </a>
-
-    <!-- Inglese (contenuti su /docs-it/) -->
-    <a href="javascript:void(0)"
-      class="flag-btn flag-en"
-      onclick="(function(){
-        var h = window.location.hash || '#/';
-        if (h.indexOf('/docs-it/') !== -1) { return; }
-        if (h.indexOf('/docs-en/') !== -1) {
-          window.location.hash = h.replace('/docs-en/', '/docs-it/');
-        } else {
-          window.location.hash = '#/docs-it/';
-        }
-      })(); return false;">
-    </a>
+    
 
     <!-- Uscita verso CARIcare -->
     <a href="https://caricare.carimali.com/" class="exit-btn" title="Torna alla dashboard CARIcare">
@@ -295,37 +271,7 @@
     const DEFAULT_LANG = 'en';
     const SUPPORTED_LANGS = ['en', 'it', 'zh-cn', 'de-de', 'ru', 'es'];
 
-    // ------------------------
-    // AGGIORNA HREF E STATO ATTIVO DELLE BANDIERE (navbar Docsify)
-    // ------------------------
-    function updateFlagLinks() {
-      let hash = window.location.hash || '#/';
-      let path = hash.replace(/^#\//, '').replace(/\/+$/, '');
-      let segments = path ? path.split('/') : [];
-
-      let currentLang = DEFAULT_LANG;
-      if (segments[0] && SUPPORTED_LANGS.includes(segments[0])) {
-        currentLang = segments[0];
-        segments.shift();
-      }
-
-      const flagLinks = document.querySelectorAll('.app-nav a[lang]');
-      if (!flagLinks.length) return;
-
-      flagLinks.forEach(a => {
-        const lang = a.getAttribute('lang') || DEFAULT_LANG;
-        let newSegments = segments.slice();
-
-        if (lang !== DEFAULT_LANG) newSegments.unshift(lang);
-
-        let newHash = (newSegments.length === 0)
-          ? ((lang === DEFAULT_LANG) ? '#/' : '#/' + newSegments.join('/'))
-          : '#/' + newSegments.join('/');
-
-        a.setAttribute('href', newHash);
-        a.classList.toggle('active', lang === currentLang);
-      });
-    }
+   
 
     // ------------------------
     // CONFIGURAZIONE DOCSIFY + PLUGIN
@@ -357,9 +303,8 @@
         placeholder: { '/de-de/': 'Suche', '/zh-cn/': '搜索', '/': 'Search' }
       },
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
-      plugins: [
-        function (hook, vm) { hook.doneEach(function () { updateFlagLinks(); }); }
-      ]
+      plugins: [      
+]
     };
 
     // ------------------------
@@ -391,7 +336,34 @@
       window.addEventListener('hashchange', syncIconWithState);
       window.addEventListener('load', function () { setTimeout(syncIconWithState, 0); });
     }
+    function handleLanguageSwitcher() {
+  
+
+      const links = document.querySelectorAll('.app-nav a');
+ 
+
+    document.querySelectorAll('.app-nav  a').forEach(link => {
+
+      
+      link.addEventListener('click', function(e) {
+        const currentHash = window.location.hash;
+    
+    // Se clicchi sul flag italiano e sei in docs-en
+    if (this.href.includes('#/it/') && currentHash.includes('/docs-en/')) {
+      e.preventDefault();
+      window.location.hash = currentHash.replace('/docs-en/', '/docs-it/');
+    }
+    
+    // Se clicchi sul flag inglese e sei in docs-it
+    if (this.href.includes('#/') && !this.href.includes('#/it/') && currentHash.includes('/docs-it/')) {
+      e.preventDefault();
+      window.location.hash = currentHash.replace('/docs-it/', '/docs-en/');
+    }
+  });
+});
+    }
     document.addEventListener('DOMContentLoaded', initCustomMenuToggle);
+
   </script>
 
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
