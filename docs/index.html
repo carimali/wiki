@@ -303,8 +303,13 @@
         placeholder: { '/de-de/': 'Suche', '/zh-cn/': '搜索', '/': 'Search' }
       },
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
-      plugins: [      
-]
+      plugins: [
+        function(hook, vm) {
+          hook.doneEach(function() {
+            handleLanguageSwitcher();
+          });
+        }
+      ]
     };
 
     // ------------------------
@@ -336,33 +341,49 @@
       window.addEventListener('hashchange', syncIconWithState);
       window.addEventListener('load', function () { setTimeout(syncIconWithState, 0); });
     }
+    // Event delegation per evitare listener duplicati
+    let languageSwitcherInitialized = false;
+
     function handleLanguageSwitcher() {
-  
+      if (languageSwitcherInitialized) return;
+      languageSwitcherInitialized = true;
 
-      const links = document.querySelectorAll('.app-nav a');
- 
+      document.addEventListener('click', function(e) {
+        const link = e.target.closest('.app-nav a');
+        if (!link) return;
 
-    document.querySelectorAll('.app-nav  a').forEach(link => {
+        e.preventDefault();
 
-      
-      link.addEventListener('click', function(e) {
-        const currentHash = window.location.hash;
-    
-    // Se clicchi sul flag italiano e sei in docs-en
-    if (this.href.includes('#/it/') && currentHash.includes('/docs-en/')) {
-      e.preventDefault();
-      window.location.hash = currentHash.replace('/docs-en/', '/docs-it/');
+        const currentHash = window.location.hash || '#/';
+        const targetHref = link.getAttribute('href');
+
+        let newHash = currentHash;
+
+        // Se clicchi italiano e sei in inglese
+        if (targetHref.includes('#/it/')) {
+          if (currentHash.includes('docs-en/')) {
+            newHash = currentHash.replace('docs-en/', 'docs-it/');
+          } else if (currentHash === '#/' || currentHash === '') {
+            newHash = '#/docs-it/';
+          } else if (!currentHash.includes('docs-it/')) {
+            newHash = currentHash.replace('#/', '#/docs-it/');
+          }
+        }
+        // Se clicchi inglese e sei in italiano
+        else {
+          if (currentHash.includes('docs-it/')) {
+            newHash = currentHash.replace('docs-it/', 'docs-en/');
+          }
+        }
+
+        window.location.hash = newHash;
+      });
     }
-    
-    // Se clicchi sul flag inglese e sei in docs-it
-    if (this.href.includes('#/') && !this.href.includes('#/it/') && currentHash.includes('/docs-it/')) {
-      e.preventDefault();
-      window.location.hash = currentHash.replace('/docs-it/', '/docs-en/');
-    }
-  });
-});
-    }
-    document.addEventListener('DOMContentLoaded', initCustomMenuToggle);
+
+    document.addEventListener('DOMContentLoaded', function() {
+      initCustomMenuToggle();
+      handleLanguageSwitcher();
+    });
 
   </script>
 
