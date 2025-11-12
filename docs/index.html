@@ -9,7 +9,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="keywords" content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages">
   <meta name="description" content="A magical documentation generator.">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" title="vue">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/dark.css" title="dark" disabled>
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css" title="buble" disabled>
@@ -17,129 +18,264 @@
   <script src="//unpkg.com/docsify-plugin-codefund/index.js"></script>
 
   <link rel="apple-touch-icon" sizes="180x180" href="_media/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="_media/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="_media/favicon/favicon-16x16.png">
-    <link rel="manifest" href="_media/favicon/site.webmanifest">
-    <link rel="mask-icon" href="_media/favicon/safari-pinned-tab.svg" color="#053852">
-    <meta name="msapplication-TileColor" content="#053852">
-    <meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/png" sizes="32x32" href="_media/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="_media/favicon/favicon-16x16.png">
+  <link rel="manifest" href="_media/favicon/site.webmanifest">
+  <link rel="mask-icon" href="_media/favicon/safari-pinned-tab.svg" color="#053852">
+  <meta name="msapplication-TileColor" content="#053852">
+  <meta name="theme-color" content="#ffffff">
 
   <style>
-    nav.app-nav li ul {
-      min-width: 100px;
-    }
-
-    .cover-main img {
-      width: 100px;
-    }
-
-    section.cover {
-      background-image: none !important;
-      background-color: #053752 !important;
-      color: white !important;
-    }
-
-    section.cover h1 {
-      line-height: 0;
-      margin: 50px 0;
-    }
-
-    .cover .anchor span {
-      color: white;
-    }
-
-    .anchor small {
-      color: #a8b9c2;
-      margin-left: 5px;
-    }
-
-    .content .anchor {
-      text-decoration-color: #053752;
-    }
-
-    .sidebar-toggle span {
-      background-color: #053752;
-    }
-
-    .app-nav li {
-      color: #a8b9c2;
-    }
-
-    
-
-    .app-nav a:hover,
-    .app-nav li ul a.active {
-      color: #053752;
-    }
-
-    .app-nav a.active {
-    border-bottom: 0px solid #42b983;
-    
-}
-
-.app-nav ul {
-    display: flex;
-    gap:0.5rem  ;
-    list-style: none;
-    margin: 0;
- 
-  z-index: 1000;
-  
-}
-.app-nav li {
-   display: flex;
-    align-items: center;
-    margin: 0 ;
-}   
-.app-nav li img {
-      height: 40px;
-      width: 40px;
-      max-width: 40px !important;  
-      max-height: 40px !important;
-      vertical-align: text-bottom;
-   
-    }
-  .app-nav li img:hover {
-    opacity:0.25 
-  }
-.sidebar img {
-      height: 40px;
-      width: 40px;
-      max-width: 40px !important;  
-      max-height: 40px !important;
-      vertical-align: text-bottom;
-
-}
-nav ul {
-    display: flex;
-    gap:0.5rem  ;
-    z-index: 1000;
-}
-nav ul li {
-   display: flex;
-    align-items: center;
-    margin: 0 ;
-}
-
-
-@media screen and (min-width:1240px) {
-  .app-nav ul {
-      display: flex;
-      gap:0.5rem  ;
-      list-style: none;
-      margin: 0;
-      position: fixed;
-      top: 20px;
-      right: 20px;
+    /* ------------------------
+       ASPETTO GENERALE NAVBAR
+    ------------------------- */
+    nav.app-nav {
+      background: transparent !important;
+      box-shadow: none !important;
+      border-bottom: none !important;
+      position: relative;
       z-index: 1000;
-  }
-  }
+    }
+
+    nav.app-nav li ul { min-width: 100px; }
+
+    .cover-main img { width: 100px; }
+
+    section.cover { display: none !important; }
+    section.cover h1 { line-height: 0; margin: 50px 0; }
+    .cover .anchor span { color: white; }
+    .anchor small { color: #a8b9c2; margin-left: 5px; }
+    .content .anchor { text-decoration-color: #053752; }
+
+    /* ------------------------
+       MENU LATERALE BLU
+    ------------------------- */
+    .sidebar {
+      position: fixed !important;
+      top: 70px !important;
+      bottom: 0;
+      background-color: #053752 !important;
+      color: #ffffff !important;
+      z-index: 950 !important;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .sidebar a { color: #ffffff !important; }
+    .sidebar a:hover, .sidebar li.active>a { color: #00b7ff !important; }
+    .sidebar ul li { border-bottom: none !important; }
+    .sidebar .app-name { display: none !important; }
+
+    /* ------------------------
+       SEARCH NEL MENU LATERALE
+    ------------------------- */
+    .sidebar .search {
+      order: -1;
+      position: sticky;
+      top: 0;
+      padding: 10px 15px 5px;
+      background-color: #053752;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      z-index: 951;
+    }
+    .sidebar .search .input-wrap { background-color: #03293c; border-radius: 4px; padding: 4px 8px; }
+    .sidebar .search .input-wrap input {
+      width: 100%; background: transparent; border: none; outline: none; color: #ffffff; font-size: 14px;
+    }
+    .sidebar .search .input-wrap input::placeholder { color: #a8b9c2; }
+    .sidebar .search .results-panel {
+      background-color: #053752; color: #ffffff; border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    /* ------------------------
+       SFONDO BARRA BLU
+    ------------------------- */
+    .top-bar-bg {
+      position: fixed; top: 0; left: 0; width: 100%; height: 70px;
+      background-color: #053752; z-index: 900; pointer-events: none;
+    }
+
+    /* ------------------------
+       BARRA SUPERIORE: TITOLO + MENU
+    ------------------------- */
+    .top-bar-title {
+      position: fixed; top: 0; left: 0; width: 100%; height: 70px;
+      z-index: 1100; display: flex; align-items: center; justify-content: center; pointer-events: none;
+    }
+
+    .top-bar-title .logo-link {
+      pointer-events: auto;
+      display: flex; align-items: center; justify-content: center;
+      gap: 10px; text-decoration: none; color: #fff;
+    }
+
+    /* Testo logo (desktop/tablet visibile, mobile nascosto) */
+    .logo-text-left, .logo-text-right {
+      display: inline-block;
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+
+    /* Logo dimensioni desktop/tablet */
+    .logo-caricare {
+      display: block;
+      width: 30px;   /* desktop/tablet */
+      height: auto;
+    }
+
+    /* ------------------------
+       BOTTONE MENU
+    ------------------------- */
+    #custom-menu-toggle {
+      position: absolute; left: 20px; top: 50%; transform: translateY(-50%);
+      width: 40px; height: 40px; border: none; background: transparent; cursor: pointer; pointer-events: auto;
+      z-index: 1200; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
+    }
+    #custom-menu-toggle span {
+      width: 24px; height: 2px; background-color: #ffffff; border-radius: 2px;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    #custom-menu-toggle.active span:nth-child(1){ transform: translateY(8px) rotate(45deg); }
+    #custom-menu-toggle.active span:nth-child(2){ opacity: 0; }
+    #custom-menu-toggle.active span:nth-child(3){ transform: translateY(-8px) rotate(-45deg); }
+    #custom-menu-toggle:not(.active) span:nth-child(1),
+    #custom-menu-toggle:not(.active) span:nth-child(3){ transform: none; }
+    #custom-menu-toggle:not(.active) span:nth-child(2){ opacity: 1; }
+
+    /* ------------------------
+       BANDIERE (navbar Docsify)
+    ------------------------- */
+    .app-nav a,.app-nav a:visited,.app-nav a:focus,.app-nav a:hover,.app-nav a:active{
+      border:none!important;box-shadow:none!important;text-decoration:none!important;outline:none!important;background:none!important;
+    }
+    .app-nav ul{
+      display:flex;gap:0.10rem;list-style:none;margin:0;padding:0;position:fixed;top:15px;right:90px;z-index:1200;
+    }
+    .app-nav li{margin:0;padding:0;}
+    .app-nav a{display:block;line-height:0;}
+    .app-nav li img{
+      height:40px;width:40px;border-radius:50%;display:block; 
+      transition:opacity .25s ease,filter .25s ease,transform .25s ease;transform:scale(1);margin:0;
+    }
+    .app-nav a.active[lang="en"] img{opacity:.3;filter:grayscale(100%) brightness(.7);transform:scale(.95);}
+    .app-nav a:not(.active)[lang="it"] img{opacity:1;filter:none;transform:scale(1.06);}
+  
+
+    /* ------------------------
+       SFONDO + SPAZIO SOTTO BARRA
+    ------------------------- */
+    body{ margin:0; background-color:#ffffff; }
+    #app{ padding-top:100px; }
+    .sidebar-toggle{ display:none !important; }
+
+    /* (overlay custom) */
+    .menu-overlay{
+      position:fixed;top:70px;left:0;right:0;bottom:0;background:rgba(0,0,0,.4);
+      z-index:940;opacity:0;pointer-events:none;transition:opacity .3s ease;
+    }
+
+    /* ------------------------
+       MOBILE
+    ------------------------- */
+    @media screen and (max-width: 768px) {
+      /* Solo logo su mobile */
+      .logo-text-left, .logo-text-right { display: none; }
+      .logo-caricare { display:block !important; width:35px; height:auto; }
+
+      .app-nav ul { position: fixed; top: 22px; right: 50px; gap: 0rem; }
+      .app-nav li img { width: 32px; height: 32px; border-radius: 50%; }
+
+      nav.app-nav { display: block !important; }
+      .sidebar nav.app-nav, .sidebar .app-nav { display: none !important; }
+    }
+
+    @media only screen and (max-width: 768px) {
+      #app, main, .content { padding-top: 30px !important; }
+    }
+
+    /* ------------------------
+       LANGUAGE SWITCHER CUSTOM
+    ------------------------- */
+    .language-switcher{
+      position:fixed;top:15px;right:20px;z-index:1300;display:flex;gap:8px;align-items:center;
+    }
+    .language-switcher .flag-btn{
+      width:40px;height:40px;border-radius:50%;display:block;background-size:cover;background-position:center;
+      background-repeat:no-repeat;cursor:pointer;transition:transform .2s ease,opacity .2s ease;
+    }
+    .language-switcher .flag-btn:hover{ transform:scale(1.08); opacity:.9; }
+    .language-switcher .flag-it{ background-image:url('_media/it.png'); }
+    .language-switcher .flag-en{ background-image:url('_media/en.png'); }
+
+    .language-switcher .exit-btn{
+      width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+      border:2px solid #ffffff;cursor:pointer;text-decoration:none;transition:transform .2s ease,opacity .2s ease;
+    }
+    .language-switcher .exit-btn:hover{ transform:scale(1.08); opacity:.9; }
+    .language-switcher .exit-btn svg{ width:18px; height:18px; }
+
+    @media screen and (max-width: 768px){
+      .language-switcher{ top:22px; right:16px; }
+      .language-switcher .flag-btn{ width:28px; height:28px; }
+      .language-switcher .exit-btn{ width:28px; height:28px; }
+      .language-switcher .exit-btn svg{ width:14px; height:14px; }
+    }
   </style>
 </head>
 
 <body>
+  <!-- Sfondo blu della barra -->
+  <div class="top-bar-bg"></div>
+
+  <div class="top-bar-title">
+    <button id="custom-menu-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <!-- LOGO + TESTO: desktop/tablet = Wiki [logo] CARIcare, mobile = solo logo -->
+    <a href="#/" class="logo-link">
+      <span class="logo-text-left">Wiki</span>
+      <img class="logo-caricare" src="_media/icon.svg" alt="Wiki CARIcare">
+      <span class="logo-text-right">CARIcare</span>
+    </a>
+  </div>
+
+  <!-- LANGUAGE SWITCHER INLINE + USCITA -->
+  <div class="language-switcher">
+    <!-- Italiano (contenuti su /docs-en/) -->
+    
+
+    <!-- Uscita verso CARIcare -->
+    <a href="https://caricare.carimali.com/" class="exit-btn" title="Torna alla dashboard CARIcare">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M14 3H19C19.55 3 20 3.45 20 4V20C20 20.55 19.55 21 19 21H14V3Z"
+          stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M4 12H13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M9 8L13 12L9 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </a>
+  </div>
+
+  <!-- Overlay custom (non necessario, ma lasciato inerte) -->
+  <div class="menu-overlay" id="menu-overlay"></div>
+
   <div id="app">Loading ...</div>
+
   <script>
+    // ------------------------
+    // COSTANTI LINGUA
+    // ------------------------
+    const DEFAULT_LANG = 'en';
+    const SUPPORTED_LANGS = ['en', 'it', 'zh-cn', 'de-de', 'ru', 'es'];
+
+   
+
+    // ------------------------
+    // CONFIGURAZIONE DOCSIFY + PLUGIN
+    // ------------------------
     window.$docsify = {
       alias: {
         '.*?/awesome': 'https://raw.githubusercontent.com/docsifyjs/awesome-docsify/master/README.md',
@@ -152,51 +288,84 @@ nav ul li {
         '/es/(.*)': 'docs-es/$1'
       },
       auto2top: true,
-      coverpage: true,
+      coverpage: false,
       executeScript: true,
       loadSidebar: true,
       loadNavbar: true,
-      mergeNavbar: true,
+      mergeNavbar: false,
       maxLevel: 4,
       subMaxLevel: 2,
       ga: 'XXX',
       name: 'CARIcare',
       search: {
-        noData: {
-          '/de-de/': 'Keine Ergebnisse!',
-          '/zh-cn/': '没有结果!',
-          '/': 'No results!'
-        },
+        noData: { '/de-de/': 'Keine Ergebnisse!', '/zh-cn/': '没有结果!', '/': 'No results!' },
         paths: 'auto',
-        placeholder: {
-          '/de-de/': 'Suche',
-          '/zh-cn/': '搜索',
-          '/': 'Search'
-        }
+        placeholder: { '/de-de/': 'Suche', '/zh-cn/': '搜索', '/': 'Search' }
       },
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
-      // plugins: [
-      //   function (hook, vm) {
-      //     hook.beforeEach(function (html) {
-      //       if (/githubusercontent\.com/.test(vm.route.file)) {
-      //         url = vm.route.file
-      //           .replace('raw.githubusercontent.com', 'github.com')
-      //           .replace(/\/master/, '/blob/master')
-      //       } else {
-      //         url = 'https://github.com/docsifyjs/docsify/blob/master/docs/' + vm.route.file
-      //       }
-      //       var editHtml = '[:memo: Edit Document](' + url + ')\n'
-      //
-      //       return editHtml
-      //         + html
-      //         + '\n\n----\n\n'
-      //         + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
-      //     })
-      //   },
-      //   DocsifyCodefund.create('fae1f9a4-870c-4c25-b8e0-c80464f7a95c')
-      // ]
+      plugins: [      
+]
+    };
+
+    // ------------------------
+    // BOTTONE MENU CUSTOM
+    // ------------------------
+    function initCustomMenuToggle() {
+      const customBtn = document.getElementById('custom-menu-toggle');
+      if (!customBtn) return;
+
+      function getSidebarToggle() { return document.querySelector('.sidebar-toggle'); }
+
+      function syncIconWithState() {
+        const body = document.body;
+        const hasClose = body.classList.contains('close');
+        const width = window.innerWidth;
+        let isOpen = (width < 768) ? hasClose : !hasClose;
+        customBtn.classList.toggle('active', isOpen);
+      }
+
+      customBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        const original = getSidebarToggle();
+        if (!original) return;
+        original.click();
+        setTimeout(syncIconWithState, 0);
+      });
+
+      window.addEventListener('resize', syncIconWithState);
+      window.addEventListener('hashchange', syncIconWithState);
+      window.addEventListener('load', function () { setTimeout(syncIconWithState, 0); });
     }
+    function handleLanguageSwitcher() {
+  
+
+      const links = document.querySelectorAll('.app-nav a');
+ 
+
+    document.querySelectorAll('.app-nav  a').forEach(link => {
+
+      
+      link.addEventListener('click', function(e) {
+        const currentHash = window.location.hash;
+    
+    // Se clicchi sul flag italiano e sei in docs-en
+    if (this.href.includes('#/it/') && currentHash.includes('/docs-en/')) {
+      e.preventDefault();
+      window.location.hash = currentHash.replace('/docs-en/', '/docs-it/');
+    }
+    
+    // Se clicchi sul flag inglese e sei in docs-it
+    if (this.href.includes('#/') && !this.href.includes('#/it/') && currentHash.includes('/docs-it/')) {
+      e.preventDefault();
+      window.location.hash = currentHash.replace('/docs-it/', '/docs-en/');
+    }
+  });
+});
+    }
+    document.addEventListener('DOMContentLoaded', initCustomMenuToggle);
+
   </script>
+
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
@@ -205,5 +374,4 @@ nav ul li {
   <script src="//unpkg.com/prismjs/components/prism-nginx.min.js"></script>
 
 </body>
-
 </html>
