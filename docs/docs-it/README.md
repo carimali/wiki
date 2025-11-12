@@ -60,7 +60,7 @@ Da questa sezione è possibile accedere a tutte le funzionalità operative previ
 Permette di **creare e gestire ticket di assistenza**, coinvolgendo altri utenti CARIcare nella risoluzione dei problemi.
 La sezione include uno **storico ticket** per la consultazione dei casi già risolti.
 
-### Erroris
+### Errori
 
 Sezione dedicata alla **raccolta e sintesi delle anomalie** rilevate su ciascuna macchina
 
