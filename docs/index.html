@@ -163,12 +163,12 @@
     .app-nav li{margin:0;padding:0;}
     .app-nav a{display:block;line-height:0;}
     .app-nav li img{
-      height:40px;width:40px;border-radius:50%;display:block; 
+      height:40px;width:40px;border-radius:50%;display:block;
       transition:opacity .25s ease,filter .25s ease,transform .25s ease;transform:scale(1);margin:0;
     }
     .app-nav a.active[lang="en"] img{opacity:.3;filter:grayscale(100%) brightness(.7);transform:scale(.95);}
     .app-nav a:not(.active)[lang="it"] img{opacity:1;filter:none;transform:scale(1.06);}
-  
+
 
     /* ------------------------
        SFONDO + SPAZIO SOTTO BARRA
@@ -310,7 +310,7 @@
   <!-- LANGUAGE SWITCHER INLINE + USCITA -->
   <div class="language-switcher">
     <!-- Italiano (contenuti su /docs-en/) -->
-    
+
 
     <!-- Uscita verso CARIcare -->
     <a href="https://caricare.carimali.com/" class="exit-btn" title="Torna alla dashboard CARIcare">
@@ -335,7 +335,7 @@
     const DEFAULT_LANG = 'en';
     const SUPPORTED_LANGS = ['en', 'it', 'zh-cn', 'de-de', 'ru', 'es'];
 
-   
+
 
     // ------------------------
     // CONFIGURAZIONE DOCSIFY + PLUGIN
@@ -367,7 +367,57 @@
         placeholder: { '/de-de/': 'Suche', '/zh-cn/': '搜索', '/': 'Search' }
       },
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
-      plugins: [      
+      plugins: [
+        function(hook, vm) {
+          const NAVBAR_HEIGHT = 100; // Altezza navbar + spazio
+
+          // Funzione per scrollare con offset
+          function scrollToElementWithOffset(elementId) {
+            const element = document.getElementById(decodeURIComponent(elementId));
+            if (element) {
+              const elementPosition = element.getBoundingClientRect().top;
+              const offsetPosition = elementPosition + window.pageYOffset - NAVBAR_HEIGHT;
+              window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+              });
+            }
+          }
+
+          // Intercetta i click sui link con ?id=
+          hook.mounted(function() {
+            document.addEventListener('click', function(e) {
+              const link = e.target.closest('a');
+              if (link && link.href && link.href.includes('?id=')) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                const href = link.getAttribute('href');
+                window.location.hash = href;
+
+                setTimeout(function() {
+                  const match = href.match(/\?id=([^&]+)/);
+                  if (match && match[1]) {
+                    scrollToElementWithOffset(match[1]);
+                  }
+                }, 100);
+              }
+            }, true);
+          });
+
+          // Fix per hashchange e caricamento diretto
+          hook.doneEach(function() {
+            setTimeout(function() {
+              const hash = window.location.hash;
+              if (hash && hash.includes('?id=')) {
+                const match = hash.match(/\?id=([^&]+)/);
+                if (match && match[1]) {
+                  scrollToElementWithOffset(match[1]);
+                }
+              }
+            }, 200);
+          });
+        }
 ]
     };
 
@@ -401,23 +451,23 @@
       window.addEventListener('load', function () { setTimeout(syncIconWithState, 0); });
     }
     function handleLanguageSwitcher() {
-  
+
 
       const links = document.querySelectorAll('.app-nav a');
- 
+
 
     document.querySelectorAll('.app-nav  a').forEach(link => {
 
-      
+
       link.addEventListener('click', function(e) {
         const currentHash = window.location.hash;
-    
+
     // Se clicchi sul flag italiano e sei in docs-en
     if (this.href.includes('#/it/') && currentHash.includes('/docs-en/')) {
       e.preventDefault();
       window.location.hash = currentHash.replace('/docs-en/', '/docs-it/');
     }
-    
+
     // Se clicchi sul flag inglese e sei in docs-it
     if (this.href.includes('#/') && !this.href.includes('#/it/') && currentHash.includes('/docs-it/')) {
       e.preventDefault();
