@@ -375,6 +375,17 @@
           function scrollToElementWithOffset(elementId) {
             const element = document.getElementById(decodeURIComponent(elementId));
             if (element) {
+              // Chiudi il menu su mobile
+              const menuBtn = document.getElementById('custom-menu-toggle');
+              const sidebarToggle = document.querySelector('.sidebar-toggle');
+              if (menuBtn && window.innerWidth < 768) {
+                // Su mobile, simula click sul toggle per chiudere
+                if (sidebarToggle) {
+                  sidebarToggle.click();
+                }
+              }
+
+              // Scrolla con offset
               const elementPosition = element.getBoundingClientRect().top;
               const offsetPosition = elementPosition + window.pageYOffset - NAVBAR_HEIGHT;
               window.scrollTo({
