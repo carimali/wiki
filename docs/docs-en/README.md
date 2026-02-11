@@ -29,7 +29,7 @@ Additional functions include **machine language modification**, command sending,
 
 **CARIcare** automatically sends **notifications and emails** related to machine alerts or errors to designated staff members.
 Notifications can be classified by type (failure, minor anomaly, product shortage).
-It is also possible to create **access credentials** for other users, enabling them to open **support tickets** linked to a specific machine.
+It is also possible to create **access credentials** for other users, enabling them to receive and manage **support notifications** linked to a specific machine.
 
 ---
 
@@ -55,14 +55,9 @@ A summary area providing an overview of:
 Enables the **management, organization, and assignment** of machines through search and multi-selection tools.
 All operational functions can be accessed from this section.
 
-### Tickets
-
-Allows users to **create and manage support tickets**, involving other CARIcare users in issue resolution.
-The section includes a **ticket history** for consulting previously resolved cases.
-
 ### Notifications
 
-An area dedicated to the **summary of unresolved anomalies**, from which new support tickets can be generated.
+An area dedicated to the **summary of unresolved anomalies** and related notification management.
 
 ### Customers
 

@@ -26,7 +26,6 @@
  
 - Technical Support
 
-  - [Tickets](docs-en/tickets.md)
   - [Notifications](docs-en/notifications.md)
     
 - Settings

@@ -40,11 +40,6 @@ Displays a general overview of key data, such as machine status and operational 
 
 Allows consultation of the list of connected machines and access to the technical details of each device.
 
-### Tickets
-
-Contains all active and closed support tickets.
-From this section, new tickets can be created or existing ones updated.
-
 ### Errors
 
 Displays the list of errors recorded by the machines, with the ability to filter and analyze their causes.

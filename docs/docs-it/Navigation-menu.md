@@ -40,11 +40,6 @@ Visualizza una panoramica generale dei dati principali, come lo stato delle macc
 
 Permette di consultare l’elenco delle macchine connesse e accedere ai dettagli tecnici di ciascun dispositivo.
 
-### Tickets
-
-Contiene tutte le segnalazioni di assistenza attive e chiuse.
-Da questa sezione è possibile aprire nuovi ticket o aggiornare quelli esistenti.
-
 ### Errori
 
 Mostra l’elenco degli errori registrati dalle macchine, con possibilità di filtrare e analizzare le cause.
