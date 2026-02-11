@@ -26,7 +26,6 @@
  
 - Fornire assistenza
 
-  - [Supporto tecnico](docs-it/tickets.md)
   - [Notifiche](docs-it/notifications.md)
     
 - Personalizzazione

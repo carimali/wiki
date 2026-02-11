@@ -29,7 +29,7 @@ Tra le funzioni aggiuntive rientrano la **modifica della lingua macchina**, l’
 
 **CARIcare** invia automaticamente **notifiche ed e-mail** relative ad avvisi o errori delle macchine, indirizzandole ai membri del personale designati.
 Le notifiche possono essere classificate per tipologia (guasto, anomalia lieve, mancanza di prodotto).
-È inoltre possibile creare **credenziali di accesso** per altri utenti, consentendo loro di aprire **ticket di assistenza** associati a una macchina specifica.
+È inoltre possibile creare **credenziali di accesso** per altri utenti, consentendo loro di ricevere e gestire **notifiche di assistenza** associate a una macchina specifica.
 
 ---
 
@@ -54,11 +54,6 @@ Area di riepilogo che fornisce una panoramica generale su:
 
 Consente di **gestire, organizzare e assegnare** le macchine attraverso strumenti di ricerca e selezione multipla.
 Da questa sezione è possibile accedere a tutte le funzionalità operative previste.
-
-### Tickets
-
-Permette di **creare e gestire ticket di assistenza**, coinvolgendo altri utenti CARIcare nella risoluzione dei problemi.
-La sezione include uno **storico ticket** per la consultazione dei casi già risolti.
 
 ### Errori
 
