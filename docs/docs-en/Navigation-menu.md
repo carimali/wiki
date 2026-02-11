@@ -66,7 +66,7 @@ Opens the **CARIcare Wiki** technical documentation, useful for consulting guide
 
 The lower part of the side menu contains the functions associated with the personal account.
 
-<kbd>![User Profile](_images/user-profile-menu.png)</kbd>
+<kbd>![User Profile](_images/Profilo-01.png)</kbd>
 
 ### Edit Profile
 
@@ -75,10 +75,6 @@ Allows updating of personal information and login credentials.
 ### Privacy Policy
 
 Displays information regarding the processing of personal data.
-
-### Company Settings
-
-Shows the Service Vea Group contact reference.
 
 ### Log Out
 

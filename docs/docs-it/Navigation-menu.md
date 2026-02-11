@@ -66,7 +66,7 @@ Apre la documentazione tecnica **CARIcare Wiki**, utile per la consultazione di 
 
 La parte inferiore del menu laterale raccoglie le funzioni associate all’account personale.
 
-<kbd>![Profilo utente](_images/user-profile-menu.png)</kbd>
+<kbd>![Profilo utente](_images/Profilo-01.png)</kbd>
 
 ### Modifica profilo
 
@@ -76,9 +76,6 @@ Permette di aggiornare i dati personali e le credenziali di accesso.
 
 Visualizza le informazioni relative al trattamento dei dati personali.
 
-### Impostazioni dell’azienda
-
-Visualizza il contatto di riferimento Service Vea Group
 
 ### Chiudi la sessione
 
