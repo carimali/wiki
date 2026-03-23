@@ -1,10 +1,10 @@
-# Stack Tecnologico
+# Technology Stack
 
-- **Frontend**: Docsify (generatore documentazione), Vanilla JavaScript
-- **Build tools**: Rollup, Stylus, npm-run-all
-- **Librerie**: marked (Markdown parser), prismjs (syntax highlighting), medium-zoom, handlebars
-- **Testing**: ESLint
-- **Altri strumenti**: npm, lerna (monorepo), live-server
+- **Frontend**: Docsify 4.8.6 (documentation generator), Vanilla JavaScript
+- **Build tools**: Rollup 0.53.3, Stylus 0.54.7, npm-run-all 4.1.5
+- **Libraries**: marked 4.0.10 (Markdown parser), prismjs 1.18.0 (syntax highlighting), medium-zoom 0.4.0, handlebars 4.5.3
+- **Testing**: ESLint 6.8.0
+- **Other tools**: npm, lerna 3.20.2 (monorepo), live-server 1.2.1
 
 
 ## Workflow
@@ -46,5 +46,6 @@ Checklist → Piano → Modalità → Implementazione
 - Piani: `~/.claude/plans/[nome].md`
 - Progress: `progress/[nome]_progress.md` (agent crea dir al primo task)
 
+---
 
-
+See @assets/CLAUDE.BASE.md
