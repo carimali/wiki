@@ -1,7 +1,7 @@
 # Machines
 
-The **Machines** section enables viewing, searching, and managing the coffee machines connected to the **CARIcare** platform.
-From this area it is possible to filter machines by various parameters, export counters, update firmware, manage recipes, or send remote commands.
+The **Machines** section allows the visualization, search, and management of coffee machines connected to the **CARIcare** platform.  
+From this area, machines can be filtered based on different parameters, counters can be exported, firmware can be updated, recipes can be managed, and remote commands can be sent.
 
 <kbd>![machines-page-1](_images/machines-page-1.png)</kbd>
 
@@ -9,28 +9,31 @@ From this area it is possible to filter machines by various parameters, export c
 
 ## Export counters to CSV
 
-The **Export counters to CSV** button generates a CSV (Comma-Separated Values) file containing up-to-date counter data for the listed machines.
-The resulting file can be used for analysis, statistics, or archiving of dispensing data.
+The **Export counters to CSV** button generates a CSV (Comma-Separated Values) file containing the updated counter data of the displayed machines.  
+The file can be used for analysis, reporting, or data archiving purposes.
 
 <kbd>![machines-page-2](_images/machines-page-2.png)</kbd>
 
+---
+
 ## Search filters
 
-The upper part of the screen contains a set of **filters** that allow quick identification of one or more machines based on specific criteria.
+The top section of the screen contains a set of **filters** that allow quick identification of one or more machines based on specific criteria.
 
 Available fields:
 
 * **Model** – Filters machines by model.
-* **Connection** – Allows selection of *connected* or *disconnected* machines only.
+* **Connection** – Allows selection of *connected* or *disconnected* machines.
 * **Serial** – Direct search by unique serial number.
 
-The **Advanced filters** button expands or collapses the search criteria display.
+The **Advanced filters** button allows expanding or collapsing the available criteria.
 
-* **Customer** – Shows machines assigned to a specific customer.
-* **Address** – Enables search by the machine’s location or site.
-* **Firmware** – Filters by the installed firmware version.
-* **Tags** – Allows selection of machines by assigned tags
-  (e.g., selecting **Firmware update** filters machines for which a software update is available).
+Additional fields:
+
+* **Customer** – Displays machines assigned to a specific customer.
+* **Address** – Allows search by location.
+* **Firmware** – Filters by installed firmware version.
+* **Tags** – Filters based on assigned tags (e.g. **Firmware update**).
 
 <kbd>![machines-page-3](_images/machines-page-3.png)</kbd>
 
@@ -38,142 +41,182 @@ The **Advanced filters** button expands or collapses the search criteria display
 
 ## Machine list
 
-The lower part of the page shows the **machine list** with key operational data, available in two display modes:
+The lower section of the page displays the **machine list** with the main operational data, available in three different views.
 
-* **List view**
-  Displays machines in a tabular format, one per row.
-  Each entry includes:
+### List view
 
-  * **Image**
-  * **Model**
-  * **Serial**
-  * **Customer**
-  * **Installation address**
-  * **Installed firmware** version
-  * **Connection status**
-  * **Tags**
-  * **Actions**
+Displays machines in a tabular format, one per row.
 
-  <kbd>![machines-page-4](_images/machines-page-4.png)</kbd>
+Each entry includes:
 
-* **Grid view**
-  Displays machines as cards, with the same key information in a more compact layout.
-  This mode enables faster visual recognition thanks to the model image.
+* **Image**
+* **Model**
+* **Serial**
+* **Customer**
+* **Installation address**
+* **Firmware version**
+* **Connection status**
+* **Tags**
+* **Actions**
 
-  <kbd>![machines-page-5](_images/machines-page-5.png)</kbd>
-
-The two modes can be toggled using the **List** or **Grid** buttons at the top right.
-On **smartphone** devices, the default display is **list view**, optimized for screen size.
-
-Each row or card represents a single machine.
-The **Sel.** column or the checkbox next to each machine allows **multi-selection** to apply bulk actions.
-The **CSV** button at the top right allows **exporting the displayed list** in **.csv** format.
+<kbd>![machines-page-4](_images/machines-page-4.png)</kbd>
 
 ---
 
-### Status indicators
+### Grid view
 
-Each machine may display **icons or visual indicators** that provide information on operational status:
+Displays machines in a card layout with a compact format.  
+This view improves visual recognition through the model image.
 
-![Eye icon](_images/icona-occhio.png) <sup style='font-size:15px'>Allows [access to the overview page](docs-it/machine.md) of the selected machine.</sup>
+<kbd>![machines-page-5](_images/machines-page-5.png)</kbd>
 
-From this page, it is possible to view in real time:
+---
 
-* **MAINTENANCE**
+### Map view
 
-  <kbd>![machines-page-6](_images/machines-page-6.png)</kbd>
+Displays the geographical distribution of machines on an interactive map.
 
-  * **Overall machine status**
-  * **Recent dispensing**
-  * **Operating temperatures (coffee and steam)**
-  * **Global and partial counters**
-  * **Washing cycles**
-  * **Calibration parameters**
-  * **Geographical location**
-  * **Quarterly / annual maintenance**
-  * **Coffee group cycle count**
-  * **Dispensing in the last 24 hours**
-  * **Product consumption** where available
-  * **Connection status**
+Each machine is represented by a marker differentiated by operational status:
 
+* 🟢 **Online** – Machine connected and operational  
+* 🔴 **Error** – Presence of errors or anomalies  
+* 🟡 **Warning** – Attention status  
+* 🔵 **Refill** – Refill required  
+* ⚪ **Offline** – Machine not connected  
 
-* **RECIPES**
+The map supports:
 
-  <kbd>![machines-page-7](_images/machines-page-7.png)</kbd>
+* Zoom and geographic navigation
+* Global and local visualization
+* Marker selection for quick access to information
 
-  * **Import a recipe set**
-  * **Recipes** list view / grid view
+<kbd>![machines-page-15](_images/machines-page-15.png)</kbd>
 
-* **SETTINGS**
+---
 
-  <kbd>![machines-page-8](_images/machines-page-8.png)</kbd>
+The view modes can be selected using the **List**, **Grid**, or **Map** buttons located in the top-right corner.  
+On **smartphone** devices, the default view is **list**, optimized for smaller screens.
 
-  * **Machine configuration**
-  * **Firmware**
-  * **Language**
-  * **Payment system**
-  * **Timezone**
-  * **Brewer**
-  * **Product consumption**
-  * **Scheduled date for extraordinary maintenance**
-  * **Counter reset and updates**
+Each row or card represents a single machine.  
+The **Sel.** column allows multi-selection for batch operations.
 
-* **HISTORY**
+The **CSV** button allows exporting the displayed list.
 
-  <kbd>![machines-page-9](_images/machines-page-9.png)</kbd>
+---
 
-  * **Errors** history
-  * **Washing** history
-  * **Firmware updates** history
+## Status indicators
 
-* **PARAMETERS** (SilverAce models only with latest firmware)
+Each machine may display visual indicators describing its operational status.
 
-  <kbd>![machines-page-10](_images/machines-page-10.png)</kbd>
+![Icona occhio](_images/icona-occhio.png)  
+<sup style='font-size:15px'>Allows access to the [machine overview page](docs-it/machine.md).</sup>
 
-  * **Clock management**
-  * **Cleaning and maintenance**
-  * **Display options**
-  * **Machine parameters**
+From this section, the following information is available:
 
-![Error icon](_images/icona-errore.png) <sup style='font-size:15px'>Indicates the presence of one or more **anomalies associated with the machine**.
+### MAINTENANCE
 
-* **invalid counters**: number of dispenses executed while the machine has been disconnected for more than three days.
+<kbd>![machines-page-6](_images/machines-page-6.png)</kbd>
+
+* General machine status
+* Recent dispensing data
+* Operating temperatures
+* Counters
+* Washing cycles
+* Calibration parameters
+* Geographic location
+* Scheduled maintenance
+* Coffee group cycles
+* Last 24h dispensing
+* Product consumption
+* Connection status
+
+---
+
+### RECIPES
+
+<kbd>![machines-page-7](_images/machines-page-7.png)</kbd>
+
+* Import recipe set
+* List or grid view
+
+---
+
+### SETTINGS
+
+<kbd>![machines-page-8](_images/machines-page-8.png)</kbd>
+
+* Machine configuration
+* Firmware
+* Language
+* Payment system
+* Timezone
+* Brewer
+* Consumption
+* Maintenance scheduling
+* Counter management
+
+---
+
+### HISTORY
+
+<kbd>![machines-page-9](_images/machines-page-9.png)</kbd>
+
+* Error history
+* Washing history
+* Firmware update history
+
+---
+
+### PARAMETERS
+
+(available for SilverAce models with latest firmware)
+
+<kbd>![machines-page-10](_images/machines-page-10.png)</kbd>
+
+* Clock settings
+* Cleaning and maintenance
+* Display options
+* Machine parameters
+
+---
+
+![Icona errore](_images/icona-errore.png)  
+<sup style='font-size:15px'>Indicates the presence of anomalies.</sup>
+
+Main types:
+
+* **Invalid counters** – Dispensing performed while the machine has been offline for more than three days.
 
   <kbd>![machines-page-14](_images/machines-page-14.png)</kbd>
 
-  Select *Reset* to clear the dispensing count, or select *Fix* to add dispenses performed in offline mode to the sales history.
+  Available actions:
+  * **Reset**
+  * **Correct**
 
-* **Communication anomaly with server**: the connection to the server is unstable.
+* **Server communication anomaly** – Unstable connection with the server.
 
   <kbd>![machines-page-143](_images/machines-page-13.png)</kbd>
 
-  Select *Reset* to clear the anomaly.</sup>
+  Available action:
+  * **Reset**
 
 ---
 
-## Actions on machines
+## Machine actions
 
-By selecting one or more serial numbers, the **Perform an action on your machines** section appears at the bottom of the screen, grouping all applicable operational functions.
-
-When multiple machines are selected simultaneously, some functions are unavailable and appear disabled: *Restart*, *Start*, *Shutdown*.
+By selecting one or more machines, the action panel appears at the bottom of the screen.
 
 <kbd>![machines-page-11](_images/machines-page-11.png)</kbd>
 
-* **Change recipe** – Allows **updating the recipe set** for the selected machines.
-  The operation can be performed on **multiple machines simultaneously** (max. 10), provided they belong to **the same model** and have **the same configuration**.
+Available functions:
 
-* **Update firmware** – Starts the firmware update process for the selected machines only when the *Firmware update* tag is present.
+* **Change recipe** – Updates recipes (max 10 machines, same model).
+* **Update firmware** – Available when *Firmware update* tag is present.
+* **Restart** – Remote reboot.
+* **Start** – Power on machine.
+* **Shutdown** – Remote shutdown.
+* **Assign to** – Assign to customer.
+* **Tag** – Manage tags.
+* **Export counters** – Export CSV file.
 
-* **Restart** – Performs a remote restart of the machine.
-
-* **Start** – Reactivates a machine in a stopped state.
-
-* **Shutdown** – Performs a remote shutdown.
-
-* **Assign to** – Associates one or more machines with an existing customer.
-
-* **Tag** – Assigns or modifies associated tags.
-
-* **Export counters** – Generates a **CSV** file containing the updated counter data for the selected machines.
-
-All operations are applied exclusively to the machines selected in the list.
+All operations apply only to the selected machines.
